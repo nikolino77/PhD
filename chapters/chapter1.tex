@@ -60,19 +60,106 @@ Due to the low production rate of secondary radioactive ions, this approach has 
 Another possibility is to make use of the $\beta +$ activation given by the fragmentation of stable ions interacting with the tissue.
 The radioactivity is a direct product of the irradiation and, although the activity density is rather low (around 600 $Bq Gy^{-1} cm^{-3}$ for protons), this method provides a rather cheaper and feasible solution \cite{Enghardt2004}.
 The activity slides very fast under a reasonable threshold for detectability and the most effective solution is an in-beam scanner.
+In-beam PET is currently the main method implemented clinically for in situ monitoring of charged hadron radiotherapy\cite{Crespo2007}.
 
 \section{Positron Emission Tomography}
 \subsection{Principles}
+Positron Emission Tomography (\ac{PET}) is a nuclear medicine imaging technique which measures the distribution of a positron-emitting radionuclide (tracer), which is injected into the body on a biologically active molecule.
+After the injection, the subject of a \ac{PET} study is placed within the field of view (\ac{FOV}) of a number of detectors capable of registering incident gamma rays. The radionuclide in the radio tracer decays and the resulting positrons subsequently annihilate with electrons after travelling a short distance ($\sim$ 1 mm) within the body. Each annihilation produces two $511$ keV photons travelling in opposite directions and these photons may be detected by the detectors surrounding the subject. The detector electronics are linked so that two detection events unambiguously occurring within a certain time window may be called coincident and thus be determined to have come from the same annihilation. These "coincidence events" can be stored in arrays corresponding to projections through the patient and reconstructed using standard tomographic techniques. The resulting images show the tracer distribution throughout the body of the subject. The scheme of a PET scanner is shown in figure \ref{fig:scheme}.
+Positron emission tomography relies on the $\beta ^{+}$ decay of a radionuclide.
 
+The nucleus of the radionuclide can convert a proton into a neutron 
+\begin{displaymath}
+p\rightarrow n + e^{+} + \nu _{e}
+\end{displaymath}
+As positrons travel through human tissue, they give up their kinetic energy principally by Coulomb interactions with electrons. As the rest mass of the positron is the same as that of the electron, the positrons may undergo large deviations in direction with each Coulomb interaction, and they follow a tortuous path through the tissue as they give up their kinetic energy.
+
+When the positrons reach thermal energies, they start to interact with electrons either by annihilation, which produces two $511$ keV anti-parallel photons, or by the formation of a hydrogen-like orbiting couple called positronium. In its ground-state, positronium has two forms: ortho-positronium, where the spins of the electron and positron are parallel, and para-positronium, where the spins are anti-parallel. Para-positronium again decays by self-annihilation, generating two anti-parallel $511$ keV photons. Ortho-positronium self-annihilates by the emission of three photons. Both forms are susceptible to the pick-off process, where the positron annihilates with another electron. Free annihilation and the pick-off process are responsible for over $80\%$ of the decay events.
+
+In a \ac{PET} scanner, each detector generates a timed pulse when it registers an incident photon. These pulses are then combined in coincidence circuitry, and if the pulses fall within a short time-window, they are deemed to be coincident (see figure).
+A coincidence event is assigned to a line of response (\ac{LOR}) joining the two relevant detectors. In this way, positional information is gained from the detected radiation without the need of a physical collimator. This is known as electronic collimation.
+When a physical collimator is used, directional information is gained by preventing photons which are not normal or nearly normal to the collimator face from falling on the detector. In electronic collimation, these photons may be detected and used as signal.
+Coincidence events in \ac{PET} fall into four categories: true, scattered, random and multiple, as shown in figure . 
+
+True coincidences occur when both photons from an annihilation event are detected by detectors in coincidence, neither photon undergoes any form of interaction prior to detection, and no other event is detected within the coincidence time-window.
+
+A scattered coincidence is one in which at least one of the detected photons has undergone at least one Compton scattering event prior to detection. Since the direction of the photon is changed during the Compton scattering process, it is highly likely that the resulting coincidence event will be assigned to a wrong \ac{LOR}. Scattered coincidences add background to the true coincidence distribution which changes slowly with position, decreasing contrast and causing the isotope concentrations to be overestimated. They also add statistical noise to the signal. The number of scattered events detected depends on the volume and attenuation characteristics of the object being imaged, and on the geometry of the \ac{PET} scanner.
+
+Random coincidences occur when two photons not arising from the same annihilation event are incident on the detectors within the coincidence time window of the system. The number of random coincidences in a given \ac{LOR} is closely linked to the rate of single events measured by the detectors joined by that \ac{LOR} and the rate of random coincidences increase roughly with the square of the activity in the \ac{FOV}. As with scattered events, the number of random coincidences detected also depends on the volume and attenuation characteristics of the object being imaged, and on the geometry of the scanner. The distribution of random coincidences is fairly uniform across the \ac{FOV}, and will cause isotope concentrations to be overestimated if not corrected for. Random coincidences also add statistical noise to the data.
 
 \subsection{TOFPET}
 
+It has been shown that in-beam PET could not provide definitive information to the oncologist when medium to large tumors are involved\cite{Fiedler2006}. This is due to the operative parameters of scanners available on the market, with relatively slow scintillators and tomographs covering small solid angles. A decisive improvement could be given by time-of-flight PET (TOF-PET).
+
+Recent developments in scintillator technology and read out electronics allow to build detectors able to detect the time difference between the moment of detection of the opposed gamma rays in coincidence. The resolution needed to usefully restrict the location of a positron annihilation along a LOR connecting two detectors is of the order of hundreds of picoseconds.
+
+If we define a LOR between two detectors A and B, the distance between the center of the LOR and the annihilation point is given by
+
+x = (tb − ta ) · c/2
+
+where c is the speed of light.
+Thus the spatial resolution is proportional to the coincidence time resolution (CTR) of the system.
+Scanners available on the market today could deliver a 600 picoseconds time resolution, that translates to a positional uncertainties of 9 cm (FWHM) on the LOR.
+
+
+" Therefore, the spatial
+resolution is proportional to the coincidence time resolution τ between the detectors a and b.
+Restricting the location of the annihilation point by using the TOF information considerably
+reduces the contribution of Compton scattered and other photons arriving from outside the
+field-of-view (FOV) of a 3D tomograph, thereby reducing the background by scattered and
+random coincidences. Consequently, the signal-to-noise ratio of TOF-PET images is enhanced.
+This makes TOF-PET attractive when imaging large objects, as in the case of tracer imaging
+in conventional human PET. It is reasonable to extrapolate TOF-PET to the in-beam context
+in heavy ion radiotherapy. During heavy ion treatments a considerable amount of activity
+is transported to locations outside the FOV of the in-beam positron tomograph by metabolic
+processes (Tomitani et al 2003, Mizuno et al 2003, Fiedler et al 2007). In addition, a high
+background flux, overlaying the annihilation signal, is registered during the carbon ion beam
+bursts (Pawelke et al 1997, Parodi et al 2005, Crespo et al 2005). In these situations, the use
+of the TOF information decreases the number of background events registered.
+"
+However, even imperfect timing information helps to improve the image by approxi-
+mately localizing the event. For example, a coincidence timing resolution of 600 pico-
+seconds (ps) (FWHM) translates to a positional uncertainty of 9 cm (FWHM) along the
+line pair. At first glance it seems that this can’t possibly help, since this is much greater
+than the spatial resolution of a state-of-the-art PET scanner (4–6 mm). However, we
+can appreciate the significance of this information by considering that without TOF we
+would back-project the data for each line pair through a length D that is the distance
+across the patient, which for adults is considerably larger than 9 cm; with TOF PET the
+data are back-projected through a smaller distance, related to the positional uncertainty.
+For a typical patient, D is about 27 cm, which is 3 times larger than TOF positional
+uncertainty at 600 ps. We, therefore, expect the benefit of TOF to be proportional,
+though not necessarily equal, to this ratio.
+The ratio between positional uncertainty and distance across the patient is also repre-
+sentative of the noise reduction or, conversely, the sensitivity gain, to be expected with
+TOF. This simple measure is useful since it provides an estimate of the relative impor-
+tance of increasing timing resolution through improvements in the detector, calibra-2
+PET Center of Excellence Newsletter/Fall 2006
+www.snm.org/PET
+3
+tions, and electronics. This metric argues that TOF gain increases
+not only as timing resolution improves but also as patient girth
+increases. This is fortuitous, since conventional PET image quality
+degrades noticeably for large patients due to increased attenua-
+tion, which leads to the loss of true counts and increase of scatter
+counts. In fact, the difference in the noise-equivalent count-rate
+for a heavy patient (e.g., 120 kg) compared to a slim patient (e.g.,
+50 kg) is about a factor of six. Thus, to achieve comparable image
+quality for the heavy patient, we would need to scan for six times
+longer, which is clinically impractical. The promise of TOF PET
+is that it has the potential to improve the image quality in heavy
+patients, precisely where it is needed most. 
+
 \section{Outline of the thesis}
 \section{MEDICAL PHYSICS - HIGH ENERGY}
-\subsection{CERN}
-\subsection{Time profiles}
-
-
+- stesse request per high energy e medical physics
+- calorimetria timing (tesi Kristof)
+- ecco perche tesi condotta al cern, gruppo CMS
+\subsection{Study of time profiles}
+- outline vero e proprio
+	- panorama pubblicazioni
+	- obiettivi
+	- strumenti (simulazioni e setups)
+	- misure
 
 $x = 1/\alpha$ 
 
