@@ -15,19 +15,22 @@ In the case of solid state photo detectors, photons interact directly in the bul
 
 \section{Photo multiplier tubes}
 
-Photo multiplier tubes are largely used vacuum photo detection devices and have been diffusively discussed in literature. %schematic
-In figure 
-the main elements of a photo multiplier tube are sketched:
-
-%foto PMT
-
+Photo multiplier tubes are largely used vacuum photo detection devices and have been diffusively discussed in literature. 
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=5in]{../Pictures/Chapter_3/PMT.png}
+\end{center}
+\caption[Short caption for table of figures.]{Longer caption for actual body
+of dissertation.  Figure captions should be BELOW the figure.}
+\label{fig:PMT_schematics}
+\end{figure}
+In figure \ref{fig:PMT_schematics} the main elements of a photo multiplier tube are sketched:
 \begin{itemize}
 \item a photocathode, which converts visible photons into an electron flux
 \item an electron-optical input system which focuses and accelerates the electron flux
 \item an electron multiplier consisting of a series of secondary emission electrodes (dynodes)
 \item an anode, which collects the electron flux and supplies the output signal
 \end{itemize}
-
 Photoemission is due to a fraction of the incident visible photons that transfer enough energy to the electrons of the photo cathode to extract them.
 Then the focusing system allows the freed electrons to reach the first dynode, i.e. the first multiplication stage. The electrons are accelerated and focused by eletric field between the dynodes and the required potential gradient is usually guaranteed by a voltage divider.
 
@@ -38,40 +41,47 @@ Then the focusing system allows the freed electrons to reach the first dynode, i
 \item quantum efficiency
 Photocathode are usually made of deposited photo emissive semiconductor. They can be semi transparent or opaque, depending on the place where the emissive material is deposited with respect to the input window.
 The most used materials are silver-oxygen-caesium ($AgOCs$), antimonyum caesium ($SbCs$), and the bi-and trialkali compounds $SbKCs$, $SbRbCs$, and $SbNa_{2}KCs$. The most important parameter to be considered is the cathode radiant sensitivity, defined as the ratio of the cathode current $I_{p}$ to the incident flux $\Phi$
-
-$S_{k}(A/W)=\frac{I_{p}(A)}{\Phi _{e}(W)}$
-
+\begin{equation}
+S_{k}(A/W)=\frac{I_{p}(A)}{\Phi _{e}(W)}
+\end{equation}
 The incoming photons have usually a certain spectral composition and the cathode is not uniformly sensitive in this range. With this respect the most used quantity is the quantum efficiency, that is the ratio of the number of photo electrons emitted, $n_{k}$, to the number of incident photons, $n_{i}$
-
-$QE = \frac{n_{k}}{n_{i}} = S_{k, \lambda} \frac{h\ni}{e}$
-
+\begin{equation}
+QE = \frac{n_{k}}{n_{i}} = S_{k, \lambda} \frac{h\ni}{e}
+\end{equation}
 where $S_{k, \lambda}$ is the monochromatic sensitivity, defined as
-
-$S_{k, \lambda} = \lim_{d\lambda \to 0}\frac{dI_{p}}{d\Phi _{e}}$
-
+\begin{equation}
+S_{k, \lambda} = \lim_{d\lambda \to 0}\frac{dI_{p}}{d\Phi _{e}}
+\end{equation}
 %foto QE
 
 \item gain
 if the number of photo electrons that reach the first dynode is $n$, and the gain of the dynode is $g_{1}$, the number of secondary electrons is $n\cdot g_{1}$. If $g_{i}$ is the gain of the single dynodes, after $N$ stage the number of electrons collected at the anode are
-
-$n_{a} = n\prod_{i=1}^N g_i$
-
+\begin{equation}
+n_{a} = n\prod_{i=1}^N g_i
+\end{equation}
 It is possible to define the gain of the photo multiplier as the ratio $I_{a}/I_{p}$ where $I_{a}$ is the anode current given by a photo current $I_{p}$. If we define a collection efficiency for each dynode, depending of geometrical parameters, $\eta _{i}$, then the gain $G$ is
-
-$G = \eta \prod_{i=1}^N \delta _{i} \eta _{i} = \eta \prod_{i=1}^N g_{i}$
-
+\begin{equation}
+G = \eta \prod_{i=1}^N \delta _{i} \eta _{i} = \eta \prod_{i=1}^N g_{i}
+\end{equation}
 \item transit time spread
 Transit time spread is the transit-time fluctuation of the signal when identical light pulses hit the same part of the ohiti cathode. The time resolution of a tube is then often quoted as the FWHM of the probability distribution of the fluctuations.
 If the probability distribution of electrons arriving at the andode is assumed to be gaussian, then the response $R_{\delta}(t)$ to a delta-function light pulse is
-
-$R_{\delta}(t) = \frac{1}{\sigma _{R}\sqrt {2\pi}}exp\left( -\frac{(t-t_{tts})^2}{2\sigma _{R}^2}\right)$
-
+\begin{equation}
+R_{\delta}(t) = \frac{1}{\sigma _{R}\sqrt {2\pi}}exp\left( -\frac{(t-t_{tts})^2}{2\sigma _{R}^2}\right)
+\end{equation}
 where $t_{tts}$ is the mean transit time.
 \end{itemize}
 
 \section{MCP-PMT}
 A micro channel plate is a two-dimensional array of glass capillaries mounted in parallel as shown in fig
-%microchannel
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=5in]{../Pictures/Chapter_3/MCP_plate.png}
+\end{center}
+\caption[Short caption for table of figures.]{Longer caption for actual body
+of dissertation.  Figure captions should be BELOW the figure.}
+\label{fig:PMT_schematics}
+\end{figure}
 The diameter of the channels lies in a range of 5 to 20 microns and their internal walls are treated so to hava a defined electrical resistance and secondary emissive properties.
 At both ends of the plate high voltage is applied, so that a primary electron impinging on the wall of a channel produces a multiplication chain.
 Since they resemble in function a structure of dynode, microchannel plates are usually used in combination with vacuum detector technology in an assembly known as MCP-PMT.
@@ -80,16 +90,15 @@ An MCP-PMT consists of an entry window, a photo cathode one or more micro channe
 To operate and MCP it is necessary to provide a certain voltage to the system. To this purpose standard voltage divider circuits are usually adopted, in order to guarantee mostly drifting spaces for electrons before and after the photocathode and multiplication in the MCP stack.
 %divider  
   
-
 \subsection{Properties of MCP}
 \begin{itemize}
 \item quantum efficiency
 In terms of quantum efficiency they do not differ from standard PMTs, since they make use of the same technology in terms of photo cathodes.
 \item gain
 The gain of an MCP-PMT depends primarily on the number of plates stacked. Geometrically is determined by the length-to-diameter ratio af a channel $\alpha$, as
-
-$G = exp(\frac{\Delta \cdot L}{d}) = exp(\Delta \cdot \alpha)$
-
+\begin{equation}
+G = exp(\frac{\Delta \cdot L}{d}) = exp(\Delta \cdot \alpha)
+\end{equation}
 where $Delta$ is the gain factor and depends on the plate material, $L$ and $d$ are, respectivelly, the length and diameter of the micro tube.
 %gain curve
 \item ion feedback and electron backscattering
@@ -124,12 +133,13 @@ The cell and the quenching resistor are connected on the top surface.
 Finally a passivation layer (SiO2) protects the device. Due to its low index of refraction ($1.55$ in the blue) with respect to the one of Silicon ($3.5$) Fresnel losses can occurr, usually compensated by the presence of anti-reflection coatings.
 
 
-
 \subsection{Properties of SiPM}
 \begin{itemize}
 \item photon detection efficiency
 the photon detection efficiency can be defined as
-$PDE = QE \cdot \epsilon \cdot P_{avalanche}$
+\begin{equation}
+PDE = QE \cdot \epsilon \cdot P_{avalanche}
+\end{equation}
 where $QE$ is the quantum efficiency, $\epsilon$ is the geometric fill factor and $P_{avalanche}$ is the probability of triggering an avalanche.
 The $QE$ has already been introduced for ordinary photo cathodes and it is comprehensive of Fresnel losses.
 The fill factor $\epsilon$ is defined as the ratio of the sensitive area to the total area of the detector.
@@ -138,9 +148,9 @@ Finally the $P_{avalanche}$ is the probability of an electron or hole to cause a
 
 \item gain
 The gain of an analog SiPM can be written as
-
-$G = \frac{C\cdot U_{ov}}{q}$
-
+\begin{equation}
+G = \frac{C\cdot U_{ov}}{q}
+\end{equation}
 where $C$ is the cell capacitance, $U_{ov}$ is the bias overvoltage and $q$ is the charge $q = 1.602 \cdot 10^{-19} C$.
 This value is tipically between $10^{5}$ and $10^{7}$.
 

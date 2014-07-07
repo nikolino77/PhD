@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  27 JUN 2014 15:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  30 JUN 2014 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,8 +624,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (./dissertation.aux (./Abstract/abstract.aux) (./Abbreviations/listofabbr.aux)
 (./Acknowledgements/acknowledgements.aux) (./Chapter1/introduction.aux)
-(./Chapter2/guide-notes.aux) (./Chapter3/chRegularLook.aux)
-(./Chapter4/chLorem.aux) (./Chapter5/chLorem2.aux) (./Chapter6/chapter6.aux)
+(./Chapter2/guide-notes.aux) (./Chapter3/chRegularLook.aux
+
+LaTeX Warning: Label `fig:PMT_schematics' multiply defined.
+
+) (./Chapter4/chLorem.aux) (./Chapter5/chLorem2.aux) (./Chapter6/chapter6.aux)
 (./Chapter7/chapter7.aux) (./Appendix1/chLorem3.aux) (./Biography/biography.aux
 ))
 \openout1 = `dissertation.aux'.
@@ -1072,46 +1075,47 @@ Missing character: There is no Ë in font cmr8!
 Missing character: There is no † in font cmr8!
 
 ! Undefined control sequence.
-l.36 $\sigma _{pe} \prop
-                         \frac{ZË†{n}}{E_{\gamma}Ë†{3.5}}$
+l.37 \sigma _{pe} \prop
+                        \frac{ZË†{n}}{E_{\gamma}Ë†{3.5}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no Ë in font cmr8!
-Missing character: There is no † in font cmr8!
-Missing character: There is no Ë in font cmr8!
-Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
 [14]
 ! Extra \right.
-l.56 ...dot \frac{E'_{\gamma}}{E_{\gamma}} \right(
+l.57 ...dot \frac{E'_{\gamma}}{E_{\gamma}} \right(
                                                    1 - \frac{E'_{\gamma}}{E_...
 I'm ignoring a \right that had no matching \left.
 
 ! Extra \right.
-l.56 ...{\gamma}}{E_{\gamma}} ^{2} \right] \right)
-                                                  $
+l.57 ...{\gamma}}{E_{\gamma}} ^{2} \right] \right)
+                                                  
 I'm ignoring a \right that had no matching \left.
 
 
 Package natbib Warning: Citation `Rodnyi1997' on page 15 undefined on input lin
-e 79.
+e 80.
 
 
 Package natbib Warning: Citation `Lecoq2006' on page 15 undefined on input line
- 79.
-
-
-Package natbib Warning: Citation `Rodnyi1997' on page 15 undefined on input lin
-e 85.
+ 80.
 
 [15]
+
+Package natbib Warning: Citation `Rodnyi1997' on page 16 undefined on input lin
+e 86.
+
+[16]
 ! Undefined control sequence.
 <recently read> \prop 
                       
-l.97 ... an intermediate energy gamma ray ( $\prop
+l.98 ... an intermediate energy gamma ray ( $\prop
                                                    500 keV$) interacting wit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1119,11 +1123,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[16]
 ! Undefined control sequence.
 <recently read> \sym 
                      
-l.113 ...s quasiparticles, with an energy of $\sym
+l.114 ...s quasiparticles, with an energy of $\sym
                                                    10 eV$ and can decay into...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1131,52 +1134,51 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17]
-
-Package natbib Warning: Citation `Lecoq2006' on page 18 undefined on input line
- 133.
-
-[18]
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-
+[17] [18]
 
 Package natbib Warning: Citation `Lecoq2006' on page 19 undefined on input line
- 144.
+ 134.
 
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no † in font cmr12!
 
-Package natbib Warning: Citation `Rodnyi1997' on page 19 undefined on input lin
-e 163.
+Package natbib Warning: Citation `Lecoq2006' on page 19 undefined on input line
+ 145.
 
 [19]
+
+Package natbib Warning: Citation `Rodnyi1997' on page 20 undefined on input lin
+e 164.
+
 ! Undefined control sequence.
 <argument> \beta \cdot \E 
                           _{g}
-l.173 ...{eh}} = \frac{\alpha}{\beta \cdot \E_{g}}
-                                                  $
+l.174 ...{eh}} = \frac{\alpha}{\beta \cdot \E_{g}}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[20]
 
-Package natbib Warning: Citation `Rodnyi1997' on page 20 undefined on input lin
-e 184.
+Package natbib Warning: Citation `Rodnyi1997' on page 21 undefined on input lin
+e 185.
 
-[20] [21]
+[21] [22]
 ! Undefined control sequence.
-l.223 $cos(\teta
-                 _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}$
+l.224 cos(\teta
+                _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[22]) [23]
+) [23]
 \openout2 = `./Chapter3/chRegularLook.aux'.
 
  (./Chapter3/chRegularLook.tex
@@ -1220,19 +1222,34 @@ or  <return>  to continue without it.
 
 ]
 Chapter 3.
-[25
+<./Pictures/../Pictures/Chapter_3/PMT.png, id=649, 790.955pt x 359.3425pt>
+File: ./Pictures/../Pictures/Chapter_3/PMT.png Graphic file (type png)
 
-] [26] [27] [28]
+<use ./Pictures/../Pictures/Chapter_3/PMT.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/PMT.png used on input
+ line 21.
+(pdftex.def)             Requested size: 361.34999pt x 164.16454pt.
+ [25
+
+] [26 <./Pictures/../Pictures/Chapter_3/PMT.png>] [27]
+<./Pictures/../Pictures/Chapter_3/MCP_plate.png, id=667, 824.07875pt x 372.3912
+5pt>
+File: ./Pictures/../Pictures/Chapter_3/MCP_plate.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_3/MCP_plate.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/MCP_plate.png used on
+ input line 79.
+(pdftex.def)             Requested size: 216.81pt x 97.97293pt.
+ [28]
 
 Package natbib Warning: Citation `Vavra2004' on page 29 undefined on input line
- 99.
+ 108.
 
-[29] [30] [31]
+[29 <./Pictures/../Pictures/Chapter_3/MCP_plate.png>] [30] [31] [32]
 
-Package natbib Warning: Citation `Anghinolfi2004' on page 32 undefined on input
- line 160.
+Package natbib Warning: Citation `Anghinolfi2004' on page 33 undefined on input
+ line 170.
 
-[32]) [33]
+[33]) [34]
 \openout2 = `./Chapter4/chLorem.aux'.
 
  (./Chapter4/chLorem.tex
@@ -1271,12 +1288,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34
+[35
 
 
 ]
 Chapter 4.
-) [35
+) [36
 
 ]
 \openout2 = `./Chapter5/chLorem2.aux'.
@@ -1317,12 +1334,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[36
+[37
 
 
 ]
 Chapter 5.
-) [37
+) [38
 
 ]
 \openout2 = `./Chapter6/chapter6.aux'.
@@ -1363,14 +1380,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[38
+[39
 
 
 ]
 Chapter 6.
-[39
+[40
 
-]) [40]
+]) [41]
 \openout2 = `./Chapter7/chapter7.aux'.
 
  (./Chapter7/chapter7.tex
@@ -1409,16 +1426,16 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[41
+[42
 
 
 ]
 Chapter 7.
-[42
+[43
 
 ]
 
-Package natbib Warning: Citation `Martin2001' on page 43 undefined on input lin
+Package natbib Warning: Citation `Martin2001' on page 44 undefined on input lin
 e 29.
 
 ! Undefined control sequence.
@@ -1443,7 +1460,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[43]
+[44]
 ! Undefined control sequence.
 <recently read> \micro 
                        
@@ -1455,27 +1472,27 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[44]) [45]
+[45]) [46]
 \openout2 = `./Appendix1/chLorem3.aux'.
 
  (./Appendix1/chLorem3.tex
 Appendix A.
-[46
+[47
 
 
 
-] [47] [48] [49]) [50] (./dissertation.bbl
+] [48] [49] [50]) [51] (./dissertation.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
-) [51
+) [52
 
 
 
 ]
 \openout2 = `./Biography/biography.aux'.
 
- (./Biography/biography.tex) [52
+ (./Biography/biography.tex) [53
 
 
 ]
@@ -1498,16 +1515,19 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 7612 strings out of 493315
- 107251 string characters out of 6137904
- 194419 words of memory out of 5000000
- 10658 multiletter control sequences out of 15000+600000
+ 7661 strings out of 493315
+ 108231 string characters out of 6137904
+ 194520 words of memory out of 5000000
+ 10667 multiletter control sequences out of 15000+600000
  24318 words of font info for 85 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 34i,6n,30p,1200b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,30p,1200b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
@@ -1528,10 +1548,10 @@ ive/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on dissertation.pdf (66 pages, 294274 bytes).
+Output written on dissertation.pdf (67 pages, 407603 bytes).
 PDF statistics:
- 850 PDF objects out of 1000 (max. 8388607)
- 754 compressed objects within 8 object streams
- 164 named destinations out of 1000 (max. 500000)
- 689 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 903 PDF objects out of 1000 (max. 8388607)
+ 803 compressed objects within 9 object streams
+ 200 named destinations out of 1000 (max. 500000)
+ 699 words of extra memory for PDF output out of 10000 (max. 10000000)
 

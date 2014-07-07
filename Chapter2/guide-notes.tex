@@ -22,19 +22,20 @@ Moreover electrons produced by ionizing interactions can polarize the medium, gi
 % schema fotoelettrico, sezione d urto
 
 In the case of the photoelectric effect an electron from an atom is freed upon absorption of the incoming photon:
-
-$\gamma + atom \rightarrow e^{-} + atom$
-
+\begin{equation}
+\gamma + atom \rightarrow e^{-} + atom
+\end{equation}
 Due to conservation of momentum and energy this phenomenon does not occur with free electrons. 
 The gamma energy trasnferred to the electron equals the binding energy of the electron itself minus its resulting kinetic energy $E_{eˆ{-}}$ 
-
-$E_{e^{-}} = E_{\gamma} - E_{b}$
-
+\begin{equation}
+E_{e^{-}} = E_{\gamma} - E_{b}
+\end{equation}
 The photoelectric effect is predominant at low energies ($E<= 100 keV$) and favours tightly bound K-shell electrons. An approximation of the photo electric cross section is given by
 
 %PROP
-$\sigma _{pe} \prop \frac{Zˆ{n}}{E_{\gamma}ˆ{3.5}}$
-
+\begin{equation}
+\sigma _{pe} \prop \frac{Zˆ{n}}{E_{\gamma}ˆ{3.5}}
+\end{equation}
 The vacancy created can be filled through capture of bound or free electrons, eventually generating characteristics X-rays.  
 
 \subsection{Compton scattering}
@@ -42,19 +43,19 @@ The vacancy created can be filled through capture of bound or free electrons, ev
 % schema Compton, sezione d urto, Klein Nishina
 
 Compton scattering is the inelastic scattering of the incoming photon with a weakly bound electron in the material.
-
-$\gamma + atom \rightarrow (\gamma ') + e^{-} + atom*$
-
+\begin{equation}
+\gamma + atom \rightarrow (\gamma ') + e^{-} + atom*
+\end{equation}
 Contrary to the photoelectric effect, this only concerns quasi-free electrons of the material. 
 The photon trasnfers part of its energy to the electron, which is freed from its shell.
 Applying conservation of energy and momentum it is possible to derive the energy of the scattered gamma as well as the direction and energy of free electron.
-
-$E_{\gamma '} = \frac{E_{\gamma}}{1+\frac{E_{\gamma}}{m_{e}c^{2}}(1-cos\theta)}$
-
+\begin{equation}
+E_{\gamma '} = \frac{E_{\gamma}}{1+\frac{E_{\gamma}}{m_{e}c^{2}}(1-cos\theta)}
+\end{equation}
 The angular distribution can be described by the Klein-Nishina formula. It is evident from the plot that forward scattering direction are favoured as the incoming photon energy increases
-
-$\frac{d\sigma _{cpt}}{d\omega} = Z \cdot \frac{e^{2}}{4\pi \epsilon _{0} m_{e} c^{2}} \cdot \frac{1}{2} \cdot \frac{E'_{\gamma}}{E_{\gamma}} \right( 1 - \frac{E'_{\gamma}}{E_{\gamma}} \cdot sin^{2}\theta + \left[ \frac{E'_{\gamma}}{E_{\gamma}} ^{2} \right] \right)$
-
+\begin{equation}
+\frac{d\sigma _{cpt}}{d\omega} = Z \cdot \frac{e^{2}}{4\pi \epsilon _{0} m_{e} c^{2}} \cdot \frac{1}{2} \cdot \frac{E'_{\gamma}}{E_{\gamma}} \right( 1 - \frac{E'_{\gamma}}{E_{\gamma}} \cdot sin^{2}\theta + \left[ \frac{E'_{\gamma}}{E_{\gamma}} ^{2} \right] \right)
+\end{equation}
 The total cross section can be computed by integrating the differential cross section over the angle.
 
 % finire Compton con la cross section
@@ -64,9 +65,9 @@ The total cross section can be computed by integrating the differential cross se
 % pair production schema
 
 If the energy of the gamma exceeds $2m_{e}c^{2} = 1.02 MeV$, the impinging photons can also be converted into an electron-positron pair. The cross-section of the pair production is given at low energies (thus low screening) by
-
-$\sigma _{pair} = 4\alpha r_{e}^{2} Z^{2} \left( \frac{7}{9}ln2\frac{E}{m_{e}c^{2}} - \frac{109}{54}\right)$
-
+\begin{equation}
+\sigma _{pair} = 4\alpha r_{e}^{2} Z^{2} \left( \frac{7}{9}ln2\frac{E}{m_{e}c^{2}} - \frac{109}{54}\right)
+\end{equation}
 The cross section is very low compared to that of photoelectric and Compton effect until the energy of the gamma approaches several electron Volts. Thus for the energies involved in medical applications pair production can be neglected.
 
 \subsection{Rayleigh scattering}
@@ -95,9 +96,9 @@ The scintillation process can therefore be represented as the sequence of the fo
 \subsection{Creation of electron hole pairs}
 
 To analyze more in depth the mechanisms of the scintillation, we can consider an intermediate energy gamma ray ( $\prop 500 keV$) interacting with the scintillator material. In this case the photoelectric effect is dominant. Thus it will produce a hole in a inner shell (usually K shell) and a free or quasifree electron.
-
-$A + h\ni \rightarrow A^{+} + e$
-
+\begin{equation}
+A + h\ni \rightarrow A^{+} + e
+\end{equation}
 The energy of the primary electron will be $h\ni - E_{k}$ where $E_{k}$ is the K level energy.
 
 The relaxation then happens differently for electrons and holes. 
@@ -106,9 +107,9 @@ The ionized atom ($A^{+}$) can relax either radiatively, thus emitting a photon,
 The Auger electron and the primary electron begin a proces of electron-electron scattering or phonon emission. In the case of a radiative emission, the soft x-ray photon emitted may be absorbed producing a new deep hole and free electron. 
 
 The electron on the other hand will ionize an atom
-
-$A + e \rightarrow A^{+} + 2e$
-
+\begin{equation}
+A + e \rightarrow A^{+} + 2e
+\end{equation}
 The two undistiguishable electrons will undergo a number of other ionization processes, resulting in an avalanche of secondary electrons and holes. At some point the secondary products of these processes are not able to ionize the medium anymore.
 A fast electron can in principle interact also with valence electrons of the medium, producing collective oscillations known as plasmons. Plasmons behave as quasiparticles, with an energy of $\sym 10 eV$ and can decay into e-h pairs.
 
@@ -119,15 +120,15 @@ This ensemble of avalanche processes continues until the generated secondaries a
 
 Electron and holes have several ways to recombine after thermalization and give rise to scintillation photons.
 The simplest emission process is direct recombination
-
-$e + h \rightarrow h\ni$
-
+\begin{equation}
+e + h \rightarrow h\ni
+\end{equation}
 Recombination can more effectively take place when the energy of the electron and hole has decreased, so that they form a loosely bound structure called exciton. 
 However the various impurities and lattice defects play a very important role in the scintillation process. Thermalized carriers can be bound in some places of the lattice where atom or defects are localized. 
 For example many ionic crystals shows phenomena of localization of the valence hole in the lattice, known as self-trapping. This structure appears when a thermalized hole localizes an anion, polarizing the environment. As a result the hole can be shared between two neighbouring ions forming a $V_{k}$ center, and the hole is defined as self-trapped hole. For high energy excitation direct creation of valence exciton is unlikely, so $V_{k}$ centers usually capture free electrons. From subsequent de excitation they can emit photons, thus giving rise to the excitonic luminescence.
- 
-$e + h \rightarrow ex \rightarrow h\ni$
-
+\begin{equation} 
+e + h \rightarrow ex \rightarrow h\ni
+\end{equation}
 \subsection{Core to valence transitions}
 
 If the core bands of the scintillator lie below the Ager threshold, the most favoured transitions involve holes in the valence band and electron in the conduction band. Some systems though present the so-called cross luminescence. This phenomenon implies a direct core to valence transition, due to the fact that holes in uppermost core bands can not deexcite non radiatively\cite{Lecoq2006}. 
@@ -161,17 +162,17 @@ In heavy doped or self-activated crystals ($CeF_{3}$) direct excitation by ioniz
 \subsection{Light yield}
 One of the feature commonly required of a scintillator is to be have a high light yield, that is to be an efficient converter of radiation to visible light.
 In this case the relative light output of the scintillator, $L_{R}$, can be considered the significant quantity. It is defined as the number of emitted photons per unit of absorbed energy\cite{Rodnyi1997}
-
-$L_{R} = \frac{N_{ph}}{E_{\gamma}}$
-
+\begin{equation}
+L_{R} = \frac{N_{ph}}{E_{\gamma}}
+\end{equation}
 The number of produced e-h pairs $N_{eh}$ depends on the average energy needed for the creation of a low energy e-h pair, $\chi _{eh}$. This value depends on the type of lattice and band gap of the material, with a numericl coefficient $\beta$
-
-$\chi _{eh} = \beta \cdot \ E_{g}$
-
+\begin{equation}
+\chi _{eh} = \beta \cdot \ E_{g}
+\end{equation}
 If $\alpha$ is the average number of scintillation photons produced by a single e-h pair, the light output is
-
-$L_{r} = \frac{\alpha \cdot N_{eh}}{E_{\gamma}} = \frac{\alpha}{\chi _{eh}} = \frac{\alpha}{\beta \cdot \E_{g}}$
-
+\begin{equation}
+L_{r} = \frac{\alpha \cdot N_{eh}}{E_{\gamma}} = \frac{\alpha}{\chi _{eh}} = \frac{\alpha}{\beta \cdot \E_{g}}
+\end{equation}
 The coefficient $\alpha$ depends on the transport efficiency of the e-h pairs to the luminescence center and the conversion efficiency of the center itself.
 
 \subsection{Optical properties and light transport}
@@ -182,14 +183,14 @@ Moreover it is clear that the emission band of a scintillator should lie in the 
 In the case of gamma spectroscopy ut is necessary to discriminate quanta with different energy.
 For scintillation detector this fundamental property is characterized by the energy resolution $R$, defined as $\Delta /E$ (in $\%$) where $\Delta E$ is the full width at half maximum (FWHM) at pulse height $E$.
 It depends on the characteristics of the scintillator, i.e. materials, size and defects as well as the coupling with the photo detector and the parameters of the photo detectors itself. Statistical fluctuations at any step of the detector chain, from dynode multiplication from photocathode efificency in the case of a PMT can worsen the resolution at the peak. Thus energy resolution can be defined as\cite{Rodnyi1997}
-
-$R^{2} = R_{S}^{2} + R_{PM}^{2} = R_{S}^{2} + \frac{\delta}{E_{\gamma}}$
-
+\begin{equation}
+R^{2} = R_{S}^{2} + R_{PM}^{2} = R_{S}^{2} + \frac{\delta}{E_{\gamma}}
+\end{equation}
 where $R_{S}$ and $R_{PM}$ are, respectively, the scintillator and photomultiplier contributions and $\delta$ includes photo electron statistics.
 It is possible to further decompose the scintillator resolution $R_{S}$ to take into account the factors depending on the type of scintillator used. In particular it is useful to introduce a term for the transfer efficiency of the optical photons $R_{S}$, a term for inhomogeneity $R_{i}$ and a term for nonproportionality $R_{n}$
-
-$R_{S}^{2} = R_{t}^{2} + R_{i}^{2} + R_{n}^{2}$
-
+\begin{equation}
+R_{S}^{2} = R_{t}^{2} + R_{i}^{2} + R_{n}^{2}
+\end{equation}
 The interest lies in the fact that the two terms, for inhomogeneity and nonproportionality, account for the intrinsic resolution of the crystal.
 Inhomogeneity arise from possible imperfections of the scintillator, such as local variations in the concentration of the dopant or optical defects.
 Non proportionality arise when scintillators show deviation from stability of excitation spectrum, that is when linearity between energy of the excitation and relative light output is not preserved. This is particularly important for low energy excitation, since scintillation phenomena occur mainly on the surface. Non proportionality is a cause of the statistical nature of the creation of secondary electrons and photons and contribute to worsen the resolution.
@@ -198,40 +199,40 @@ Non proportionality arise when scintillators show deviation from stability of ex
 The effect of Cerenkov radiation brings important information both in high energy physics and time resolved PET.
 Cerenkov radiation occurs when a charged particle passes through a dieletric medium at a speed greater than the phase velocity of light in that medium.
 The phase velocity of light in a medium of refractive index $n > 1$ is
-
-$v_{light} = \frac{c}{n}$
-
+\begin{equation}
+v_{light} = \frac{c}{n}
+\end{equation}
 A charged particle can travel faster than the speed of light if, given its velocity $v_{p}$ 
-
-$\frac{c}{n} < v_{p} < c$
-
+\begin{equation}
+\frac{c}{n} < v_{p} < c
+\end{equation}
 This translates to the following condition for the $\beta$ coefficient of the particle
-
-$\beta = \frac{v}{c} > \frac{1}{n}$
-
+\begin{equation}
+\beta = \frac{v}{c} > \frac{1}{n}
+\end{equation}
 For a particle of a given mass thus the energy threshold is
-
-$K_thr = mc^{2}\left( \frac{\sqrt {n^{2}-1}}{n} - 1 \right)$
-
+\begin{equation}
+K_thr = mc^{2}\left( \frac{\sqrt {n^{2}-1}}{n} - 1 \right)
+\end{equation}
 The phenomenology of Cerenkov effect can be explained considering the polarization of the medium caused by a charged particle trasversing it.
 Below the Cerenkov threshold the dipoles sorrounding are simmetrically arranged around the path. As the particle crosses the threshold it travels faster the the speed at which it interacts with the dipoles. This simmetry breaking leads to a non-vanishing dipole moment and thus to the formation of a wave front.
 
 Cerenkov photons are emitted at a characteristic angle in the forward direction, obtained via simple geometrical considerations. The distance traveled by the charged particle in a time t is $t\cdot \beta \cdot c$ whereas the distance along which the photon propagates is $t\cdot c /n$ as shwn in fig.
 
 Therefore the characteristic angle at which photons are emitted can be calculated as
-
-$cos(\teta _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}$
-
+\begin{equation}
+cos(\teta _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}
+\end{equation}
 As will be shown in the next chapter, the direction of emission retains a primary interest in the field of particle identification, while it has little impact on timing measurement on PET scanners. It is worth to be noted though that the Cerenkov photons are emitted promptly, taking a relevant share of the first incoming photons.  
 
 It is useful to consider the number of emitted photons per unit length by a charged particle in function of the wavelength
-
-$\frac{d^N}{d\lambda dx} = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left( 1 - \frac{1}{\beta ^{2}n^{2}(\lambda)} \right)$
-
+\begin{equation}
+\frac{d^N}{d\lambda dx} = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left( 1 - \frac{1}{\beta ^{2}n^{2}(\lambda)} \right)
+\end{equation}
 Neglecting dispersion in the medium, and integrating over an appropriate interval of waveleghts we obtain that the photons are emitted mostly in the UV range.
-
-$\frac{dN}{dx} = 2\pi z^{2} \alpha \left( 1-\frac{1}{\beta ^{2} n^{2} (\lambda)}\right) \int _{\lambda _{1}} ^{\lambda _{2}} \frac{d\lambda}{lambda ^{2}}  = 2\pi z^{2}\alpha sin^{2}\theta _{C} \left( \frac{1}{\lambda _{1}}-\frac{1}{\lambda _{2}}\right)$
-
+\begin{equation}
+\frac{dN}{dx} = 2\pi z^{2} \alpha \left( 1-\frac{1}{\beta ^{2} n^{2} (\lambda)}\right) \int _{\lambda _{1}} ^{\lambda _{2}} \frac{d\lambda}{lambda ^{2}}  = 2\pi z^{2}\alpha sin^{2}\theta _{C} \left( \frac{1}{\lambda _{1}}-\frac{1}{\lambda _{2}}\right)
+\end{equation}
 \section{Scintillators in PET detectors}
 
 % pensarci un po
