@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  30 JUN 2014 18:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  26 SEP 2014 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1489,75 +1489,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 25.
-! Display math should end with $$.
-<to be read again> 
-                   \gamma 
-l.26 $\gamma
-             + atom \rightarrow e^{-} + atom$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 $\gamma
-             + atom \rightarrow e^{-} + atom$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.27 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (13.51065pt too wide) in paragraph at lines 26--27
-$\OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 +
+Overfull \hbox (93.2989pt too wide) detected at line 27
+\OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 atom \OMS/cmsy/m/n/10 !
+ \OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 atom
  []
-
-
-Overfull \hbox (35.3021pt too wide) in paragraph at lines 26--27
-\OML/cmm/m/it/10 atom \OMS/cmsy/m/n/10 !
- []
-
-
-Overfull \hbox (19.18408pt too wide) in paragraph at lines 26--27
-\OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (22.52437pt too wide) in paragraph at lines 26--27
-\OML/cmm/m/it/10 atom$
- []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 26--27
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.27 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no D in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -1755,71 +1691,11 @@ Overfull \hbox (17.92607pt too wide) in paragraph at lines 27--30
                                    $\OML/cmm/m/it/10 E[]$ 
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   E
-l.31 $E
-       _{e^{-}} = E_{\gamma} - E_{b}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no E in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.31 $E_
-        {e^{-}} = E_{\gamma} - E_{b}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.32 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (20.76636pt too wide) in paragraph at lines 31--32
-$[] \OT1/cmr/m/n/10 =
+Overfull \hbox (62.61543pt too wide) detected at line 32
+\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 E[] \OMS/cmsy/m/n/10 ^^
+@ \OML/cmm/m/it/10 E[]
  []
-
-
-Overfull \hbox (20.29082pt too wide) in paragraph at lines 31--32
-\OML/cmm/m/it/10 E[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (11.3986pt too wide) in paragraph at lines 31--32
-\OML/cmm/m/it/10 E[]$
- []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 31--32
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.32 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.32 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -1991,73 +1867,23 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 36--36
 [] 
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   \sigma 
-l.37 $\sigma
-             _{pe} \prop \frac{ZË†{n}}{E_{\gamma}Ë†{3.5}}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.37 $\sigma
-             _{pe} \prop \frac{ZË†{n}}{E_{\gamma}Ë†{3.5}}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 ! Undefined control sequence.
-l.37 $\sigma _{pe} \prop
-                         \frac{ZË†{n}}{E_{\gamma}Ë†{3.5}}$
+l.37 \sigma _{pe} \prop
+                        \frac{ZË†{n}}{E_{\gamma}Ë†{3.5}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no Ë in font cmr7!
-Missing character: There is no † in font cmr7!
-Missing character: There is no Ë in font cmr7!
-Missing character: There is no † in font cmr7!
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.38 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no † in font cmr10!
 
-
-Overfull \hbox (37.33041pt too wide) in paragraph at lines 37--38
-$\OML/cmm/m/it/10 ^^[[][]$
+Overfull \hbox (41.82141pt too wide) detected at line 38
+\OML/cmm/m/it/10 ^^[[][]
  []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 37--38
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.38 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.38 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -2325,80 +2151,12 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 45--46
 []
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   \gamma 
-l.47 $\gamma
-             + atom \rightarrow (\gamma ') + e^{-} + atom*$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 $\gamma
-             + atom \rightarrow (\gamma ') + e^{-} + atom*$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.48 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (13.51065pt too wide) in paragraph at lines 47--48
-$\OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 +
+Overfull \hbox (122.39293pt too wide) detected at line 48
+\OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 atom \OMS/cmsy/m/n/10 !
+ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^M[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 e[
+] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 atom\OMS/cmsy/m/n/10 ^^C
  []
-
-
-Overfull \hbox (35.3021pt too wide) in paragraph at lines 47--48
-\OML/cmm/m/it/10 atom \OMS/cmsy/m/n/10 !
- []
-
-
-Overfull \hbox (24.09401pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^M[]\OT1/cmr/m/n/10 ) +
- []
-
-
-Overfull \hbox (19.18408pt too wide) in paragraph at lines 47--48
-\OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (27.52438pt too wide) in paragraph at lines 47--48
-\OML/cmm/m/it/10 atom\OMS/cmsy/m/n/10 ^^C$
- []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 47--48
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.48 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.48 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2685,66 +2443,10 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
-! Display math should end with $$.
-<to be read again> 
-                   E
-l.53 $E
-       _{\gamma '} = \frac{E_{\gamma}}{1+\frac{E_{\gamma}}{m_{e}c^{2}}(1-cos...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no E in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.53 $E_
-        {\gamma '} = \frac{E_{\gamma}}{1+\frac{E_{\gamma}}{m_{e}c^{2}}(1-cos...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.54 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (18.39146pt too wide) in paragraph at lines 53--54
-$[] \OT1/cmr/m/n/10 =
+Overfull \hbox (112.86551pt too wide) detected at line 54
+\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 = []
  []
-
-
-Overfull \hbox (63.90596pt too wide) in paragraph at lines 53--54
-[]$
- []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 53--54
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.54 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.54 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -2905,53 +2607,6 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-! Display math should end with $$.
-<to be read again> 
-                   {
-l.57 $\frac{d\sigma _{cpt}}{d\omega}
-                                     = Z \cdot \frac{e^{2}}{4\pi \epsilon _{...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-Missing character: There is no d in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 $\frac{d\sigma _{cpt}}{d\omega}
-                                     = Z \cdot \frac{e^{2}}{4\pi \epsilon _{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 $\frac{d\sigma _{cpt}}{d\omega}
-                                     = Z \cdot \frac{e^{2}}{4\pi \epsilon _{...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 $\frac{d\sigma _{cpt}}{d\omega}
-                                     = Z \cdot \frac{e^{2}}{4\pi \epsilon _{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac #1#2->{\begingroup #1\endgroup \over #2}
-                                              
-l.57 $\frac{d\sigma _{cpt}}{d\omega}
-                                     = Z \cdot \frac{e^{2}}{4\pi \epsilon _{...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Extra \right.
 l.57 ...dot \frac{E'_{\gamma}}{E_{\gamma}} \right(
                                                    1 - \frac{E'_{\gamma}}{E_...
@@ -2959,58 +2614,15 @@ I'm ignoring a \right that had no matching \left.
 
 ! Extra \right.
 l.57 ...{\gamma}}{E_{\gamma}} ^{2} \right] \right)
-                                                  $
+                                                  
 I'm ignoring a \right that had no matching \left.
 
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.58 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
-
-Overfull \hbox (175.69308pt too wide) in paragraph at lines 57--58
-$\OML/cmm/m/it/10 ^^[[]$$[]$
+Overfull \hbox (212.85497pt too wide) detected at line 58
+[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Z \OMS/cmsy/m/n/10 ^^A [] ^^A [] ^^A []\O
+T1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@ [] ^^A \OML/cmm/m/it/10 sin[]^^R \OT1/cmr/
+m/n/10 + []
  []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 57--58
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.58 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.58 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -3335,65 +2947,10 @@ Overfull \hbox (41.28131pt too wide) in paragraph at lines 67--68
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 02\OML/cmm/m/it/10 MeV$
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   \sigma 
-l.69 $\sigma
-             _{pair} = 4\alpha r_{e}^{2} Z^{2} \left( \frac{7}{9}ln2\frac{E}...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 $\sigma
-             _{pair} = 4\alpha r_{e}^{2} Z^{2} \left( \frac{7}{9}ln2\frac{E}...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.70 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (31.98717pt too wide) in paragraph at lines 69--70
-$\OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 =
+Overfull \hbox (159.3842pt too wide) detected at line 70
+\OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 = 4\OML/cmm/m/it/10 r[]Z[] []
  []
-
-
-Overfull \hbox (114.35579pt too wide) in paragraph at lines 69--70
-\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 r[]Z[] []$
- []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 69--70
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.70 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -5813,73 +5370,11 @@ Overfull \hbox (33.23271pt too wide) in paragraph at lines 98--99
 \OT1/cmr/m/n/10 500\OML/cmm/m/it/10 keV$
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   A
-l.100 $A
-         + h\ni \rightarrow A^{+} + e$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no + in font nullfont!
-Missing character: There is no h in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 $A + h\ni
-                \rightarrow A^{+} + e$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.101 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (16.6667pt too wide) in paragraph at lines 100--101
-  $\OMS/cmsy/m/n/10 3!
+Overfull \hbox (69.83452pt too wide) detected at line 101
+\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 3! \OM
+L/cmm/m/it/10 A[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 e
  []
-
-
-Overfull \hbox (21.91673pt too wide) in paragraph at lines 100--101
-\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (4.65627pt too wide) in paragraph at lines 100--101
-\OML/cmm/m/it/10 e$
- []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 100--101
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.101 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.101 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -6473,73 +5968,11 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 109--110
 []
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   A
-l.111 $A
-         + e \rightarrow A^{+} + 2e$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no + in font nullfont!
-Missing character: There is no e in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.111 $A + e \rightarrow
-                         A^{+} + 2e$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.112 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 111--112
-   $\OMS/cmsy/m/n/10 !
+Overfull \hbox (67.06253pt too wide) detected at line 112
+\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 e \OMS/cmsy/m/n/10 ! \OML
+/cmm/m/it/10 A[] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 e
  []
-
-
-Overfull \hbox (21.91673pt too wide) in paragraph at lines 111--112
-\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (9.65628pt too wide) in paragraph at lines 111--112
-\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 e$
- []
-
-
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 111--112
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.112 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.112 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -7578,68 +7011,11 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 121--123
 []
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   e
-l.124 $e
-         + h \rightarrow h\ni$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no e in font nullfont!
-Missing character: There is no + in font nullfont!
-Missing character: There is no h in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.124 $e + h \rightarrow
-                         h\ni$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.125 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 124--125
-   $\OMS/cmsy/m/n/10 !
+Overfull \hbox (48.95706pt too wide) detected at line 125
+\OML/cmm/m/it/10 e \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 ! \OML
+/cmm/m/it/10 h \OMS/cmsy/m/n/10 3
  []
-
-
-Overfull \hbox (15.20598pt too wide) in paragraph at lines 124--125
-\OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 3$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 124--125
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.125 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.125 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -8444,73 +7820,11 @@ Overfull \hbox (10.7535pt too wide) in paragraph at lines 125--129
 \OML/cmm/m/it/10 V[]$
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   e
-l.130 $e
-         + h \rightarrow ex \rightarrow h\ni$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no e in font nullfont!
-Missing character: There is no + in font nullfont!
-Missing character: There is no h in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.130 $e + h \rightarrow
-                         ex \rightarrow h\ni$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.131 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 130--131
-   $\OMS/cmsy/m/n/10 !
+Overfull \hbox (74.88403pt too wide) detected at line 131
+\OML/cmm/m/it/10 e \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 ! \OML
+/cmm/m/it/10 ex \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 3
  []
-
-
-Overfull \hbox (23.14926pt too wide) in paragraph at lines 130--131
-\OML/cmm/m/it/10 ex \OMS/cmsy/m/n/10 !
- []
-
-
-Overfull \hbox (15.20598pt too wide) in paragraph at lines 130--131
-\OML/cmm/m/it/10 h \OMS/cmsy/m/n/10 3$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 130--131
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.131 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.131 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 ! Undefined control sequence.
 l.132 \subsection
@@ -10203,8 +9517,8 @@ Overfull \hbox (23.43544pt too wide) in paragraph at lines 152--155
  []
 
 ! Undefined control sequence.
-l.158 \section
-              {Quenching phenomena}
+l.158 \subsection
+                 {Quenching phenomena}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10234,6 +9548,36 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 158--159
 []
  []
 
+! Undefined control sequence.
+l.161 \section
+              {Operational parameters}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no O in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 l.162 \subsection
                  {Light yield}
@@ -10549,80 +9893,24 @@ LaTeX Warning: Citation `Rodnyi1997' on page  undefined on input line 164.
 
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 162--165
+Overfull \hbox (20.0pt too wide) in paragraph at lines 161--165
 []
  []
 
 
-Overfull \hbox (13.36566pt too wide) in paragraph at lines 162--165
+Overfull \hbox (13.36566pt too wide) in paragraph at lines 161--165
 \OML/cmm/m/it/10 L[]$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 162--165
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 161--165
 [] 
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   L
-l.166 $L
-        _{R} = \frac{N_{ph}}{E_{\gamma}}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no L in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.166 $L_
-         {R} = \frac{N_{ph}}{E_{\gamma}}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.167 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (17.1156pt too wide) in paragraph at lines 166--167
-$[] \OT1/cmr/m/n/10 =
+Overfull \hbox (46.43768pt too wide) detected at line 167
+\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = []
  []
-
-
-Overfull \hbox (17.07039pt too wide) in paragraph at lines 166--167
-[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 166--167
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.167 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.167 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -10814,70 +10102,11 @@ Overfull \hbox (6.18402pt too wide) in paragraph at lines 167--169
 \OML/cmm/m/it/10 ^^L$ 
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   \chi 
-l.170 $\chi
-            _{eh} = \beta \cdot \ E_{g}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.170 $\chi
-            _{eh} = \beta \cdot \ E_{g}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.171 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (25.78828pt too wide) in paragraph at lines 170--171
-$\OML/cmm/m/it/10 ^^_[] \OT1/cmr/m/n/10 =
+Overfull \hbox (49.5622pt too wide) detected at line 171
+\OML/cmm/m/it/10 ^^_[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^L \OMS/cmsy/m/n/10 
+^^A  \OML/cmm/m/it/10 E[]
  []
-
-
-Overfull \hbox (8.9618pt too wide) in paragraph at lines 170--171
-\OML/cmm/m/it/10 ^^L \OMS/cmsy/m/n/10 ^^A
- []
-
-
-Overfull \hbox (12.0344pt too wide) in paragraph at lines 170--171
-\OML/cmm/m/it/10 E[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 170--171
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.171 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.171 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no I in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -10967,102 +10196,21 @@ Overfull \hbox (6.43404pt too wide) in paragraph at lines 171--173
  $\OML/cmm/m/it/10 $
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   L
-l.174 $L
-        _{r} = \frac{\alpha \cdot N_{eh}}{E_{\gamma}} = \frac{\alpha}{\chi _...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-Missing character: There is no L in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.174 $L_
-         {r} = \frac{\alpha \cdot N_{eh}}{E_{\gamma}} = \frac{\alpha}{\chi _...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 ! Undefined control sequence.
 <argument> \beta \cdot \E 
                           _{g}
 l.174 ...{eh}} = \frac{\alpha}{\beta \cdot \E_{g}}
-                                                  $
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.175 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
-
-Overfull \hbox (14.98376pt too wide) in paragraph at lines 174--175
-$[] \OT1/cmr/m/n/10 =
+Overfull \hbox (117.94724pt too wide) detected at line 175
+\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 = [] = [] = []
  []
-
-
-Overfull \hbox (34.8862pt too wide) in paragraph at lines 174--175
-[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (25.97491pt too wide) in paragraph at lines 174--175
-[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (13.85144pt too wide) in paragraph at lines 174--175
-[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 174--175
-[] 
- []
-
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \end{equation}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.175 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.175 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -12023,81 +11171,12 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 182--186
 [] 
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   R
-l.187 $R
-        ^{2} = R_{S}^{2} + R_{PM}^{2} = R_{S}^{2} + \frac{\delta}{E_{\gamma}}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no R in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.187 $R^
-         {2} = R_{S}^{2} + R_{PM}^{2} = R_{S}^{2} + \frac{\delta}{E_{\gamma}}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Overfull \hbox (118.70029pt too wide) detected at line 188
+\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 + \
+OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 + []
 
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.188 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (15.04164pt too wide) in paragraph at lines 187--188
-$[] \OT1/cmr/m/n/10 =
  []
-
-
-Overfull \hbox (21.16377pt too wide) in paragraph at lines 187--188
-\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (33.19252pt too wide) in paragraph at lines 187--188
-\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (21.16377pt too wide) in paragraph at lines 187--188
-\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (12.85257pt too wide) in paragraph at lines 187--188
-[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 187--188
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.188 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.188 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -12491,76 +11570,11 @@ Overfull \hbox (13.03622pt too wide) in paragraph at lines 188--191
 \OML/cmm/m/it/10 R[]$ 
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   R
-l.192 $R
-        _{S}^{2} = R_{t}^{2} + R_{i}^{2} + R_{n}^{2}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no R in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.192 $R_
-         {S}^{2} = R_{t}^{2} + R_{i}^{2} + R_{n}^{2}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.193 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (16.34859pt too wide) in paragraph at lines 192--193
-$[] \OT1/cmr/m/n/10 =
+Overfull \hbox (79.62358pt too wide) detected at line 193
+\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 + \
+OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 R[]
  []
-
-
-Overfull \hbox (19.93408pt too wide) in paragraph at lines 192--193
-\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (19.93408pt too wide) in paragraph at lines 192--193
-\OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 +
- []
-
-
-Overfull \hbox (13.03622pt too wide) in paragraph at lines 192--193
-\OML/cmm/m/it/10 R[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 192--193
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.193 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.193 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -13523,66 +12537,24 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 198--202
 \OT1/cmr/m/n/10 1$
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   v
-l.203 $v
-        _{light} = \frac{c}{n}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no v in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.203 $v_
-         {light} = \frac{c}{n}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
 
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.204 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \begin{equation}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-
-Overfull \hbox (28.3093pt too wide) in paragraph at lines 203--204
-$[] \OT1/cmr/m/n/10 =
+[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (44.33658pt too wide) detected at line 204
+\OML/cmm/m/it/10 v[] \OT1/cmr/m/n/10 = []
  []
-
-
-Overfull \hbox (7.34332pt too wide) in paragraph at lines 203--204
-[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 203--204
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.204 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.204 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no A in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -13658,83 +12630,10 @@ Overfull \hbox (9.46957pt too wide) in paragraph at lines 204--206
                $\OML/cmm/m/it/10 v[]$ 
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   {
-l.207 $\frac{c}{n}
-                   < v_{p} < c$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no c in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.207 $\frac{c}{n}
-                   < v_{p} < c$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac #1#2->{\begingroup #1\endgroup \over #2}
-                                              
-l.207 $\frac{c}{n}
-                   < v_{p} < c$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.208 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (31.61568pt too wide) in paragraph at lines 207--208
-$[]$
+Overfull \hbox (48.86592pt too wide) detected at line 208
+[] \OML/cmm/m/it/10 < v[] < c
  []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 207--208
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.208 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.208 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.208 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -13808,70 +12707,10 @@ Overfull \hbox (6.18402pt too wide) in paragraph at lines 208--210
         $\OML/cmm/m/it/10 ^^L$
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   \beta 
-l.211 $\beta
-             = \frac{v}{c} > \frac{1}{n}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.211 $\beta
-             = \frac{v}{c} > \frac{1}{n}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.212 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (16.73953pt too wide) in paragraph at lines 211--212
-$\OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 =
+Overfull \hbox (48.85881pt too wide) detected at line 212
+\OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 > []
  []
-
-
-Overfull \hbox (17.2067pt too wide) in paragraph at lines 211--212
-[] \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (7.34332pt too wide) in paragraph at lines 211--212
-[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 211--212
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.212 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.212 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -13921,66 +12760,10 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
-! Display math should end with $$.
-<to be read again> 
-                   K
-l.215 $K
-        _thr = mc^{2}\left( \frac{\sqrt {n^{2}-1}}{n} - 1 \right)$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no K in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.215 $K_
-         thr = mc^{2}\left( \frac{\sqrt {n^{2}-1}}{n} - 1 \right)$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.216 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (24.6273pt too wide) in paragraph at lines 215--216
-$[]\OML/cmm/m/it/10 hr \OT1/cmr/m/n/10 =
+Overfull \hbox (126.65804pt too wide) detected at line 216
+\OML/cmm/m/it/10 K[]hr \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 mc[] []
  []
-
-
-Overfull \hbox (76.47884pt too wide) in paragraph at lines 215--216
-\OML/cmm/m/it/10 mc[] []$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 215--216
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.216 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.216 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -14694,83 +13477,20 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 222--223
 []
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   c
-l.224 $c
-        os(\teta _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.224 $cos(\teta
-                 _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}$
+l.224 cos(\teta
+                _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.224 $cos(\teta _
-                  {C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.225 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (21.1704pt too wide) in paragraph at lines 224--225
-$[]\OT1/cmr/m/n/10 ) =
+Overfull \hbox (123.0577pt too wide) detected at line 225
+\OML/cmm/m/it/10 cos\OT1/cmr/m/n/10 ([]) = \OML/cmm/m/it/10 frac[][] \OT1/cmr/m
+/n/10 = []
  []
-
-
-Overfull \hbox (63.99432pt too wide) in paragraph at lines 224--225
-\OML/cmm/m/it/10 frac[][] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (12.23746pt too wide) in paragraph at lines 224--225
-[]$
- []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 224--225
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.225 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.225 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
 Missing character: There is no A in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -15154,102 +13874,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 228--229
 []
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   {
-l.230 $\frac{d^N}{d\lambda dx}
-                               = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left(...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no d in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230 $\frac{d^N}{d\lambda dx}
-                               = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left(...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230 $\frac{d^N}{d\lambda dx}
-                               = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left(...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230 $\frac{d^N}{d\lambda dx}
-                               = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left(...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac #1#2->{\begingroup #1\endgroup \over #2}
-                                              
-l.230 $\frac{d^N}{d\lambda dx}
-                               = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left(...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.231 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (103.8038pt too wide) in paragraph at lines 230--231
-$[]$$[]$
+Overfull \hbox (137.94196pt too wide) detected at line 231
+[] \OT1/cmr/m/n/10 = [] []
  []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 230--231
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.231 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.231 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.231 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 Missing character: There is no N in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -15385,84 +14013,11 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
-! Display math should end with $$.
-<to be read again> 
-                   {
-l.234 $\frac{dN}{dx}
-                     = 2\pi z^{2} \alpha \left( 1-\frac{1}{\beta ^{2} n^{2} ...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-Missing character: There is no d in font nullfont!
-Missing character: There is no N in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.234 $\frac{dN}{dx}
-                     = 2\pi z^{2} \alpha \left( 1-\frac{1}{\beta ^{2} n^{2} ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac #1#2->{\begingroup #1\endgroup \over #2}
-                                              
-l.234 $\frac{dN}{dx}
-                     = 2\pi z^{2} \alpha \left( 1-\frac{1}{\beta ^{2} n^{2} ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! You can't use `\eqno' in horizontal mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
-l.235 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (224.42268pt too wide) in paragraph at lines 234--235
-$[]$
+Overfull \hbox (313.80205pt too wide) detected at line 235
+[] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 ^^Yz[] [] [][] [] \OT1/cmr/m/n/10 = 2\O
+ML/cmm/m/it/10 ^^Yz[]sin[]^^R[] []
  []
-
-
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 234--235
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.235 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.235 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.235 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
 l.236 \section

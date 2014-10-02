@@ -1,0 +1,69 @@
+
+\chapter{MonteCarlo simulation tools}
+
+\section{Ray tracing}
+
+\section{Geant4}
+\subsection{Physics}
+\subsection{Implementation}
+
+\section{SLitrani}
+\subsection{Physics}
+\subsection{Implementation}
+
+\section{A comparison for timing simulation}
+
+\section{Simulation input parameters}
+\subsection{Light yield}
+The measured light output depends on the absolute yield of the crystal as well as on instrumental and physical factors
+\begin{itemize}
+\item the temperature dependence of the scintillator output
+\item the reflectivity of the wrapping material
+\item the condition of the crystal faces
+\item the relation between the refractive index of the crystal and the photo detector
+\item the quantum efficiency of the photo detector
+\item the collection efficiency of the charges produced in the photo detector
+\end{itemize}
+To measure the light output of sample crystals the number of photo electrons $N_{pe}$ collected can be used.
+The number of photo electrons can be calculated by comparison with the position of the photo electric peak with respect to the signal produced by a single photon. The number of photo electron per MeV of the incident $\gamma$ particle can be determined as
+\begin{equation}
+N_{pe}/MeV=\frac{position\ photo\ peak}{position\ single\ photo\ electron\ peak} \cdot \frac{A_{1}}{A_{2}} \cdot \frac{1}{E_{\gamma}}
+\end{equation}
+where $E\gamma$ is the energy of the incident $\gamma$ particle and linearity of the detector response is assumed. A pedestal may be subtracted from the position of the peaks. $A_{1}$ and $A_{2}$ are the values of the attenuation of the signal in the case of the photo peak and the single electron peak, i.e.
+\begin{equation}
+A_{i}=e^{\frac{B_{i}}{20}}
+\end{equation}
+and $B_{i}$ is the attenuation in dB.
+
+The number of photons emitted per MeV can be determined if the quantum efficiency of the photo detector is known:
+\begin{equation}
+N_{ph}/MeV=\frac{N_{pe}}{q_{eff}}
+\end{equation}
+The position of the photo peak and the resolution on the peak are determined with a fit. The fitting function is the sum of a Gaussian and a Fermi distribution:
+\begin{equation}
+y(x)=\frac{P}{e^{\frac{x-C}{R}}+1}+Ae^{-\frac{(x-\mu)^{2}}{2\sigma ^{2}}}
+\end{equation}
+where P, C and 1/R correspond to height, position and slope of the Compton edge, A is the height of the photo peak with position $\mu$ and FWHM width $2.35\sigma$. An example of the spectrum fitted with $y(x)$ is shown in figure.
+
+
+The measurements were performed placing the crystal on top of a \textit{Photonis XP2020Q} photo multiplier tube with the following characteristics:
+\begin{itemize}
+\item Bi-Alkali photo cathode
+\item Refraction index 1.48 (at 420 nm)
+\item Peak sensitivity at 420 nm
+\end{itemize}
+The absorption spectra of the photo cathode is shown in figure.
+The quantum efficiency of the PMT was measured experimentally with the following the set up: a light source was sent into a monochromator, the beam was then split in two, and both the PMT to measure and a calibrated photo diode are enlightened. The process was repeated for every wavelength between 250 and 700 nm. The results obtained assessed a quantum efficiency of 0.22 in the UV.
+
+The light output has been measured stimulating scintillation by $\gamma$ rays from a $^{137}$Cs source ($E_{gamma}$ = 662 keV) with an activity of $\sim$ 200 kBq placed a few mm above the crystal. The system crystal-PMT was placed inside a black box, with controlled temperature ($20^{\circ}C$) to avoid drift in the system response.
+Further shielding against background light was ensured by an aluminum cap covering the entry window of the PMT.
+After the collection of the photo electrons at the anode of the PMT, the signal is attenuated, shaped and stored by the DAQ, with a digitizer \textit{CAEN DT$5720$}.
+
+To correct for long-term variations of the PMT gain and quantum efficiency, the measured light yield was normalized to the light yield of a reference crystal with well known light output.
+The reference crystal used is a $2\times 2\times 10$ $mm^{3}$ LuAP crystal encapsulated into Teflon to protect it. In order to normalize the light outputs obtained, the number of photo electrons correspondent to the peak for the reference crystal is required. The number of photo electrons has been evaluated given the single electron response of the crystal. 
+The signal produced by a single photo electron and the position of the pedestal were determined by recording the unattenuated PMT signal with the DAQ software: the PMT is covered with a black box and the trigger is lowered to the minimum. The histogram leads to a double peak: one for the electronic noise, one for the single electron. Background noise is due to to charge carriers thermally generated in the electronics and electron released in one of the dynodes by $\gamma$ photons from the source.
+The number of photo electrons generated per MeV by the $2\times 2\times 10$ $mm^{3}$ LuAP crystal is $1767$.
+
+
+\subsection{Optical transmission}
+\subsection{Fluorescence spectrum}

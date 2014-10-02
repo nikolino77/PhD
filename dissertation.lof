@@ -1,11 +1,39 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Short figure name.}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces X-ray and proton irradiation}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Depth dose comparison}}{3}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces RBE comparison}}{4}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Peak spread for Carbon}}{6}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces PET scanner}}{8}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Image reconstruction in PET}}{9}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Coincidencies in PET exam}}{11}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces TOF-PET schematics}}{13}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Improvement of TOF-PET}}{14}{figure.1.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Photo electric effect}}{19}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Compton scattering}}{20}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces $\gamma $ cross section}}{21}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Energy deposition in scintillator}}{22}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Electron hole recombination}}{24}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Core to valence luminescence}}{25}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Cerenkov effect}}{30}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Cerenkov emission cone}}{31}{figure.2.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces PMT schematics}}{33}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces MCP principle}}{36}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces MCP schematics}}{36}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces I-V plot Silicon detectors}}{38}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of SiPM}}{39}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SiPM layer structure}}{40}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces NINO chip}}{42}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Time-over-threshold}}{43}{figure.3.8}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Short caption for table of figures.}}{26}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Short caption for table of figures.}}{29}{figure.3.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Na$^{22}$ decay scheme}}{56}{figure.7.1}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces HHG phenomenology}}{58}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces VUV line}}{59}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces VUV spectrum}}{60}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces VUV DAQ}}{62}{figure.8.4}
 \addvspace {10\p@ }

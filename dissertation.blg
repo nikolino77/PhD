@@ -1,16 +1,65 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: dissertation.aux
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: ./Abstract/abstract.aux
-A level-1 auxiliary file: ./Abbreviations/listofabbr.aux
-A level-1 auxiliary file: ./Acknowledgements/acknowledgements.aux
 A level-1 auxiliary file: ./Chapter1/introduction.aux
 A level-1 auxiliary file: ./Chapter2/guide-notes.aux
 A level-1 auxiliary file: ./Chapter3/chRegularLook.aux
-A level-1 auxiliary file: ./Chapter4/chLorem.aux
-A level-1 auxiliary file: ./Chapter5/chLorem2.aux
-A level-1 auxiliary file: ./Appendix1/chLorem3.aux
-The style file: ./Bibliography/jasa.bst
-A level-1 auxiliary file: ./Biography/biography.aux
+A level-1 auxiliary file: ./Chapter4/chapter6.aux
+A level-1 auxiliary file: ./Chapter5/chLorem.aux
+A level-1 auxiliary file: ./Chapter6/chLorem2.aux
+A level-1 auxiliary file: ./Chapter7/chapter6.aux
+A level-1 auxiliary file: ./Chapter8/chapter7.aux
+A level-1 auxiliary file: ./Chapter9/conclusions.aux
+The style file: plain.bst
 Database file #1: ./Bibliography/References.bib
-Warning--I didn't find a database entry for "fancy"
-Bibliography style `jasa.bst' by Russ Lenth, April 1996 (rev. Mar. 1999)
-(There was 1 warning)
+Warning--there's a number but no volume in Amaldi2011
+Warning--empty journal in nist2005
+Warning--there's a number but no volume in Crespo2007
+Warning--there's a number but no volume in Durante2010
+Warning--there's a number but no volume in Enghardt2004
+Warning--there's a number but no volume in Seifert2012
+Warning--there's a number but no volume in Shao2006
+Warning--there's a number but no volume in Wilson1946
+You've used 26 entries,
+            2118 wiz_defined-function locations,
+            684 strings with 7943 characters,
+and the built_in function-call counts, 6805 in all, are:
+= -- 681
+> -- 182
+< -- 0
++ -- 82
+- -- 52
+* -- 423
+:= -- 1170
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 96
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 288
+empty$ -- 630
+format.name$ -- 52
+if$ -- 1412
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 32
+newline$ -- 133
+num.names$ -- 52
+pop$ -- 108
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 160
+stack$ -- 0
+substring$ -- 505
+swap$ -- 25
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 90
+warning$ -- 8
+while$ -- 75
+width$ -- 28
+write$ -- 278
+(There were 8 warnings)

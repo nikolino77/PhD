@@ -97,8 +97,8 @@
 }
 \DeclareOption{gradschool}{\@Gradschooltrue}
 \DeclareOption{nogradschool}{\@Gradschoolfalse}
-\DeclareOption{MS}{\@MStrue}
-\DeclareOption{PhD}{\@MSfalse}
+\DeclareOption{MS}{\@MSfalse}
+\DeclareOption{PhD}{\@MStrue}
 \DeclareOption{oldstyle}{\setboolean{oldstyle}{true}}
 \DeclareOption{newstyle}{\setboolean{oldstyle}{false}}
 \DeclareOption{nobind}{\setboolean{centerpage}{true}}

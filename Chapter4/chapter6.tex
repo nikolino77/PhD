@@ -1,0 +1,82 @@
+%tutti i cerenkov da mettere
+
+\chapter{A model for scintillation counting}
+
+%role of crystals in fast timing
+
+\section{Signal formation}
+%vasiliev
+
+\subsection{Scintillation pulse}
+It is customary to describe \cite{Hyman1963} the scintillation pulse as a sum of exponentials. The processes introducted in the previous paragraph, focuse the attention on the alst step of recombination, and the subsequent radiative transitions. 
+All the processes that characterize electron hole relaxation and particularly thermalization o the pairs, lead to oscillations with respect to the start of the scintillation pulse determining a non zero rise time.
+For all the practcal purposes of this work rise time will be modeled by one or more exponential time components $\tau _{r}$. 
+For what concerns recombination, the radiative transitions can be described by one ore more exponential decay times $\tau _{d}$.
+In the case of LSO:Ce, for example, the transition takes place between the lowest 5d level, which lies just below the condiction band, and two 4f levels, above the valence band. The parity allowed transition accounts for very fast decay times ($sim$ 40 ns).
+
+We can consider, then, the absorption of a $\gamma$ photon at a time $\theta$. 
+For many scintillators, we can describe the probability density function for the emission times as the convolution of two exponential functions representing the energy transfer processes and the radiative decay\cite{Shao2006}:
+\begin{equation}
+p_{t}(t|\theta) = \int _{-\infty}^{\infty} \exp{\left( -\frac{t'}{\tau _{r}}\right) } \exp{\left(-\frac{t-t'}{\tau _{d}}\right) } \theta (t') \theta (t-t') dt'
+\end{equation}
+In the case different processes contribute to the scintillation pulse via different energy transfer mechanisms, it may be necessary to consider them\cite{Seifert2012}
+\begin{equation}
+p _{t}(t|\theta) = \begin{cases} 0, & t < \theta \\ \sum _{i} S_{i} \frac{1}{\tau _{d, i} - \tau _{r, i}} \cdot \left[ \exp{\left( -\frac{t-\theta}{\tau _{d,i}}\right)} - \exp{\left( -\frac{t-\theta}{\tau _{r,i}}\right) } \right], & t > \theta \end{cases}
+\end{equation}
+
+\subsection{Cerenkov pulse}
+
+
+\section{The Cramer-Rao lower bound}
+In general, the emission times t of the detected N photons can be considered statistically indipendent and identucally distributed (iid).
+Most photo detectors can be modeled as ideal photon counters, able to detect a time stamp for every incoming photon, a set $T_{N} = \{ t_{1}, t_{2}, ..., t_{N}|\theta \}$.
+
+In order to account for the smearing introduced by the resolution of the detector on the photon time stamps, it is necessary to define its response $p_{T}$. In particular  it can be modeled by a Gaussian with a variance equal to the single photon time resolution (SPTR) and a mean equal to the transit time $t_{TT}$. The function is truncated at $t=0$ not to allow negative transit times.
+\begin{equation}
+p_{T} = \frac{1}{\sqrt {2\pi} \sigma _{SPTR}} \exp{\left[-\frac{-(t-t_{TT})^{2}}{2(\sigma _{SPTR})^{2}}\right]}
+\end{equation}
+The corresponding pdf for the time stamps is then a convolution of the photon emission rate and the smearing of the detector.
+\begin{equation}
+p_{t_{n}}(t|\theta) = p_{t}(t|\theta)\ast p_{T}(t)= \int _{-\infty}^{\infty}p_{t}(t-x|\theta) \cdot p_{T}(x)dx = \int _{0}^{t-\theta}p_{t}(t-x|\theta) \cdot p_{T}(x)dx
+\end{equation}
+And the integral gives
+\begin{equation}
+p_{t_{n}}(t|\theta) = A \cdot \sum _{i} \frac{S_{i}}{\tau _{d,i} - \tau _{r,i}} \cdot \left[ a_{\tau _{d, i}}(t|\theta) - a_{\tau _{r,i}}(t|\theta)\right]
+\end{equation}
+where 
+\begin{eqnarray}
+a _{\tau}(t|\theta) &=& \frac{1}{2} \exp{\left(\frac{\sigma _{SPTR} ^{2} - 2t\tau +2\theta \tau + 2t_{TT}\tau}{2\tau ^{2}}\right)} \\
+&& \cdot \left[ erf\left( \frac{t-\theta -t_{TT} - \frac{\sigma ^{2}_{SPTR}}{\tau}}{\sigma _{SPTR}\sqrt{2}} \right) + erf \left( \frac{t_{TT}+\frac{\sigma ^{2} _{SPTR}}{\tau}}{\sigma _{SPTR}\sqrt{2}} \right) \right]
+\end{eqnarray}
+The Fisher Information $I(\theta)$ is defined as
+\begin{equation}
+I(\theta) = \int _{-\infty} ^{\infty} \left[ \frac{\partial}{\partial \theta} ln p_{t_{n}}(t|\theta) \right] ^{2} p_{t_{n}}(t|\theta)dt
+\end{equation}
+Since the samples are iid, the information is additive, so that
+\begin{equation}
+I(\theta) = N \cdot \int _{-\infty} ^{\infty} \left[ \frac{\partial}{\partial \theta} p_{t_{n}}(t|\theta) \right] ^{2} \frac{1}{p_{t_{n}}(t|\theta)}dt
+\end{equation}
+The Cramer Rao theorem states that the variance of any unbiased estimator $\hat{\theta}$ of $\theta$ is bounded by the reciprocal of the Fisher information:
+\begin{equation}
+var(\hat{\theta})\geq \frac{1}{I(\theta)}
+\end{equation}
+In a PET-like experiment the interest lies in the estimate of the photon time of interaction $\theta$.
+Statistically speaking the Cramer Rao theorem gives the intrinsic time resolution limit for any given scintillator with the given parameters.
+
+\section{The order statistics}
+If it is assumed a specific order in the set of recorder timestamps, it is evident that they are neither independent nor identically distributed. By sorting the elements in $T_{N}$ we can create an ordered set $T_{\bar{N}} = \{ t_{\bar{1}} \leq t_{\bar{2}} \leq ... \leq t_{\bar{N}} \}$. The pdf for the nth-order statistics is given by\cite{Seifert2012}
+\begin{equation}
+f_{n}|N (t\theta) = \binom{N}{n} \cdot n \cdot P_{t_{n}}^{n-1}(t|\theta) \cdot \left[ 1-P_{t{n}}(t|\theta) \right] ^{N-n}\cdot p_{t_{n}} (t|\theta)
+\end{equation}
+In this case the set is not iid; thus considering an estimator using a unique timestamps, as the case of analog SiPMs, the Fisher information is
+\begin{equation}
+I_{n}(\theta) = \int _{-\infty} ^{\infty} \left[ \frac{\partial}{\partial \theta} ln f_{n}(t|\theta) \right] ^{2} f_{n}(t|\theta)dt
+\end{equation}
+   
+\section{Intrinsic time resolution}
+
+% parametri che variano, lower bound (compresi i cerenkov, anzi di' subito che contano poco e niente)
+
+\section{Effects on signal extraction}
+
+% qui vai a vedere il singolo fotone in basso, dato un sipm

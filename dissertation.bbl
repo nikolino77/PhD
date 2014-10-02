@@ -1,4 +1,148 @@
-\begin{thebibliography}{}
-\newcommand{\enquote}[1]{``#1''}
+\begin{thebibliography}{10}
+
+\bibitem{Amaldi2011}
+Braccini Amaldi.
+\newblock Present challenges in hadrontherapy techniques.
+\newblock {\em The European Physical Journal Plus}, (126):70--85, 2011.
+
+\bibitem{Anghinolfi2004}
+Jarron et~al. Anghinolfi.
+\newblock Nino: An ultrafast low-power front-end amplifier discriminator for
+  the time-of-flight detector in the alice experiment.
+\newblock {\em IEEE Transactions on Nuclear Science}, 51(5):1974--1978, 2004.
+
+\bibitem{Bajzer1991}
+Therneau et~al. Bajzer.
+\newblock Maximum likelihood method for the analysis of time-resolved
+  fluorescence decay curves.
+\newblock {\em European Biophysics Journal}, 20(5):247--262, 1991.
+
+\bibitem{nist2005}
+Coursey et~al. Berger.
+\newblock Stopping-power and range tables for electrons, protons, and helium
+  ions.
+\newblock 2005.
+
+\bibitem{Crespo2007}
+Shakirin et~al. Crespo.
+\newblock Direct time-of-flight for quantitative, real-time in-beam pet: a
+  concept and feasibility study.
+\newblock {\em Physics in Medicine and Biology}, (52):6795--6811, 2007.
+
+\bibitem{Dolgoshein2003}
+Filatov et~al. Dolgoshein.
+\newblock Silicon photomultiplier and its possible applications.
+\newblock {\em Nuclear Instruments and Methods in Physics Research A},
+  504:48--52, 2003.
+
+\bibitem{Durante2010}
+Loeffler Durante.
+\newblock Charged particles in radiation oncology.
+\newblock {\em Nature Reviews Clinical Oncology}, (7):37--43, 2010.
+
+\bibitem{Enghardt2004}
+Crespo et~al. Enghardt.
+\newblock Charged hadron tumour therapy monitoring by means of pet.
+\newblock {\em Nuclear Instruments & Methods in Physics Research A},
+  (525):284--288, 2004.
+
+\bibitem{Ferlay2012}
+Soerjomataram et~al. Ferlay.
+\newblock {\em Cancer Incidence and Mortality Worldwide: IARC CancerBase No.
+  11}.
+\newblock International Agency for Research on Cancer, 2012.
+
+\bibitem{Fiedler2006}
+Crespo et~al. Fiedler.
+\newblock The feasibility of in-beam pet for therapeutic beams of he.
+\newblock {\em IEEE Transactions in Nuclear Science}, 53(4):2252--2260, 2006.
+
+\bibitem{Hama2006}
+Hamamatsu.
+\newblock {\em Photomultiplier Tubes - Basic and Applications}.
+\newblock Hamamatsu, 2006.
+
+\bibitem{Hyman1963}
+Schluter Hyman, Schwarcz.
+\newblock Study of high speed photomultiplier systems.
+\newblock {\em The Review of Physical Instruments}, 35(3):393--406, 1963.
+
+\bibitem{jellison2012}
+Specht et~al. Jellison.
+\newblock Spectroscopic refractive indices of monoclinic single crystal and
+  ceramic lutetium oxyorthosilicate from 200 to 850 nm.
+\newblock {\em Journal of Applied Physics}, 112, 2012.
+
+\bibitem{Karp2008}
+Surti et~al. Karp.
+\newblock The benefit of time-of-flight in pet imaging: Experimental and
+  clinical results.
+\newblock {\em Journal of Nuclear Medicine}, 49:462--470, 2008.
+
+\bibitem{Knoll2000}
+Knoll.
+\newblock {\em Radiation Detection and Measurement}.
+\newblock Wiley, 2000.
+
+\bibitem{Lecoq2006}
+Annenkov et~al. Lecoq.
+\newblock {\em Inorganic Scintillators for Detector Systems}.
+\newblock Springer, 2006.
+
+\bibitem{Linz2011}
+Linz.
+\newblock {\em Ion Beam Therapy}.
+\newblock Springer, 2012.
+
+\bibitem{Martin2001}
+Belsky et~al. Martin.
+\newblock Time-resolved studies of scintillation materials with vuv harmonic
+  ultrashort pulses laser source.
+\newblock {\em IEEE Transactions on Nuclear Science}, 48(4):1137--1143, 2001.
+
+\bibitem{Parodi2004}
+Parodi.
+\newblock {\em On the feasibility of dose quantification with in-beam PET data
+  in radiotherapy with C and proton beams}.
+\newblock PhD thesis, Technischen Universitat Dresden, November 2004.
+
+\bibitem{Rodnyi1997}
+Rodnyi.
+\newblock {\em Physical Processes in Inorganic Scintillators}.
+\newblock CRC Press, 1997.
+
+\bibitem{Schardt2007}
+Steidl et~al. Schardt.
+\newblock Precision bragg-curve measurements for light-ion beams in water.
+\newblock {\em GSI Scientific Report}, 2007.
+
+\bibitem{Seifert2012}
+van~Dam Seifert, Schaart.
+\newblock The lower bound on the timing resolution of scintillation detectors.
+\newblock {\em Physics in Medicine and Biology}, (57):1797--1814, 2012.
+
+\bibitem{Shao2006}
+Shao.
+\newblock A new timing model for calculating the intrinsic timing resolution of
+  a scintillator detector.
+\newblock {\em Physics in Medicine and Biology}, (52):1103--1117, 2006.
+
+\bibitem{xdata2009}
+Attwood et~al. Thompson.
+\newblock {\em X-Ray Data Booklet}.
+\newblock Lawrence Berkeley National Laboratory, University of California,
+  2009.
+
+\bibitem{Vavra2004}
+Va'vra.
+\newblock Ion feedback suppression using inclined mcp holes in a single-mcp +
+  micromegas + pads detector.
+\newblock {\em Proceeding of Nuclear Science Symposium Conference Record},
+  2:1142--1146, 2004.
+
+\bibitem{Wilson1946}
+Wilson.
+\newblock Radiological use of fast protons.
+\newblock {\em Radiology}, (47):487--491, 1946.
 
 \end{thebibliography}

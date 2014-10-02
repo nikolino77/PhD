@@ -1,86 +1,99 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 3
-\BOOKMARK [0][-]{chapter*.5}{List of Abbreviations and Symbols}{}% 4
-\BOOKMARK [0][-]{chapter*.8}{Acknowledgements}{}% 5
-\BOOKMARK [0][-]{chapter.1}{1 The title of chapter one}{}% 6
-\BOOKMARK [1][-]{section.1.1}{1.1 Hadrontherapy}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Ion beam therapy}{section.1.1}% 8
-\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Beam delivery}{section.1.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.3}{1.1.3 Monitoring of the beam}{section.1.1}% 10
-\BOOKMARK [1][-]{section.1.2}{1.2 Positron Emission Tomography}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Principles}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Image reconstruction}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Sources of noise and sensitivity}{section.1.2}% 14
-\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 TOFPET}{section.1.2}% 15
-\BOOKMARK [1][-]{section.1.3}{1.3 Outline of the thesis}{chapter.1}% 16
-\BOOKMARK [1][-]{section.1.4}{1.4 From high energy physics to medical applications}{chapter.1}% 17
-\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 Study of time profiles}{section.1.4}% 18
-\BOOKMARK [0][-]{chapter.2}{2 Scintillating detectors}{}% 19
-\BOOKMARK [1][-]{section.2.1}{2.1 Introduction to particle detectors}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.2}{2.2 Interaction of radiation with matter}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Photoelectric effect}{section.2.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Compton scattering}{section.2.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Pair production}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Rayleigh scattering}{section.2.2}% 25
-\BOOKMARK [1][-]{section.2.3}{2.3 The scintillation mechanism}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Creation of electron hole pairs}{section.2.3}% 27
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Intrinsic luminescence}{section.2.3}% 28
-\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Core to valence transitions}{section.2.3}% 29
-\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Extrinsic luminescence}{section.2.3}% 30
-\BOOKMARK [1][-]{section.2.4}{2.4 Quenching phenomena}{chapter.2}% 31
-\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Light yield}{section.2.4}% 32
-\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Optical properties and light transport}{section.2.4}% 33
-\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Energy resolution and nonproportionality}{section.2.4}% 34
-\BOOKMARK [2][-]{subsection.2.4.4}{2.4.4 Cerenkov effect}{section.2.4}% 35
-\BOOKMARK [1][-]{section.2.5}{2.5 Scintillators in PET detectors}{chapter.2}% 36
-\BOOKMARK [0][-]{chapter.3}{3 Photo detectors}{}% 37
-\BOOKMARK [1][-]{section.3.1}{3.1 Photo multiplier tubes}{chapter.3}% 38
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Properties of PMT}{section.3.1}% 39
-\BOOKMARK [1][-]{section.3.2}{3.2 MCP-PMT}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Properties of MCP}{section.3.2}% 41
-\BOOKMARK [1][-]{section.3.3}{3.3 Silicon photo multipliers}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Analog SiPM}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Properties of SiPM}{section.3.3}% 44
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 NINO}{section.3.3}% 45
-\BOOKMARK [0][-]{chapter.4}{4 MonteCarlo simulation tools}{}% 46
-\BOOKMARK [1][-]{section.4.1}{4.1 Ray tracing}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.2}{4.2 Geant4}{chapter.4}% 48
-\BOOKMARK [1][-]{section.4.3}{4.3 SLitrani}{chapter.4}% 49
-\BOOKMARK [1][-]{section.4.4}{4.4 A comparison}{chapter.4}% 50
-\BOOKMARK [0][-]{chapter.5}{5 Role of crystals in fast timing}{}% 51
-\BOOKMARK [1][-]{section.5.1}{5.1 Time profiles}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.2}{5.2 The role of Cerenkov photons}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.3}{5.3 Influence of rise and decay time of TOF-PET}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.4}{5.4 How to measure: methods}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Excitation}{section.5.4}% 56
-\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Detection}{section.5.4}% 57
-\BOOKMARK [1][-]{section.5.5}{5.5 TCSPC}{chapter.5}% 58
-\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Statistical and bias problems}{section.5.5}% 59
-\BOOKMARK [1][-]{section.5.6}{5.6 Data analysis techniques}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 Iterative reconvolution}{section.5.6}% 61
-\BOOKMARK [0][-]{chapter.6}{6 Gamma measurement}{}% 62
-\BOOKMARK [1][-]{section.6.1}{6.1 Fisica}{chapter.6}% 63
-\BOOKMARK [1][-]{section.6.2}{6.2 Apparato}{chapter.6}% 64
-\BOOKMARK [1][-]{section.6.3}{6.3 Preliminaries}{chapter.6}% 65
-\BOOKMARK [2][-]{subsection.6.3.1}{6.3.1 Characteristics of the start signal}{section.6.3}% 66
-\BOOKMARK [2][-]{subsection.6.3.2}{6.3.2 Characteristics of the stop signal}{section.6.3}% 67
-\BOOKMARK [1][-]{section.6.4}{6.4 Data analysis}{chapter.6}% 68
-\BOOKMARK [2][-]{subsection.6.4.1}{6.4.1 IRF measurements}{section.6.4}% 69
-\BOOKMARK [2][-]{subsection.6.4.2}{6.4.2 Cuts}{section.6.4}% 70
-\BOOKMARK [2][-]{subsection.6.4.3}{6.4.3 Fit procedure}{section.6.4}% 71
-\BOOKMARK [2][-]{subsection.6.4.4}{6.4.4 Measurements}{section.6.4}% 72
-\BOOKMARK [0][-]{chapter.7}{7 VUV measurement}{}% 73
-\BOOKMARK [1][-]{section.7.1}{7.1 High Harmonic Generation}{chapter.7}% 74
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter.1}{1 Motivations}{}% 3
+\BOOKMARK [1][-]{section.1.1}{1.1 Particle therapy}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Ion beam therapy}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Beam delivery}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.3}{1.1.3 Monitoring of the beam}{section.1.1}% 7
+\BOOKMARK [1][-]{section.1.2}{1.2 Positron Emission Tomography}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Principles}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Image reconstruction}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Sources of noise and sensitivity}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Time-Of-Flight PET}{section.1.2}% 12
+\BOOKMARK [1][-]{section.1.3}{1.3 Outline of the thesis}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 From high energy physics to medical applications}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Study of time profiles}{section.1.3}% 15
+\BOOKMARK [0][-]{chapter.2}{2 Scintillating detectors}{}% 16
+\BOOKMARK [1][-]{section.2.1}{2.1 Introduction to particle detectors}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.2}{2.2 Interaction of radiation with matter}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Photoelectric effect}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Compton scattering}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Pair production}{section.2.2}% 21
+\BOOKMARK [1][-]{section.2.3}{2.3 The scintillation mechanism}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Creation of electron hole pairs}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Intrinsic luminescence}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Core to valence transitions}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Extrinsic luminescence}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.5}{2.3.5 Quenching phenomena}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{2.4 Operational parameters}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Light yield}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Optical properties and light transport}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Rayleigh scattering}{section.2.4}% 31
+\BOOKMARK [2][-]{subsection.2.4.4}{2.4.4 Energy resolution and nonproportionality}{section.2.4}% 32
+\BOOKMARK [2][-]{subsection.2.4.5}{2.4.5 Cerenkov effect}{section.2.4}% 33
+\BOOKMARK [1][-]{section.2.5}{2.5 Scintillators in PET detectors}{chapter.2}% 34
+\BOOKMARK [0][-]{chapter.3}{3 Photo detectors}{}% 35
+\BOOKMARK [1][-]{section.3.1}{3.1 Photo multiplier tubes}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Properties of PMT}{section.3.1}% 37
+\BOOKMARK [1][-]{section.3.2}{3.2 Micro Channel Plate-PMT}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Properties of MCP}{section.3.2}% 39
+\BOOKMARK [1][-]{section.3.3}{3.3 Silicon photo multipliers}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Analog SiPM}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Properties of SiPM}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 The NINO chip}{section.3.3}% 43
+\BOOKMARK [0][-]{chapter.4}{4 A model for scintillation counting}{}% 44
+\BOOKMARK [1][-]{section.4.1}{4.1 Signal formation}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Scintillation pulse}{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Cerenkov pulse}{section.4.1}% 47
+\BOOKMARK [1][-]{section.4.2}{4.2 The Cramer-Rao lower bound}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.3}{4.3 The order statistics}{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.4}{4.4 Intrinsic time resolution}{chapter.4}% 50
+\BOOKMARK [1][-]{section.4.5}{4.5 Effects on signal extraction}{chapter.4}% 51
+\BOOKMARK [0][-]{chapter.5}{5 MonteCarlo simulation tools}{}% 52
+\BOOKMARK [1][-]{section.5.1}{5.1 Ray tracing}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.2}{5.2 Geant4}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Physics}{section.5.2}% 55
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Implementation}{section.5.2}% 56
+\BOOKMARK [1][-]{section.5.3}{5.3 SLitrani}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Physics}{section.5.3}% 58
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Implementation}{section.5.3}% 59
+\BOOKMARK [1][-]{section.5.4}{5.4 A comparison for timing simulation}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.5}{5.5 Simulation input parameters}{chapter.5}% 61
+\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Light yield}{section.5.5}% 62
+\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Optical transmission}{section.5.5}% 63
+\BOOKMARK [2][-]{subsection.5.5.3}{5.5.3 Fluorescence spectrum}{section.5.5}% 64
+\BOOKMARK [0][-]{chapter.6}{6 Methods}{}% 65
+\BOOKMARK [1][-]{section.6.1}{6.1 Time Correlated Single Photon couting}{chapter.6}% 66
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Excitation}{section.6.1}% 67
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Detection}{section.6.1}% 68
+\BOOKMARK [1][-]{section.6.2}{6.2 Data analysis techniques}{chapter.6}% 69
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Iterative reconvolution}{section.6.2}% 70
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Error estimation}{section.6.2}% 71
+\BOOKMARK [1][-]{section.6.3}{6.3 Simulations}{chapter.6}% 72
+\BOOKMARK [0][-]{chapter.7}{7 Na-22 measurement}{}% 73
+\BOOKMARK [1][-]{section.7.1}{7.1 Phenomenology}{chapter.7}% 74
 \BOOKMARK [1][-]{section.7.2}{7.2 Experimental setup}{chapter.7}% 75
-\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Laser beamline}{section.7.2}% 76
-\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 VUV line}{section.7.2}% 77
-\BOOKMARK [2][-]{subsection.7.2.3}{7.2.3 Detection system}{section.7.2}% 78
-\BOOKMARK [1][-]{section.7.3}{7.3 Preliminaries}{chapter.7}% 79
-\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 VUV spectrum}{section.7.3}% 80
-\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 Estimation of the IRF}{section.7.3}% 81
-\BOOKMARK [2][-]{subsection.7.3.3}{7.3.3 Control of the bias fraction}{section.7.3}% 82
-\BOOKMARK [1][-]{section.7.4}{7.4 Results}{chapter.7}% 83
-\BOOKMARK [0][-]{appendix.A}{A Populo Ornatus}{}% 84
-\BOOKMARK [0][-]{appendix.A}{Bibliography}{}% 85
-\BOOKMARK [0][-]{appendix*.10}{Biography}{}% 86
+\BOOKMARK [1][-]{section.7.3}{7.3 Preliminaries}{chapter.7}% 76
+\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 Characteristics of the start signal}{section.7.3}% 77
+\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 Characteristics of the stop signal}{section.7.3}% 78
+\BOOKMARK [2][-]{subsection.7.3.3}{7.3.3 IRF measurements}{section.7.3}% 79
+\BOOKMARK [2][-]{subsection.7.3.4}{7.3.4 Control of the bias fraction}{section.7.3}% 80
+\BOOKMARK [1][-]{section.7.4}{7.4 Data analysis}{chapter.7}% 81
+\BOOKMARK [2][-]{subsection.7.4.1}{7.4.1 Cuts}{section.7.4}% 82
+\BOOKMARK [2][-]{subsection.7.4.2}{7.4.2 Fit procedure}{section.7.4}% 83
+\BOOKMARK [2][-]{subsection.7.4.3}{7.4.3 Results}{section.7.4}% 84
+\BOOKMARK [0][-]{chapter.8}{8 VUV measurement}{}% 85
+\BOOKMARK [1][-]{section.8.1}{8.1 High Harmonic Generation}{chapter.8}% 86
+\BOOKMARK [1][-]{section.8.2}{8.2 Experimental setup}{chapter.8}% 87
+\BOOKMARK [2][-]{subsection.8.2.1}{8.2.1 Laser beamline}{section.8.2}% 88
+\BOOKMARK [2][-]{subsection.8.2.2}{8.2.2 VUV line}{section.8.2}% 89
+\BOOKMARK [2][-]{subsection.8.2.3}{8.2.3 Detection system}{section.8.2}% 90
+\BOOKMARK [1][-]{section.8.3}{8.3 Preliminaries}{chapter.8}% 91
+\BOOKMARK [2][-]{subsection.8.3.1}{8.3.1 VUV spectrum}{section.8.3}% 92
+\BOOKMARK [2][-]{subsection.8.3.2}{8.3.2 IRF measurement}{section.8.3}% 93
+\BOOKMARK [2][-]{subsection.8.3.3}{8.3.3 Control of the bias fraction}{section.8.3}% 94
+\BOOKMARK [1][-]{section.8.4}{8.4 Data analysis}{chapter.8}% 95
+\BOOKMARK [1][-]{section.8.5}{8.5 Fit procedure}{chapter.8}% 96
+\BOOKMARK [1][-]{section.8.6}{8.6 Results}{chapter.8}% 97
+\BOOKMARK [0][-]{chapter.9}{9 Conclusions}{}% 98
+\BOOKMARK [0][-]{chapter.9}{Bibliography}{}% 99
