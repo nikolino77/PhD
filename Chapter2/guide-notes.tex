@@ -3,14 +3,13 @@
 
 \chapter{Scintillating detectors}
 
-\section{Introduction to particle detectors}
-In the field of medical applications, the energies of the gamma photons to be detected are usually of the order of hundreds of keV. In the case of PET scanners the energy of the two back to back photons is 511 keV.
-A simple approach to estimate the parameters of the incoming radiation is to make use of a fluorescent sample coupled to a photodetector. A standard set up would include a heavy scintillator crystal which converts the incoming radiation into visible photons. The following steps of the detection process involve transportation to the entrance window of the photodetector, conversion of the photons into an electric signal and subsequent manipulation of the signal by readout electronics.  
+In the field of medical applications, the energies of the $\gamma$ photons to be detected are usually of the order of hundreds of keV. In the case of PET scanners the energy of the two back to back photons is 511 KeV.
+A simple approach to estimate the parameters of the incoming radiation is to make use of a fluorescent sample coupled to a photo detector. A standard setup would include a heavy scintillator crystal which converts the incoming radiation into visible photons. The following steps of the detection process involve transportation to the entrance window of the photodetector, conversion of the photons into an electric signal and subsequent manipulation of the signal by readout electronics.  
 
 % schema rivelatore anzi no
 
 \section{Interaction of radiation with matter}
-In this work we are mainly concerned with the interaction of gamma radiation with matter, thus focusing our attention on the three existing mechanisms: photo electric interaction, Compton interaction and pair production. A brief description of Rayleigh scattering will be given, as a non-ionizing type of scattering.
+In this work we are mainly concerned with the interaction of $\gamma$ radiation with matter, thus focusing our attention on the three existing mechanisms: photo electric interaction, Compton interaction and pair production.
 Moreover electrons produced by ionizing interactions can polarize the medium, giving origin to the Cerenkov effect and producing visible photons, which can be of foremost importance in the case of timing application.
 
 \subsection{Photoelectric effect}
@@ -24,32 +23,32 @@ The gamma energy trasnferred to the electron equals the binding energy of the el
 \begin{equation}
 E_{e^{-}} = E_{\gamma} - E_{b}
 \end{equation}
-The photoelectric effect is predominant at low energies ($E<= 100 keV$) and favours tightly bound K-shell electrons. An approximation of the photo electric cross section is given by
+The photoelectric effect is predominant at low energies (E $\geq 100$ KeV) and favours tightly bound K-shell electrons. An approximation of the photo electric cross section is given by
 \begin{equation}
-\sigma _{pe} \propto \frac{Zˆ{n}}{E_{\gamma}ˆ{3.5}}
+\sigma _{pe} \propto \frac{Zˆ{n}}{E_{\gamma}^{3.5}}
 \end{equation}
 The vacancy created can be filled through capture of bound or free electrons, eventually generating characteristics X-rays.  
 
 \begin{figure}
 \centering
 \includegraphics[width=7cm]{../Pictures/Chapter_2/photo_el_2}
-\caption[Photo electric effect]{Phenomenology of photo electric effect}
+\caption[Photo electric effect]{Phenomenology of the photo electric effect}
 \label{fig:photo_electric}
 \end{figure}
 \newpage
 \subsection{Compton scattering}
 
-Compton scattering is the inelastic scattering of the incoming photon with a weakly bound electron in the material.
+Compton scattering is the inelastic scattering of the incoming photon with a weakly bound electron in the material:
 \begin{equation}
-\gamma + atom \rightarrow (\gamma ') + e^{-} + atom*
+\gamma + atom \rightarrow (\gamma ') + e^{-} + atom^{*}
 \end{equation}
 Contrary to the photoelectric effect, this only concerns quasi-free electrons of the material. 
 The photon trasnfers part of its energy to the electron, which is freed from its shell.
-Applying conservation of energy and momentum it is possible to derive the energy of the scattered gamma as well as the direction and energy of free electron.
+Applying conservation of energy and momentum it is possible to derive the energy of the scattered gamma as well as the direction and energy of the freed electron.
 \begin{equation}
 E_{\gamma '} = \frac{E_{\gamma}}{1+\frac{E_{\gamma}}{m_{e}c^{2}}(1-cos\theta)}
 \end{equation}
-The angular distribution can be described by the Klein-Nishina formula. It is evident from the plot that forward scattering direction are favoured as the incoming photon energy increases
+The angular distribution can be described by the Klein-Nishina formula. It can be noted that forward scattering direction are favoured as the incoming photon energy increases
 \begin{equation}
 \frac{d\sigma _{cpt}}{d\omega} = Z \cdot \frac{e^{2}}{4\pi \epsilon _{0} m_{e} c^{2}} \cdot \frac{1}{2} \cdot \frac{E'_{\gamma}}{E_{\gamma}} \left( 1 - \frac{E'_{\gamma}}{E_{\gamma}} \cdot sin^{2}\theta + \left[ \frac{E'_{\gamma}}{E_{\gamma}} ^{2} \right] \right)
 \end{equation}
@@ -70,7 +69,7 @@ If the energy of the gamma exceeds $2m_{e}c^{2} = 1.02$ MeV, the impinging photo
 \begin{equation}
 \sigma _{pair} = 4\alpha r_{e}^{2} Z^{2} \left( \frac{7}{9}ln2\frac{E}{m_{e}c^{2}} - \frac{109}{54}\right)
 \end{equation}
-The cross section is very low compared to that of photoelectric and Compton effect until the energy of the gamma approaches several electron Volts. Thus for the energies involved in medical applications pair production can be neglected.
+The cross section is very low compared to that of photoelectric and Compton effect until the energy of the $\gamma$ approaches several electron Volts. Thus for the energies involved in medical applications pair production can be neglected.
 %\begin{figure}
 %\centering
 %\includegraphics[width=7cm]{../Pictures/Chapter_2/pair_prod.pdf}
@@ -88,7 +87,7 @@ The cross section is very low compared to that of photoelectric and Compton effe
 \newpage
 \section{The scintillation mechanism}
 
-As a general idea the scintillation process can be considered as the conversion of the energy of an incident gamma quantum or particle into a certain number of low energy photons\cite{Rodnyi1997}. In a way it can be therefore defined as a wavelentgh shifting process\cite{Lecoq2006}.
+As a general idea the scintillation process can be considered as the conversion of the energy of an incident $\gamma$ quantum or particle into a certain number of low energy photons \cite{Rodnyi1997}. In a way it can be therefore defined as a wavelentgh shifting process \cite{Lecoq2006}.
 
 \begin{figure}
 \centering
@@ -97,11 +96,11 @@ As a general idea the scintillation process can be considered as the conversion 
 \label{fig:lecoq_easy}
 \end{figure}
 
-After a ionization event, generated by the mechanisms presented above in the case of a gamma interaction, the scintillator relaxes towards a new equilibrium. This process is characterized by a multitude of sub processes, that can be depicted by band diagrams as the one in figure %cit.
+After a ionization event, generated by the mechanisms presented above in the case of a $\gamma$ interaction, the scintillator relaxes towards a new equilibrium. This process is characterized by a multitude of sub processes, that can be depicted by band diagrams as the one in figure \ref{fig:lecoq_easy}.
 As long as the energy of the particles is high enough, it is transferred to secondary particles of low energy, creating an electromagnetic cascade.
 A crystal though is an ordered ensemble of atoms, so the electrons in the KeV range start to couple with electrons and atoms of the lattice. As a result of their interaction with electronic states of the material, couples of electrons and relative vacancies are created. The electron hole pairs migrate in the lattice above and below the ionization threshold until they are trapped by a defect or recombine on a luminescent center. Alternatively they cool down by coupling to the lattice vibrations until they reach the top of the valence band (hole) or the bottom of the conduction band (electron). They can also form loosely bound structures called exciton, with en energy slightly smaller than the bandgap energy.
 The scintillator itself must contain luminescent centers, either intrinsic or extrinsic (doping ions). These molecular systems in the lattice present characteristic transitions between excited states.
-Recombination brings the release of optical photons, at characteristics wavelength.
+Recombination brings the release of optical photons, at characteristic wavelengths.
 %
 %The scintillation process can therefore be represented as the sequence of the following stages\cite{Rodnyi1997}: 
 %
@@ -115,7 +114,7 @@ Recombination brings the release of optical photons, at characteristics waveleng
 
 \subsection{Creation of electron hole pairs}
 
-To analyze more in depth the mechanisms of the scintillation, we can consider an intermediate energy gamma ray ( $\sim 500$ KeV) interacting with the scintillator material. In this case the photoelectric effect is dominant. Thus it will produce a hole in a inner shell (usually K shell) and a free or quasifree electron.
+To analyze more in depth the mechanisms of the scintillation, we can consider an intermediate energy $\gamma$ ray ( $\sim 500$ KeV) interacting with the scintillator material. In this case the photoelectric effect is dominant. Thus it will produce a hole in a inner shell (usually K shell) and a free or quasifree electron.
 \begin{equation}
 A + h\nu \rightarrow A^{+} + e
 \end{equation}
@@ -156,7 +155,7 @@ e + h \rightarrow ex \rightarrow h\nu
 
 \subsection{Core to valence transitions}
 
-If the core bands of the scintillator lie below the Ager threshold, the most favoured transitions involve holes in the valence band and electron in the conduction band. Some systems though present the so-called cross luminescence. This phenomenon implies a direct core to valence transition, due to the fact that holes in uppermost core bands can not deexcite non radiatively\cite{Lecoq2006}. 
+If the core bands of the scintillator lie below the Ager threshold, the most favoured transitions involve holes in the valence band and electron in the conduction band. Some systems though present the so-called cross luminescence. This phenomenon implies a direct core to valence transition, due to the fact that holes in uppermost core bands can not de excite non radiatively \cite{Lecoq2006}. 
 
 A notable example of core to valence transition is $BaF_{2}$. In this system a $Ba^{2+}$ $5p$ core hole is above the Auger threshold and hence Auger effect does not occur. They can recombine directly with electrons from the valence band, in most of the cases radiatively.
 This leads to a very fast luminescence given by recombination of the core hole, while the primary electron de excitation is more complex thus leading to a slower component.
@@ -171,54 +170,49 @@ This leads to a very fast luminescence given by recombination of the core hole, 
 
 \subsection{Extrinsic luminescence}
 
-Most of the scintillator samples used in this work are extrinsic, that is doped with activation centers that can enhance the intrinsic scintillation properties presented above by favouring direct recombiantion.
-Rare earth ions doping, for example, is largely used in scintillator technology because of the parity and spin-allowed transition $4fˆ{n-1}5d\rightarrow 4fˆ{n}$. 
-Extrinsic scintillators usually present different luminscent mechanisms driven by activated sites\cite{Lecoq2006}:
+Most of the scintillator samples used in this work are extrinsic, that is doped with activation centers that can enhance the intrinsic scintillation properties presented above by favouring direct recombination.
+Rare earth ions doping, for example, is largely used in scintillator technology because of the parity and spin-allowed transition $4f^{n-1}5d\rightarrow 4f^{n}$. 
+Extrinsic scintillators usually present different luminscent mechanisms driven by activated sites \cite{Lecoq2006}:
 \begin{itemize}
-\item $e + h + A \rightarrow ex + A \rightarrow A* \rightarrow A + h\nu$
-\item $e + h + A \rightarrow A^{1+} + e \rightarrow A* \rightarrow A + h\nu$
-\item $e + h + A \rightarrow (A^{1-})* + h \rightarrow A + h\nu$
-\item $A \rightarrow A* \rightarrow A + h\nu$
+\item $e + h + A \rightarrow ex + A \rightarrow A^{*} \rightarrow A + h\nu$
+\item $e + h + A \rightarrow A^{1+} + e \rightarrow A^{*} \rightarrow A + h\nu$
+\item $e + h + A \rightarrow (A^{1-})^{*} + h \rightarrow A + h\nu$
+\item $A \rightarrow A^{*} \rightarrow A + h\nu$
 \end{itemize}
 In the first case the insertion of dopants is able to sufficiently quench the exciton luminescence so that excitation of radiative centers results form a transfer from excited matrix states.
-A copeting process is the direct capture of free thermalized carriers by luminescent center, in the case of electrons or holes.
+A competing process is the direct capture of free thermalized carriers by luminescent center, in the case of electrons or holes.
 In heavy doped or self-activated crystals ($CeF_{3}$) direct excitation by ionizing radiation is possible.
 
-%tabella e aggiungi i riferimenti alle formule nel testo
+%QUI MANCA QUALCOSA!
 
 \subsection{Quenching phenomena}
-
+TO DO
 % thermal, concentration, trapping Chapter3 Lecoq
 \section{Operational parameters}
 \subsection{Light yield}
-One of the feature commonly required of a scintillator is to be have a high light yield, that is to be an efficient converter of radiation to visible light.
-In this case the relative light output of the scintillator, $L_{R}$, can be considered the significant quantity. It is defined as the number of emitted photons per unit of absorbed energy\cite{Rodnyi1997}
+One of the feature commonly required of a scintillator is to have a high light yield, that is to be an efficient converter of radiation to visible light.
+In this case the relative light output of the scintillator, $L_{R}$, can be considered the significant quantity. It is defined as the number of emitted photons per unit of absorbed energy \cite{Rodnyi1997}
 \begin{equation}
 L_{R} = \frac{N_{ph}}{E_{\gamma}}
 \end{equation}
-The number of produced e-h pairs $N_{eh}$ depends on the average energy needed for the creation of a low energy e-h pair, $\chi _{eh}$. This value depends on the type of lattice and band gap of the material, with a numericl coefficient $\beta$
+The number of produced e-h pairs $N_{eh}$ depends on the average energy needed for the creation of a low energy e-h pair, $\chi _{eh}$. This value depends on the type of lattice and band gap of the material, with a numerical coefficient $\beta$
 \begin{equation}
-\chi _{eh} = \beta \cdot \E_{g}
+\chi _{eh} = \beta \cdot  E_{g}
 \end{equation}
 If $\alpha$ is the average number of scintillation photons produced by a single e-h pair, the light output is
 \begin{equation}
-L_{r} = \frac{\alpha \cdot N_{eh}}{E_{\gamma}} = \frac{\alpha}{\chi _{eh}} = \frac{\alpha}{\beta \cdot \E_{g}}
+L_{r} = \frac{\alpha \cdot N_{eh}}{E_{\gamma}} = \frac{\alpha}{\chi _{eh}} = \frac{\alpha}{\beta \cdot E_{g}}
 \end{equation}
 The coefficient $\alpha$ depends on the transport efficiency of the e-h pairs to the luminescence center and the conversion efficiency of the center itself.
 
 \subsection{Optical properties and light transport}
-%The relative light yield light transport and absorption
-\subsection{Rayleigh scattering}
-
-Rayleigh scattering is the (dominantly) elastic scattering of light or other electromagnetic radiation by particles much smaller than the wavelength of the light. 
-Rayleigh scattering results from the electric polarizability of the particles. The oscillating electric field of a light wave acts on the charges within a particle, causing them to move at the same frequency. The particle therefore becomes a small radiating dipole whose radiation we see as scattered light.
-Moreover it is clear that the emission band of a scintillator should lie in the spectral range of the optical transmission of the crystal.
-
+% MANCA QUALCOSA!
+TO DO
 \subsection{Energy resolution and nonproportionality}
-In the case of gamma spectroscopy ut is necessary to discriminate quanta with different energy.
-For scintillation detector this fundamental property is characterized by the energy resolution $R$, defined as $\Delta /E$ (in $\%$) where $\Delta E$ is the full width at half maximum (FWHM) at pulse height $E$.
+In the case of $\gamma$ spectroscopy it is necessary to discriminate quanta with different energy.
+For scintillation detector this fundamental property is characterized by the energy resolution $R$, defined as $\Delta E/E$ (in $\%$) where $\Delta E$ is the full width at half maximum (FWHM) at pulse height $E$.
 It depends on the characteristics of the scintillator, i.e. materials, size and defects as well as the coupling with the photo detector and the parameters of the photo detectors itself. Statistical fluctuations at any step of the detector chain, from dynode multiplication to photo cathode efficiency in the case of a PMT can worsen the resolution at the peak. 
-Thus energy resolution can be defined as\cite{Rodnyi1997}
+Thus energy resolution can be defined as \cite{Rodnyi1997}
 \begin{equation}
 R^{2} = R_{S}^{2} + R_{PM}^{2} = R_{S}^{2} + \frac{\delta}{E_{\gamma}}
 \end{equation}
@@ -230,8 +224,8 @@ R_{S}^{2} = R_{t}^{2} + R_{i}^{2} + R_{n}^{2}
 The interest lies in the fact that the two terms, for inhomogeneity and nonproportionality, account for the intrinsic resolution of the crystal.
 Inhomogeneity arise from possible imperfections of the scintillator, such as local variations in the concentration of the dopant or optical defects.
 
-Non proportionality arise when scintillators show deviation from stability of excitation spectrum, that is when linearity between energy of the excitation and relative light output is not preserved. This is particularly important for low energy excitation, since scintillation phenomena occur mainly on the surface. Non proportionality is a cause of the statistical nature of the creation of secondary electrons and photons and contribute to worsen the resolution.
-\newpage
+Non proportionality arise when scintillators show deviation from stability of excitation spectrum, that is when linearity between energy of the excitation and relative light output is not preserved. This is particularly important for low energy excitation, since scintillation phenomena occur mainly on the surface. Non proportionality is caused by the statistical nature of the creation of secondary electrons and photons and contribute to worsen the resolution.
+
 \subsection{Cerenkov effect}
 Cerenkov radiation brings important information both in high energy physics and time resolved PET.
 Cerenkov radiation occurs when a charged particle passes through a dieletric medium at a speed greater than the phase velocity of light in that medium.
@@ -262,19 +256,19 @@ Below the Cerenkov threshold the dipoles sorrounding are simmetrically arranged 
 \label{fig:cerenkov}
 \end{figure}
 
-Cerenkov photons are emitted at a characteristic angle in the forward direction, obtained via simple geometrical considerations. The distance traveled by the charged particle in a time $t$ is $t\cdot \beta \cdot c$ whereas the distance along which the photon propagates is $t\cdot c /n$ as shown in fig. %fig
+Cerenkov photons are emitted at a characteristic angle in the forward direction, obtained via simple geometrical considerations. The distance traveled by the charged particle in a time $t$ is $t\cdot \beta \cdot c$ whereas the distance along which the photon propagates is $t\cdot c /n$ as shown in figure \ref{fig:cone}.
 Therefore the characteristic angle at which photons are emitted can be calculated as
 \begin{equation}
 cos(\theta _{C}) = \frac{t c/n}{t \beta c} = \frac{1}{n\beta}
 \end{equation}
-As will be shown in the next chapter, the direction of emission retains a primary interest in the field of particle identification, while it has a little but non completely negligible impact on timing measurement in PET scanners. It is worth to be noted though that the Cerenkov photons are emitted promptly, taking a relevant share of the first incoming photons.  
+As will be shown in the next chapter, the direction of emission retains a primary interest in the field of particle identification, while it has a negligible impact on timing measurement in PET scanners. It is worth to be noted though that the Cerenkov photons are emitted promptly, taking a relevant share of the first incoming photons.  
 \begin{figure}
 \centering
 \includegraphics[width=9cm]{../Pictures/Chapter_2/cone.pdf}
 \caption[Cerenkov emission cone]{Sketch of the Cerenkvo emission cone}
 \label{fig:cone}
 \end{figure}
-It is useful to consider the number of emitted photons per unit length by a charged particle in function of the wavelength
+It is useful to consider the number of emitted photons per unit length by a charged particle as a function of the wavelength
 \begin{equation}
 \frac{dN}{d\lambda dx} = \frac{2\pi z^{2}\alpha}{\lambda ^{2}}\left( 1 - \frac{1}{\beta ^{2}n^{2}(\lambda)} \right)
 \end{equation}
@@ -285,19 +279,24 @@ Neglecting dispersion in the medium, and integrating over an appropriate interva
 \end{equation}
 
 A simple calculation shows that, even at the low energies that characterize a PET exam (511 KeV), a non negligible number of Cerenkov photons is produced.
-As an example, it is interesting to consider the case of the most popoluar crystal for PET detectors, Lu$_{2}$SiO$_{5}$:Ce (LSO) ($\rho _{LSO}$ = 7.48 g/cm$^{3}$). Taken a constant value for refractive index (1.82\cite{jellison2012}) and given the K-shell binding energy of the electron (63 KeV\cite{xdata2009}), we can estimate, with the help of \ref{eq:thr}, the energy threshold for Cerenkov production for electrons at 100 KeV.
-If we then consider a freed electron from the K-shell and its average range in LSO (265 $\mu$m\cite{nist2005}), we can make use of formula \ref{eq:number}, given that
+As an example, it is interesting to consider the case of the most popoluar crystal for PET detectors, Lu$_{2}$SiO$_{5}$:Ce (LSO) with a density $\rho _{LSO}$ = 7.48 g/cm$^{3}$ and a refractive index of 1.82 \cite{jellison2012}.
+Given the K-shell binding energy of the electron (63 KeV \cite{xdata2009}), we can estimate, with the help of formula  \ref{eq:thr}, the energy threshold for Cerenkov production for electrons at 448 KeV.
+If we then consider a freed electron from the K-shell and its average range in LSO (265 $\mu$m \cite{nist2005}), we can make use of formula \ref{eq:number}, given that
 \begin{equation}
 sin ^{2}(\theta _{c}) = 1 - \frac{1}{n^{2}\beta ^{2}} = 0.58
 \end{equation}
 The number of optical photons produced in the wavelength range 180 - 800 nm is $\sim$ 40.
 
 
-\section{Scintillators in PET detectors}
+\section{Scintillation processes in the samples analyzed}
+TO DO
+% e invece qui approfondiamo i sample nostri
+% magari puoi anticipare due cose sulle terre rare
 
-% pensarci un po
-% cmq parametri light yield energy resolution density velocita
+\subsection{Lutetium Ortho Silicate}
 
-% accennare che la issue del timing si vede nel capitolo dopo
+\subsection{Lutetium Aluminum Garnet}
 
-% quelli che si usano di piu e perche
+\subsection{Cerium Fluoride}
+
+\subsection{Bismuth Germanate}

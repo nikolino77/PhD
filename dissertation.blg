@@ -11,55 +11,108 @@ A level-1 auxiliary file: ./Chapter6/chLorem2.aux
 A level-1 auxiliary file: ./Chapter7/chapter6.aux
 A level-1 auxiliary file: ./Chapter8/chapter7.aux
 A level-1 auxiliary file: ./Chapter9/conclusions.aux
-The style file: plain.bst
+The style file: ./Bibliography/jasa.bst
 Database file #1: ./Bibliography/References.bib
-Warning--there's a number but no volume in Amaldi2011
+I was expecting a `,' or a `}'---line 281 of file ./Bibliography/References.bib
+ :   volume={506}
+ :               ;
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 291 of file ./Bibliography/References.bib
+ :   volume={207}
+ :               ;
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 309 of file ./Bibliography/References.bib
+ :   volume={260}
+ :               ;
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 328 of file ./Bibliography/References.bib
+ :   volume={61}
+ :              ;
+I'm skipping whatever remains of this entry
+Bibliography style `jasa.bst' by Russ Lenth, April 1996 (rev. Mar. 1999)
+[Amaldi2011]
+[Anghinolfi2004]
+[Bajzer1991]
+[Becker2005]
+[nist2005]
 Warning--empty journal in nist2005
-Warning--there's a number but no volume in Crespo2007
-Warning--there's a number but no volume in Durante2010
-Warning--there's a number but no volume in Enghardt2004
-Warning--there's a number but no volume in Seifert2012
-Warning--there's a number but no volume in Shao2006
-Warning--there's a number but no volume in Wilson1946
-You've used 26 entries,
-            2118 wiz_defined-function locations,
-            684 strings with 7943 characters,
-and the built_in function-call counts, 6805 in all, are:
-= -- 681
-> -- 182
-< -- 0
-+ -- 82
-- -- 52
-* -- 423
-:= -- 1170
-add.period$ -- 78
-call.type$ -- 26
-change.case$ -- 96
-chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 288
-empty$ -- 630
-format.name$ -- 52
-if$ -- 1412
-int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 32
-newline$ -- 133
-num.names$ -- 52
-pop$ -- 108
+[Crespo2007]
+[Cuccia2013]
+[Derenzo2000]
+[Dolgoshein2003]
+[Durante2010]
+[Enghardt2004]
+[Agostinelli2003]
+Warning--empty year in Agostinelli2003; set to ????
+[Auffray2009]
+[Brunner2014]
+Warning--empty year in Brunner2014; set to ????
+[Kuwano2004]
+Warning--empty year in Kuwano2004; set to ????
+[Sempau2002]
+Warning--empty year in Sempau2002; set to ????
+[Ferlay2012]
+[Fiedler2006]
+[Gentit2002]
+[Gundacker2014]
+[Hama2006]
+[Hyman1963]
+[jellison2012]
+[Karp2008]
+[Knoll2000]
+[Lecoq2006]
+[Linz2011]
+[Martin2001]
+[Parodi2004]
+[Pizzi2012]
+[Rodnyi1997]
+[Schardt2007]
+[Seifert2012]
+[Shao2006]
+[xdata2009]
+[Vasiliev2013]
+Warning--empty year in Vasiliev2013; set to ????
+[Vavra2004]
+[Wilson1946]
+You've used 38 entries,
+            2332 wiz_defined-function locations,
+            784 strings with 9647 characters,
+and the built_in function-call counts, 14195 in all, are:
+= -- 1428
+> -- 418
+< -- 46
++ -- 125
+- -- 114
+* -- 1135
+:= -- 2450
+add.period$ -- 68
+call.type$ -- 38
+change.case$ -- 190
+chr.to.int$ -- 35
+cite$ -- 82
+duplicate$ -- 695
+empty$ -- 1036
+format.name$ -- 152
+if$ -- 2822
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 43
+newline$ -- 118
+num.names$ -- 152
+pop$ -- 238
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 223
 quote$ -- 0
-skip$ -- 160
-stack$ -- 0
-substring$ -- 505
-swap$ -- 25
-text.length$ -- 0
+skip$ -- 507
+stack$ -- 39
+substring$ -- 970
+swap$ -- 178
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
-warning$ -- 8
-while$ -- 75
-width$ -- 28
-write$ -- 278
-(There were 8 warnings)
+type$ -- 318
+warning$ -- 6
+while$ -- 149
+width$ -- 0
+write$ -- 407
+(There were 4 error messages)

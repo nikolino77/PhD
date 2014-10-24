@@ -114,7 +114,7 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ExecuteOptions{gradschool,PhD,doublespace,newstyle,bind}
 \ProcessOptions\relax
-\LoadClass[12pt,letterpaper]{report}
+\LoadClass[11pt,letterpaper]{book}
 
 % Float parameters.  Allow more float per page, open up spacing
 \renewcommand{\topfraction}{.75}

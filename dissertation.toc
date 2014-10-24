@@ -1,99 +1,112 @@
-\contentsline {chapter}{Abstract}{i}{chapter*.1}
-\contentsline {chapter}{List of Figures}{ix}{chapter*.3}
+\contentsline {chapter}{}{i}{chapter*.1}
+\contentsline {chapter}{List of Figures}{v}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Motivations}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Particle therapy}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Ion beam therapy}{3}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.1}Particle therapy}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Ion beam therapy}{2}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Beam delivery}{4}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Monitoring of the beam}{6}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Positron Emission Tomography}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Principles}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Image reconstruction}{9}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Sources of noise and sensitivity}{10}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Time-Of-Flight PET}{12}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Outline of the thesis}{14}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}From high energy physics to medical applications}{14}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Study of time profiles}{15}{subsection.1.3.2}
-\contentsline {chapter}{\numberline {2}Scintillating detectors}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction to particle detectors}{17}{section.2.1}
-\contentsline {section}{\numberline {2.2}Interaction of radiation with matter}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Photoelectric effect}{18}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Compton scattering}{19}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Pair production}{20}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}The scintillation mechanism}{21}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Creation of electron hole pairs}{22}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Intrinsic luminescence}{24}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Core to valence transitions}{25}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Extrinsic luminescence}{25}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Quenching phenomena}{26}{subsection.2.3.5}
-\contentsline {section}{\numberline {2.4}Operational parameters}{26}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Light yield}{26}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Optical properties and light transport}{27}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Rayleigh scattering}{27}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Energy resolution and nonproportionality}{27}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Cerenkov effect}{29}{subsection.2.4.5}
-\contentsline {section}{\numberline {2.5}Scintillators in PET detectors}{31}{section.2.5}
-\contentsline {chapter}{\numberline {3}Photo detectors}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}Photo multiplier tubes}{33}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Properties of PMT}{34}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Micro Channel Plate-PMT}{35}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Properties of MCP}{36}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Silicon photo multipliers}{38}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Analog SiPM}{39}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Properties of SiPM}{40}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}The NINO chip}{42}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}A model for scintillation counting}{44}{chapter.4}
-\contentsline {section}{\numberline {4.1}Signal formation}{44}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Scintillation pulse}{44}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Cerenkov pulse}{45}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}The Cramer-Rao lower bound}{45}{section.4.2}
+\contentsline {subsection}{\numberline {1.1.3}Monitoring of the beam}{5}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Positron Emission Tomography}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Principles}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Image reconstruction}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Sources of noise and sensitivity}{9}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Time-Of-Flight PET}{11}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Outline of the thesis}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}From high energy physics to medical applications}{12}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Study of time profiles}{13}{subsection.1.3.2}
+\contentsline {chapter}{\numberline {2}Scintillating detectors}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Interaction of radiation with matter}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Photoelectric effect}{16}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Compton scattering}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Pair production}{17}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}The scintillation mechanism}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Creation of electron hole pairs}{20}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Intrinsic luminescence}{21}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Core to valence transitions}{22}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Extrinsic luminescence}{22}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Quenching phenomena}{23}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Operational parameters}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Light yield}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Optical properties and light transport}{24}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Energy resolution and nonproportionality}{24}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Cerenkov effect}{25}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Scintillation processes in the samples analyzed}{28}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Lutetium Ortho Silicate}{28}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Lutetium Aluminum Garnet}{28}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Cerium Fluoride}{28}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Bismuth Germanate}{28}{subsection.2.4.4}
+\contentsline {chapter}{\numberline {3}Photo detectors}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Photo multiplier tubes}{30}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Properties of PMT}{30}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Micro Channel Plate-PMT}{32}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Properties of MCP}{33}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Silicon photo multipliers}{34}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Analog SiPM}{36}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Properties of SiPM}{36}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}The NINO chip}{38}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}A model for scintillation counting}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Signal formation}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Scintillation pulse}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Cerenkov pulse}{42}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}The Cramer-Rao lower bound}{43}{section.4.2}
 \contentsline {section}{\numberline {4.3}The order statistics}{46}{section.4.3}
-\contentsline {section}{\numberline {4.4}Intrinsic time resolution}{47}{section.4.4}
-\contentsline {section}{\numberline {4.5}Effects on signal extraction}{47}{section.4.5}
-\contentsline {chapter}{\numberline {5}MonteCarlo simulation tools}{48}{chapter.5}
-\contentsline {section}{\numberline {5.1}Ray tracing}{48}{section.5.1}
-\contentsline {section}{\numberline {5.2}Geant4}{48}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Physics}{48}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Implementation}{48}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}SLitrani}{48}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Physics}{48}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Implementation}{48}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}A comparison for timing simulation}{48}{section.5.4}
-\contentsline {section}{\numberline {5.5}Simulation input parameters}{48}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Light yield}{48}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Optical transmission}{51}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Fluorescence spectrum}{51}{subsection.5.5.3}
-\contentsline {chapter}{\numberline {6}Methods}{52}{chapter.6}
-\contentsline {section}{\numberline {6.1}Time Correlated Single Photon couting}{52}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Excitation}{52}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Detection}{52}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Data analysis techniques}{52}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Iterative reconvolution}{52}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Error estimation}{54}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Simulations}{54}{section.6.3}
-\contentsline {chapter}{\numberline {7}Na-22 measurement}{55}{chapter.7}
-\contentsline {section}{\numberline {7.1}Phenomenology}{55}{section.7.1}
-\contentsline {section}{\numberline {7.2}Experimental setup}{55}{section.7.2}
-\contentsline {section}{\numberline {7.3}Preliminaries}{56}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Characteristics of the start signal}{56}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Characteristics of the stop signal}{56}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}IRF measurements}{56}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Control of the bias fraction}{56}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Data analysis}{56}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Cuts}{56}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Fit procedure}{56}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Results}{56}{subsection.7.4.3}
-\contentsline {chapter}{\numberline {8}VUV measurement}{57}{chapter.8}
-\contentsline {section}{\numberline {8.1}High Harmonic Generation}{57}{section.8.1}
-\contentsline {section}{\numberline {8.2}Experimental setup}{58}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Laser beamline}{59}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}VUV line}{59}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Detection system}{61}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Preliminaries}{62}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}VUV spectrum}{62}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}IRF measurement}{62}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Control of the bias fraction}{62}{subsection.8.3.3}
-\contentsline {section}{\numberline {8.4}Data analysis}{62}{section.8.4}
-\contentsline {section}{\numberline {8.5}Fit procedure}{62}{section.8.5}
-\contentsline {section}{\numberline {8.6}Results}{62}{section.8.6}
-\contentsline {chapter}{\numberline {9}Conclusions}{63}{chapter.9}
-\contentsline {chapter}{Bibliography}{64}{chapter.9}
+\contentsline {section}{\numberline {4.4}Intrinsic time resolution}{46}{section.4.4}
+\contentsline {section}{\numberline {4.5}Effects on signal extraction}{48}{section.4.5}
+\contentsline {chapter}{\numberline {5}MonteCarlo simulation tools}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ray tracing}{51}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Rayleigh scattering}{52}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Model for surface interactions}{52}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Geant4}{53}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Physics}{54}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}SLitrani}{55}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Physics}{55}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}A comparison for timing simulation}{57}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Cerenkov photons for low energy excitation}{58}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Rise time model}{61}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Absorption and surface treatment}{62}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Simulation input parameters}{65}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Fluorescence spectrum}{66}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Optical transmission}{67}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Light yield}{69}{subsection.5.5.3}
+\contentsline {chapter}{\numberline {6}Methods}{73}{chapter.6}
+\contentsline {section}{\numberline {6.1}Time Correlated Single Photon couting}{73}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Excitation}{74}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Detection}{76}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Stop rate and bias}{77}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Statistics and accumulation times}{78}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Data analysis techniques}{78}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Iterative reconvolution}{78}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Sources of error}{80}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Simulations}{80}{section.6.3}
+\contentsline {chapter}{\numberline {7}VUV measurement}{81}{chapter.7}
+\contentsline {section}{\numberline {7.1}High Harmonic Generation}{82}{section.7.1}
+\contentsline {section}{\numberline {7.2}Experimental setup}{83}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Laser beamline}{83}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}VUV line}{84}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Detection system}{85}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Preliminaries}{85}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}VUV spectrum}{86}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}IRF measurement}{86}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Control of the bias fraction}{88}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Data analysis}{89}{section.7.4}
+\contentsline {section}{\numberline {7.5}Fit procedure}{90}{section.7.5}
+\contentsline {section}{\numberline {7.6}Results}{93}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Data}{93}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Limitations}{95}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Discussion}{97}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Perspectives}{99}{subsection.7.6.4}
+\contentsline {chapter}{\numberline {8}Na-22 measurement}{101}{chapter.8}
+\contentsline {section}{\numberline {8.1}Phenomenology}{101}{section.8.1}
+\contentsline {section}{\numberline {8.2}Experimental setup}{102}{section.8.2}
+\contentsline {section}{\numberline {8.3}Preliminaries}{104}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Characteristics of the start signal}{105}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Characteristics of the stop signal}{106}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}IRF measurements}{109}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Control of the bias fraction}{112}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.5}Background}{112}{subsection.8.3.5}
+\contentsline {section}{\numberline {8.4}Data analysis}{114}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Cuts and background estimation}{114}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Fit procedure}{115}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Results}{115}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.4}Summary}{115}{subsection.8.4.4}
+\contentsline {chapter}{\numberline {9}Conclusions}{117}{chapter.9}
+\contentsline {chapter}{Bibliography}{119}{chapter.9}
