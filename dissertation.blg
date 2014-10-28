@@ -13,22 +13,7 @@ A level-1 auxiliary file: ./Chapter8/chapter7.aux
 A level-1 auxiliary file: ./Chapter9/conclusions.aux
 The style file: ./Bibliography/jasa.bst
 Database file #1: ./Bibliography/References.bib
-I was expecting a `,' or a `}'---line 281 of file ./Bibliography/References.bib
- :   volume={506}
- :               ;
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 291 of file ./Bibliography/References.bib
- :   volume={207}
- :               ;
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 309 of file ./Bibliography/References.bib
- :   volume={260}
- :               ;
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 328 of file ./Bibliography/References.bib
- :   volume={61}
- :              ;
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ref:Lecoq2006"
 Bibliography style `jasa.bst' by Russ Lenth, April 1996 (rev. Mar. 1999)
 [Amaldi2011]
 [Anghinolfi2004]
@@ -43,14 +28,13 @@ Warning--empty journal in nist2005
 [Durante2010]
 [Enghardt2004]
 [Agostinelli2003]
-Warning--empty year in Agostinelli2003; set to ????
 [Auffray2009]
+[Belsky2013]
 [Brunner2014]
-Warning--empty year in Brunner2014; set to ????
 [Kuwano2004]
-Warning--empty year in Kuwano2004; set to ????
+[Moses2004]
+[Kris2012]
 [Sempau2002]
-Warning--empty year in Sempau2002; set to ????
 [Ferlay2012]
 [Fiedler2006]
 [Gentit2002]
@@ -74,45 +58,45 @@ Warning--empty year in Sempau2002; set to ????
 Warning--empty year in Vasiliev2013; set to ????
 [Vavra2004]
 [Wilson1946]
-You've used 38 entries,
+You've used 41 entries,
             2332 wiz_defined-function locations,
-            784 strings with 9647 characters,
-and the built_in function-call counts, 14195 in all, are:
-= -- 1428
-> -- 418
-< -- 46
-+ -- 125
-- -- 114
-* -- 1135
-:= -- 2450
-add.period$ -- 68
-call.type$ -- 38
-change.case$ -- 190
-chr.to.int$ -- 35
-cite$ -- 82
-duplicate$ -- 695
-empty$ -- 1036
-format.name$ -- 152
-if$ -- 2822
-int.to.chr$ -- 4
+            808 strings with 10104 characters,
+and the built_in function-call counts, 15846 in all, are:
+= -- 1612
+> -- 451
+< -- 50
++ -- 132
+- -- 123
+* -- 1278
+:= -- 2704
+add.period$ -- 74
+call.type$ -- 41
+change.case$ -- 205
+chr.to.int$ -- 40
+cite$ -- 84
+duplicate$ -- 759
+empty$ -- 1173
+format.name$ -- 164
+if$ -- 3168
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 43
-newline$ -- 118
-num.names$ -- 152
-pop$ -- 238
+missing$ -- 46
+newline$ -- 127
+num.names$ -- 164
+pop$ -- 240
 preamble$ -- 1
-purify$ -- 223
+purify$ -- 245
 quote$ -- 0
-skip$ -- 507
-stack$ -- 39
-substring$ -- 970
-swap$ -- 178
-text.length$ -- 8
+skip$ -- 556
+stack$ -- 42
+substring$ -- 1202
+swap$ -- 196
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 318
-warning$ -- 6
-while$ -- 149
+type$ -- 345
+warning$ -- 2
+while$ -- 171
 width$ -- 0
-write$ -- 407
-(There were 4 error messages)
+write$ -- 440
+(There were 3 warnings)

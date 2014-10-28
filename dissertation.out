@@ -29,84 +29,80 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Optical properties and light transport}{section.2.3}% 29
 \BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Energy resolution and nonproportionality}{section.2.3}% 30
 \BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Cerenkov effect}{section.2.3}% 31
-\BOOKMARK [1][-]{section.2.4}{2.4 Scintillation processes in the samples analyzed}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Lutetium Ortho Silicate}{section.2.4}% 33
-\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Lutetium Aluminum Garnet}{section.2.4}% 34
-\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Cerium Fluoride}{section.2.4}% 35
-\BOOKMARK [2][-]{subsection.2.4.4}{2.4.4 Bismuth Germanate}{section.2.4}% 36
-\BOOKMARK [0][-]{chapter.3}{3 Photo detectors}{}% 37
-\BOOKMARK [1][-]{section.3.1}{3.1 Photo multiplier tubes}{chapter.3}% 38
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Properties of PMT}{section.3.1}% 39
-\BOOKMARK [1][-]{section.3.2}{3.2 Micro Channel Plate-PMT}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Properties of MCP}{section.3.2}% 41
-\BOOKMARK [1][-]{section.3.3}{3.3 Silicon photo multipliers}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Analog SiPM}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Properties of SiPM}{section.3.3}% 44
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 The NINO chip}{section.3.3}% 45
-\BOOKMARK [0][-]{chapter.4}{4 A model for scintillation counting}{}% 46
-\BOOKMARK [1][-]{section.4.1}{4.1 Signal formation}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Scintillation pulse}{section.4.1}% 48
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Cerenkov pulse}{section.4.1}% 49
-\BOOKMARK [1][-]{section.4.2}{4.2 The Cramer-Rao lower bound}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.3}{4.3 The order statistics}{chapter.4}% 51
-\BOOKMARK [1][-]{section.4.4}{4.4 Intrinsic time resolution}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.5}{4.5 Effects on signal extraction}{chapter.4}% 53
-\BOOKMARK [0][-]{chapter.5}{5 MonteCarlo simulation tools}{}% 54
-\BOOKMARK [1][-]{section.5.1}{5.1 Ray tracing}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Rayleigh scattering}{section.5.1}% 56
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Model for surface interactions}{section.5.1}% 57
-\BOOKMARK [1][-]{section.5.2}{5.2 Geant4}{chapter.5}% 58
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Physics}{section.5.2}% 59
-\BOOKMARK [1][-]{section.5.3}{5.3 SLitrani}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Physics}{section.5.3}% 61
-\BOOKMARK [1][-]{section.5.4}{5.4 A comparison for timing simulation}{chapter.5}% 62
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Cerenkov photons for low energy excitation}{section.5.4}% 63
-\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Rise time model}{section.5.4}% 64
-\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Absorption and surface treatment}{section.5.4}% 65
-\BOOKMARK [1][-]{section.5.5}{5.5 Simulation input parameters}{chapter.5}% 66
-\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Fluorescence spectrum}{section.5.5}% 67
-\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Optical transmission}{section.5.5}% 68
-\BOOKMARK [2][-]{subsection.5.5.3}{5.5.3 Light yield}{section.5.5}% 69
-\BOOKMARK [0][-]{chapter.6}{6 Methods}{}% 70
-\BOOKMARK [1][-]{section.6.1}{6.1 Time Correlated Single Photon couting}{chapter.6}% 71
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Excitation}{section.6.1}% 72
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Detection}{section.6.1}% 73
-\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Stop rate and bias}{section.6.1}% 74
-\BOOKMARK [2][-]{subsection.6.1.4}{6.1.4 Statistics and accumulation times}{section.6.1}% 75
-\BOOKMARK [1][-]{section.6.2}{6.2 Data analysis techniques}{chapter.6}% 76
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Iterative reconvolution}{section.6.2}% 77
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Sources of error}{section.6.2}% 78
-\BOOKMARK [1][-]{section.6.3}{6.3 Simulations}{chapter.6}% 79
-\BOOKMARK [0][-]{chapter.7}{7 VUV measurement}{}% 80
-\BOOKMARK [1][-]{section.7.1}{7.1 High Harmonic Generation}{chapter.7}% 81
-\BOOKMARK [1][-]{section.7.2}{7.2 Experimental setup}{chapter.7}% 82
-\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Laser beamline}{section.7.2}% 83
-\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 VUV line}{section.7.2}% 84
-\BOOKMARK [2][-]{subsection.7.2.3}{7.2.3 Detection system}{section.7.2}% 85
-\BOOKMARK [1][-]{section.7.3}{7.3 Preliminaries}{chapter.7}% 86
-\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 VUV spectrum}{section.7.3}% 87
-\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 IRF measurement}{section.7.3}% 88
-\BOOKMARK [2][-]{subsection.7.3.3}{7.3.3 Control of the bias fraction}{section.7.3}% 89
-\BOOKMARK [1][-]{section.7.4}{7.4 Data analysis}{chapter.7}% 90
-\BOOKMARK [1][-]{section.7.5}{7.5 Fit procedure}{chapter.7}% 91
-\BOOKMARK [1][-]{section.7.6}{7.6 Results}{chapter.7}% 92
-\BOOKMARK [2][-]{subsection.7.6.1}{7.6.1 Data}{section.7.6}% 93
-\BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 Limitations}{section.7.6}% 94
-\BOOKMARK [2][-]{subsection.7.6.3}{7.6.3 Discussion}{section.7.6}% 95
-\BOOKMARK [2][-]{subsection.7.6.4}{7.6.4 Perspectives}{section.7.6}% 96
-\BOOKMARK [0][-]{chapter.8}{8 Na-22 measurement}{}% 97
-\BOOKMARK [1][-]{section.8.1}{8.1 Phenomenology}{chapter.8}% 98
-\BOOKMARK [1][-]{section.8.2}{8.2 Experimental setup}{chapter.8}% 99
-\BOOKMARK [1][-]{section.8.3}{8.3 Preliminaries}{chapter.8}% 100
-\BOOKMARK [2][-]{subsection.8.3.1}{8.3.1 Characteristics of the start signal}{section.8.3}% 101
-\BOOKMARK [2][-]{subsection.8.3.2}{8.3.2 Characteristics of the stop signal}{section.8.3}% 102
-\BOOKMARK [2][-]{subsection.8.3.3}{8.3.3 IRF measurements}{section.8.3}% 103
-\BOOKMARK [2][-]{subsection.8.3.4}{8.3.4 Control of the bias fraction}{section.8.3}% 104
-\BOOKMARK [2][-]{subsection.8.3.5}{8.3.5 Background}{section.8.3}% 105
-\BOOKMARK [1][-]{section.8.4}{8.4 Data analysis}{chapter.8}% 106
-\BOOKMARK [2][-]{subsection.8.4.1}{8.4.1 Cuts and background estimation}{section.8.4}% 107
-\BOOKMARK [2][-]{subsection.8.4.2}{8.4.2 Fit procedure}{section.8.4}% 108
-\BOOKMARK [2][-]{subsection.8.4.3}{8.4.3 Results}{section.8.4}% 109
-\BOOKMARK [2][-]{subsection.8.4.4}{8.4.4 Summary}{section.8.4}% 110
-\BOOKMARK [0][-]{chapter.9}{9 Conclusions}{}% 111
-\BOOKMARK [0][-]{chapter.9}{Bibliography}{}% 112
+\BOOKMARK [1][-]{section.2.4}{2.4 Most common scintillation processes}{chapter.2}% 32
+\BOOKMARK [0][-]{chapter.3}{3 Photo detectors}{}% 33
+\BOOKMARK [1][-]{section.3.1}{3.1 Photo multiplier tubes}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Properties of PMT}{section.3.1}% 35
+\BOOKMARK [1][-]{section.3.2}{3.2 Micro Channel Plate-PMT}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Properties of MCP}{section.3.2}% 37
+\BOOKMARK [1][-]{section.3.3}{3.3 Silicon photo multipliers}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Analog SiPM}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Properties of SiPM}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 The NINO chip}{section.3.3}% 41
+\BOOKMARK [0][-]{chapter.4}{4 A model for scintillation counting}{}% 42
+\BOOKMARK [1][-]{section.4.1}{4.1 Signal formation}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Scintillation pulse}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Cerenkov pulse}{section.4.1}% 45
+\BOOKMARK [1][-]{section.4.2}{4.2 The Cramer-Rao lower bound}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.3}{4.3 The order statistics}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.4}{4.4 Intrinsic time resolution}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.5}{4.5 Effects on signal extraction}{chapter.4}% 49
+\BOOKMARK [0][-]{chapter.5}{5 MonteCarlo simulation tools}{}% 50
+\BOOKMARK [1][-]{section.5.1}{5.1 Ray tracing}{chapter.5}% 51
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Rayleigh scattering}{section.5.1}% 52
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Model for surface interactions}{section.5.1}% 53
+\BOOKMARK [1][-]{section.5.2}{5.2 Geant4}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Physics}{section.5.2}% 55
+\BOOKMARK [1][-]{section.5.3}{5.3 SLitrani}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Physics}{section.5.3}% 57
+\BOOKMARK [1][-]{section.5.4}{5.4 A comparison for timing simulation}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Cerenkov photons for low energy excitation}{section.5.4}% 59
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Rise time model}{section.5.4}% 60
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Absorption and surface treatment}{section.5.4}% 61
+\BOOKMARK [1][-]{section.5.5}{5.5 Simulation input parameters}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Fluorescence spectrum}{section.5.5}% 63
+\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Optical transmission}{section.5.5}% 64
+\BOOKMARK [2][-]{subsection.5.5.3}{5.5.3 Light yield}{section.5.5}% 65
+\BOOKMARK [0][-]{chapter.6}{6 Methods}{}% 66
+\BOOKMARK [1][-]{section.6.1}{6.1 Time Correlated Single Photon couting}{chapter.6}% 67
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Excitation}{section.6.1}% 68
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Detection}{section.6.1}% 69
+\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Stop rate and bias}{section.6.1}% 70
+\BOOKMARK [2][-]{subsection.6.1.4}{6.1.4 Statistics and accumulation times}{section.6.1}% 71
+\BOOKMARK [1][-]{section.6.2}{6.2 Data analysis techniques}{chapter.6}% 72
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Iterative reconvolution}{section.6.2}% 73
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Sources of error}{section.6.2}% 74
+\BOOKMARK [1][-]{section.6.3}{6.3 Simulations}{chapter.6}% 75
+\BOOKMARK [0][-]{chapter.7}{7 VUV measurement}{}% 76
+\BOOKMARK [1][-]{section.7.1}{7.1 High Harmonic Generation}{chapter.7}% 77
+\BOOKMARK [1][-]{section.7.2}{7.2 Experimental setup}{chapter.7}% 78
+\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Laser beamline}{section.7.2}% 79
+\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 VUV line}{section.7.2}% 80
+\BOOKMARK [2][-]{subsection.7.2.3}{7.2.3 Detection system}{section.7.2}% 81
+\BOOKMARK [1][-]{section.7.3}{7.3 Preliminaries}{chapter.7}% 82
+\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 VUV spectrum}{section.7.3}% 83
+\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 IRF measurement}{section.7.3}% 84
+\BOOKMARK [2][-]{subsection.7.3.3}{7.3.3 Control of the bias fraction}{section.7.3}% 85
+\BOOKMARK [1][-]{section.7.4}{7.4 Data analysis}{chapter.7}% 86
+\BOOKMARK [1][-]{section.7.5}{7.5 Fit procedure}{chapter.7}% 87
+\BOOKMARK [1][-]{section.7.6}{7.6 Results}{chapter.7}% 88
+\BOOKMARK [2][-]{subsection.7.6.1}{7.6.1 Data}{section.7.6}% 89
+\BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 Limitations}{section.7.6}% 90
+\BOOKMARK [2][-]{subsection.7.6.3}{7.6.3 Discussion}{section.7.6}% 91
+\BOOKMARK [2][-]{subsection.7.6.4}{7.6.4 Perspectives}{section.7.6}% 92
+\BOOKMARK [0][-]{chapter.8}{8 Na-22 measurement}{}% 93
+\BOOKMARK [1][-]{section.8.1}{8.1 Phenomenology}{chapter.8}% 94
+\BOOKMARK [1][-]{section.8.2}{8.2 Experimental setup}{chapter.8}% 95
+\BOOKMARK [1][-]{section.8.3}{8.3 Preliminaries}{chapter.8}% 96
+\BOOKMARK [2][-]{subsection.8.3.1}{8.3.1 Characteristics of the start signal}{section.8.3}% 97
+\BOOKMARK [2][-]{subsection.8.3.2}{8.3.2 Characteristics of the stop signal}{section.8.3}% 98
+\BOOKMARK [2][-]{subsection.8.3.3}{8.3.3 IRF measurements}{section.8.3}% 99
+\BOOKMARK [2][-]{subsection.8.3.4}{8.3.4 Control of the bias fraction}{section.8.3}% 100
+\BOOKMARK [2][-]{subsection.8.3.5}{8.3.5 Background}{section.8.3}% 101
+\BOOKMARK [1][-]{section.8.4}{8.4 Data analysis}{chapter.8}% 102
+\BOOKMARK [2][-]{subsection.8.4.1}{8.4.1 Cuts and background estimation}{section.8.4}% 103
+\BOOKMARK [2][-]{subsection.8.4.2}{8.4.2 Fit procedure}{section.8.4}% 104
+\BOOKMARK [2][-]{subsection.8.4.3}{8.4.3 Results}{section.8.4}% 105
+\BOOKMARK [2][-]{subsection.8.4.4}{8.4.4 Summary}{section.8.4}% 106
+\BOOKMARK [0][-]{chapter.9}{9 Conclusions}{}% 107
+\BOOKMARK [0][-]{chapter.9}{Bibliography}{}% 108

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  24 OCT 2014 17:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  26 OCT 2014 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,7 +640,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 LaTeX Warning: Label `fig:rise_rank' multiply defined.
 
-) (./Chapter5/chLorem.aux))
+) (./Chapter5/chLorem.aux) (./Chapter6/chLorem2.aux) (./Chapter7/chapter6.aux)
+(./Chapter8/chapter7.aux) (./Chapter9/conclusions.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -756,73 +757,44 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [2]
-(./dissertation.toc)
+(./dissertation.toc [3
+
+
+] [4] [5] [6])
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [3
+ [7] [8
 
-
-] [4
-
-] (./dissertation.lof)
+] (./dissertation.lof [9] [10]
+[11])
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [5]
+ [12]
 \openout2 = `./Chapter1/introduction.aux'.
 
-
-(./Chapter1/introduction.tex [6
-
-
-]
+ (./Chapter1/introduction.tex
 Chapter 1.
-
-Package natbib Warning: Citation `Ferlay2012' on page 1 undefined on input line
- 3.
+[1
 
 
-Package natbib Warning: Citation `Durante2010' on page 1 undefined on input lin
-e 6.
-
-
-Package natbib Warning: Citation `Linz2011' on page 1 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `Amaldi2011' on page 1 undefined on input line
- 12.
-
-[1] <Pictures/Chapter_1/treat_conf2.pdf, id=306, 487.8225pt x 268.00125pt>
+] <Pictures/Chapter_1/treat_conf2.pdf, id=785, 487.8225pt x 268.00125pt>
 File: Pictures/Chapter_1/treat_conf2.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_1/treat_conf2.pdf>
 Package pdftex.def Info: Pictures/Chapter_1/treat_conf2.pdf used on input line 
 22.
 (pdftex.def)             Requested size: 341.43306pt x 187.57913pt.
-
-
-Package natbib Warning: Citation `Durante2010' on page 2 undefined on input lin
-e 23.
-
-
-Package natbib Warning: Citation `Durante2010' on page 2 undefined on input lin
-e 23.
-
-
-Package natbib Warning: Citation `Wilson1946' on page 2 undefined on input line
- 30.
-
-[2 <./Pictures/Chapter_1/treat_conf2.pdf>]
-<Pictures/Chapter_1/profile.pdf, id=322, 332.24126pt x 255.95625pt>
+ [2 <./Pictures/Chapter_1/treat_conf2.pdf>] <Pictures/Chapter_1/profile.pdf, id
+=808, 332.24126pt x 255.95625pt>
 File: Pictures/Chapter_1/profile.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_1/profile.pdf>
 Package pdftex.def Info: Pictures/Chapter_1/profile.pdf used on input line 36.
 (pdftex.def)             Requested size: 170.71652pt x 131.52016pt.
 
-<Pictures/Chapter_1/SOBP.pdf, id=323, 314.17375pt x 266.9975pt>
+<Pictures/Chapter_1/SOBP.pdf, id=809, 314.17375pt x 266.9975pt>
 File: Pictures/Chapter_1/SOBP.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_1/SOBP.pdf>
@@ -831,68 +803,29 @@ Package pdftex.def Info: Pictures/Chapter_1/SOBP.pdf used on input line 39.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-
-Package natbib Warning: Citation `Durante2010' on page 3 undefined on input lin
-e 41.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-Package natbib Warning: Citation `Durante2010' on page 3 undefined on input lin
-e 41.
-
-
-Package natbib Warning: Citation `Linz2011' on page 3 undefined on input line 5
-1.
-
-[3 <./Pictures/Chapter_1/profile.pdf> <./Pictures/Chapter_1/SOBP.pdf
+ [3 <./Pictures/Chapter_1/profile.pdf> <./Pictures/Chapter_1/SOBP.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/Chapter_1/SOBP.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] <Pictures/Chapter_1/rbe.pdf, id=349, 536.0025pt x 381.425pt>
+>] <Pictures/Chapter_1/rbe.pdf, id=839, 536.0025pt x 381.425pt>
 File: Pictures/Chapter_1/rbe.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_1/rbe.pdf>
 Package pdftex.def Info: Pictures/Chapter_1/rbe.pdf used on input line 57.
 (pdftex.def)             Requested size: 227.62204pt x 161.97833pt.
-
-
-Package natbib Warning: Citation `Enghardt2004' on page 4 undefined on input li
-ne 70.
-
-[4 <./Pictures/Chapter_1/rbe.pdf>]
-<Pictures/Chapter_1/range_scatter.pdf, id=362, 448.67625pt x 290.08376pt>
+ [4 <./Pictures/Chapter_1/rbe.pdf>]
+<Pictures/Chapter_1/range_scatter.pdf, id=854, 448.67625pt x 290.08376pt>
 File: Pictures/Chapter_1/range_scatter.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_1/range_scatter.pdf>
 Package pdftex.def Info: Pictures/Chapter_1/range_scatter.pdf used on input lin
 e 78.
 (pdftex.def)             Requested size: 227.62204pt x 147.16171pt.
-
-
-Package natbib Warning: Citation `Schardt2007' on page 5 undefined on input lin
-e 79.
-
-
-Package natbib Warning: Citation `Schardt2007' on page 5 undefined on input lin
-e 79.
-
-
-Package natbib Warning: Citation `Parodi2004' on page 5 undefined on input line
- 85.
-
-[5 <./Pictures/Chapter_1/range_scatter.pdf>]
-
-Package natbib Warning: Citation `Enghardt2004' on page 6 undefined on input li
-ne 91.
-
-
-Package natbib Warning: Citation `Crespo2007' on page 6 undefined on input line
- 93.
-
-[6] <Pictures/Chapter_1/PET_scheme.jpg, id=382, 1454.43375pt x 1063.975pt>
+ [5 <./Pictures/Chapter_1/range_scatter.pdf>] [6]
+<Pictures/Chapter_1/PET_scheme.jpg, id=886, 1454.43375pt x 1063.975pt>
 File: Pictures/Chapter_1/PET_scheme.jpg Graphic file (type jpg)
 
 <use Pictures/Chapter_1/PET_scheme.jpg>
@@ -900,7 +833,7 @@ Package pdftex.def Info: Pictures/Chapter_1/PET_scheme.jpg used on input line 1
 16.
 (pdftex.def)             Requested size: 227.62204pt x 166.50545pt.
  [7 <./Pictures/Chapter_1/PET_scheme.jpg>] <Pictures/Chapter_1/proj_sin.jpg, id
-=390, 413.3844pt x 242.8272pt>
+=893, 413.3844pt x 242.8272pt>
 File: Pictures/Chapter_1/proj_sin.jpg Graphic file (type jpg)
 
 <use Pictures/Chapter_1/proj_sin.jpg>
@@ -916,55 +849,30 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
  [8 <./Pictures/Chapter_1/proj_sin.jpg>]
-<Pictures/Chapter_1/coinci_PET.jpg, id=398, 1806.75pt x 1262.7175pt>
+<Pictures/Chapter_1/coinci_PET.jpg, id=900, 1806.75pt x 1262.7175pt>
 File: Pictures/Chapter_1/coinci_PET.jpg Graphic file (type jpg)
 
 <use Pictures/Chapter_1/coinci_PET.jpg>
 Package pdftex.def Info: Pictures/Chapter_1/coinci_PET.jpg used on input line 1
 62.
 (pdftex.def)             Requested size: 227.62204pt x 159.07242pt.
- [9] [10 <./Pictures/Chapter_1/coinci_PET.jpg>]
-
-Package natbib Warning: Citation `Fiedler2006' on page 11 undefined on input li
-ne 173.
-
-<Pictures/Chapter_1/TOF.png, id=408, 326.21875pt x 297.11pt>
+ [9] [10 <./Pictures/Chapter_1/coinci_PET.jpg>] <Pictures/Chapter_1/TOF.png, id
+=911, 326.21875pt x 297.11pt>
 File: Pictures/Chapter_1/TOF.png Graphic file (type png)
 
 <use Pictures/Chapter_1/TOF.png>
 Package pdftex.def Info: Pictures/Chapter_1/TOF.png used on input line 179.
 (pdftex.def)             Requested size: 170.71652pt x 155.48639pt.
-
-
-Package natbib Warning: Citation `Karp2008' on page 11 undefined on input line 
-192.
-
-
-Package natbib Warning: Citation `Fiedler2006' on page 11 undefined on input li
-ne 193.
-
-
-Package natbib Warning: Citation `Enghardt2004' on page 11 undefined on input l
-ine 193.
-
-[11 <./Pictures/Chapter_1/TOF.png>]
-<Pictures/Chapter_1/tof_gain.pdf, id=415, 544.0325pt x 177.66376pt>
+ [11 <./Pictures/Chapter_1/TOF.png>]
+<Pictures/Chapter_1/tof_gain.pdf, id=924, 544.0325pt x 177.66376pt>
 File: Pictures/Chapter_1/tof_gain.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_1/tof_gain.pdf>
 Package pdftex.def Info: Pictures/Chapter_1/tof_gain.pdf used on input line 203
 .
 (pdftex.def)             Requested size: 398.33858pt x 130.09196pt.
-
-
-Package natbib Warning: Citation `Karp2008' on page 12 undefined on input line 
-204.
-
-
-Package natbib Warning: Citation `Karp2008' on page 12 undefined on input line 
-204.
-
-[12 <./Pictures/Chapter_1/tof_gain.pdf>] [13]) [14]
+ [12 <./Pictures/Chapter_1/tof_gain.pdf>]
+[13]) [14]
 \openout2 = `./Chapter2/guide-notes.aux'.
 
  (./Chapter2/guide-notes.tex
@@ -979,7 +887,7 @@ Missing character: There is no Ü in font cmr8!
 Missing character: There is no À in font cmr10!
 Missing character: There is no Ü in font cmr10!
 
-<./Pictures/../Pictures/Chapter_2/photo_el_2.jpg, id=443, 154.176pt x 113.9457p
+<./Pictures/../Pictures/Chapter_2/photo_el_2.jpg, id=956, 154.176pt x 113.9457p
 t>
 File: ./Pictures/../Pictures/Chapter_2/photo_el_2.jpg Graphic file (type jpg)
  <use ./Pictures/../Pictures/Chapter_2/photo_el_2.jpg>
@@ -1011,7 +919,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-<./Pictures/../Pictures/Chapter_2/259px-Compton-scattering.pdf, id=453, 259.971
+<./Pictures/../Pictures/Chapter_2/259px-Compton-scattering.pdf, id=965, 259.971
 25pt x 179.67125pt>
 File: ./Pictures/../Pictures/Chapter_2/259px-Compton-scattering.pdf Graphic fil
 e (type pdf)
@@ -1021,7 +929,7 @@ Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/259px-Compton-scatter
 ing.pdf used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 137.64818pt.
 
-<./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf, id=454, 289.0561pt x 248.588
+<./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf, id=966, 289.0561pt x 248.588
 26pt>
 File: ./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf Graphic file (type pdf)
  <use ./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf>
@@ -1035,24 +943,15 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/../Pictures/Chapter_2/sig
 ma_gamma.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 >]
-
-Package natbib Warning: Citation `Rodnyi1997' on page 19 undefined on input lin
-e 90.
-
-
-Package natbib Warning: Citation `Lecoq2006' on page 19 undefined on input line
- 90.
-
-
-<./Pictures/../Pictures/Chapter_2/drawing_2.pdf, id=486, 533.35258pt x 531.9071
-8pt>
+<./Pictures/../Pictures/Chapter_2/drawing_2.pdf, id=1001, 533.35258pt x 531.907
+18pt>
 File: ./Pictures/../Pictures/Chapter_2/drawing_2.pdf Graphic file (type pdf)
  <use ./Pictures/../Pictures/Chapter_2/drawing_2.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/drawing_2.pdf used on
  input line 94.
 (pdftex.def)             Requested size: 341.43306pt x 340.5087pt.
  [19 <./Pictures/../Pictures/Chapter_2/drawing_2.pdf>] [20]
-<./Pictures/../Pictures/Chapter_2/traps.pdf, id=508, 412.54124pt x 196.735pt>
+<./Pictures/../Pictures/Chapter_2/traps.pdf, id=1023, 412.54124pt x 196.735pt>
 File: ./Pictures/../Pictures/Chapter_2/traps.pdf Graphic file (type pdf)
 
 <use ./Pictures/../Pictures/Chapter_2/traps.pdf>
@@ -1060,142 +959,153 @@ Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/traps.pdf used on inp
 ut line 140.
 (pdftex.def)             Requested size: 341.43306pt x 162.82768pt.
  [21 <./Pictures/../Pictures/Chapter_2/traps.pdf>]
-
-Package natbib Warning: Citation `Lecoq2006' on page 22 undefined on input line
- 158.
-
-
-<./Pictures/../Pictures/Chapter_2/core_to_valence.pdf, id=522, 402.50375pt x 26
-8.00125pt>
+<./Pictures/../Pictures/Chapter_2/core_to_valence.pdf, id=1038, 402.50375pt x 2
+68.00125pt>
 File: ./Pictures/../Pictures/Chapter_2/core_to_valence.pdf Graphic file (type p
 df)
  <use ./Pictures/../Pictures/Chapter_2/core_to_valence.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/core_to_valence.pdf u
 sed on input line 165.
 (pdftex.def)             Requested size: 227.62204pt x 151.55592pt.
-
-
-Package natbib Warning: Citation `Lecoq2006' on page 22 undefined on input line
- 175.
-
-[22]
-
-Package natbib Warning: Citation `Rodnyi1997' on page 23 undefined on input lin
-e 194.
-
-[23 <./Pictures/../Pictures/Chapter_2/core_to_valence.pdf>]
-
-Package natbib Warning: Citation `Rodnyi1997' on page 24 undefined on input lin
-e 215.
-
-[24] [25]
-<./Pictures/../Pictures/Chapter_2/cerenkov.pdf, id=556, 395.4775pt x 280.04625p
-t>
+ [22]
+[23 <./Pictures/../Pictures/Chapter_2/core_to_valence.pdf>] [24] [25]
+<./Pictures/../Pictures/Chapter_2/cerenkov.pdf, id=1077, 395.4775pt x 280.04625
+pt>
 File: ./Pictures/../Pictures/Chapter_2/cerenkov.pdf Graphic file (type pdf)
  <use ./Pictures/../Pictures/Chapter_2/cerenkov.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/cerenkov.pdf used on 
 input line 254.
 (pdftex.def)             Requested size: 256.0748pt x 181.33563pt.
 
-<./Pictures/../Pictures/Chapter_2/cone.pdf, id=558, 385.44pt x 260.975pt>
+<./Pictures/../Pictures/Chapter_2/cone.pdf, id=1079, 385.44pt x 260.975pt>
 File: ./Pictures/../Pictures/Chapter_2/cone.pdf Graphic file (type pdf)
 
 <use ./Pictures/../Pictures/Chapter_2/cone.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/cone.pdf used on inpu
 t line 267.
 (pdftex.def)             Requested size: 256.0748pt x 173.38292pt.
- [26 <./Pictures/../Pictures/Chapter_2/cerenkov.pdf>]
+ [26 <./Pictures/../Pictures/Chapter_2/cerenkov.pdf>] [27 <./Pictures/../Pictur
+es/Chapter_2/cone.pdf>]
 
-Package natbib Warning: Citation `jellison2012' on page 27 undefined on input l
-ine 282.
+Package natbib Warning: Citation `Naud1996' on page 28 undefined on input line 
+295.
+
+! Undefined control sequence.
+<recently read> \sym 
+                     
+l.298 ....4 g/cm$^{3}$), very fast emission ($\sym
+                                                  $ 40 ns) and high light yi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Package natbib Warning: Citation `xdata2009' on page 27 undefined on input line
- 283.
+Overfull \hbox (0.69937pt too wide) in paragraph at lines 295--299
+\OT1/cmr/m/n/10.95 crys-tal for PET de-tec-tion and high en-ergy phisics. The c
+rys-tal struc-ture of Lu$[]$Si0$[]$:Ce
+ []
 
 
-Package natbib Warning: Citation `nist2005' on page 27 undefined on input line 
-284.
+Package natbib Warning: Citation `Kris2013' on page 28 undefined on input line 
+299.
 
-[27 <./Pictures/../Pictures/Chapter_2/cone.pdf>]) [28]
+! Undefined control sequence.
+<recently read> \sym 
+                     
+l.304 ...n mechanisms are very slow, usually $\sym
+                                                  $ 2 $\mu$s and for this re...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Drozdowski2008' on page 28 undefined on input
+ line 308.
+
+[28]
+
+LaTeX Warning: Command \^ invalid in math mode on input line 310.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.310 ...ause of its high density (7.13 g/cm$\^{3}
+                                                  $), high scntillation outp...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.310 ...ause of its high density (7.13 g/cm$\^{3}
+                                                  $), high scntillation outp...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ë in font cmex10!
+! Undefined control sequence.
+<recently read> \sym 
+                     
+l.310 ... emission (two components, main one $\sym
+                                                  $300 ns).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Weber1996' on page 29 undefined on input line
+ 311.
+
+) [29]
 \openout2 = `./Chapter3/chRegularLook.aux'.
 
+ (./Chapter3/chRegularLook.tex [30
 
-(./Chapter3/chRegularLook.tex
+
+
+]
 Chapter 3.
-
-Package natbib Warning: Citation `Knoll2000' on page 29 undefined on input line
- 13.
-
-<./Pictures/../Pictures/Chapter_3/PMT.png, id=595, 790.955pt x 359.3425pt>
+<./Pictures/../Pictures/Chapter_3/PMT.png, id=1134, 790.955pt x 359.3425pt>
 File: ./Pictures/../Pictures/Chapter_3/PMT.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_3/PMT.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/PMT.png used on input
  line 16.
 (pdftex.def)             Requested size: 341.43306pt x 155.1174pt.
-
-
-Package natbib Warning: Citation `Hama2006' on page 29 undefined on input line 
-18.
-
-[29
-
-
-
-] [30 <./Pictures/../Pictures/Chapter_3/PMT.png>] [31]
-<./Pictures/../Pictures/Chapter_3/MCP_plate.png, id=618, 824.07875pt x 372.3912
-5pt>
+ [31] [32 <./Pictures/../Pictures/Chapter_3/PMT.png>] [33]
+<./Pictures/../Pictures/Chapter_3/MCP_plate.png, id=1159, 824.07875pt x 372.391
+25pt>
 File: ./Pictures/../Pictures/Chapter_3/MCP_plate.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_3/MCP_plate.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/MCP_plate.png used on
  input line 70.
 (pdftex.def)             Requested size: 341.43306pt x 154.28946pt.
-
-
-Package natbib Warning: Citation `Hama2006' on page 32 undefined on input line 
-72.
-
-
-Package natbib Warning: Citation `Hama2006' on page 32 undefined on input line 
-80.
-
-[32 <./Pictures/../Pictures/Chapter_3/MCP_plate.png>]
-<./Pictures/../Pictures/Chapter_3/MCP_struct.png, id=625, 694.595pt x 412.54124
-pt>
+ [34 <./Pictures/../Pictures/Chapter_3/MCP_plate.png>]
+<./Pictures/../Pictures/Chapter_3/MCP_struct.png, id=1169, 694.595pt x 412.5412
+4pt>
 File: ./Pictures/../Pictures/Chapter_3/MCP_struct.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_3/MCP_struct.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/MCP_struct.png used o
 n input line 87.
 (pdftex.def)             Requested size: 341.43306pt x 202.79535pt.
-
-
-Package natbib Warning: Citation `Hama2006' on page 33 undefined on input line 
-89.
-
-[33 <./Pictures/../Pictures/Chapter_3/MCP_struct.png>]
-
-Package natbib Warning: Citation `Vavra2004' on page 34 undefined on input line
- 105.
-
-
-Package natbib Warning: Citation `Dolgoshein2003' on page 34 undefined on input
- line 114.
-
-
-<./Pictures/../Pictures/Chapter_3/avalanche.pdf, id=632, 487.8225pt x 301.125pt
->
+ [35 <./Pictures/../Pictures/Chapter_3/MCP_struct.png>]
+<./Pictures/../Pictures/Chapter_3/avalanche.pdf, id=1181, 487.8225pt x 301.125p
+t>
 File: ./Pictures/../Pictures/Chapter_3/avalanche.pdf Graphic file (type pdf)
  <use ./Pictures/../Pictures/Chapter_3/avalanche.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/avalanche.pdf used on
  input line 118.
 (pdftex.def)             Requested size: 341.43306pt x 210.76308pt.
-
-
-Package natbib Warning: Citation `Gundacker2014' on page 34 undefined on input 
-line 120.
-
-[34] <Pictures/Chapter_3/mppc_photo.pdf, id=638, 180.675pt x 150.5625pt>
+ [36]
+<Pictures/Chapter_3/mppc_photo.pdf, id=1193, 180.675pt x 150.5625pt>
 File: Pictures/Chapter_3/mppc_photo.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_3/mppc_photo.pdf>
@@ -1203,24 +1113,15 @@ Package pdftex.def Info: Pictures/Chapter_3/mppc_photo.pdf used on input line 1
 32.
 (pdftex.def)             Requested size: 170.71652pt x 142.26392pt.
 
-<Pictures/Chapter_3/mppc_schema.pdf, id=639, 371.3875pt x 339.2675pt>
+<Pictures/Chapter_3/mppc_schema.pdf, id=1194, 371.3875pt x 339.2675pt>
 File: Pictures/Chapter_3/mppc_schema.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_3/mppc_schema.pdf>
 Package pdftex.def Info: Pictures/Chapter_3/mppc_schema.pdf used on input line 
 135.
 (pdftex.def)             Requested size: 170.71652pt x 155.95622pt.
-
-
-Package natbib Warning: Citation `Gundacker2014' on page 35 undefined on input 
-line 137.
-
-
-Package natbib Warning: Citation `Gundacker2014' on page 35 undefined on input 
-line 137.
-
-[35 <./Pictures/../Pictures/Chapter_3/avalanche.pdf>]
-<Pictures/Chapter_3/IR_mppc.png, id=654, 394.47375pt x 383.4325pt>
+ [37 <./Pictures/../Pictures/Chapter_3/avalanche.pdf>]
+<Pictures/Chapter_3/IR_mppc.png, id=1216, 394.47375pt x 383.4325pt>
 File: Pictures/Chapter_3/IR_mppc.png Graphic file (type png)
 
 <use Pictures/Chapter_3/IR_mppc.png>
@@ -1228,29 +1129,20 @@ Package pdftex.def Info: Pictures/Chapter_3/IR_mppc.png used on input line 153.
 
 (pdftex.def)             Requested size: 170.71652pt x 165.93759pt.
 
-<Pictures/Chapter_3/UV_mppc.png, id=655, 395.4775pt x 372.39125pt>
+<Pictures/Chapter_3/UV_mppc.png, id=1217, 395.4775pt x 372.39125pt>
 File: Pictures/Chapter_3/UV_mppc.png Graphic file (type png)
 
 <use Pictures/Chapter_3/UV_mppc.png>
 Package pdftex.def Info: Pictures/Chapter_3/UV_mppc.png used on input line 156.
 
 (pdftex.def)             Requested size: 170.71652pt x 160.75015pt.
-
-
-Package natbib Warning: Citation `Gundacker2014' on page 36 undefined on input 
-line 158.
-
-[36 <./Pictures/Chapter_3/mppc_photo.pdf> <./Pictures/Chapter_3/mppc_schema.pdf
-
+ [38 <./Pictures/Chapter_3/mppc_photo.pdf> <./Pictures/Chapter_3/mppc_schema.pd
+f
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/Chapter_3/mppc_schema.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
->] [37 <./Pictures/Chapter_3/IR_mppc.png> <./Pictures/Chapter_3/UV_mppc.png>]
-
-Package natbib Warning: Citation `Anghinolfi2004' on page 38 undefined on input
- line 191.
-
-<Pictures/Chapter_3/NINO_scheme.pdf, id=686, 578.16pt x 274.02374pt>
+>] [39 <./Pictures/Chapter_3/IR_mppc.png> <./Pictures/Chapter_3/UV_mppc.png>]
+<Pictures/Chapter_3/NINO_scheme.pdf, id=1249, 578.16pt x 274.02374pt>
 File: Pictures/Chapter_3/NINO_scheme.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_3/NINO_scheme.pdf>
@@ -1258,70 +1150,44 @@ Package pdftex.def Info: Pictures/Chapter_3/NINO_scheme.pdf used on input line
 197.
 (pdftex.def)             Requested size: 170.71652pt x 80.91156pt.
 
-<Pictures/Chapter_3/NINO.pdf, id=687, 584.1825pt x 299.1175pt>
+<Pictures/Chapter_3/NINO.pdf, id=1250, 584.1825pt x 299.1175pt>
 File: Pictures/Chapter_3/NINO.pdf Graphic file (type pdf)
 
 <use Pictures/Chapter_3/NINO.pdf>
 Package pdftex.def Info: Pictures/Chapter_3/NINO.pdf used on input line 200.
 (pdftex.def)             Requested size: 170.71652pt x 87.41278pt.
-
-
-Package natbib Warning: Citation `Anghinolfi2004' on page 38 undefined on input
- line 202.
-
-
-Package natbib Warning: Citation `Anghinolfi2004' on page 38 undefined on input
- line 202.
-
-[38 <./Pictures/Chapter_3/NINO_scheme.pdf> <./Pictures/Chapter_3/NINO.pdf
+ [40 <./Pictures/Chapter_3/NINO_scheme.pdf> <./Pictures/Chapter_3/NINO.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/Chapter_3/NINO.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] <./Pictures/../Pictures/Chapter_3/TOT.pdf, id=708, 403.5075pt x 295.1025pt>
+>]
+<./Pictures/../Pictures/Chapter_3/TOT.pdf, id=1275, 403.5075pt x 295.1025pt>
 File: ./Pictures/../Pictures/Chapter_3/TOT.pdf Graphic file (type pdf)
 
 <use ./Pictures/../Pictures/Chapter_3/TOT.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/TOT.pdf used on input
  line 212.
 (pdftex.def)             Requested size: 256.0748pt x 187.27992pt.
-
-
-Package natbib Warning: Citation `Gundacker2014' on page 39 undefined on input 
-line 214.
-
-) [39 <./Pictures/../Pictures/Chapter_3/TOT.pdf>]
+) [41 <./Pictures/../Pictures/Chapter_3/TOT.pdf>]
 \openout2 = `./Chapter4/chapter6.aux'.
 
- (./Chapter4/chapter6.tex
-[40
+ (./Chapter4/chapter6.tex [42
 
 
 
 ]
 Chapter 4.
-
-Package natbib Warning: Citation `Hyman1963' on page 41 undefined on input line
- 10.
-
-
-Package natbib Warning: Citation `Shao2006' on page 41 undefined on input line 
-17.
-
-[41]
-
-Package natbib Warning: Citation `Seifert2012' on page 42 undefined on input li
-ne 21.
-
-
-<./Pictures/../Pictures/Chapter_4/cerenkov_time.png, id=729, 360.34625pt x 318.
-18875pt>
+[43]
+<./Pictures/../Pictures/Chapter_4/cerenkov_time.png, id=1307, 360.34625pt x 318
+.18875pt>
 File: ./Pictures/../Pictures/Chapter_4/cerenkov_time.png Graphic file (type png
 )
  <use ./Pictures/../Pictures/Chapter_4/cerenkov_time.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/cerenkov_time.png use
 d on input line 32.
 (pdftex.def)             Requested size: 227.62204pt x 200.98917pt.
- [42] [43 <./Pictures/../Pictures/Chapter_4/cerenkov_time.png>]
+ [44]
+[45 <./Pictures/../Pictures/Chapter_4/cerenkov_time.png>]
 ! Extra }, or forgotten \right.
 <template> }
             $\hfil \endtemplate 
@@ -1388,7 +1254,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<./Pictures/../Pictures/Chapter_4/model.png, id=745, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_4/model.png, id=1322, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_4/model.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_4/model.png>
@@ -1396,20 +1262,16 @@ Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/model.png used on inp
 ut line 69.
 (pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
 
-<./Pictures/../Pictures/Chapter_4/models.png, id=746, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_4/models.png, id=1323, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_4/models.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_4/models.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/models.png used on in
 put line 70.
 (pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
- [44] [45 <./Pictures/../Pictures/Chapter_4/model.png> <./Pictures/../Pictures/
+ [46] [47 <./Pictures/../Pictures/Chapter_4/model.png> <./Pictures/../Pictures/
 Chapter_4/models.png>]
-
-Package natbib Warning: Citation `Seifert2012' on page 46 undefined on input li
-ne 94.
-
-[46]
+[48]
 
 ! LaTeX Error: File `../Pictures/Chapter_4/rise_CTRpng' not found.
 
@@ -1425,8 +1287,8 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png, id=770, 872.25874pt x 6
-13.29124pt>
+<./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png, id=1349, 872.25874pt x 
+613.29124pt>
 File: ./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png Graphic file (type 
 png)
  <use ./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png>
@@ -1434,23 +1296,24 @@ Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png
 used on input line 142.
 (pdftex.def)             Requested size: 227.62204pt x 160.04152pt.
 
-<./Pictures/../Pictures/Chapter_4/crossing.pdf, id=772, 569.12625pt x 385.44pt>
+<./Pictures/../Pictures/Chapter_4/crossing.pdf, id=1351, 569.12625pt x 385.44pt
+>
 File: ./Pictures/../Pictures/Chapter_4/crossing.pdf Graphic file (type pdf)
-<use ./Pictures/../Pictures/Chapter_4/crossing.pdf>
+ <use ./Pictures/../Pictures/Chapter_4/crossing.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/crossing.pdf used on 
 input line 155.
 (pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
 
-<./Pictures/../Pictures/Chapter_4/photon_rank.png, id=774, 1057.9525pt x 647.41
-875pt>
+<./Pictures/../Pictures/Chapter_4/photon_rank.png, id=1353, 1057.9525pt x 647.4
+1875pt>
 File: ./Pictures/../Pictures/Chapter_4/photon_rank.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_4/photon_rank.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/photon_rank.png used 
 on input line 163.
 (pdftex.def)             Requested size: 170.71652pt x 104.46832pt.
 
-<./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.png, id=775, 698.61pt x 
-473.77pt>
+<./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.png, id=1354, 698.61pt x
+ 473.77pt>
 File: ./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.png Graphic file (t
 ype png)
  <use ./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.png>
@@ -1459,11 +1322,11 @@ png used on input line 164.
 (pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
 
 
-LaTeX Warning: Reference `' on page 47 undefined on input line 169.
+LaTeX Warning: Reference `' on page 49 undefined on input line 169.
 
 
-<./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png, id=776, 817.0525pt x 60
-0.2425pt>
+<./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png, id=1355, 817.0525pt x 6
+00.2425pt>
 File: ./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png Graphic file (type 
 png)
  <use ./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png>
@@ -1471,394 +1334,324 @@ Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png
 used on input line 174.
 (pdftex.def)             Requested size: 170.71652pt x 125.41351pt.
 
-<./Pictures/../Pictures/Chapter_4/tau_r_rank.png, id=777, 610.28pt x 518.93875p
-t>
+<./Pictures/../Pictures/Chapter_4/tau_r_rank.png, id=1356, 610.28pt x 518.93875
+pt>
 File: ./Pictures/../Pictures/Chapter_4/tau_r_rank.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_4/tau_r_rank.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/tau_r_rank.png used o
 n input line 175.
 (pdftex.def)             Requested size: 170.71652pt x 145.16724pt.
- [47] [48 <./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png> <./Pictures/.
-./Pictures/Chapter_4/crossing.pdf, page is rotated 90 degrees>] [49 <./Pictures
+ [49] [50 <./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png> <./Pictures/.
+./Pictures/Chapter_4/crossing.pdf, page is rotated 90 degrees>] [51 <./Pictures
 /../Pictures/Chapter_4/photon_rank.png> <./Pictures/../Pictures/Chapter_4/photo
 n_rank_no_smear.png> <./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png> <.
 /Pictures/../Pictures/Chapter_4/tau_r_rank.png>]
 
-LaTeX Warning: Reference `fig:' on page 50 undefined on input line 182.
+LaTeX Warning: Reference `fig:' on page 52 undefined on input line 182.
 
 
-<./Pictures/../Pictures/Chapter_4/CER_photon_rank.png, id=839, 698.61pt x 473.7
-7pt>
+<./Pictures/../Pictures/Chapter_4/CER_photon_rank.png, id=1413, 698.61pt x 473.
+77pt>
 File: ./Pictures/../Pictures/Chapter_4/CER_photon_rank.png Graphic file (type p
 ng)
  <use ./Pictures/../Pictures/Chapter_4/CER_photon_rank.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/CER_photon_rank.png u
 sed on input line 187.
 (pdftex.def)             Requested size: 227.62204pt x 154.3638pt.
-) [50 <./Pictures/../Pictures/Chapter_4/CER_photon_rank.png>]
+) [52 <./Pictures/../Pictures/Chapter_4/CER_photon_rank.png>]
 \openout2 = `./Chapter5/chLorem.aux'.
 
  (./Chapter5/chLorem.tex
 Chapter 5.
-
-Package natbib Warning: Citation `Pizzi2012' on page 51 undefined on input line
- 4.
-
-[51
+[53
 
 
 
-]
+] [54] [55] [56]
 
-Package natbib Warning: Citation `Cuccia2013' on page 52 undefined on input lin
-e 33.
+Package natbib Warning: Citation `ROOT' on page 57 undefined on input line 72.
 
-[52]
-
-Package natbib Warning: Citation `Agostinelli2003' on page 53 undefined on inpu
-t line 45.
-
-[53]
-
-Package natbib Warning: Citation `Sempau2002' on page 54 undefined on input lin
-e 56.
-
-[54]
-
-Package natbib Warning: Citation `Gentit2002' on page 55 undefined on input lin
-e 72.
-
-[55]
-
-Package natbib Warning: Citation `Cuccia2013' on page 56 undefined on input lin
-e 85.
-
-[56]
-Overfull \hbox (2.34184pt too wide) in paragraph at lines 91--94
-[]\OT1/cmr/m/n/10.95 Moreover, the UNI-FIED model is im-ple-mented for bound-ar
-ies with wrap-ping/coatings
- []
-
-
-<./Pictures/../Pictures/Chapter_5/energy_dep.png, id=872, 569.0058pt x 385.44pt
->
+[57] [58]
+<./Pictures/../Pictures/Chapter_5/energy_dep.png, id=1462, 569.0058pt x 385.44p
+t>
 File: ./Pictures/../Pictures/Chapter_5/energy_dep.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_5/energy_dep.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/energy_dep.png used o
-n input line 106.
+n input line 102.
 (pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
 
-<./Pictures/../Pictures/Chapter_5/energy_dep_lat.png, id=874, 569.0058pt x 385.
-44pt>
+<./Pictures/../Pictures/Chapter_5/energy_dep_lat.png, id=1464, 569.0058pt x 385
+.44pt>
 File: ./Pictures/../Pictures/Chapter_5/energy_dep_lat.png Graphic file (type pn
 g)
  <use ./Pictures/../Pictures/Chapter_5/energy_dep_lat.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/energy_dep_lat.png us
-ed on input line 107.
+ed on input line 103.
 (pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
- [57] [58 <./Pictures/../Pictures/Chapter_5/energy_dep.png> <./Pictures/../Pict
+ [59] [60 <./Pictures/../Pictures/Chapter_5/energy_dep.png> <./Pictures/../Pict
 ures/Chapter_5/energy_dep_lat.png>]
-<./Pictures/../Pictures/Chapter_5/spctrum_LSO.png, id=889, 633.36626pt x 468.75
-125pt>
+<./Pictures/../Pictures/Chapter_5/spctrum_LSO.png, id=1477, 633.36626pt x 468.7
+5125pt>
 File: ./Pictures/../Pictures/Chapter_5/spctrum_LSO.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_5/spctrum_LSO.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/spctrum_LSO.png used 
-on input line 132.
+on input line 129.
 (pdftex.def)             Requested size: 170.71652pt x 126.34279pt.
 
-<./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png, id=890, 633.36626pt x 468.7
-5125pt>
+<./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png, id=1478, 633.36626pt x 468.
+75125pt>
 File: ./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png Graphic file (type png)
 
  <use ./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png used
- on input line 133.
+ on input line 130.
 (pdftex.def)             Requested size: 170.71652pt x 126.34279pt.
-
-
-Package natbib Warning: Citation `Auffray2009' on page 59 undefined on input li
-ne 146.
-
-
-Package natbib Warning: Citation `Kuwano2004' on page 59 undefined on input lin
-e 146.
-
-
-Package natbib Warning: Citation `jellison2012' on page 59 undefined on input l
-ine 146.
-
-[59 <./Pictures/../Pictures/Chapter_5/spctrum_LSO.png> <./Pictures/../Pictures/
-Chapter_5/cerenkov_LSO.png>]
-
-Package natbib Warning: Citation `Brunner2014' on page 60 undefined on input li
-ne 165.
-
-
-<./Pictures/../Pictures/Chapter_5/pp_LSO.png, id=898, 633.36626pt x 468.75125pt
->
+ [61 <./Pictures/../Pictures/Chapter_5/spctrum_LSO.png> <./Pictures/../Pictures
+/Chapter_5/cerenkov_LSO.png>]
+<./Pictures/../Pictures/Chapter_5/pp_LSO.png, id=1494, 633.36626pt x 468.75125p
+t>
 File: ./Pictures/../Pictures/Chapter_5/pp_LSO.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_5/pp_LSO.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/pp_LSO.png used on in
-put line 172.
-(pdftex.def)             Requested size: 170.71652pt x 126.34279pt.
+put line 175.
+(pdftex.def)             Requested size: 199.16928pt x 147.39992pt.
 
-<./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png, id=899, 633.36626pt x 468.7
-5125pt>
+<./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png, id=1495, 633.36626pt x 468.
+75125pt>
 File: ./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png Graphic file (type png)
 
  <use ./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png used
- on input line 173.
-(pdftex.def)             Requested size: 170.71652pt x 126.34279pt.
+ on input line 176.
+(pdftex.def)             Requested size: 199.16928pt x 147.39992pt.
 
-<./Pictures/../Pictures/Chapter_5/cer_second_balance.png, id=901, 569.0058pt x 
-385.44pt>
+<./Pictures/../Pictures/Chapter_5/cer_second_balance.png, id=1497, 569.0058pt x
+ 385.44pt>
 File: ./Pictures/../Pictures/Chapter_5/cer_second_balance.png Graphic file (typ
 e png)
  <use ./Pictures/../Pictures/Chapter_5/cer_second_balance.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cer_second_balance.pn
-g used on input line 183.
+g used on input line 185.
 (pdftex.def)             Requested size: 227.62204pt x 154.18503pt.
 
-[60] [61 <./Pictures/../Pictures/Chapter_5/pp_LSO.png> <./Pictures/../Pictures/
+[62] [63 <./Pictures/../Pictures/Chapter_5/pp_LSO.png> <./Pictures/../Pictures/
 Chapter_5/cer_extr_LSO.png> <./Pictures/../Pictures/Chapter_5/cer_second_balanc
 e.png>]
-
-Package natbib Warning: Citation `Vasiliev2013' on page 62 undefined on input l
-ine 195.
-
-[62] <./Pictures/../Pictures/Chapter_5/abs.png, id=922, 569.0058pt x 385.44pt>
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+ [64]
+<./Pictures/../Pictures/Chapter_5/abs.png, id=1520, 569.0058pt x 385.44pt>
 File: ./Pictures/../Pictures/Chapter_5/abs.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/abs.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/abs.png used on input
- line 217.
-(pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
+ line 219.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
 
-<./Pictures/../Pictures/Chapter_5/fresnel.png, id=923, 569.0058pt x 385.44pt>
+<./Pictures/../Pictures/Chapter_5/fresnel.png, id=1521, 569.0058pt x 385.44pt>
 File: ./Pictures/../Pictures/Chapter_5/fresnel.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/fresnel.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/fresnel.png used on i
-nput line 218.
-(pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
+nput line 220.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
 
-<./Pictures/../Pictures/Chapter_5/specular.png, id=925, 569.0058pt x 385.44pt>
+<./Pictures/../Pictures/Chapter_5/specular.png, id=1523, 569.0058pt x 385.44pt>
 File: ./Pictures/../Pictures/Chapter_5/specular.png Graphic file (type png)
-
 <use ./Pictures/../Pictures/Chapter_5/specular.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/specular.png used on 
-input line 228.
-(pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
+input line 230.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
 
-<./Pictures/../Pictures/Chapter_5/diffusive.png, id=926, 569.0058pt x 385.44pt>
+<./Pictures/../Pictures/Chapter_5/diffusive.png, id=1524, 569.0058pt x 385.44pt
+>
 File: ./Pictures/../Pictures/Chapter_5/diffusive.png Graphic file (type png)
-<use ./Pictures/../Pictures/Chapter_5/diffusive.png>
+ <use ./Pictures/../Pictures/Chapter_5/diffusive.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/diffusive.png used on
- input line 229.
-(pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
+ input line 231.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
 
-
-LaTeX Warning: Reference `fig:dimensions' on page 63 undefined on input line 23
-7.
-
-
-<./Pictures/../Pictures/Chapter_5/size_LY_variation.png, id=928, 569.0058pt x 3
-85.44pt>
+<./Pictures/../Pictures/Chapter_5/size_LY_variation.png, id=1527, 569.0058pt x 
+385.44pt>
 File: ./Pictures/../Pictures/Chapter_5/size_LY_variation.png Graphic file (type
  png)
  <use ./Pictures/../Pictures/Chapter_5/size_LY_variation.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/size_LY_variation.png
- used on input line 242.
-(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
-
-
-Package natbib Warning: Citation `Kris2012' on page 63 undefined on input line 
-247.
-
-
-LaTeX Warning: Reference `fig:gain' on page 63 undefined on input line 249.
-
-
-LaTeX Warning: Reference `fig:gain' on page 63 undefined on input line 252.
-
-
-<./Pictures/../Pictures/Chapter_5/gain_grease.png, id=929, 569.0058pt x 385.44p
-t>
+ used on input line 244.
+(pdftex.def)             Requested size: 227.62204pt x 154.18503pt.
+ [65 <./Pictures/../Pictures/Chapter_5/abs.png> <./Pictures/../Pictures/Chapter
+_5/fresnel.png>] [66 <./Pictures/../Pictures/Chapter_5/specular.png> <./Picture
+s/../Pictures/Chapter_5/diffusive.png> <./Pictures/../Pictures/Chapter_5/size_L
+Y_variation.png>]
+<./Pictures/../Pictures/Chapter_5/gain_grease.png, id=1545, 569.0058pt x 385.44
+pt>
 File: ./Pictures/../Pictures/Chapter_5/gain_grease.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_5/gain_grease.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/gain_grease.png used 
-on input line 255.
-(pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
+on input line 259.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
 
-<./Pictures/../Pictures/Chapter_5/wrap_gain.png, id=930, 569.0058pt x 385.44pt>
+<./Pictures/../Pictures/Chapter_5/wrap_gain.png, id=1546, 569.0058pt x 385.44pt
+>
 File: ./Pictures/../Pictures/Chapter_5/wrap_gain.png Graphic file (type png)
-<use ./Pictures/../Pictures/Chapter_5/wrap_gain.png>
+ <use ./Pictures/../Pictures/Chapter_5/wrap_gain.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/wrap_gain.png used on
- input line 256.
-(pdftex.def)             Requested size: 170.71652pt x 115.63876pt.
- [63 <./Pictures/../Pictures/Chapter_5/abs.png> <./Pictures/../Pictures/Chapter
-_5/fresnel.png> <./Pictures/../Pictures/Chapter_5/specular.png> <./Pictures/../
-Pictures/Chapter_5/diffusive.png>] [64 <./Pictures/../Pictures/Chapter_5/size_L
-Y_variation.png>] [65 <./Pictures/../Pictures/Chapter_5/gain_grease.png> <./Pic
-tures/../Pictures/Chapter_5/wrap_gain.png>]
-<./Pictures/../Pictures/Chapter_5/fluo.png, id=954, 523.9575pt x 339.2675pt>
+ input line 260.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+ [67 <./Pictures/../Pictures/Chapter_5/gain_grease.png> <./Pictures/../Pictures
+/Chapter_5/wrap_gain.png>]
+<./Pictures/../Pictures/Chapter_5/fluo.png, id=1555, 523.9575pt x 339.2675pt>
 File: ./Pictures/../Pictures/Chapter_5/fluo.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/fluo.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/fluo.png used on inpu
-t line 295.
+t line 294.
 (pdftex.def)             Requested size: 227.62204pt x 147.38344pt.
-
-
-LaTeX Warning: Reference `fig:emission' on page 66 undefined on input line 301.
-
-
-
-LaTeX Warning: Reference `fig:' on page 66 undefined on input line 304.
-
-[66]
-<./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png, id=960, 698.61pt x 473.77pt>
+ [68]
+<./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png, id=1562, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png Graphic file (type png)
-
 <use ./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png used o
-n input line 312.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+n input line 311.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_5/LuAG_ce.png, id=961, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_5/LuAG_ce.png, id=1563, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_5/LuAG_ce.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/LuAG_ce.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LuAG_ce.png used on i
-nput line 313.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+nput line 312.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_5/cef3.png, id=962, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_5/cef3.png, id=1565, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_5/cef3.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/cef3.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cef3.png used on inpu
-t line 325.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+t line 323.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_5/LuAG_pr.png, id=963, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_5/LuAG_pr.png, id=1566, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_5/LuAG_pr.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/LuAG_pr.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LuAG_pr.png used on i
-nput line 326.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+nput line 324.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_5/BGO.png, id=964, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_5/BGO.png, id=1568, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_5/BGO.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/BGO.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/BGO.png used on input
- line 336.
+ line 334.
 (pdftex.def)             Requested size: 227.62204pt x 154.3638pt.
 
-<./Pictures/../Pictures/Chapter_5/trans.png, id=965, 586.19pt x 254.9525pt>
+<./Pictures/../Pictures/Chapter_5/trans.png, id=1569, 586.19pt x 254.9525pt>
 File: ./Pictures/../Pictures/Chapter_5/trans.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/trans.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/trans.png used on inp
-ut line 348.
+ut line 345.
 (pdftex.def)             Requested size: 227.62204pt x 98.99924pt.
+ [69 <./Pictures/../Pictures/Chapter_5/fluo.png>] [70 <./Pictures/../Pictures/C
+hapter_5/LYSO_Sipat.png> <./Pictures/../Pictures/Chapter_5/LuAG_ce.png> <./Pict
+ures/../Pictures/Chapter_5/cef3.png> <./Pictures/../Pictures/Chapter_5/LuAG_pr.
+png> <./Pictures/../Pictures/Chapter_5/BGO.png>] [71 <./Pictures/../Pictures/Ch
+apter_5/trans.png>]
+<./Pictures/../Pictures/Chapter_5/trans_luag.png, id=1587, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/trans_luag.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_5/trans_luag.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/trans_luag.png used o
+n input line 372.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
+<./Pictures/../Pictures/Chapter_5/lso_trans.png, id=1588, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/lso_trans.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:transmission' on page 67 undefined on input line 
-353.
+<use ./Pictures/../Pictures/Chapter_5/lso_trans.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/lso_trans.png used on
+ input line 373.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-[67 <./Pictures/../Pictures/Chapter_5/fluo.png> <./Pictures/../Pictures/Chapter
-_5/LYSO_Sipat.png> <./Pictures/../Pictures/Chapter_5/LuAG_ce.png>] [68 <./Pictu
-res/../Pictures/Chapter_5/cef3.png> <./Pictures/../Pictures/Chapter_5/LuAG_pr.p
-ng> <./Pictures/../Pictures/Chapter_5/BGO.png> <./Pictures/../Pictures/Chapter_
-5/trans.png>]
+<./Pictures/../Pictures/Chapter_5/cef3_trans.png, id=1589, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/cef3_trans.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_5/cef3_trans.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cef3_trans.png used o
+n input line 381.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-LaTeX Warning: Reference `fig:set_LY' on page 69 undefined on input line 358.
+<./Pictures/../Pictures/Chapter_5/luag_pr_trans.png, id=1590, 698.61pt x 473.77
+pt>
+File: ./Pictures/../Pictures/Chapter_5/luag_pr_trans.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_5/luag_pr_trans.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/luag_pr_trans.png use
+d on input line 382.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_5/LY_3.png, id=983, 572.1375pt x 254.9525pt>
+<./Pictures/../Pictures/Chapter_5/LY_3.png, id=1592, 572.1375pt x 254.9525pt>
 File: ./Pictures/../Pictures/Chapter_5/LY_3.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/LY_3.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LY_3.png used on inpu
-t line 361.
+t line 393.
 (pdftex.def)             Requested size: 227.62204pt x 101.43065pt.
- [69 <./Pictures/../Pictures/Chapter_5/LY_3.png>]
-
-LaTeX Warning: Reference `fig:spectrum' on page 70 undefined on input line 391.
-
-
-
-<./Pictures/../Pictures/Chapter_5/single.png, id=991, 679.53876pt x 486.81876pt
->
+ [72 <./Pictures/../Pictures/Chapter_5/trans_luag.png> <./Pictures/../Pictures/
+Chapter_5/lso_trans.png> <./Pictures/../Pictures/Chapter_5/cef3_trans.png> <./P
+ictures/../Pictures/Chapter_5/luag_pr_trans.png>] [73 <./Pictures/../Pictures/C
+hapter_5/LY_3.png>]
+<./Pictures/../Pictures/Chapter_5/single.png, id=1605, 679.53876pt x 486.81876p
+t>
 File: ./Pictures/../Pictures/Chapter_5/single.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_5/single.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/single.png used on in
-put line 394.
-(pdftex.def)             Requested size: 170.71652pt x 122.29865pt.
+put line 426.
+(pdftex.def)             Requested size: 199.16928pt x 142.68175pt.
 
-<./Pictures/../Pictures/Chapter_5/spectrum_LY.png, id=992, 679.53876pt x 486.81
-876pt>
+<./Pictures/../Pictures/Chapter_5/spectrum_LY.png, id=1606, 679.53876pt x 486.8
+1876pt>
 File: ./Pictures/../Pictures/Chapter_5/spectrum_LY.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_5/spectrum_LY.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/spectrum_LY.png used 
-on input line 395.
-(pdftex.def)             Requested size: 170.71652pt x 122.29865pt.
+on input line 427.
+(pdftex.def)             Requested size: 199.16928pt x 142.68175pt.
 
-
-LaTeX Warning: Reference `fig:QE' on page 70 undefined on input line 404.
-
-<./Pictures/../Pictures/Chapter_5/qe.png, id=993, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_5/qe.png, id=1608, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_5/qe.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_5/qe.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/qe.png used on input 
-line 408.
-(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
-
-
-LaTeX Warning: Reference `table:LYtable' on page 70 undefined on input line 414
-.
-
-[70]
+line 441.
+(pdftex.def)             Requested size: 227.62204pt x 154.3638pt.
+ [74]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [71 <./Pictures/../Pictures/Chapter_5/single.png> <./Pictures/../Pictures/Cha
-pter_5/spectrum_LY.png> <./Pictures/../Pictures/Chapter_5/qe.png>] [72]
+) [75 <./Pictures/../Pictures/Chapter_5/single.png> <./Pictures/../Pictures/Cha
+pter_5/spectrum_LY.png> <./Pictures/../Pictures/Chapter_5/qe.png>] [76]
 \openout2 = `./Chapter6/chLorem2.aux'.
 
 
 (./Chapter6/chLorem2.tex
 Chapter 6.
 
-Package natbib Warning: Citation `Becker2005' on page 73 undefined on input lin
-e 11.
-
-
-<./Pictures/../Pictures/Chapter_8/electronics.pdf, id=1012, 277.51682pt x 325.2
+<./Pictures/../Pictures/Chapter_8/electronics.pdf, id=1629, 277.51682pt x 325.2
 15pt>
 File: ./Pictures/../Pictures/Chapter_8/electronics.pdf Graphic file (type pdf)
  <use ./Pictures/../Pictures/Chapter_8/electronics.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/electronics.pdf used 
 on input line 16.
 (pdftex.def)             Requested size: 256.0748pt x 300.10458pt.
- [73
+ [77
 
 
 
-] [74 <./Pictures/../Pictures/Chapter_8/electronics.pdf>]
+] [78 <./Pictures/../Pictures/Chapter_8/electronics.pdf>] [79]
 
-Package natbib Warning: Citation `Derenzo2000' on page 75 undefined on input li
-ne 52.
+LaTeX Warning: Reference `fig:' on page 80 undefined on input line 66.
 
-[75]
-
-LaTeX Warning: Reference `fig:' on page 76 undefined on input line 66.
-
-[76]
+[80]
 ! Display math should end with $$.
 <to be read again> 
                    B
@@ -1917,21 +1710,7 @@ l.90 \end{equation}
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[77] [78]
-
-Package natbib Warning: Citation `Bajzer1991' on page 79 undefined on input lin
-e 151.
-
-[79]
-
-Package natbib Warning: Citation `Bajzer1991' on page 80 undefined on input lin
-e 159.
-
-
-Package natbib Warning: Citation `Bajzer1991' on page 80 undefined on input lin
-e 163.
-
-) [80]
+[81] [82] [83]) [84]
 \openout2 = `./Chapter7/chapter6.aux'.
 
  (./Chapter7/chapter6.tex
@@ -1940,11 +1719,6 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no † in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
 ! Undefined control sequence.
 <recently read> \sym 
                      
@@ -1956,27 +1730,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[81
+[85
 
 
 
 ]
-<./Pictures/../Pictures/Chapter_7/HHG.png, id=1085, 571.13374pt x 400.49625pt>
+<./Pictures/../Pictures/Chapter_7/HHG.png, id=1700, 571.13374pt x 400.49625pt>
 File: ./Pictures/../Pictures/Chapter_7/HHG.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/HHG.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/HHG.png used on input
  line 21.
 (pdftex.def)             Requested size: 341.43306pt x 239.42572pt.
-
-
-LaTeX Warning: Reference `fig:HHG' on page 82 undefined on input line 27.
-
-[82 <./Pictures/../Pictures/Chapter_7/HHG.png>]
-
-Package natbib Warning: Citation `Martin2001' on page 83 undefined on input lin
-e 40.
-
+ [86 <./Pictures/../Pictures/Chapter_7/HHG.png>]
 ! Undefined control sequence.
 <recently read> \micro 
                        
@@ -1988,8 +1754,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[83]
-<./Pictures/../Pictures/Chapter_7/VUV_line.png, id=1099, 526.96875pt x 254.9525
+[87]
+<./Pictures/../Pictures/Chapter_7/VUV_line.png, id=1714, 526.96875pt x 254.9525
 pt>
 File: ./Pictures/../Pictures/Chapter_7/VUV_line.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_7/VUV_line.png>
@@ -2008,10 +1774,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[84 <./Pictures/../Pictures/Chapter_7/VUV_line.png>]
-
-LaTeX Warning: Reference `fig:daq' on page 85 undefined on input line 70.
-
+[88 <./Pictures/../Pictures/Chapter_7/VUV_line.png>]
 ! Undefined control sequence.
 <recently read> \micro 
                        
@@ -2024,57 +1787,40 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-<./Pictures/../Pictures/Chapter_7/electronics.pdf, id=1107, 508.7808pt x 226.92
+<./Pictures/../Pictures/Chapter_7/electronics.pdf, id=1722, 508.7808pt x 226.92
 78pt>
 File: ./Pictures/../Pictures/Chapter_7/electronics.pdf Graphic file (type pdf)
  <use ./Pictures/../Pictures/Chapter_7/electronics.pdf>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/electronics.pdf used 
 on input line 79.
 (pdftex.def)             Requested size: 256.0748pt x 114.21846pt.
- [85]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-
-<./Pictures/../Pictures/Chapter_7/VUV_spectrum.png, id=1115, 437.635pt x 589.20
+ [89]
+<./Pictures/../Pictures/Chapter_7/VUV_spectrum.png, id=1728, 437.635pt x 589.20
 125pt>
 File: ./Pictures/../Pictures/Chapter_7/VUV_spectrum.png Graphic file (type png)
 
  <use ./Pictures/../Pictures/Chapter_7/VUV_spectrum.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/VUV_spectrum.png used
- on input line 118.
+ on input line 106.
 (pdftex.def)             Requested size: 199.16928pt x 268.14992pt.
- [86 <./Pictures/../Pictures/Chapter_7/electronics.pdf>]
 
-LaTeX Warning: Reference `fig:IRF' on page 87 undefined on input line 131.
-
-
-<./Pictures/../Pictures/Chapter_7/IRF_simple.png, id=1130, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_7/IRF_simple.png, id=1732, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_7/IRF_simple.png Graphic file (type png)
 <use ./Pictures/../Pictures/Chapter_7/IRF_simple.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/IRF_simple.png used o
-n input line 134.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+n input line 122.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_7/long.png, id=1131, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_7/long.png, id=1733, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_7/long.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/long.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/long.png used on inpu
-t line 135.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
-
-
-LaTeX Warning: Reference `fig:IRF' on page 87 undefined on input line 142.
-
-[87 <./Pictures/../Pictures/Chapter_7/VUV_spectrum.png>] [88 <./Pictures/../Pic
-tures/Chapter_7/IRF_simple.png> <./Pictures/../Pictures/Chapter_7/long.png>]
-
-LaTeX Warning: Reference `fig:geom' on page 89 undefined on input line 165.
-
+t line 123.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [90 <./Pictures/../Pictures/Chapter_7/electronics.pdf>] [91 <./Pictures/../Pic
+tures/Chapter_7/VUV_spectrum.png>] [92 <./Pictures/../Pictures/Chapter_7/IRF_si
+mple.png> <./Pictures/../Pictures/Chapter_7/long.png>]
 
 ! LaTeX Error: File `../Pictures/Chapter_7/' not found.
 
@@ -2082,82 +1828,63 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 ...aphics[width=7cm]{../Pictures/Chapter_7/}
+l.156 ...aphics[width=8cm]{../Pictures/Chapter_7/}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[89] [90]
-
-LaTeX Warning: Reference `fig:range' on page 91 undefined on input line 213.
-
-
-<./Pictures/../Pictures/Chapter_7/decay_range_2.png, id=1156, 698.61pt x 473.77
+[93] [94]
+<./Pictures/../Pictures/Chapter_7/decay_range_2.png, id=1767, 698.61pt x 473.77
 pt>
 File: ./Pictures/../Pictures/Chapter_7/decay_range_2.png Graphic file (type png
 )
  <use ./Pictures/../Pictures/Chapter_7/decay_range_2.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/decay_range_2.png use
-d on input line 218.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+d on input line 206.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_7/rise_range_2.png, id=1157, 698.61pt x 473.77p
+<./Pictures/../Pictures/Chapter_7/rise_range_2.png, id=1768, 698.61pt x 473.77p
 t>
 File: ./Pictures/../Pictures/Chapter_7/rise_range_2.png Graphic file (type png)
 
  <use ./Pictures/../Pictures/Chapter_7/rise_range_2.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/rise_range_2.png used
- on input line 219.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
- [91]
-
-LaTeX Warning: Reference `fig:likelihood' on page 92 undefined on input line 22
-5.
-
-
-<./Pictures/../Pictures/Chapter_7/error_rise.png, id=1163, 768.8725pt x 694.595
+ on input line 207.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [95]
+<./Pictures/../Pictures/Chapter_7/error_rise.png, id=1774, 768.8725pt x 694.595
 pt>
 File: ./Pictures/../Pictures/Chapter_7/error_rise.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_7/error_rise.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/error_rise.png used o
-n input line 230.
-(pdftex.def)             Requested size: 170.71652pt x 154.221pt.
+n input line 218.
+(pdftex.def)             Requested size: 227.62204pt x 205.63506pt.
 
-
-LaTeX Warning: Reference `fig:likelihood_sipat' on page 92 undefined on input l
-ine 236.
-
-
-<./Pictures/../Pictures/Chapter_7/rise_sipat.png, id=1164, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_7/rise_sipat.png, id=1776, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_7/rise_sipat.png Graphic file (type png)
 <use ./Pictures/../Pictures/Chapter_7/rise_sipat.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/rise_sipat.png used o
-n input line 239.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+n input line 227.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_7/decay_like_2.png, id=1165, 698.61pt x 473.77p
+<./Pictures/../Pictures/Chapter_7/decay_like_2.png, id=1777, 698.61pt x 473.77p
 t>
 File: ./Pictures/../Pictures/Chapter_7/decay_like_2.png Graphic file (type png)
 
  <use ./Pictures/../Pictures/Chapter_7/decay_like_2.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/decay_like_2.png used
- on input line 240.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
- [92 <./Pictures/../Pictures/Chapter_7/decay_range_2.png> <./Pictures/../Pictur
-es/Chapter_7/rise_range_2.png> <./Pictures/../Pictures/Chapter_7/error_rise.png
->]
+ on input line 228.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [96 <./Pictures/../Pictures/Chapter_7/decay_range_2.png> <./Pictures/../Pictur
+es/Chapter_7/rise_range_2.png>]
 
-Package natbib Warning: Citation `Gundacker2014' on page 93 undefined on input 
-line 260.
+Package natbib Warning: Citation `ref:Lecoq2006' on page 97 undefined on input 
+line 248.
 
-
-Package natbib Warning: Citation `ref:Lecoq2006' on page 93 undefined on input 
-line 260.
-
-[93 <./Pictures/../Pictures/Chapter_7/rise_sipat.png> <./Pictures/../Pictures/C
-hapter_7/decay_like_2.png>]
+[97 <./Pictures/../Pictures/Chapter_7/error_rise.png> <./Pictures/../Pictures/C
+hapter_7/rise_sipat.png> <./Pictures/../Pictures/Chapter_7/decay_like_2.png>]
 
 ! LaTeX Error: File `../Pictures/Chapter_7/' not found.
 
@@ -2165,7 +1892,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.265 ...aphics[width=7cm]{../Pictures/Chapter_7/}
+l.254 ...aphics[width=7cm]{../Pictures/Chapter_7/}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -2173,67 +1900,67 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<./Pictures/../Pictures/Chapter_7/2737_proteus.png, id=1181, 560.0925pt x 420.5
+<./Pictures/../Pictures/Chapter_7/2737_proteus.png, id=1791, 560.0925pt x 420.5
 7124pt>
 File: ./Pictures/../Pictures/Chapter_7/2737_proteus.png Graphic file (type png)
 
  <use ./Pictures/../Pictures/Chapter_7/2737_proteus.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/2737_proteus.png used
- on input line 266.
+ on input line 255.
 (pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
 
-<./Pictures/../Pictures/Chapter_7/CTI.png, id=1182, 560.0925pt x 420.57124pt>
+<./Pictures/../Pictures/Chapter_7/CTI.png, id=1792, 560.0925pt x 420.57124pt>
 File: ./Pictures/../Pictures/Chapter_7/CTI.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/CTI.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/CTI.png used on input
- line 274.
+ line 263.
 (pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
 
-<./Pictures/../Pictures/Chapter_7/ca_ce.png, id=1183, 561.09625pt x 420.57124pt
+<./Pictures/../Pictures/Chapter_7/ca_ce.png, id=1793, 561.09625pt x 420.57124pt
 >
 File: ./Pictures/../Pictures/Chapter_7/ca_ce.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_7/ca_ce.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/ca_ce.png used on inp
-ut line 275.
+ut line 264.
 (pdftex.def)             Requested size: 199.16928pt x 149.2878pt.
 
-<./Pictures/../Pictures/Chapter_7/lgso.png, id=1184, 560.0925pt x 420.57124pt>
+<./Pictures/../Pictures/Chapter_7/lgso.png, id=1794, 560.0925pt x 420.57124pt>
 File: ./Pictures/../Pictures/Chapter_7/lgso.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/lgso.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/lgso.png used on inpu
-t line 283.
+t line 271.
 (pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
 
-<./Pictures/../Pictures/Chapter_7/cef3.png, id=1185, 560.0925pt x 420.57124pt>
+<./Pictures/../Pictures/Chapter_7/cef3.png, id=1795, 560.0925pt x 420.57124pt>
 File: ./Pictures/../Pictures/Chapter_7/cef3.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/cef3.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/cef3.png used on inpu
-t line 284.
+t line 272.
 (pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
 
-<./Pictures/../Pictures/Chapter_7/bgo.png, id=1186, 810.02625pt x 404.51125pt>
+<./Pictures/../Pictures/Chapter_7/bgo.png, id=1796, 810.02625pt x 404.51125pt>
 File: ./Pictures/../Pictures/Chapter_7/bgo.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/bgo.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/bgo.png used on input
- line 292.
-(pdftex.def)             Requested size: 199.16928pt x 99.46103pt.
+ line 279.
+(pdftex.def)             Requested size: 227.62204pt x 113.66974pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.302 LYSO Sipat      & 36_
+l.291 LYSO Sipat      & 36_
                            {-27}^{+30} ps         & 40.5_{-0.7}^{+0.9} ns  & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.302 ... Sipat      & 36_{-27}^{+30} ps         &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.291 ... Sipat      & 36_{-27}^{+30} ps         &
                                                    40.5_{-0.7}^{+0.9} ns  & \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2244,7 +1971,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.302 ... Sipat      & 36_{-27}^{+30} ps         &
+l.291 ... Sipat      & 36_{-27}^{+30} ps         &
                                                    40.5_{-0.7}^{+0.9} ns  & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2252,7 +1979,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.302 ... Sipat      & 36_{-27}^{+30} ps         &
+l.291 ... Sipat      & 36_{-27}^{+30} ps         &
                                                    40.5_{-0.7}^{+0.9} ns  & \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2263,15 +1990,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.302 ...      & 36_{-27}^{+30} ps         & 40.5_
+l.291 ...      & 36_{-27}^{+30} ps         & 40.5_
                                                   {-0.7}^{+0.9} ns  & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.302 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.291 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
                                                    \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2282,7 +2009,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.302 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
+l.291 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2290,7 +2017,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.302 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
+l.291 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
                                                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2301,15 +2028,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.303 LYSO Proteus     & 26_
+l.293 LYSO Proteus     & 26_
                             {-26}^{+30} ps         & 39_{-0.7}^{+0.9} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.303 ...Proteus     & 26_{-26}^{+30} ps         &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.293 ...Proteus     & 26_{-26}^{+30} ps         &
                                                    39_{-0.7}^{+0.9} ns & \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2320,7 +2047,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.303 ...Proteus     & 26_{-26}^{+30} ps         &
+l.293 ...Proteus     & 26_{-26}^{+30} ps         &
                                                    39_{-0.7}^{+0.9} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2328,7 +2055,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.303 ...Proteus     & 26_{-26}^{+30} ps         &
+l.293 ...Proteus     & 26_{-26}^{+30} ps         &
                                                    39_{-0.7}^{+0.9} ns & \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2339,15 +2066,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.303 ...eus     & 26_{-26}^{+30} ps         & 39_
+l.293 ...eus     & 26_{-26}^{+30} ps         & 39_
                                                   {-0.7}^{+0.9} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.303 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.293 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
                                                    \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2358,7 +2085,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.303 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
+l.293 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2366,7 +2093,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.303 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
+l.293 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
                                                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2377,15 +2104,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.304 LSO CTI      & 23_
+l.295 LSO CTI      & 23_
                         {-18}^{+20} ps         & 37_{-0.8}^{+0.8} ns  & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.304 LSO CTI      & 23_{-18}^{+20} ps         &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.295 LSO CTI      & 23_{-18}^{+20} ps         &
                                                  37_{-0.8}^{+0.8} ns  & \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2396,7 +2123,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.304 LSO CTI      & 23_{-18}^{+20} ps         &
+l.295 LSO CTI      & 23_{-18}^{+20} ps         &
                                                  37_{-0.8}^{+0.8} ns  & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2404,7 +2131,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.304 LSO CTI      & 23_{-18}^{+20} ps         &
+l.295 LSO CTI      & 23_{-18}^{+20} ps         &
                                                  37_{-0.8}^{+0.8} ns  & \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2415,15 +2142,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.304 ...TI      & 23_{-18}^{+20} ps         & 37_
+l.295 ...TI      & 23_{-18}^{+20} ps         & 37_
                                                   {-0.8}^{+0.8} ns  & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.304 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.295 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
                                                    \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2434,7 +2161,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.304 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
+l.295 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2442,7 +2169,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.304 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
+l.295 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
                                                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2453,15 +2180,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.305 LSO:Ca      & 23_
+l.297 LSO:Ca      & 23_
                        {-19}^{+22} ps         & 10_{-0.3}^{+0.4} ns  & 30_{-...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.305 LSO:Ca      & 23_{-19}^{+22} ps         &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.297 LSO:Ca      & 23_{-19}^{+22} ps         &
                                                 10_{-0.3}^{+0.4} ns  & 30_{-...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2472,7 +2199,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.305 LSO:Ca      & 23_{-19}^{+22} ps         &
+l.297 LSO:Ca      & 23_{-19}^{+22} ps         &
                                                 10_{-0.3}^{+0.4} ns  & 30_{-...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2480,7 +2207,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.305 LSO:Ca      & 23_{-19}^{+22} ps         &
+l.297 LSO:Ca      & 23_{-19}^{+22} ps         &
                                                 10_{-0.3}^{+0.4} ns  & 30_{-...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2491,15 +2218,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.305 ...Ca      & 23_{-19}^{+22} ps         & 10_
+l.297 ...Ca      & 23_{-19}^{+22} ps         & 10_
                                                   {-0.3}^{+0.4} ns  & 30_{-0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.305 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.297 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
                                                    30_{-0.8}^{1.0} ns \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2510,7 +2237,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.305 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
+l.297 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
                                                    30_{-0.8}^{1.0} ns \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2518,7 +2245,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.305 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
+l.297 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
                                                    30_{-0.8}^{1.0} ns \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2529,16 +2256,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.305 ...} ps         & 10_{-0.3}^{+0.4} ns  & 30_
+l.297 ...} ps         & 10_{-0.3}^{+0.4} ns  & 30_
                                                   {-0.8}^{1.0} ns \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.306 L
-       GSO & 27_{-15}^{27} ps         & 38_{-0.8}^{+0.8} ns & \\
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.298 \hline
+            
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2548,16 +2275,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.306 L
-       GSO & 27_{-15}^{27} ps         & 38_{-0.8}^{+0.8} ns & \\
+l.298 \hline
+            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.306 L
-       GSO & 27_{-15}^{27} ps         & 38_{-0.8}^{+0.8} ns & \\
+l.298 \hline
+            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2567,15 +2294,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.306 LGSO & 27_
+l.299 LGSO & 27_
                 {-15}^{27} ps         & 38_{-0.8}^{+0.8} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.306 LGSO & 27_{-15}^{27} ps         &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.299 LGSO & 27_{-15}^{27} ps         &
                                         38_{-0.8}^{+0.8} ns & \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2586,7 +2313,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.306 LGSO & 27_{-15}^{27} ps         &
+l.299 LGSO & 27_{-15}^{27} ps         &
                                         38_{-0.8}^{+0.8} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2594,7 +2321,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.306 LGSO & 27_{-15}^{27} ps         &
+l.299 LGSO & 27_{-15}^{27} ps         &
                                         38_{-0.8}^{+0.8} ns & \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2605,15 +2332,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.306 LGSO & 27_{-15}^{27} ps         & 38_
+l.299 LGSO & 27_{-15}^{27} ps         & 38_
                                            {-0.8}^{+0.8} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.306 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.299 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
                                                    \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2624,7 +2351,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.306 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
+l.299 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2632,7 +2359,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.306 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
+l.299 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
                                                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2643,15 +2370,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.307 CeF$_{3}$      & 22_
+l.301 CeF$_{3}$      & 22_
                           {15}^{30} ps         & 5_{-0.2}^{+0.4} ns  & 18_{-...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.307 CeF$_{3}$      & 22_{15}^{30} ps         &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.301 CeF$_{3}$      & 22_{15}^{30} ps         &
                                                  5_{-0.2}^{+0.4} ns  & 18_{-...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2662,7 +2389,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.307 CeF$_{3}$      & 22_{15}^{30} ps         &
+l.301 CeF$_{3}$      & 22_{15}^{30} ps         &
                                                  5_{-0.2}^{+0.4} ns  & 18_{-...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2670,7 +2397,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.307 CeF$_{3}$      & 22_{15}^{30} ps         &
+l.301 CeF$_{3}$      & 22_{15}^{30} ps         &
                                                  5_{-0.2}^{+0.4} ns  & 18_{-...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2681,15 +2408,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.307 ..._{3}$      & 22_{15}^{30} ps         & 5_
+l.301 ..._{3}$      & 22_{15}^{30} ps         & 5_
                                                   {-0.2}^{+0.4} ns  & 18_{-0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.307 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.301 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
                                                    18_{-0.5}^{+0.8} ns \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2700,7 +2427,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.307 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
+l.301 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
                                                    18_{-0.5}^{+0.8} ns \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2708,7 +2435,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.307 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
+l.301 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
                                                    18_{-0.5}^{+0.8} ns \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2719,16 +2446,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.307 ...0} ps         & 5_{-0.2}^{+0.4} ns  & 18_
+l.301 ...0} ps         & 5_{-0.2}^{+0.4} ns  & 18_
                                                   {-0.5}^{+0.8} ns \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.308 B
-       GO      & 30_{25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.302 \hline
+            
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2738,16 +2465,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.308 B
-       GO      & 30_{25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long
+l.302 \hline
+            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.308 B
-       GO      & 30_{25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long
+l.302 \hline
+            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2757,16 +2484,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.308 BGO      & 30_
-                    {25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long
+l.303 BGO      & 30_
+                    {25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.308 BGO      & 30_{25}^{35} ps         &
-                                           10_{-0.2}^{+0.4} ns  & long
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.303 BGO      & 30_{25}^{35} ps         &
+                                           10_{-0.2}^{+0.4} ns  & long \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2776,16 +2503,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.308 BGO      & 30_{25}^{35} ps         &
-                                           10_{-0.2}^{+0.4} ns  & long
+l.303 BGO      & 30_{25}^{35} ps         &
+                                           10_{-0.2}^{+0.4} ns  & long \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.308 BGO      & 30_{25}^{35} ps         &
-                                           10_{-0.2}^{+0.4} ns  & long
+l.303 BGO      & 30_{25}^{35} ps         &
+                                           10_{-0.2}^{+0.4} ns  & long \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2795,16 +2522,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.308 BGO      & 30_{25}^{35} ps         & 10_
-                                              {-0.2}^{+0.4} ns  & long
+l.303 BGO      & 30_{25}^{35} ps         & 10_
+                                              {-0.2}^{+0.4} ns  & long \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.308 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
-                                                   long
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.303 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
+                                                   long \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2814,16 +2541,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.308 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
-                                                   long
+l.303 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
+                                                   long \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.308 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
-                                                   long
+l.303 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
+                                                   long \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2831,65 +2558,64 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<./Pictures/../Pictures/Chapter_7/luag_0_0_8.png, id=1187, 953.5625pt x 382.428
+<./Pictures/../Pictures/Chapter_7/luag_0_0_8.png, id=1798, 953.5625pt x 382.428
 76pt>
 File: ./Pictures/../Pictures/Chapter_7/luag_0_0_8.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_7/luag_0_0_8.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/luag_0_0_8.png used o
-n input line 318.
-(pdftex.def)             Requested size: 199.16928pt x 79.87474pt.
- [94 <./Pictures/../Pictures/Chapter_7/2737_proteus.png (PNG copy)> <./Pictures
-/../Pictures/Chapter_7/CTI.png (PNG copy)> <./Pictures/../Pictures/Chapter_7/ca
-_ce.png (PNG copy)>] <./Pictures/../Pictures/Chapter_7/2612.png, id=1194, 811.0
+n input line 315.
+(pdftex.def)             Requested size: 227.62204pt x 91.28876pt.
+ [98 <./Pictures/../Pictures/Chapter_7/2737_proteus.png (PNG copy)>] [99 <./Pic
+tures/../Pictures/Chapter_7/CTI.png (PNG copy)> <./Pictures/../Pictures/Chapter
+_7/ca_ce.png (PNG copy)> <./Pictures/../Pictures/Chapter_7/lgso.png (PNG copy)>
+ <./Pictures/../Pictures/Chapter_7/cef3.png (PNG copy)> <./Pictures/../Pictures
+/Chapter_7/bgo.png>] <./Pictures/../Pictures/Chapter_7/2612.png, id=1807, 811.0
 3pt x 405.515pt>
 File: ./Pictures/../Pictures/Chapter_7/2612.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/2612.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/2612.png used on inpu
-t line 326.
+t line 323.
 (pdftex.def)             Requested size: 199.16928pt x 99.58408pt.
 
-<./Pictures/../Pictures/Chapter_7/0_44.png, id=1195, 813.0375pt x 396.48125pt>
+<./Pictures/../Pictures/Chapter_7/0_44.png, id=1808, 813.0375pt x 396.48125pt>
 File: ./Pictures/../Pictures/Chapter_7/0_44.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_7/0_44.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/0_44.png used on inpu
-t line 327.
+t line 324.
 (pdftex.def)             Requested size: 199.16928pt x 97.12363pt.
 
-<./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png, id=1196, 560.0925pt x 420
+<./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png, id=1809, 560.0925pt x 420
 .57124pt>
 File: ./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png Graphic file (type pn
 g)
  <use ./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png us
-ed on input line 335.
+ed on input line 332.
 (pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
 
-<./Pictures/../Pictures/Chapter_7/luagpr.png, id=1197, 560.0925pt x 420.57124pt
+<./Pictures/../Pictures/Chapter_7/luagpr.png, id=1810, 560.0925pt x 420.57124pt
 >
 File: ./Pictures/../Pictures/Chapter_7/luagpr.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_7/luagpr.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/luagpr.png used on in
-put line 336.
+put line 333.
 (pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.346 LuAG:Ce (0.08$\%$)    & 280_
-                                  {-51}^{+52} ps         & 40.5_{-0.7}^{+0.9...
+l.345 LuAG:Ce (0.08$\%$)    & 280_
+                                  {-51}^{+52} ps         & 65_{-2.1}^{+2.6} ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.346 ...08$\%$)    & 280_{-51}^{+52} ps         &
-                                                   40.5_{-0.7}^{+0.9} ns  & ...
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.345 ...08$\%$)    & 280_{-51}^{+52} ps         &
+                                                   65_{-2.1}^{+2.6} ns  & lo...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2899,16 +2625,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.346 ...08$\%$)    & 280_{-51}^{+52} ps         &
-                                                   40.5_{-0.7}^{+0.9} ns  & ...
+l.345 ...08$\%$)    & 280_{-51}^{+52} ps         &
+                                                   65_{-2.1}^{+2.6} ns  & lo...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.346 ...08$\%$)    & 280_{-51}^{+52} ps         &
-                                                   40.5_{-0.7}^{+0.9} ns  & ...
+l.345 ...08$\%$)    & 280_{-51}^{+52} ps         &
+                                                   65_{-2.1}^{+2.6} ns  & lo...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2918,15 +2644,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.346 ...)    & 280_{-51}^{+52} ps         & 40.5_
-                                                  {-0.7}^{+0.9} ns  & longer\\
+l.345 ...%$)    & 280_{-51}^{+52} ps         & 65_
+                                                  {-2.1}^{+2.6} ns  & longer\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.346 ...52} ps         & 40.5_{-0.7}^{+0.9} ns  &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.345 ...{+52} ps         & 65_{-2.1}^{+2.6} ns  &
                                                    longer\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2937,7 +2663,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.346 ...52} ps         & 40.5_{-0.7}^{+0.9} ns  &
+l.345 ...{+52} ps         & 65_{-2.1}^{+2.6} ns  &
                                                    longer\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2945,7 +2671,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.346 ...52} ps         & 40.5_{-0.7}^{+0.9} ns  &
+l.345 ...{+52} ps         & 65_{-2.1}^{+2.6} ns  &
                                                    longer\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2957,15 +2683,15 @@ my insertion and my current dilemma will both disappear.
 <inserted text> 
                 $
 l.347 LuAG:Ce (0.13$\%$)    & 270_
-                                  {-54}^{+54} ps         & 39_{-0.7}^{+0.9} ...
+                                  {-54}^{+54} ps         & 60_{-2}^{+2.5} ns...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
 l.347 ...13$\%$)    & 270_{-54}^{+54} ps         &
-                                                   39_{-0.7}^{+0.9} ns & lon...
+                                                   60_{-2}^{+2.5} ns & longer\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2976,7 +2702,7 @@ deleted material, e.g., by typing `I$}'.
 <inserted text> 
                 $
 l.347 ...13$\%$)    & 270_{-54}^{+54} ps         &
-                                                   39_{-0.7}^{+0.9} ns & lon...
+                                                   60_{-2}^{+2.5} ns & longer\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -2984,7 +2710,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 }
 l.347 ...13$\%$)    & 270_{-54}^{+54} ps         &
-                                                   39_{-0.7}^{+0.9} ns & lon...
+                                                   60_{-2}^{+2.5} ns & longer\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2994,15 +2720,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.347 ...%$)    & 270_{-54}^{+54} ps         & 39_
-                                                  {-0.7}^{+0.9} ns & longer\\
+l.347 ...%$)    & 270_{-54}^{+54} ps         & 60_
+                                                  {-2}^{+2.5} ns & longer\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.347 ...^{+54} ps         & 39_{-0.7}^{+0.9} ns &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.347 ...4}^{+54} ps         & 60_{-2}^{+2.5} ns &
                                                    longer\\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3013,7 +2739,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.347 ...^{+54} ps         & 39_{-0.7}^{+0.9} ns &
+l.347 ...4}^{+54} ps         & 60_{-2}^{+2.5} ns &
                                                    longer\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3021,7 +2747,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.347 ...^{+54} ps         & 39_{-0.7}^{+0.9} ns &
+l.347 ...4}^{+54} ps         & 60_{-2}^{+2.5} ns &
                                                    longer\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3032,16 +2758,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.348 LuAG:Ce (0.44$\%$)     & 190_
-                                   {-40}^{+45} ps         & 37_{-0.8}^{+0.8}...
+l.349 LuAG:Ce (0.44$\%$)     & 190_
+                                   {-40}^{+45} ps         & 58_{-2}^{+2.3} n...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.348 ...4$\%$)     & 190_{-40}^{+45} ps         &
-                                                   37_{-0.8}^{+0.8} ns  & lo...
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.349 ...4$\%$)     & 190_{-40}^{+45} ps         &
+                                                   58_{-2}^{+2.3} ns  & long...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -3051,16 +2777,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.348 ...4$\%$)     & 190_{-40}^{+45} ps         &
-                                                   37_{-0.8}^{+0.8} ns  & lo...
+l.349 ...4$\%$)     & 190_{-40}^{+45} ps         &
+                                                   58_{-2}^{+2.3} ns  & long...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.348 ...4$\%$)     & 190_{-40}^{+45} ps         &
-                                                   37_{-0.8}^{+0.8} ns  & lo...
+l.349 ...4$\%$)     & 190_{-40}^{+45} ps         &
+                                                   58_{-2}^{+2.3} ns  & long...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -3070,15 +2796,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.348 ...$)     & 190_{-40}^{+45} ps         & 37_
-                                                  {-0.8}^{+0.8} ns  & longer \\
+l.349 ...$)     & 190_{-40}^{+45} ps         & 58_
+                                                  {-2}^{+2.3} ns  & longer \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.348 ...{+45} ps         & 37_{-0.8}^{+0.8} ns  &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.349 ...}^{+45} ps         & 58_{-2}^{+2.3} ns  &
                                                    longer \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3089,7 +2815,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.348 ...{+45} ps         & 37_{-0.8}^{+0.8} ns  &
+l.349 ...}^{+45} ps         & 58_{-2}^{+2.3} ns  &
                                                    longer \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3097,7 +2823,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.348 ...{+45} ps         & 37_{-0.8}^{+0.8} ns  &
+l.349 ...}^{+45} ps         & 58_{-2}^{+2.3} ns  &
                                                    longer \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3108,16 +2834,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.349 LuAG:Ce (0.5$\%$)      & 212_
-                                   {-45}^{+45} ps         & 10_{-0.3}^{+0.4}...
+l.351 LuAG:Ce (0.5$\%$)      & 212_
+                                   {-45}^{+45} ps         & 56_{-1.8}^{+2.4}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.349 ...$\%$)      & 212_{-45}^{+45} ps         &
-                                                   10_{-0.3}^{+0.4} ns  & lo...
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.351 ...$\%$)      & 212_{-45}^{+45} ps         &
+                                                   56_{-1.8}^{+2.4} ns  & lo...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -3127,16 +2853,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.349 ...$\%$)      & 212_{-45}^{+45} ps         &
-                                                   10_{-0.3}^{+0.4} ns  & lo...
+l.351 ...$\%$)      & 212_{-45}^{+45} ps         &
+                                                   56_{-1.8}^{+2.4} ns  & lo...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.349 ...$\%$)      & 212_{-45}^{+45} ps         &
-                                                   10_{-0.3}^{+0.4} ns  & lo...
+l.351 ...$\%$)      & 212_{-45}^{+45} ps         &
+                                                   56_{-1.8}^{+2.4} ns  & lo...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -3146,15 +2872,15 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.349 ...)      & 212_{-45}^{+45} ps         & 10_
-                                                  {-0.3}^{+0.4} ns  & longer \\
+l.351 ...)      & 212_{-45}^{+45} ps         & 56_
+                                                  {-1.8}^{+2.4} ns  & longer \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.349 ...{+45} ps         & 10_{-0.3}^{+0.4} ns  &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.351 ...{+45} ps         & 56_{-1.8}^{+2.4} ns  &
                                                    longer \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3165,7 +2891,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.349 ...{+45} ps         & 10_{-0.3}^{+0.4} ns  &
+l.351 ...{+45} ps         & 56_{-1.8}^{+2.4} ns  &
                                                    longer \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3173,7 +2899,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.349 ...{+45} ps         & 10_{-0.3}^{+0.4} ns  &
+l.351 ...{+45} ps         & 56_{-1.8}^{+2.4} ns  &
                                                    longer \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3184,16 +2910,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.350 LuAG:Pr & 190_
-                    {-50}^{50} ps         & 38_{-0.8}^{+0.8} ns &
+l.353 LuAG:Pr & 190_
+                    {-50}^{50} ps         & 28_{-2.1}^{+2.3} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.350 LuAG:Pr & 190_{-50}^{50} ps         &
-                                            38_{-0.8}^{+0.8} ns &
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.353 LuAG:Pr & 190_{-50}^{50} ps         &
+                                            28_{-2.1}^{+2.3} ns & \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -3203,16 +2929,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.350 LuAG:Pr & 190_{-50}^{50} ps         &
-                                            38_{-0.8}^{+0.8} ns &
+l.353 LuAG:Pr & 190_{-50}^{50} ps         &
+                                            28_{-2.1}^{+2.3} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.350 LuAG:Pr & 190_{-50}^{50} ps         &
-                                            38_{-0.8}^{+0.8} ns &
+l.353 LuAG:Pr & 190_{-50}^{50} ps         &
+                                            28_{-2.1}^{+2.3} ns & \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -3222,16 +2948,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.350 LuAG:Pr & 190_{-50}^{50} ps         & 38_
-                                               {-0.8}^{+0.8} ns &
+l.353 LuAG:Pr & 190_{-50}^{50} ps         & 28_
+                                               {-2.1}^{+2.3} ns & \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.350 ...}^{50} ps         & 38_{-0.8}^{+0.8} ns &
-                                                  
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.353 ...}^{50} ps         & 28_{-2.1}^{+2.3} ns &
+                                                   \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -3241,325 +2967,219 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.350 ...}^{50} ps         & 38_{-0.8}^{+0.8} ns &
-                                                  
+l.353 ...}^{50} ps         & 28_{-2.1}^{+2.3} ns &
+                                                   \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.350 ...}^{50} ps         & 38_{-0.8}^{+0.8} ns &
-                                                  
+l.353 ...}^{50} ps         & 28_{-2.1}^{+2.3} ns &
+                                                   \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+[100 <./Pictures/../Pictures/Chapter_7/luag_0_0_8.png (PNG copy)> <./Pictures/.
+./Pictures/Chapter_7/2612.png> <./Pictures/../Pictures/Chapter_7/0_44.png>]
+[101 <./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png (PNG copy)> <./Pictur
+es/../Pictures/Chapter_7/luagpr.png (PNG copy)>] [102] [103]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `streak' on page 104 undefined on input line 4
+05.
 
-
-Package natbib Warning: Citation `Belsky2013' on page 95 undefined on input lin
-e 364.
-
-[95 <./Pictures/../Pictures/Chapter_7/lgso.png (PNG copy)> <./Pictures/../Pictu
-res/Chapter_7/cef3.png (PNG copy)> <./Pictures/../Pictures/Chapter_7/bgo.png> <
-./Pictures/../Pictures/Chapter_7/luag_0_0_8.png (PNG copy)>] [96 <./Pictures/..
-/Pictures/Chapter_7/2612.png> <./Pictures/../Pictures/Chapter_7/0_44.png> <./Pi
-ctures/../Pictures/Chapter_7/luag_2735_0_13.png (PNG copy)> <./Pictures/../Pict
-ures/Chapter_7/luagpr.png (PNG copy)>] [97]
-
-Package natbib Warning: Citation `Moses2004' on page 98 undefined on input line
- 385.
-
-
-Package natbib Warning: Citation `Belsky2013' on page 98 undefined on input lin
-e 387.
-
-[98]) [99]
+) [104]
 \openout2 = `./Chapter8/chapter7.aux'.
 
- (./Chapter8/chapter7.tex [100
-
-
-
-]
+ (./Chapter8/chapter7.tex
 Chapter 8.
 
-<./Pictures/../Pictures/Chapter_8/Na-22.png, id=1231, 476.78125pt x 238.8925pt>
+<./Pictures/../Pictures/Chapter_8/Na-22.png, id=1841, 476.78125pt x 238.8925pt>
 File: ./Pictures/../Pictures/Chapter_8/Na-22.png Graphic file (type png)
 <use ./Pictures/../Pictures/Chapter_8/Na-22.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/Na-22.png used on inp
 ut line 21.
 (pdftex.def)             Requested size: 227.62204pt x 114.05104pt.
- [101]
-
-LaTeX Warning: File `../Pictures/Chapter_8/electronics.png' not found on input 
-line 32.
+ [105
 
 
-! Package pdftex.def Error: File `../Pictures/Chapter_8/electronics.png' not fo
-und.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 ...cm]{../Pictures/Chapter_8/electronics.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+]
+File: ./Pictures/../Pictures/Chapter_8/electronics.pdf Graphic file (type pdf)
 
+<use ./Pictures/../Pictures/Chapter_8/electronics.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/electronics.pdf used 
+on input line 32.
+(pdftex.def)             Requested size: 227.62204pt x 266.74254pt.
 
-LaTeX Warning: Reference `fig:setup' on page 102 undefined on input line 39.
-
-
-LaTeX Warning: Reference `fig:NINO_sign' on page 102 undefined on input line 47
-.
-
-
-<./Pictures/../Pictures/Chapter_8/NINO_signal.png, id=1238, 878.28125pt x 539.0
+<./Pictures/../Pictures/Chapter_8/NINO_signal.png, id=1848, 878.28125pt x 539.0
 1375pt>
 File: ./Pictures/../Pictures/Chapter_8/NINO_signal.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_8/NINO_signal.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/NINO_signal.png used 
-on input line 50.
+on input line 49.
 (pdftex.def)             Requested size: 227.62204pt x 139.69612pt.
 
-
-LaTeX Warning: Reference `fig:MCP_sign' on page 102 undefined on input line 56.
-
-
-
-<./Pictures/../Pictures/Chapter_8/MCP_signal.png, id=1239, 360.34625pt x 318.18
+<./Pictures/../Pictures/Chapter_8/MCP_signal.png, id=1850, 360.34625pt x 318.18
 875pt>
 File: ./Pictures/../Pictures/Chapter_8/MCP_signal.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_8/MCP_signal.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/MCP_signal.png used o
-n input line 60.
+n input line 59.
 (pdftex.def)             Requested size: 227.62204pt x 200.98917pt.
-
-
-Package natbib Warning: Citation `Gundacker2014' on page 102 undefined on input
- line 69.
-
-[102 <./Pictures/../Pictures/Chapter_8/Na-22.png>] [103 <./Pictures/../Pictures
-/Chapter_8/NINO_signal.png>] [104 <./Pictures/../Pictures/Chapter_8/MCP_signal.
-png>]
-
-Package natbib Warning: Citation `Gundacker2014' on page 105 undefined on input
- line 92.
-
-
-LaTeX Warning: Reference `fig:start' on page 105 undefined on input line 92.
-
-
-<./Pictures/../Pictures/Chapter_8/spectrum_NINO.png, id=1260, 698.61pt x 473.77
+ [106 <./Pictures/../Pictures/Chapter_8/Na-22.png>] [107 <./Pictures/../Picture
+s/Chapter_8/NINO_signal.png>] [108 <./Pictures/../Pictures/Chapter_8/MCP_signal
+.png>]
+<./Pictures/../Pictures/Chapter_8/spectrum_NINO.png, id=1868, 698.61pt x 473.77
 pt>
 File: ./Pictures/../Pictures/Chapter_8/spectrum_NINO.png Graphic file (type png
 )
  <use ./Pictures/../Pictures/Chapter_8/spectrum_NINO.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/spectrum_NINO.png use
-d on input line 96.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+d on input line 93.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_8/CTR.png, id=1261, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_8/CTR.png, id=1869, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_8/CTR.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_8/CTR.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/CTR.png used on input
- line 97.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
- [105 <./Pictures/../Pictures/Chapter_8/spectrum_NINO.png> <./Pictures/../Pictu
-res/Chapter_8/CTR.png>]
-
-Package natbib Warning: Citation `Gundacker2014' on page 106 undefined on input
- line 106.
-
-
-LaTeX Warning: Reference `fig:trigger' on page 106 undefined on input line 111.
-
-
-
-<./Pictures/../Pictures/Chapter_8/laser_trigger.png, id=1268, 360.34625pt x 318
+ line 94.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [109]
+<./Pictures/../Pictures/Chapter_8/laser_trigger.png, id=1879, 360.34625pt x 318
 .18875pt>
 File: ./Pictures/../Pictures/Chapter_8/laser_trigger.png Graphic file (type png
 )
  <use ./Pictures/../Pictures/Chapter_8/laser_trigger.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/laser_trigger.png use
-d on input line 114.
-(pdftex.def)             Requested size: 170.71652pt x 150.74309pt.
+d on input line 112.
+(pdftex.def)             Requested size: 227.62204pt x 200.98917pt.
 
-<./Pictures/../Pictures/Chapter_8/amp_MCP.png, id=1269, 878.28125pt x 458.71375
+<./Pictures/../Pictures/Chapter_8/amp_MCP.png, id=1880, 878.28125pt x 458.71375
 pt>
 File: ./Pictures/../Pictures/Chapter_8/amp_MCP.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_8/amp_MCP.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/amp_MCP.png used on i
-nput line 122.
-(pdftex.def)             Requested size: 227.62204pt x 118.8848pt.
+nput line 120.
+(pdftex.def)             Requested size: 199.16928pt x 104.01807pt.
 
-<./Pictures/../Pictures/Chapter_8/time_walk_mcp.png, id=1270, 878.28125pt x 458
+<./Pictures/../Pictures/Chapter_8/time_walk_mcp.png, id=1881, 878.28125pt x 458
 .71375pt>
 File: ./Pictures/../Pictures/Chapter_8/time_walk_mcp.png Graphic file (type png
 )
  <use ./Pictures/../Pictures/Chapter_8/time_walk_mcp.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/time_walk_mcp.png use
-d on input line 123.
-(pdftex.def)             Requested size: 227.62204pt x 118.8848pt.
-
-
-LaTeX Warning: Reference `fig:mcp_laser' on page 106 undefined on input line 12
-8.
-
-
-LaTeX Warning: Reference `fig:mcp_laser_walk' on page 106 undefined on input li
-ne 129.
-
-[106 <./Pictures/../Pictures/Chapter_8/laser_trigger.png>]
-<./Pictures/../Pictures/Chapter_8/time_walk_corr.png, id=1278, 878.28125pt x 45
+d on input line 121.
+(pdftex.def)             Requested size: 199.16928pt x 104.01807pt.
+ [110 <./Pictures/../Pictures/Chapter_8/spectrum_NINO.png> <./Pictures/../Pictu
+res/Chapter_8/CTR.png>] [111 <./Pictures/../Pictures/Chapter_8/laser_trigger.pn
+g> <./Pictures/../Pictures/Chapter_8/amp_MCP.png> <./Pictures/../Pictures/Chapt
+er_8/time_walk_mcp.png>]
+<./Pictures/../Pictures/Chapter_8/time_walk_corr.png, id=1893, 878.28125pt x 45
 8.71375pt>
 File: ./Pictures/../Pictures/Chapter_8/time_walk_corr.png Graphic file (type pn
 g)
  <use ./Pictures/../Pictures/Chapter_8/time_walk_corr.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/time_walk_corr.png us
-ed on input line 141.
-(pdftex.def)             Requested size: 227.62204pt x 118.8848pt.
+ed on input line 139.
+(pdftex.def)             Requested size: 199.16928pt x 104.01807pt.
 
-<./Pictures/../Pictures/Chapter_8/laser.png, id=1279, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_8/laser.png, id=1894, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_8/laser.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_8/laser.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/laser.png used on inp
-ut line 142.
-(pdftex.def)             Requested size: 227.62204pt x 154.3638pt.
-
-
-LaTeX Warning: Reference `fig:mcp_laser_walk' on page 107 undefined on input li
-ne 147.
-
-[107 <./Pictures/../Pictures/Chapter_8/amp_MCP.png> <./Pictures/../Pictures/Cha
-pter_8/time_walk_mcp.png>] [108 <./Pictures/../Pictures/Chapter_8/time_walk_cor
-r.png> <./Pictures/../Pictures/Chapter_8/laser.png>]
-
-LaTeX Warning: Reference `fig:mcp_laser' on page 109 undefined on input line 16
-1.
-
-
-<./Pictures/../Pictures/Chapter_8/response_cer_10.png, id=1293, 1077.02374pt x 
+ut line 140.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [112 <./Pictures/../Pictures/Chapter_8/time_walk_corr.png> <./Pictures/../Pict
+ures/Chapter_8/laser.png>]
+<./Pictures/../Pictures/Chapter_8/response_cer_10.png, id=1903, 1077.02374pt x 
 557.08125pt>
 File: ./Pictures/../Pictures/Chapter_8/response_cer_10.png Graphic file (type p
 ng)
  <use ./Pictures/../Pictures/Chapter_8/response_cer_10.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/response_cer_10.png u
-sed on input line 168.
+sed on input line 166.
 (pdftex.def)             Requested size: 227.62204pt x 117.73004pt.
 
-
-LaTeX Warning: Reference `fig:ceren_10' on page 109 undefined on input line 173
-.
-
-[109 <./Pictures/../Pictures/Chapter_8/response_cer_10.png>]
-
-LaTeX Warning: Reference `fig:drift' on page 110 undefined on input line 181.
-
-
-<./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png, id=1301, 698.6
+[113 <./Pictures/../Pictures/Chapter_8/response_cer_10.png>]
+<./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png, id=1910, 698.6
 1pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png Graphic fi
 le (type png)
 
 <use ./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/interaction_time_spec
-trum.png used on input line 184.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+trum.png used on input line 183.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_8/electron_drift.png, id=1302, 791.95876pt x 70
+<./Pictures/../Pictures/Chapter_8/electron_drift.png, id=1911, 791.95876pt x 70
 9.65125pt>
 File: ./Pictures/../Pictures/Chapter_8/electron_drift.png Graphic file (type pn
 g)
  <use ./Pictures/../Pictures/Chapter_8/electron_drift.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/electron_drift.png us
-ed on input line 185.
-(pdftex.def)             Requested size: 170.71652pt x 152.97269pt.
+ed on input line 184.
+(pdftex.def)             Requested size: 199.16928pt x 178.46272pt.
 
-
-LaTeX Warning: Reference `:' on page 110 undefined on input line 191.
-
-
-<./Pictures/../Pictures/Chapter_8/screen_irf_2.png, id=1303, 596.2275pt x 226.8
+<./Pictures/../Pictures/Chapter_8/screen_irf_2.png, id=1913, 596.2275pt x 226.8
 475pt>
 File: ./Pictures/../Pictures/Chapter_8/screen_irf_2.png Graphic file (type png)
 
  <use ./Pictures/../Pictures/Chapter_8/screen_irf_2.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/screen_irf_2.png used
  on input line 195.
-(pdftex.def)             Requested size: 170.71652pt x 64.95334pt.
+(pdftex.def)             Requested size: 199.16928pt x 75.77718pt.
 
-<./Pictures/../Pictures/Chapter_8/turn_1.png, id=1304, 698.61pt x 473.77pt>
+<./Pictures/../Pictures/Chapter_8/turn_1.png, id=1914, 698.61pt x 473.77pt>
 File: ./Pictures/../Pictures/Chapter_8/turn_1.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_8/turn_1.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/turn_1.png used on in
 put line 196.
-(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
 
-<./Pictures/../Pictures/Chapter_8/screen_irf.png, id=1305, 588.1975pt x 224.84p
+<./Pictures/../Pictures/Chapter_8/screen_irf.png, id=1915, 588.1975pt x 224.84p
 t>
 File: ./Pictures/../Pictures/Chapter_8/screen_irf.png Graphic file (type png)
  <use ./Pictures/../Pictures/Chapter_8/screen_irf.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/screen_irf.png used o
 n input line 203.
-(pdftex.def)             Requested size: 170.71652pt x 65.25682pt.
+(pdftex.def)             Requested size: 199.16928pt x 76.13239pt.
 
-<./Pictures/../Pictures/Chapter_8/turn_2.png, id=1306, 970.62625pt x 706.64pt>
+<./Pictures/../Pictures/Chapter_8/turn_2.png, id=1916, 970.62625pt x 706.64pt>
 File: ./Pictures/../Pictures/Chapter_8/turn_2.png Graphic file (type png)
 
 <use ./Pictures/../Pictures/Chapter_8/turn_2.png>
 Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/turn_2.png used on in
 put line 204.
-(pdftex.def)             Requested size: 170.71652pt x 124.27844pt.
+(pdftex.def)             Requested size: 199.16928pt x 145.0023pt.
+ [114 <./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png> <./Pictu
+res/../Pictures/Chapter_8/electron_drift.png>] [115 <./Pictures/../Pictures/Cha
+pter_8/screen_irf_2.png> <./Pictures/../Pictures/Chapter_8/turn_1.png> <./Pictu
+res/../Pictures/Chapter_8/screen_irf.png> <./Pictures/../Pictures/Chapter_8/tur
+n_2.png>]
 
-! Undefined control sequence.
-l.209 ...ts was performed, as shown in figure \fig
-                                                  {ref:twist1}:
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `fig:' on page 116 undefined on input line 225.
 
-[110 <./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png> <./Pictur
-es/../Pictures/Chapter_8/electron_drift.png>]
+[116]
 
-LaTeX Warning: Reference `fig:twist2' on page 111 undefined on input line 214.
+LaTeX Warning: Reference `fig:' on page 117 undefined on input line 243.
 
-[111 <./Pictures/../Pictures/Chapter_8/screen_irf_2.png> <./Pictures/../Picture
-s/Chapter_8/turn_1.png> <./Pictures/../Pictures/Chapter_8/screen_irf.png> <./Pi
-ctures/../Pictures/Chapter_8/turn_2.png>]
-
-LaTeX Warning: Reference `fig:' on page 112 undefined on input line 225.
-
-[112]
-
-LaTeX Warning: Reference `fig:' on page 113 undefined on input line 243.
-
-
-Package natbib Warning: Citation `nist2005' on page 113 undefined on input line
- 251.
-
-[113] [114]) [115]
+[117] [118]) [119]
 \openout2 = `./Chapter9/conclusions.aux'.
 
- (./Chapter9/conclusions.tex [116
+ (./Chapter9/conclusions.tex [120
 
 
 
 ]
 Chapter 9.
-) [117] [118
+) [121] [122
 
 
 ] (./dissertation.bbl
@@ -3575,9 +3195,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[119
+[123
 
-] [120]
+] [124]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 )
@@ -3585,29 +3205,18 @@ Missing character: There is no © in font cmr10!
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-[121]
+[125]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./dissertation.aux (./Abstract/abstract.aux)
 (./Chapter1/introduction.aux) (./Chapter2/guide-notes.aux)
 (./Chapter3/chRegularLook.aux) (./Chapter4/chapter6.aux)
 (./Chapter5/chLorem.aux) (./Chapter6/chLorem2.aux) (./Chapter7/chapter6.aux)
-(./Chapter8/chapter7.aux) (./Chapter9/conclusions.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+(./Chapter8/chapter7.aux) (./Chapter9/conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 7EB375012A82832938421FBF62F7AEDD;7986.
 
-
-Package rerunfilecheck Warning: File `dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dissertation.out':
-(rerunfilecheck)             Before: C813366CE3DCFB7EEDD6158CE496BE37;5027
-(rerunfilecheck)             After:  314C64DFFC397D81209D1485FC6142DA;8321.
 
 LaTeX Warning: There were undefined references.
 
@@ -3617,13 +3226,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 8512 strings out of 493315
- 133794 string characters out of 6137904
- 194197 words of memory out of 5000000
- 11205 multiletter control sequences out of 15000+600000
- 16215 words of font info for 57 fonts, out of 8000000 for 9000
+ 8616 strings out of 493315
+ 136021 string characters out of 6137904
+ 201178 words of memory out of 5000000
+ 11284 multiletter control sequences out of 15000+600000
+ 16047 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 34i,11n,30p,873b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,30p,873b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -3637,15 +3246,14 @@ al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on dissertation.pdf (127 pages, 4789086 bytes).
+/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
+Output written on dissertation.pdf (137 pages, 4853818 bytes).
 PDF statistics:
- 1567 PDF objects out of 1728 (max. 8388607)
- 1216 compressed objects within 13 object streams
- 440 named destinations out of 1000 (max. 500000)
- 1049 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2131 PDF objects out of 2487 (max. 8388607)
+ 1746 compressed objects within 18 object streams
+ 454 named destinations out of 1000 (max. 500000)
+ 1405 words of extra memory for PDF output out of 10000 (max. 10000000)
 

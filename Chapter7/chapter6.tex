@@ -1,13 +1,13 @@
 
 \chapter{VUV measurement}
 The measurement performed in this chapter were possible thanks to the network LaserLab, a consortium that brings together thirty institutions in laser-based disciplinary research from sixteen countries. In particular it was granted access to the CELIA beamline in Bordeaux.
-CELIA (Centre Lasers Intenses et Applications) is a joint unit between the Universtity of Bordeaux, the CEA (Commissariat à l'énergie atomique et aux énergies alternatives) and the CNRS (Centre national de la recherche scientifique). It provides experimental access to femtosecond lasers at high frequency and VUV harmonics production.
+CELIA (Centre Lasers Intenses et Applications) is a joint unit between the Universtity of Bordeaux, the CEA (Commissariat à l' \`{e}nergie atomique et aux énergies alternatives) and the CNRS (Centre national de la recherche scientifique). It provides experimental access to femtosecond lasers at high frequency and VUV harmonics production.
 The aim of the study is to characterize the rise time profiles of scintillating crystals at VUV energies.
 
 As pointed out in chapter 5, the energy of the excitation of a fluorescent sample strongly influence the processes in the excitation region.
-At the order of the band gap of the crystal, broadly speaking one photon is able to create a isolated electron hole-pair. As the energy of the excitation grows, more of this holes are created by a single quantum and different processes interact in the formation of the signal, such as electron–electron scattering.
-As the erngy grows above hundreds of electron Volts, mainly core absorption occurs. 
-Above a certain threshold Cerenkov events may allow to collect more photons at the risign edge of the signal. 
+At the order of the band gap of the crystal, broadly speaking one photon is able to create a isolated electron hole-pair. As the energy of the excitation grows, more of this holes are created by a single quantum and different processes interact in the formation of the signal, such as electron-electron scattering.
+As the energy grows above hundreds of electron Volts, mainly core absorption occurs. 
+Above a certain threshold Cerenkov events may allow to collect more photons at the rising edge of the signal. 
 Investigation of interaction mechanisms requires sources with different energies and different geometries.
 In this chapter a study with VUV radiation is presented. High-order harmonics generation by interaction of an intense laser field with atoms provides ultrashort pulses (2-3 ps) in the VUV (few tens of eV) region at high frequencies ($\geq$ 1 kHz). 
 Under such pulse energy, a region of high excitation density is created in the crystal, since the photons interact in the first $\sym$ 100 nm of material.
@@ -20,7 +20,7 @@ The phenomenon of high order harmonic generation of a laser field is a nonlinear
 \begin{center}
 \includegraphics[width=12cm]{../Pictures/Chapter_7/HHG}
 \end{center}
-\caption[HHG phenomenology]{Phenomenology of High Harmonics Generation}
+\caption[HHG phenomenology]{Phenomenology of High Harmonics Generation in a semi-classical (top) and quantum wave (bottom) approach}
 \label{fig:HHG}
 \end{figure}
 
@@ -37,7 +37,7 @@ High harmonics constitute a source of soft X-rays that retains the time characte
 The harmonic cut off varies with the laser intensity up to saturation. The saturation intensity depends on atomic species of the noble gas used as a medium to produce the harmonics.
 
 \section{Experimental setup}
-The setup available at CELIA it is presented in \cite{Martin2001}. it will be briefly described here. The line is organized in two different room. A first room is devoted to the laser amplification system, while in the experimental room the high harmonics are produced.
+The setup available at CELIA is presented in \cite{Martin2001}. it will be briefly described here. The line is organized in two different room. A first room is devoted to the laser amplification system, while in the experimental room the high harmonics are produced.
 \subsection{Laser beamline}
 The AURORE beamline is based on a amplified Ti-sapphire femtosecond oscillator. 
 The Ti-sapphire oscillator generates 30 fs pulses, at 1 nJ and a frequency of 80 MHz. Before amplification the pulses are stretched up to 280 ps for optical power reasons.
@@ -68,7 +68,7 @@ The monochromator is equipped with three diffraction gratings, one with 1200 lin
 %The emission spectrum is measured by mean of a CCD camera 
 %manca il modello!
 The photon counting device is a Hamamatsu MCP-PMT R3809U-52 model. The DAQ system is shown in figure \ref{fig:daq}.
-The signal from the laser trigger is routed into a Ortec Pico Timing Discriminator (model 9307). A first output is directed directly to a Ortec Time to Analog Converter (model 9308).
+The signal from the laser trigger is routed into a Ortec Pico Timing Discriminator (model 9307). A first output is directed to a Ortec Time to Analog Converter (model 9308).
 A second output is directed to a Lecroy Quad Coincidence Unit (model 622).
 The MCP-PMT signal is preamplified by a ORTEC 1-GHz preamplifier (model 9306) with a gain of 100 and then sent to a second Pico Timing Discriminator. One output is sent to the Lecroy Quad Coincidence Unit and a second one delayed by 60 ns and sent to the TAC. The last unit is required since the laser trigger has a fixed delay. 
 A third output is sent to a SR400 Gated Photon Counter (Stanford Research System) along with the output of the Lecroy coincidence unit.
@@ -91,33 +91,21 @@ Three parameters have to be kept under control during the irradiation, as they i
 \end{itemize}
 
 \subsection{VUV spectrum}
-
-In Fig. 2, we show the harmonic spectra of six harmonics in
-argon ( 40 mbar) between 28 and 47 eV. These spectra were
-obtained in the same conditions of spectral resolution but with
-different intensities of the fundamental laser beam. The intensities
-of the 800-nm laser beam at the entrance of the fiber are,
-respectively, about 1, 2, and 4 mJ for spectra (a), (b), and (c).
-At low intensity, the emission spectra of harmonics is characterized
-by narrow peaks; at intermediate intensity, the shape of
-each “ band” is complex with a blue shift of narrow peaks and
-the appearance of a large pedestal. The experimental spectrum
-(c) measured with the highest intensity shows large bands with
-an important overlapping.
-The HH spectra are controlled by the electron trajectories of
-each excited argon atom electron with different return time [14].
-Anarrowpeak can be attributed to the emission of electrons with
-return time of less than half a laser period. HH radiation with a
-large pedestal is connected to the emission of electron with return
-time close to a full period of the laser field and has a larger
-divergence. As mentioned above, it is clear that in these conditions,
-the HH emission spectrum is a quasi-continuous one.
+The spectra of six harmonics in Argon (40 mbar) between 28 and 47 eV are shown in figure \ref{fig:VUV_spectrum}.
+The difference in the shape of the peak is given by the different intensities of the laser beam, fixed respectively, at 1, 2, and 4 mJ.
+As the intensity of the laser increases, the emission is characterized by broader peaks, and the presence of a large pedestal.
+Moreover relevant overlappings start to appear.
+This is due to the electron trajectories of each excited argon atom with different return time.
+It is possible to quantify this effect, as a narrow peak can be attributed to the emission of electrons with return time of less than half a laser period.
+On the other hand, the large pedestal can be related to the emission of electron with return
+time close to a full period of the laser field.
+Therefore the emission spectrum becomes a quasi-continuous one.
 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=7cm]{../Pictures/Chapter_7/VUV_spectrum.png}
 \end{center}
-\caption[VUV spectrum]{Schematics of the VUV line at CELIA Bordeaux}
+\caption[VUV spectrum]{Schematics of the VUV line at CELIA Bordeaux \cite{Martin2001}}
 \label{fig:VUV_spectrum}
 \end{figure}
 
@@ -131,24 +119,24 @@ In order to retain a low probability for pile up, the SR400 Gated Photon Counter
 The IRF for the system is shown in figure \ref{fig:IRF}
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=6cm]{../Pictures/Chapter_7/IRF_simple.png}
-\includegraphics[width=6cm]{../Pictures/Chapter_7/long.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_7/IRF_simple.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_7/long.png}
 \end{center}
 \caption[VUV setup IRF]{Impulse Response Function of the system excitation VUV - MCP-PMT.}
 \label{fig:IRF}
 \end{figure}
 The IRF of the system, modeled with a multi Gaussian with tail towards high times due to ion feedback, gives $\sigma _{IRF} = $ 30 ps.
-In particular two parameters should be considered in terms of degradation of resolution: the width of the response under the first tailed Gaussian, and the ratio between the first peak and the ion feedback delayed one (in this case this delay amounts to $sim$ 350 ps). In this case two order of magnitude separates the main and the secondary peaks.
+In particular two parameters should be considered in terms of degradation of resolution: the width of the response under the first tailed Gaussian, and the ratio between the first peak and the ion feedback delayed one (in this case this delay amounts to $\sim$ 350 ps). In this case two order of magnitude separates the main and the secondary peaks.
 As shown in figure \ref{fig:IRF} the IRF shows a reflection, which is not eliminable because the setup could not be modified for logistics reasons. This is never a nuisance for very fast cinetics, but it makes accurate decay time measurements for long decays not feasible. For rise time measurement this is not limiting, since the range can be safely tuned to extract the parameters, as will be shown below. 
 
 The measured IRF is deconvoluted from the measured signal via the method described in the previous chapter.
-This value accounts for three effects which can not be disentagled: the noise level of the instrumentation with rapport to the height of the signal, the TTS of the detector and the time walk of the detector itself.
-As will be shown in the next chapter Hamamatsu MCPs present a large amount of time walk jitter, which can not be corrected in this setup. Considering a signal that ranges from 5 mV to 50 mV for single photons, and the amplification gain of the Ortec pre amplifier ($sim$ 100), the signal from the Ortec pico timing discriminator suffers from a $\geq\pm$20 ps shift in the timing output for the range considered.
+This value accounts for three effects which can not be disentagled: the noise level of the instrumentation with respect to the height of the signal, the TTS of the detector and the time walk of the detector itself.
+As will be shown in the next chapter Hamamatsu MCPs present a large amount of time walk jitter, which can not be corrected in this setup. Considering a signal that ranges from 5 mV to 50 mV for single photons, and the amplification gain of the Ortec pre amplifier ($\sim$ 100), the signal from the Ortec pico timing discriminator suffers from a $\geq\pm$ 20 ps shift in the timing output for the range considered.
 This is in agreement with the data from the producers, since the time walk corrected MCP nominal $\sigma _{SPTR}$ is $\sim$ 20 ps and the laser contribution (2-3 ps FWHM) can be neglected.
 
 \subsection{Control of the bias fraction}
 
-As discussed in the previous chapter, the count rate at the stop detector bias the measurement at high pile up probability. In the case of a MCP-PMT the probability of pile up is still very low ath the typical time constants of the samples measured, since the dead time of the detector is less than 1 ns. 
+As discussed in the previous chapter, the count rate at the stop detector bias the measurement at high pile up probability. In the case of a MCP-PMT the probability of pile up is still very low at the typical time constants of the samples measured, since the dead time of the detector is less than 1 ns. 
 
 There is no direct way to store the actual pulse that is fed to the electronics in this setup, so it is necessary to completely rely on the values given by the SR400 Gated Photon Counter. 
 This device allows to control dinamically the number of pulses fed to the electronics on a given time window, which is usually set to 1 s. Knowing the typical time constants of the sample in exam, or checking it with a quick preliminary measurement, allows to choose an appropriate number of counts per second, which is for all the samples measured between 100 and 200 Hz.
@@ -161,11 +149,11 @@ In the case of rise time, as shown in the previous chapter the effect of high co
 
 \section{Data analysis}
 The samples masured present different size and surface condition in terms of polishing and depolishing.
-Nevertheless this aspects can be neglected, given the excitation energy and the geometry of the setup.
-Indeed photons in the VUV range, as already discussed, can travel for very short distances in a heavy scintillator, in the range of one hundred of nanometer. This means that the excitation takes place on the surface of the crystal. Nevertheless of the radiation comes on the opposite side of the detection system, one could not neglect transit time effect of photon extraction. The geometry of the system is shown in figure \ref{fig:geom}: an optical fiber is able to collect photons coming directly from the excitation point on the surface, that is photon extracted at higher angle and thus rebounced at the lateral faces will be highly suppressed at the detector.
+This aspects can be neglected, given the excitation energy and the geometry of the setup.
+Indeed photons in the VUV range, as already discussed, can travel for very short distances in a heavy scintillator, in the range of 100 nm. This means that the excitation takes place on the surface of the crystal. If, on the contrary, the radiation came on the opposite side of the detection system, one could not neglect transit time effect of photon extraction. The geometry of the system is shown in figure \ref{fig:geom}: an optical fiber is able to collect photons coming directly from the excitation point on the surface, that is photon extracted at higher angle and thus rebounced at the lateral faces will be highly suppressed at the detector.
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=7cm]{../Pictures/Chapter_7/}
+\includegraphics[width=8cm]{../Pictures/Chapter_7/}
 \end{center}
 \caption[]{}
 \label{fig:geom}
@@ -195,30 +183,30 @@ Due to time constraints, measurements were performed at a 1 ps TDC binning for c
 The fit procedure has been presented in the last chapter and it consists in the minimization of the function $-\log{L}$, where the likelihood function $L$ has been defined in the previous chapter and is given by the convolution of the model and the IRF.
 The function used for the fit is a simple multi-exponential model for n decay component as
 \begin{equation}
-p(t) = \sum _{i = 1}^{n} \frac{P_{i}}{\tau _{d, i} - \tau -{r, i}}\left( e^{-\frac{t-t_{shift}}{\tau _{d}}} - e^{-\frac{t-t_{shift}}{\tau _{r}}} \right) + C_{bg}
+p(t) = \sum _{i = 1}^{n} \frac{P_{i}}{\tau _{d, i} - \tau _{r, i}}\left( e^{-\frac{t-t_{shift}}{\tau _{d}}} - e^{-\frac{t-t_{shift}}{\tau _{r}}} \right) + C_{bg}
 \end{equation}
-and $\tau _{shift}$ is the turn-on of the scintillation pulse and $C_{bg}$ is the background level.
+where $\tau _{shift}$ is the turn-on of the scintillation pulse and $C_{bg}$ is the background level.
 The software used for minimization is Matlab.
 
 In order to determine the confidence interval on the parameters it is necessary to consider the influence of three parameters on the fit results, that is the rise time, the decay time and the range of the fit. 
-The number of counts collected for the spectrum 
-We consider here only the case for one single component, in the case of rise time is usually enough to consider the first component, especially if it is significatively longer than the rise time constant. This is the case for most of the samples measured: as an example the LSO cerium doped compounds present a rise time of the order of $\sim$ 50 ps and a decay time of the order of $\sim$ 40 ns.
+The number of counts collected for the spectrum is about 1.6 millions, which is the case for most of the sampels measured. 
+We consider here only the case for one single component, in the case of rise time is usually enough to consider the first component, especially if it is significatively longer than the rise time constant. This is the case for most of the samples measured: as an example the LSO Cerium doped compounds present a rise time of the order of $\sim$ 50 ps and a decay time of the order of $\sim$ 40 ns.
 In order to quantify the effect of mutual variation of fit parameters, a simple toy model was used with the shape described above. The analysis was then performed over the samples measured for parameters estimation.
 
-The range of the fit sistematically influences the time constants extracted. As the range considered is enlarged, the  decay part of the spectrum becomes more relevant, and artefacts in the IRF influence the parameters extracted. 
+The range of the fit sistematically influences the time constants extracted. As the range considered is enlarged, the  decay part of the spectrum becomes more relevant, and the artefacts in the IRF influence the parameters extracted. 
 It is then necessary to restrain the range of the fit, since the IRF measured for the setup presents reflections at longer times. On the other hand restricting the range  entails a loss of information for what concerns the decay part of the curve. In a first time we are not interested in defining the decay time with the best possible accuracy, so we chose a range that optimizes the rise time determination.
 
 The toy model used presents in this case a rise time of 36 ps and a decay time of 33 ns. 
 In order to quantify the effect of range variations on the fit, we let the range itself free over significative bins, that is starting from the rise of the scintillation pulse.
 In figure \ref{fig:range} is shown the influence of range variation on the extracted parameters form the fit routine.
-For what concerns the decay time, as soon as the range start to comprehends a larger fraction of the decay of the pulse, the value stabilizes and the change is contained in less than 5 ns variation which is optimal considering the likelihood confidence level. There is a sistematic under estimation of the value, though, since the loss of indormation on the last part of the pulse bias the fit routine, as shown in previous chapter.
+For what concerns the decay time, as soon as the range start to comprehends a larger fraction of the decay of the pulse, the value stabilizes and the change is contained in less than 5 ns variation which is optimal considering the likelihood confidence level. There is a sistematic under estimation of the value, though, since the loss of indormation on the last part of the pulse bias the dataset, as shown in previous chapter.
 The same goes for the rise time in terms of comparison with the likelihood confidence level, therefore the optimal range was chosen to be over bin 15000. In this configuration the influence of the range is limited to a few ps.
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=6cm]{../Pictures/Chapter_7/decay_range_2.png}
-\includegraphics[width=6cm]{../Pictures/Chapter_7/rise_range_2.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_7/decay_range_2.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_7/rise_range_2.png}
 \end{center}
-\caption[]{}
+\caption[Range influence on toy model parameters]{Range influence on the parameters extracted for decay time (left) and rise time (right) for a toy model ($\tau _{r}$ = 36 ps, $\tau _{d}$ = 33 ns)}
 \label{fig:range}
 \end{figure}
 
@@ -227,27 +215,27 @@ In this case a binned likelihood approach requires a determination of a confiden
 At the best fit point the function to minimize  $-2\ln{L}$, tends to a chi-squared distribution for (n-2) degrees of freedom. In this case it is customary to define a confidence level the interval ($min_{L}$, $min_{L}+\frac{1}{2}$) since in the limit of normally distributed data for large counts it translates to a 95$\%$ confidence level. In this case the likelihood is close to this approximation, therefore this convention will be used for confidence intervals.
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=6cm]{../Pictures/Chapter_7/error_rise.png}
+\includegraphics[width=8cm]{../Pictures/Chapter_7/error_rise.png}
 \end{center}
-\caption[]{}
+\caption[Influence of statistics on likelihhod]{The statistics collected is varied from 100000 to 4000000 and the influence on the likelihood for extracted rise time is shown/}
 \label{fig:likelihood}
 \end{figure}
 
 As an example in figure \ref{fig:likelihood_sipat} the case for a LSO Sipat crystal is shown. In this case, for a bi exponential fit with one component decay, we will quote the values, with relative asymmetric confidence level $\tau _{r} = 36_{-30}^{+27}$ ps and $\tau _{d}40.5_{-0.9}^{+0.7}$.
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=6cm]{../Pictures/Chapter_7/rise_sipat.png}
-\includegraphics[width=6cm]{../Pictures/Chapter_7/decay_like_2.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_7/rise_sipat.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_7/decay_like_2.png}
 \end{center}
-\caption[]{}
+\caption[Likelihood for Sipat LYSO]{The likelihood for rise time (left) and decay time (right) is shown for LYSO Sipat dataset, with relative confidence level.}
 \label{fig:likelihood_sipat}
 \end{figure}
 
 \section{Results}
 \subsection{Data}
-The results obtained for the sample measured can be boradly divided in two groups: a first group contains the LSO type crystal, the CeF$_{3}$ and the BGO and they present very fast rise times ($<$ 40 ps).
-The group of the Garnets, on the other hand, with different dopings (Ce and Pr), presented slower rise times ($>$200 ps).
-Plot for the different samples measured are shown in the figures of this section. On the top, the deviance residuals obtained for likelihood estimation, to graphically show large bias in the fit data if present. This residuals are defined as
+The results obtained for the sample measured can be broadly divided in two groups: a first group contains the LSO type crystal, the CeF$_{3}$ and the BGO and they present very fast rise times ($<$ 40 ps).
+The group of the Garnets, on the other hand, with different dopings (Ce and Pr), presented slower rise times ($>$150 ps).
+Plots for the different samples measured are shown in the figures of this section. On the top of each figure, the deviance residuals obtained for likelihood estimation are reported, to graphically show large bias in the fit data if present. This residuals are defined as
 \begin{equation}
 R_{i} = \sqrt{2\left[ c_{i}\log{\frac{c_{i}}{g_{i}}-c_{i}+g_{i}} \right]}sign\left[ c_{i}-g{i} \right]
 \end{equation}
@@ -259,13 +247,14 @@ For the case of Sipat LYSO, Proteus LYSO, CTI LSO and LGSO,  the parameters were
 % eventualmente dire qualcosa su laser/x ray
 For what concerns CeF$_{3}$ and LSO:Ce,Ca the fit was performed for a two decay component curve. This is in agreement with measurement performed in this study (see next chapter), in \cite{Gundacker2014}, and in \cite{ref:Lecoq2006}.
 It is worth to underline that in this case, as the first fit component is quite fast ($<$10 ns) the value is more accurate, since accuracy benefits from a larger time window.
+Results are shown in table \ref{table:table_LSO}.
 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=7cm]{../Pictures/Chapter_7/}
 \includegraphics[width=7cm]{../Pictures/Chapter_7/2737_proteus.png}
 \end{center}
-\caption[LYSO Sipat profile]{}
+\caption[LYSO Sipat and Proteus profile]{Fit data and likelihood residuals for LYSO Sipat and LYSO Proteus.}
 \label{fig:sipat_proteus}
 \end{figure}
 
@@ -274,8 +263,7 @@ It is worth to underline that in this case, as the first fit component is quite 
 \includegraphics[width=7cm]{../Pictures/Chapter_7/CTI.png}
 \includegraphics[width=7cm]{../Pictures/Chapter_7/ca_ce.png}
 \end{center}
-\caption[]{}
-\label{fig:cti_cace}
+\caption[LSO CTI and LSO:Ce,Ca profile]{Fit data and likelihood residuals for LSO CTI and LSO:Ce,Ca.} \label{fig:cti_cace}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -283,41 +271,50 @@ It is worth to underline that in this case, as the first fit component is quite 
 \includegraphics[width=7cm]{../Pictures/Chapter_7/lgso.png}
 \includegraphics[width=7cm]{../Pictures/Chapter_7/cef3.png}
 \end{center}
-\caption[]{}
-\label{fig:lgso_cef3}
+\caption[LGSO and CeF$_{3}$ profile]{Fit data and likelihood residuals for LGSO and CeF$_{3}$.} \label{fig:lgso_cef3}
 \end{figure}
 
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=7cm]{../Pictures/Chapter_7/bgo.png}
+\includegraphics[width=8cm]{../Pictures/Chapter_7/bgo.png}
 \end{center}
-\caption[]{}
-\label{fig:lgso_cef3}
+\caption[BGO profile]{Fit data and likelihood residuals for BGO.}
+\label{fig:bgo}
 \end{figure}
 
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{llll}
+\begin{tabular}{|l|l|l|l|}
+\hline
 Crystal  & $\tau _{r}$ & $\tau _{d, 1}$ & $\tau _{d, 1}$ \\
+\hline
 LYSO Sipat      & 36_{-27}^{+30} ps         & 40.5_{-0.7}^{+0.9} ns  & \\
+\hline
 LYSO Proteus     & 26_{-26}^{+30} ps         & 39_{-0.7}^{+0.9} ns & \\ 
+\hline
 LSO CTI      & 23_{-18}^{+20} ps         & 37_{-0.8}^{+0.8} ns  & \\ 
+\hline
 LSO:Ca      & 23_{-19}^{+22} ps         & 10_{-0.3}^{+0.4} ns  & 30_{-0.8}^{1.0} ns \\ 
+\hline
 LGSO & 27_{-15}^{27} ps         & 38_{-0.8}^{+0.8} ns & \\  
+\hline
 CeF$_{3}$      & 22_{15}^{30} ps         & 5_{-0.2}^{+0.4} ns  & 18_{-0.5}^{+0.8} ns \\
-BGO      & 30_{25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long
+\hline
+BGO      & 30_{25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long \\
+\hline
 \end{tabular}
 \end{center}
-\label{table:table}
+\label{table:table_LSO}
 \end{table}
 
-As briefly explained before, the measurements for some LuAG samples were performed with a different TDC binning, due to the scarce light yield that implied very long accumulation times. In these cases the tdc binning is 10 ps. As shown previously this influences the error on the rise time, which for these samples is more pronounced.
-The Garnets show different time constants, and can vary very much based on the doping concentration, the purity of the sample, the energy of the excitation. Since the measurements are performed on a limited time window, the decay time can be quite biased towards fast constants, and very low decay times can be indistinguishable from background.
+As briefly explained before, the measurements for some LuAG samples were performed with a different TDC binning, due to the scarce light yield that implied very long accumulation times. In these cases the TDC binning is 10 ps. As shown previously this influences the error on the rise time, which for these samples is more pronounced.
+The Garnets show different time constants, and can vary very much based on the doping concentration, the purity of the sample, the energy of the excitation. Since the measurements are performed on a limited time window, the decay time can be quite biased towards fast constants, and very low decay times can be indistinguishable from background. This is also the reason for a large uncertainty on the fit decay time.
+Results are shown in table \ref{table:table_LUAG}.
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=7cm]{../Pictures/Chapter_7/luag_0_0_8.png}
+\includegraphics[width=8cm]{../Pictures/Chapter_7/luag_0_0_8.png}
 \end{center}
-\caption[]{}
+\caption[LuAG:Ce (0.08$\%$) profile]{Fit data and likelihood residuals for LuAG:Ce (0.08$\%$).}
 \label{fig:luag_1}
 \end{figure}
 
@@ -326,7 +323,7 @@ The Garnets show different time constants, and can vary very much based on the d
 \includegraphics[width=7cm]{../Pictures/Chapter_7/2612.png}
 \includegraphics[width=7cm]{../Pictures/Chapter_7/0_44.png}
 \end{center}
-\caption[]{}
+\caption[LuAG:Ce (0.5$\%$) and LuAG:Ce (0.44$\%$) profile]{Fit data and likelihood residuals for LuAG:Ce (0.5$\%$) (left) and LuAG:Ce (0.44$\%$) (right).}
 \label{fig:luag_2}
 \end{figure}
 
@@ -335,35 +332,43 @@ The Garnets show different time constants, and can vary very much based on the d
 \includegraphics[width=7cm]{../Pictures/Chapter_7/luag_2735_0_13.png}
 \includegraphics[width=7cm]{../Pictures/Chapter_7/luagpr.png}
 \end{center}
-\caption[]{}
+\caption[LuAG:Ce (0.13$\%$) and LuAG:Pr profile]{Fit data and likelihood residuals for LuAG:Ce (0.13$\%$) (left) and LuAG:Pr (right).}
 \label{fig:pr_bgo}
 \end{figure}
 
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{llll}
+\begin{tabular}{|l|l|l|l|}
+\hline
 Crystal  & $\tau _{r}$ & $\tau _{d, 1}$ & $\tau _{d, 1}$ \\
-LuAG:Ce (0.08$\%$)    & 280_{-51}^{+52} ps         & 40.5_{-0.7}^{+0.9} ns  & longer\\
-LuAG:Ce (0.13$\%$)    & 270_{-54}^{+54} ps         & 39_{-0.7}^{+0.9} ns & longer\\ 
-LuAG:Ce (0.44$\%$)     & 190_{-40}^{+45} ps         & 37_{-0.8}^{+0.8} ns  & longer \\ 
-LuAG:Ce (0.5$\%$)      & 212_{-45}^{+45} ps         & 10_{-0.3}^{+0.4} ns  & longer \\ 
-LuAG:Pr & 190_{-50}^{50} ps         & 38_{-0.8}^{+0.8} ns & 
+\hline
+LuAG:Ce (0.08$\%$)    & 280_{-51}^{+52} ps         & 65_{-2.1}^{+2.6} ns  & longer\\
+\hline
+LuAG:Ce (0.13$\%$)    & 270_{-54}^{+54} ps         & 60_{-2}^{+2.5} ns & longer\\ 
+\hline
+LuAG:Ce (0.44$\%$)     & 190_{-40}^{+45} ps         & 58_{-2}^{+2.3} ns  & longer \\ 
+\hline
+LuAG:Ce (0.5$\%$)      & 212_{-45}^{+45} ps         & 56_{-1.8}^{+2.4} ns  & longer \\ 
+\hline
+LuAG:Pr & 190_{-50}^{50} ps         & 28_{-2.1}^{+2.3} ns & \\
+\hline 
 \end{tabular}
 \end{center}
-\label{table:table}
+\label{table:table_LUAG}
 \end{table}
 
 \subsection{Limitations}
 
-The setup is limited due to two constraints: the time resolution of the detection system and accumulation times. 
-This two problems are intimately related on side, since given a certain time resolution, it is necessary to accumulate for longer times to reduce the incertitude on the extracted parameter. This is not always possible for crystals used in high energy and medical physics, because the long values of time constants requires longer time windows and bigger binnings.
-Moreover attention should be paid for very fast rise times, if the constant extracted is close to the measured response, as it is the case for many samples object of this study. In this case deconvolution is less reliable.
+The setup is limited due to the following constraints: the time resolution of the detection system and accumulation times. 
+These two problems are intimately related on one side, since given a certain time resolution, it is necessary to accumulate for longer times to reduce the incertitude on the extracted parameter. This is not always possible for crystals used in high energy and medical physics, because the long values of time constants requires longer time windows and bigger binnings.
+Moreover attention should be paid in the case of very fast rise times, if the constant extracted is close to the measured response, as it is the case for many samples object of this study. In this case deconvolution is less reliable.
+
 This goes for the statistical error, but the limited resolution of the detection system influences the way the time profiles can be extracted. 
 Indeed, as briefly explained in the previous chapter, the way parameters are extracted in canonical fluorescence analysis are strictly model dependent. That is, accurate distinction between one or multi component exponential can be hard.
 This means that only qualitative analysis can be done, comparing rise times of different samples in different condition, obtaining effective parameters usually sufficient for any practical application.
 More difficult is define quantities related to specific processes in the lattice, unless a thorough wavelength analysis is performed, see for example \cite{Belsky2013}.
 
-A third limitation is the excitation energy. As explained in the previous chapter there is a non negligible contribution coming from high energy excitation, especially form Cerenkvo photons collected. With VUV this information is not accessible. On the other hand in this geometry it is possible to neglect the spread given by photon extraction, and compare this with respect to higher energy excitation. 
+A third limitation is the excitation energy. As explained in the previous chapter there is a non negligible contribution coming from high energy excitation, especially form Cerenkov photons collected. With VUV excitation this information is not accessible. On the other hand in this geometry it is possible to neglect the spread given by photon extraction, and compare this with respect to higher energy excitation. 
 
 \subsection{Discussion}
 As already stated, the crystal measured can be grossly divided in two groups.
@@ -376,13 +381,13 @@ It is possible to consider two lines of analysis to explain the results
 \item dopant concentration
 \item competitive processes due to lattice characteristics
 \end{itemize}
-A first look at the result may suggest a correlation between dopant concentration and rise time. In particular more available cerium sites for scintillation entail faster transfer to excited states and thsu faster rise times, save quenching effects.
+A first look at the result may suggest a correlation between dopant concentration and rise time. In particular more available cerium sites for scintillation entail faster transfer to excited states and thus faster rise times, save quenching effects.
 
-No information about Cerium concentration in the LSO samples measured was available. Nevertheless considering the standard dopant concentration for industrial crystal from manufacturers, the concentration is likely to be around 1$\%$ molar. 
-Intrinsic scintillators seem to show a faster rise times, indicating that the transfer efficiency at the level of rise times to the luminescence centers is fast. For example in the case of CeF$_{3}$ the molar concentration of Cerium centers is 1. Based on the data obtained, though, there is no evidence that intrinsic scintillator are faster than extrinsic in the LSO group, which could be expected based on a dopant concentration dependance. It should be noted that this values are at the very limit of the detection system, so statistically less accurate.
+No information about Cerium concentration in the LSO samples measured was available. Nevertheless considering the standard dopant concentration for industrial crystal from manufacturers, the concentration is likely to be around 1$\%$. 
+Intrinsic scintillators seem to show a faster rise times, indicating that the transfer efficiency at the level of rise time to the luminescence centers is fast. For example in the case of CeF$_{3}$ the molar concentration of Cerium centers is 1. Based on the data obtained, though, there is no evidence that intrinsic scintillator are faster than extrinsic in the LSO group, which could be expected based on a dopant concentration dependance. It should be noted that this values are at the very limit of the detection system, so statistically less accurate.
 
 On the other hand perfectly known is the Cerium concentration for the Garnet samples. 
-The Garnet samples belong to different batches, so caution should be considered when a comparative analysis is performed, since growth parameters can differ significatively. Based on the error of the measurement though it is not possible to conclude that crystals with low percentage of doping show slower rise times, even if the tendency shown deserves a better understanding. Indeed the 0.08$\%$ and the 0.13 $\%$ Cerium doped samples present the slower rise times for the Garnet group, and a measurement campaing changing the dopant concentration over a wide range of dopings could be resolutive, see for example the non conclusive study made on LaBr$_{3}$ in \cite{Moses2004}.
+The Garnet samples belong to different batches, so caution should be considered when a comparative analysis is performed, since growth parameters can differ significatively. Based on the error of the measurement though it is not possible to conclude that crystals with low percentage of doping show slower rise times, even if the trend deserves a better understanding. Indeed the 0.08$\%$ and the 0.13 $\%$ Cerium doped samples present the slower rise times for the Garnet group, and a measurement campaing changing the dopant concentration over a wide range of dopings could be resolutive, see also the non conclusive study made on LaBr$_{3}$ in \cite{Moses2004}.
 
 It is necessary to consider also a "horizontal" analysis based on the very different lattices, dopants and scintillation mechanism of the samples measured. In LuAG crystals, for example, an important role is played by excitonic transition and only a wavelength based analysis can reveal possible differences, see for example \cite{Belsky2013}.
 It is clear that differences between Cerium doped LSO and LuAG samples can not be explained solely based on dopant concentration difference.
@@ -394,5 +399,7 @@ In order to achieve that, a first idea is to tackle the statistical limitations 
 
 Time constraints are the main limitations for a complete wavelength analysis, especially in the case of crystals with different scintillating components. This is interesting for Garnets, for example, LaBr$_{3}$ or more complex insulators like LiYF$_{4}$.
 
-The most important improvement, though could come from the detection method. There are two ways of achieving this: improving the IRF of the detection system or exploit a classical approach of fluorescence analysis, frequency mixing. The IRF of the detection system depends mainly on the stop detector and it has some lower limit at a few tens of ps. This makes the analysis of processes at the pico second scale not possible.
+The most important improvement could come from the detection method. There are two ways of achieving this: improving the IRF of the detection system or exploit a classical approach of fluorescence analysis, frequency mixing. The IRF of the detection system depends mainly on the stop detector and it has some lower limit at a few tens of ps. This makes the analysis of processes at the pico second scale not possible.
 Frequency mixing approach on the other hand relies on second order processes in non linear crystals, so to rely less on read out electronics. The problems concerns mainly feasibility for slow crystals, since these techniques require fast and bright emissions.
+
+In order to cope with all the issues presented the method would benefit from the use of a streak camera \cite{streak}, which would allow for shorter accumulation times, wavelegnth based analysis and high resolution ($\sim$ 20 ps FWHM). 

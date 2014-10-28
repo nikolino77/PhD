@@ -50,26 +50,42 @@ Enghardt, C. e.~a. (2004), \enquote{Charged hadron tumour therapy monitoring by
   means of PET,} \emph{Nuclear Instruments & Methods in Physics Research A},
   pp. 284--288.
 
-\bibitem[et~al.(????a)et~al.]{Agostinelli2003}
-et~al., A. (????a), \enquote{Geant4 - a Simulation Toolkit,} \emph{Nuclear
-  Instruments and Methods in Physics Research A}, 506.
+\bibitem[et~al.(2003)et~al.]{Agostinelli2003}
+et~al., A. (2003), \enquote{Geant4 - a Simulation Toolkit,} \emph{Nuclear
+  Instruments and Methods in Physics Research A}, 506, 250--303.
 
 \bibitem[et~al.(2009)et~al.]{Auffray2009}
 et~al., A. (2009), \enquote{LuAG Material for Dual Readout Calorimetry at
   Future High Energy Physics Accelerators,} \emph{2009 IEEE Nuclear Science
   Symposium Conference Record}, pp. 2245--2247.
 
-\bibitem[et~al.(????b)et~al.]{Brunner2014}
-et~al., B. (????b), \enquote{Studies on the Cerenkov Effect for Improved Time
-  Resolution of TOF-PET,} \emph{IEEE Transactions on Nuclear Science}, 61.
+\bibitem[et~al.(2013)et~al.]{Belsky2013}
+et~al., B. (2013), \enquote{Estimation of the Electron Thermalization Length in
+  Ionic Materials,} \emph{The Journal of Physical Chemistry Letters}, 4,
+  3534--3538.
 
-\bibitem[et~al.(????c)et~al.]{Kuwano2004}
-et~al., K. (????c), \enquote{Crystal growth and properties of LuAG,}
-  \emph{Journal of Crystal Growth}, 260.
+\bibitem[et~al.(2014)et~al.]{Brunner2014}
+et~al., B. (2014), \enquote{Studies on the Cerenkov Effect for Improved Time
+  Resolution of TOF-PET,} \emph{IEEE Transactions on Nuclear Science}, 61,
+  443--447.
 
-\bibitem[et~al.(????d)et~al.]{Sempau2002}
-et~al., S. (????d), \enquote{Experimental Benchmarks of the Monte Carlo Code
-  Penelope,} \emph{Nuclear Instruments and Methods in Physics Research B}, 207.
+\bibitem[et~al.(2004a)et~al.]{Kuwano2004}
+et~al., K. (2004a), \enquote{Crystal growth and properties of LuAG,}
+  \emph{Journal of Crystal Growth}, 260, 159--165.
+
+\bibitem[et~al.(2004b)et~al.]{Moses2004}
+et~al., M. (2004b), \enquote{Effects of Ce concentration on scintillation
+  properties of LaBr3:Ce,} \emph{Nuclear Science Symposium Conference Record},
+  pp. 998--1001.
+
+\bibitem[et~al.(2012)et~al.]{Kris2012}
+et~al., P. (2012), \enquote{Effect of Aspect Ratio on the Light Output of
+  Scintillators,} \emph{IEEE Transactions on Nuclear Science}, 59, 2340--2345.
+
+\bibitem[et~al.(2002)et~al.]{Sempau2002}
+et~al., S. (2002), \enquote{Experimental Benchmarks of the Monte Carlo Code
+  Penelope,} \emph{Nuclear Instruments and Methods in Physics Research B}, 207,
+  107--123.
 
 \bibitem[Ferlay(2012)Ferlay]{Ferlay2012}
 Ferlay, S. e.~a. (2012), \emph{Cancer Incidence and Mortality Worldwide: IARC
