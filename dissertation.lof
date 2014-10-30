@@ -37,25 +37,25 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Rank variance - Cerenkov}}{52}{figure.4.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces RMS comparison}}{60}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Electron path in lattice}}{60}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces LSO photoelectric and Cerenko production}}{61}{figure.5.3}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Electron path in lattice}}{61}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces LSO photoelectric and Cerenkov production}}{61}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Photopeak selection for Cerenkov simulation}}{63}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Scintillation/Cerenkov ratio in the first 100 ps}}{63}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulated time profiles for LSO}}{64}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Geant4 SLitrani absorption and reflection}}{65}{figure.5.7}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Scintillation/Cerenkov ratio in the first 100 ps}}{64}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulated time profiles for LSO}}{65}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Geant4 SLitrani absorption and reflection}}{66}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Geant4 SLitrani specular and diffusive reflection}}{66}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Geant4 SLitrani size ratio variation}}{66}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Geant4 SLitrani gain profiles}}{67}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Spectro fluorimeter}}{69}{figure.5.11}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Geant4 SLitrani size ratio variation}}{67}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Geant4 SLitrani gain profiles}}{68}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Spectro fluorimeter}}{70}{figure.5.11}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Sipat - LuAG excitation/emission}}{70}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces CeF$_{3}$ - LuAG excitation/emission}}{70}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces BGO excitation/emission}}{70}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Spectro photometer}}{71}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Transmission curve for LuAG and LSO}}{72}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Transmission curve for LuAG CeF$_{3}$}}{72}{figure.5.17}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces CeF$_{3}$ - LuAG excitation/emission}}{71}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces BGO excitation/emission}}{71}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Spectro photometer}}{72}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Transmission curve for LuAG and LSO}}{73}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Transmission curve for LuAG CeF$_{3}$}}{73}{figure.5.17}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Light Yield setup}}{73}{figure.5.18}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Single electron and LSO $^{137}$ Cs spectrum}}{75}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces QE of R2059 PMT}}{75}{figure.5.20}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces QE of R2059 PMT}}{76}{figure.5.20}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces TCSPC technique}}{78}{figure.6.1}
 \addvspace {10\p@ }
@@ -88,4 +88,6 @@
 \contentsline {figure}{\numberline {8.10}{\ignorespaces Stack and Cerenkov simulation}}{114}{figure.8.10}
 \contentsline {figure}{\numberline {8.11}{\ignorespaces Setup for $\gamma $ interaction in stack}}{115}{figure.8.11}
 \contentsline {figure}{\numberline {8.12}{\ignorespaces Setup for Cerenkov production in the window}}{115}{figure.8.12}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Background biased measurement}}{118}{figure.8.13}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Background suppressed measurement}}{119}{figure.8.14}
 \addvspace {10\p@ }

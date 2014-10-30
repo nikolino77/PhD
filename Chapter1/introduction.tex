@@ -9,7 +9,7 @@ Results of radiotherapy are improved when a high dose of radiation with high bio
 In order to increase the conformity of the dose delivered to the tumour, diverse technologies have been considered and used.
 Traditional forms of radiotherapy, X-ray tubes (energy $\sim$ 100 keV) or radioactive isotopes, have been replaced by linear accelerator delivering ($\sim$ 10 MeV) from different directions (e.g. Intensity Modulated Radio Therapy).
 Although being widely used as a standard in radiation therapy, the effectiveness of conventional electromagnetic radiation is limited by the intrinsic characteristics of interaction with matter.
-With respect to this, the scientific community is directing his attention towards possible improvements of ion beam therapy \cite{Amaldi2011}.
+With respect to this, the scientific community is focusing its attention towards possible improvements of ion beam therapy \cite{Amaldi2011}.
 In particular two aspects disfavours the usability of electromagnetic radiation with respect to ion for tumour targeting: the depth dose profile, which does not allow for an optimal dose deposition to the tumour sparing vital organs,
 and the inferior biological effectiveness, which is the limiting factor in case of radio resistant tumours.
 Heavier charged particles, like protons and ions (He-Ca) have the potentiality to overcome the limits of conventional therapy. 
@@ -128,6 +128,8 @@ When the positrons reach thermal energies, they start to interact with electrons
 \subsection{Image reconstruction}
 
 After all corrections have been applied to the data acquired, the number of counts assigned to a LOR joining a pair of crystals is proportional to a line integral of the activity along that LOR. Parallel sets of such line integrals are known as projections.
+These projections are usually graphically represented as a sinogram, which collects the intensity valuesof the voxels in the coordinate system of variables $\phi$ and s, as shown in figure \ref{fig:reco}.
+
 For image reconstruction, the most commonly used algorithms are the analytical method called filtered back projection and iterative reconstruction schemes.
 % sinogram reco
 \begin{figure} 
@@ -184,12 +186,16 @@ If we define a LOR between two detectors A and B, the distance between the cente
 \begin{equation}
 x = (t_{b}-t_{a} ) \cdot c/2
 \end{equation}
-where c is the speed of light.
+where c is the speed of light. This situation is depicted in figure \ref{fig:TOF}.
 Thus the spatial resolution is proportional to the coincidence time resolution (CTR) of the system.
 Scanners available on the market today could deliver a 600 pico seconds time resolution, that translates to a positional uncertainty of 9 cm (FWHM) on the LOR.
-The quality of the tomographic image largely benefits from the timing information of a TOF-PET scanner, since it reduces considerably  the contribution of Compton scattered photons and from photons from outside the field-of-view (FOV). As a consequence the background from scattered and random coincidence is largely suppressed.
-
-The signal to noise ration (SNR) is thus dramatically improved \cite{Karp2008}.
+The quality of the tomographic image largely benefits from the timing information of a TOF-PET scanner, since it reduces considerably  the contribution of Compton scattered photons and from photons from outside the field-of-view (FOV).
+As a consequence the background from scattered and random coincidence is largely suppressed. 
+The signal to noise ration (SNR) is thus dramatically improved, as we can write \cite{Karp2008}:
+\begin{equation}
+SNR \propto \frac{1}{\sqrt{n}}\left[ \frac{T^{2}}{T^{2} + S + R} \right]^{1/2}
+\end{equation}
+where where T representes the total trues, R thee random coincidences, S the scattered coincidence and n is the number of image elements contributing to a projection of the sinogram.
 In the case of in-beam PET this is relevant, since it has been shown \cite{Fiedler2006} that during particle irradiation a considerable amount of activity is transported outside the FOV by metabolic processes. Moreover a high backround signal is typical of carbon ion beams \cite{Enghardt2004}. 
 A useful and pratical estimation of the gain in signal to noise can be formalized as follows
 \begin{displaymath}
@@ -210,7 +216,7 @@ where D is the diameter of the volume under examination, c is the speed of light
 \subsection{From high energy physics to medical applications}
 The work outlined in these pages have been sponsored by \textit{The European training network in digital medical imaging for radiotherapy} (ENTERVISION) at the \textit{European Center of Nuclear Research} (CERN). ENTERVISION was established in February 2011 in response to the critical need for reinforcing research in online 3D digital imaging in order to deliver some of the key elements and building blocks for realizing the vision for early detection and more precise treatment of tumours.
 The present work was hosted by CERN, the European Organisation of Nuclear Research, based in Geneva, Switzerland. 
-CERN was established by a formal act in Paris, on 1st of July 1953, as an organisation that \textit{shall provide for collaboration among European States in nuclear research of a pure scientific and fundamental character, and in research essentially related thereto}.
+CERN was established by a formal act in Paris, on 1st of July 1954, as an organisation that \textit{shall provide for collaboration among European States in nuclear research of a pure scientific and fundamental character, and in research essentially related thereto}.
 Thourought its history, CERN provided experimental and theoretical tools to study and understand the fundamental forces governing our universe, in a continous effort to improve our understanding of elementary  physics. 
 
 The ECAL detector at the CMS exeriment at the LHC was build with the fundamental contribution of the collaboration hosting this thesis: the Crystal Clear Collaboration. It was founded in 1990 as an international academic network of laboratories and industrial partners for the development of scintillating crystal detectors as well as their applications. It comprises experts in crystallography and solid state physics as well as in radiation detection and instrumentation. 
@@ -230,13 +236,17 @@ In parallel, the collaboration engaged in a effort of technology transfer to oth
 This thesis is devoted to the full characterization of the parameters that influence time resolution in a scintillator/photodetector setup, with particular attention focused on the impact of time profiles of heavy scintillators on the performance.
 
 The first part of the presented work has the objective of describing the fundamental model that governs light production and collection in a PET-like setup.
-To this purpose a model based on multi-exponential time profiles has been implemented on an existing framework, widening the scope of usage by evaluating the role of Cerenkov photons produced by low energy radiation.
+In chapter 2 and 3 a brief introduction regarding heavy scntillator crystals and photodetectors is given.
 
-Moreover in order to properly characterized the operational parameters of a scintillator setup, a comparative analysis of ray tracing softwares has been conducted, namely the two packages SLitrani and Geant4. The latter has been chosen to build the simulation framework that allowed to disentangle the various source of resolution degradation.
+With the objective of defining the operational parameters of our equipment, in chapter 3 a model based on multi-exponential time profiles has been implemented on an existing framework, widening the scope of usage by evaluating the role of Cerenkov photons produced by low energy radiation.
+
+Moreover in order to properly characterized the operational parameters of a scintillator setup, a comparative analysis of ray tracing softwares has been conducted in chapter 5, namely the two packages SLitrani and Geant4. The latter has been chosen to build the simulation framework that allowed to disentangle the various source of resolution degradation.
 
 Finally the work focused on the measurements and evaluation of rise time. Non zero rise time in scintillating systems is given by the different processes characterizing energy deposition inside a crystalline lattice, with utmost relevance of the latest stage of electron hole thermalization. The time scale of this phenomenon is $\sim$ 100 ps and until now has proven to be difficult to estimate due to the intrinsic limitations of detection setups.
+Thus a time resolved study of different species of crystals is proposed in the final part of this work.
+In chapter 6 the methodology followed is presented, from an experimental point of view and defining the main challenges of data analysis.
+Finally the last two chapters present the time resolved study, with excitation energy varied from the 36 eV of a VUV femto second source to the 511 KeV of a $\gamma$ source. 
 
-Thus a time resolved study of different species of crystals is proposed in the last two chapters of this thesis. Namely the excitation is varied from the 36 eV of a VUV femto second source to the 511 KeV of a $\gamma$ source. 
 
 %\afterpage{\clearpage}
 

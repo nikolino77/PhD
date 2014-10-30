@@ -113,10 +113,10 @@ The direction of the Cerenkov photons produced can be neglected, and it retains 
 As shown in figure \ref{fig:electron} the path of the electron is tortuous due to the large cross section for multi scattering processes.
 \begin{figure}[htbp]
 \begin{center}
-%\includegraphics[width=7cm]{../Pictures/Chapter_5/energy_dep.png}
-%\includegraphics[width=7cm]{../Pictures/Chapter_5/energy_dep.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_5/white.png}
+\includegraphics[width=7cm]{../Pictures/Chapter_5/range.png}
 \end{center}
-\caption[Electron path in lattice]{Example of path of electron in a LSO: Ce lattice according to Geant4 libraries}
+\caption[Electron path in lattice]{Example of path of 350 KeV electron in a LSO: Ce lattice according to Geant4 libraries (left) and range (right). The green paths show Cerenkov photons produced.}
 \label{fig:electron}
 \end{figure}
 
@@ -363,9 +363,9 @@ T_{theory}=\frac{t^{2} \exp{\left( -L/\tau {_att} \right)}}{1-r^{2}\exp{\left( -
 where L is the length of the material and $\tau _{att}$ is the attenuation coefficient of the medium.
 Starting from the transmission value measured, we can extract the attenuation values for simulation with the approximation
 \begin{equation}
-\frac{1}{\tau _{att}} = -\frac{1}{L} \log{\frac{T_{meas}}{t}}
+\frac{1}{\tau _{att}} = -\frac{1}{L} \log{\frac{(1-r)^{2}}{T}}
 \end{equation}
-and t is the transmission coefficient.
+where T is the measured transmission and r is the reflection coefficient.
 %ma e'giusto??
 \begin{figure}[htbp]
 \begin{center}
@@ -409,7 +409,7 @@ The number of photo electrons can be calculated by comparing the position of the
 \begin{equation}
 N_{pe}/MeV=\frac{position\ photo\ peak}{position\ single\ photo\ electron\ peak} \cdot \frac{A_{1}}{A_{2}} \cdot \frac{1}{E_{\gamma}}
 \end{equation}
-where $E\gamma$ is the energy of the incident $\gamma$ particle and linearity of the detector response is assumed. A pedestal may be subtracted from the position of the peaks. $A_{1}$ and $A_{2}$ are the values of the attenuation of the signal in the case of the photo peak and the single electron peak, i.e.
+where $E_{\gamma}$ is the energy of the incident $\gamma$ particle and linearity of the detector response is assumed. A pedestal may be subtracted from the position of the peaks. $A_{1}$ and $A_{2}$ are the values of the attenuation of the signal in the case of the photo peak and the single electron peak, i.e.
 \begin{equation}
 A_{i}=e^{\frac{B_{i}}{20}}
 \end{equation}
@@ -464,7 +464,7 @@ LSO:Ce (CTI)&15583 &11.9 &5200 &14&0.22\\
 \hline
 LGSO:Ce & 10255&13.7 &3934 &14.1&0.22\\
 \hline
-CeF$_{3}$2300&26 & & & &0.22\\
+CeF$_{3}$&2300&26 & & &0.22\\
 \hline
 LuAG:Ce (0.13$\%$)& & & & &0.1\\
 \hline
