@@ -17,7 +17,7 @@
 \usepackage{color}
 \usepackage{bm}
 \usepackage{subfigure}
-\usepackage{graphicx}
+%\usepackage{g}
 \usepackage{mathabx}
 \usepackage{multirow}
 \usepackage{setspace}
@@ -43,15 +43,15 @@
 %-----------------------------------------------------------------------------%
 % PREAMBLE 
 %-----------------------------------------------------------------------------%
-\author{[Your Name Here]}
-\title{[Your Title Here]}
-\supervisor{[Your Supervisor Here]}
-\department{[Your Department Here]} % Appears as Department of \department
+\author{Nicolas Di Vara}
+\title{Study of time profiles of heavy scintillating crystals}
+\supervisor{Marco Paganoni}
+\department{Physics} % Appears as Department of \department
 % Declare dissertation subject used on UMI abstract page.  List of
 % categories: http://dissertations.umi.com/duke/subject_categories.html
 %\subject{[Your Subject Here]}
 
-\date{2011} % Anything but the year is ignored.
+\date{2014} % Anything but the year is ignored.
 
 % Copyright text.  If undefined, default is 'All rights reserved'
 % (Example sets the text to a hyperlinked Creative Commons Licence)
@@ -62,9 +62,9 @@
 
 % Committee Members other than supervisor.  No more than five beyond the
 % supervisor allowed.
-\member{[Department Committee Member \#1]}
-\member{[Department Committee Member \#2]}
-\member{[External Committee Member]}
+%\member{[Department Committee Member \#1]}
+%\member{[Department Committee Member \#2]}
+%\member{[External Committee Member]}
 %-----------------------------------------------------------------------------%
 
 
@@ -82,7 +82,7 @@
 %-----------------------------------------------------------------------------%
 % TITLE PAGE -- provides UMI abstract title page & copyright if appropriate
 %-----------------------------------------------------------------------------%
-\maketitle
+%\maketitle
 
 %-----------------------------------------------------------------------------%
 % ABSTRACT -- included file should start with '\abstract'.
@@ -93,7 +93,9 @@
 % DEDICATION -- OPTIONAL.  Put the text inside the braces.
 %               (Long 'dedications' probably belong in the acknowledgements)
 %-----------------------------------------------------------------------------%
-\dedication{If you want to dedicate your thesis to anyone do so here}
+
+% qui si mette la citazione di ezra?
+%\dedication{If you want to dedicate your thesis to anyone do so here}
 
 %-----------------------------------------------------------------------------%
 % FRONTMATTER -- ToC is required, LoT and LoF are required if you have any
@@ -101,14 +103,16 @@
 % optional.
 %-----------------------------------------------------------------------------%
 \tableofcontents % Automatically generated
-\listoftables	% If you have any tables, automatically generated
+%\listoftables	% If you have any tables, automatically generated
 \listoffigures	% If you have any figures, automatically generated
-\include{{./Abbreviations/listofabbr}} % List of Abbreviations. Start file with '\abbreviations'
+%\include{{./Abbreviations/listofabbr}} % List of Abbreviations. Start file with '\abbreviations'
 
 %-----------------------------------------------------------------------------%
 % ACKNOWLEDGEMENTS -- included file should start with '\acknowledgements'
-%-----------------------------------------------------------------------------%
-\include{{./Acknowledgements/acknowledgements}}
+%-----------------------------------------------------------------------------
+
+% qui ci stanno i ringraziamenti! 
+%\include{{./Acknowledgements/acknowledgements}}
 
 %==============================================================================
 %-----------------------------------------------------------------------------%
@@ -118,12 +122,15 @@
 %
 %-----------------------------------------------------------------------------%
 \include{{./Chapter1/introduction}}
-\include{{./Chapter2/guide-notes}} % A regular chapter, starts with '\chapter{Title}'
+\include{{./Chapter2/guide-notes}}
 \include{{./Chapter3/chRegularLook}}
-\include{{./Chapter4/chLorem}}
-\include{{./Chapter5/chLorem2}}
-\include{{./Chapter6/chapter6}}
-\include{{./Chapter7/chapter7}}
+\include{{./Chapter4/chapter6}}
+\include{{./Chapter5/chLorem}}
+\include{{./Chapter6/chLorem2}}
+\include{{./Chapter7/chapter6}}
+\include{{./Chapter8/chapter7}}
+\include{{./Chapter9/conclusions}}
+
 %==============================================================================
 
 %-----------------------------------------------------------------------------%
@@ -131,7 +138,7 @@
 %                Appendix B, Appendix C...
 %-----------------------------------------------------------------------------%
 \appendix
-\include{{./Appendix1/chLorem3}} % Start with '\chapter{Title}'
+%\include{{./Appendix1/chLorem3}} % Start with '\chapter{Title}'
 %You can always add more appendices here if you want
 
 %-----------------------------------------------------------------------------%
@@ -151,7 +158,7 @@
 %-----------------------------------------------------------------------------%
 % BIOGRAPHY -- Start file with '\biography'.  Mandatory for Ph.D.
 %-----------------------------------------------------------------------------%
-\include{{./Biography/biography}}
+%\include{{./Biography/biography}}
 
 %-----------------------------------------------------------------------------
 % You're done :)

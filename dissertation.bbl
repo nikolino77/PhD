@@ -1,4 +1,185 @@
 \begin{thebibliography}{}
 \newcommand{\enquote}[1]{``#1''}
 
+\bibitem[Amaldi(2011)Amaldi]{Amaldi2011}
+Amaldi, B. (2011), \enquote{Present challenges in hadrontherapy techniques,}
+  \emph{The European Physical Journal Plus}, pp. 70--85.
+
+\bibitem[Anghinolfi(2004)Anghinolfi]{Anghinolfi2004}
+Anghinolfi, J. e.~a. (2004), \enquote{NINO: An Ultrafast Low-Power Front-End
+  Amplifier Discriminator for the Time-of-Flight Detector in the ALICE
+  Experiment,} \emph{IEEE Transactions on Nuclear Science}, 51, 1974--1978.
+
+\bibitem[Bajzer(1991)Bajzer]{Bajzer1991}
+Bajzer, T. e.~a. (1991), \enquote{Maximum likelihood method for the analysis of
+  time-resolved fluorescence decay curves,} \emph{European Biophysics Journal},
+  20, 247--262.
+
+\bibitem[Becker(2005)Becker]{Becker2005}
+Becker (2005), \emph{Advanced Time-Correlated Single Photon Counting
+  Techniques}, Springer.
+
+\bibitem[Berger(2005)Berger]{nist2005}
+Berger, C. e.~a. (2005), \enquote{Stopping-Power and Range Tables for
+  Electrons, Protons, and Helium Ions,} .
+
+\bibitem[Crespo(2007)Crespo]{Crespo2007}
+Crespo, S. e.~a. (2007), \enquote{Direct time-of-flight for quantitative,
+  real-time in-beam PET: a concept and feasibility study,} \emph{Physics in
+  Medicine and Biology}, pp. 6795--6811.
+
+\bibitem[Cucciati(2013)Cucciati]{Cuccia2013}
+Cucciati (2013), \enquote{Optimization and Characterization of PET Scanners for
+  Medical Imaging,} Ph.D. thesis, University of Milano-Bicocca.
+
+\bibitem[Derenzo(2000)Derenzo]{Derenzo2000}
+Derenzo, W. e.~a. (2000), \enquote{Measurements of the Intrinsic Rise Times of
+  Common Inorganic Scintillators,} \emph{IEEE Transactions on Nuclear Science}.
+
+\bibitem[Dolgoshein(2003)Dolgoshein]{Dolgoshein2003}
+Dolgoshein, F. e.~a. (2003), \enquote{Silicon photomultiplier and its possible
+  applications,} \emph{Nuclear Instruments and Methods in Physics Research A},
+  504, 48--52.
+
+\bibitem[Durante(2010)Durante]{Durante2010}
+Durante, L. (2010), \enquote{Charged particles in radiation oncology,}
+  \emph{Nature Reviews Clinical Oncology}, pp. 37--43.
+
+\bibitem[Enghardt(2004)Enghardt]{Enghardt2004}
+Enghardt, C. e.~a. (2004), \enquote{Charged hadron tumour therapy monitoring by
+  means of PET,} \emph{Nuclear Instruments & Methods in Physics Research A},
+  pp. 284--288.
+
+\bibitem[et~al.(2003)et~al.]{Agostinelli2003}
+et~al., A. (2003), \enquote{Geant4 - a Simulation Toolkit,} \emph{Nuclear
+  Instruments and Methods in Physics Research A}, 506, 250--303.
+
+\bibitem[et~al.(2009)et~al.]{Auffray2009}
+et~al., A. (2009), \enquote{LuAG Material for Dual Readout Calorimetry at
+  Future High Energy Physics Accelerators,} \emph{2009 IEEE Nuclear Science
+  Symposium Conference Record}, pp. 2245--2247.
+
+\bibitem[et~al.(2013)et~al.]{Belsky2013}
+et~al., B. (2013), \enquote{Estimation of the Electron Thermalization Length in
+  Ionic Materials,} \emph{The Journal of Physical Chemistry Letters}, 4,
+  3534--3538.
+
+\bibitem[et~al.(2014)et~al.]{Brunner2014}
+et~al., B. (2014), \enquote{Studies on the Cerenkov Effect for Improved Time
+  Resolution of TOF-PET,} \emph{IEEE Transactions on Nuclear Science}, 61,
+  443--447.
+
+\bibitem[et~al.(2004a)et~al.]{Kuwano2004}
+et~al., K. (2004a), \enquote{Crystal growth and properties of LuAG,}
+  \emph{Journal of Crystal Growth}, 260, 159--165.
+
+\bibitem[et~al.(2004b)et~al.]{Moses2004}
+et~al., M. (2004b), \enquote{Effects of Ce concentration on scintillation
+  properties of LaBr3:Ce,} \emph{Nuclear Science Symposium Conference Record},
+  pp. 998--1001.
+
+\bibitem[et~al.(2012)et~al.]{Kris2012}
+et~al., P. (2012), \enquote{Effect of Aspect Ratio on the Light Output of
+  Scintillators,} \emph{IEEE Transactions on Nuclear Science}, 59, 2340--2345.
+
+\bibitem[et~al.(2002)et~al.]{Sempau2002}
+et~al., S. (2002), \enquote{Experimental Benchmarks of the Monte Carlo Code
+  Penelope,} \emph{Nuclear Instruments and Methods in Physics Research B}, 207,
+  107--123.
+
+\bibitem[Ferlay(2012)Ferlay]{Ferlay2012}
+Ferlay, S. e.~a. (2012), \emph{Cancer Incidence and Mortality Worldwide: IARC
+  CancerBase No. 11}, International Agency for Research on Cancer.
+
+\bibitem[Fiedler(2006)Fiedler]{Fiedler2006}
+Fiedler, C. e.~a. (2006), \enquote{The Feasibility of In-Beam PET for
+  Therapeutic Beams of He,} \emph{IEEE Transactions in Nuclear Science}, 53,
+  2252--2260.
+
+\bibitem[Gentit(2002)Gentit]{Gentit2002}
+Gentit (2002), \enquote{Litrani: a General Purpose Monte-Carlo Program
+  Simulating Light Propagation in Isotropic or Anisotropic Media,}
+  \emph{Nuclear Instruments and Methods in Physics Research A}, 486, 35--39.
+
+\bibitem[Gundacker(2014)Gundacker]{Gundacker2014}
+Gundacker (2014), \enquote{Time resolution in scintillator based detectors for
+  positron emission tomography,} Ph.D. thesis, Technischen Universitat Wien.
+
+\bibitem[Hamamatsu(2006)Hamamatsu]{Hama2006}
+Hamamatsu (2006), \emph{Photomultiplier Tubes - Basic and Applications},
+  Hamamatsu.
+
+\bibitem[Hyman(1963)Hyman]{Hyman1963}
+Hyman, Schwarcz, S. (1963), \enquote{Study of High Speed Photomultiplier
+  Systems,} \emph{The Review of Physical Instruments}, 35, 393--406.
+
+\bibitem[Jellison(2012)Jellison]{jellison2012}
+Jellison, S. e.~a. (2012), \enquote{Spectroscopic Refractive Indices of
+  Monoclinic Single Crystal and Ceramic Lutetium Oxyorthosilicate from 200 to
+  850 nm,} \emph{Journal of Applied Physics}, 112.
+
+\bibitem[Karp(2008)Karp]{Karp2008}
+Karp, S. e.~a. (2008), \enquote{The benefit of time-of-flight in PET imaging:
+  Experimental and clinical results,} \emph{Journal of Nuclear Medicine}, 49,
+  462--470.
+
+\bibitem[Knoll(2000)Knoll]{Knoll2000}
+Knoll (2000), \emph{Radiation Detection and Measurement}, Wiley.
+
+\bibitem[Lecoq(2006)Lecoq]{Lecoq2006}
+Lecoq, A. e.~a. (2006), \emph{Inorganic Scintillators for Detector Systems},
+  Springer.
+
+\bibitem[Linz(2012)Linz]{Linz2011}
+Linz (2012), \emph{Ion Beam Therapy}, Springer.
+
+\bibitem[Martin(2001)Martin]{Martin2001}
+Martin, B. e.~a. (2001), \enquote{Time-Resolved Studies of Scintillation
+  Materials with VUV Harmonic Ultrashort Pulses Laser Source,} \emph{IEEE
+  Transactions on Nuclear Science}, 48, 1137--1143.
+
+\bibitem[Parodi(2004)Parodi]{Parodi2004}
+Parodi (2004), \enquote{On the feasibility of dose quantification with in-beam
+  PET data in radiotherapy with C and proton beams,} Ph.D. thesis, Technischen
+  Universitat Dresden.
+
+\bibitem[Pizzichemi(2012)Pizzichemi]{Pizzi2012}
+Pizzichemi, D. V. e.~a. (2012), \enquote{Ray Tracing Simulations in
+  Scintillators: a Comparison between SLitrani and Geant4,} \emph{2012 IEEE
+  Nuclear Science Symposiwn and Medical Imaging Conference Record (NSS/MIC)}.
+
+\bibitem[Rodnyi(1997)Rodnyi]{Rodnyi1997}
+Rodnyi (1997), \emph{Physical Processes in Inorganic Scintillators}, CRC Press.
+
+\bibitem[Schardt(2007)Schardt]{Schardt2007}
+Schardt, S. e.~a. (2007), \enquote{Precision Bragg-Curve Measurements for
+  Light-Ion Beams in Water,} \emph{GSI Scientific Report}.
+
+\bibitem[Seifert(2012)Seifert]{Seifert2012}
+Seifert, Schaart, v.~D. (2012), \enquote{The Lower Bound on the Timing
+  Resolution of Scintillation Detectors,} \emph{Physics in Medicine and
+  Biology}, pp. 1797--1814.
+
+\bibitem[Shao(2006)Shao]{Shao2006}
+Shao (2006), \enquote{A new timing model for calculating the intrinsic timing
+  resolution of a scintillator detector,} \emph{Physics in Medicine and
+  Biology}, pp. 1103--1117.
+
+\bibitem[Thompson(2009)Thompson]{xdata2009}
+Thompson, A. e.~a. (2009), \emph{X-Ray Data Booklet}, Lawrence Berkeley
+  National Laboratory, University of California.
+
+\bibitem[Vasilév(????)Vasilév]{Vasiliev2013}
+Vasilév, G. (????), \enquote{Multiscale Approach to Estimation of
+  Scintillation Characteristics,} \emph{IEE Transaction on Nuclear Science}.
+
+\bibitem[Va'vra(2004)Va'vra]{Vavra2004}
+Va'vra (2004), \enquote{Ion feedback suppression using inclined MCP holes in a
+  Single-MCP + Micromegas + Pads detector,} \emph{Proceeding of Nuclear Science
+  Symposium Conference Record}, 2, 1142--1146.
+
+\bibitem[Wilson(1946)Wilson]{Wilson1946}
+Wilson (1946), \enquote{Radiological use of fast protons,} \emph{Radiology},
+  pp. 487--491.
+
 \end{thebibliography}

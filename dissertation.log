@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  30 JUN 2014 19:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  29 OCT 2014 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,10 +46,10 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \@SimSpace=\skip41
 \@OpenupSpace=\skip42
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -66,8 +66,20 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@@members=\count89
 \c@@membersprinted=\count90
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+
+
+! LaTeX Error: \abstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.728 \renewcommand\abstract
+                            {%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
@@ -622,15 +634,21 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
-(./dissertation.aux (./Abstract/abstract.aux) (./Abbreviations/listofabbr.aux)
-(./Acknowledgements/acknowledgements.aux) (./Chapter1/introduction.aux)
-(./Chapter2/guide-notes.aux) (./Chapter3/chRegularLook.aux
+(./dissertation.aux (./Abstract/abstract.aux) (./Chapter1/introduction.aux)
+(./Chapter2/guide-notes.aux) (./Chapter3/chRegularLook.aux)
+(./Chapter4/chapter6.aux
 
-LaTeX Warning: Label `fig:PMT_schematics' multiply defined.
+LaTeX Warning: Label `fig:rise_rank' multiply defined.
 
-) (./Chapter4/chLorem.aux) (./Chapter5/chLorem2.aux) (./Chapter6/chapter6.aux)
-(./Chapter7/chapter7.aux) (./Appendix1/chLorem3.aux) (./Biography/biography.aux
-))
+) (./Chapter5/chLorem.aux) (./Chapter6/chLorem2.aux) (./Chapter7/chapter6.aux)
+(./Chapter8/chapter7.aux
+
+LaTeX Warning: Label `fig:twist1' multiply defined.
+
+
+LaTeX Warning: Label `fig:twist2' multiply defined.
+
+) (./Chapter9/conclusions.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -647,7 +665,8 @@ LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
- (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen122
@@ -694,93 +713,295 @@ LaTeX Info: Redefining \nameref on input line 80.
 \@outlinefile=\write3
 \openout3 = `dissertation.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
+\openout2 = `./Abstract/abstract.aux'.
+
+ (./Abstract/abstract.tex
+! Undefined control sequence.
+<argument> \abstractname 
+                         
+l.1 \abstract
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abstractname 
+                         
+l.1 \abstract
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ontentsline {chapter}{\abstractname 
+                                                  }{\thepage }{\@currentHref }}
+l.1 \abstract
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)) [2]
+(./dissertation.toc [3
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
+
+] [4] [5] [6])
+\tf@toc=\write4
+\openout4 = `dissertation.toc'.
+
+ [7] [8
+
+] (./dissertation.lof [9] [10]
+[11])
+\tf@lof=\write5
+\openout5 = `dissertation.lof'.
+
+ [12]
+\openout2 = `./Chapter1/introduction.aux'.
+
+ (./Chapter1/introduction.tex
+Chapter 1.
+[1
+
+
+] <Pictures/Chapter_1/treat_conf2.pdf, id=784, 487.8225pt x 268.00125pt>
+File: Pictures/Chapter_1/treat_conf2.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_1/treat_conf2.pdf>
+Package pdftex.def Info: Pictures/Chapter_1/treat_conf2.pdf used on input line 
+22.
+(pdftex.def)             Requested size: 341.43306pt x 187.57913pt.
+ [2 <./Pictures/Chapter_1/treat_conf2.pdf>] <Pictures/Chapter_1/profile.pdf, id
+=807, 332.24126pt x 255.95625pt>
+File: Pictures/Chapter_1/profile.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_1/profile.pdf>
+Package pdftex.def Info: Pictures/Chapter_1/profile.pdf used on input line 36.
+(pdftex.def)             Requested size: 170.71652pt x 131.52016pt.
+
+<Pictures/Chapter_1/SOBP.pdf, id=808, 314.17375pt x 266.9975pt>
+File: Pictures/Chapter_1/SOBP.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_1/SOBP.pdf>
+Package pdftex.def Info: Pictures/Chapter_1/SOBP.pdf used on input line 39.
+(pdftex.def)             Requested size: 170.71652pt x 145.08092pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [3 <./Pictures/Chapter_1/profile.pdf> <./Pictures/Chapter_1/SOBP.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/Chapter_1/SOBP.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>] <Pictures/Chapter_1/rbe.pdf, id=838, 536.0025pt x 381.425pt>
+File: Pictures/Chapter_1/rbe.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_1/rbe.pdf>
+Package pdftex.def Info: Pictures/Chapter_1/rbe.pdf used on input line 57.
+(pdftex.def)             Requested size: 227.62204pt x 161.97833pt.
+ [4 <./Pictures/Chapter_1/rbe.pdf>]
+<Pictures/Chapter_1/range_scatter.pdf, id=853, 448.67625pt x 290.08376pt>
+File: Pictures/Chapter_1/range_scatter.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_1/range_scatter.pdf>
+Package pdftex.def Info: Pictures/Chapter_1/range_scatter.pdf used on input lin
+e 78.
+(pdftex.def)             Requested size: 227.62204pt x 147.16171pt.
+ [5 <./Pictures/Chapter_1/range_scatter.pdf>] [6]
+<Pictures/Chapter_1/PET_scheme.jpg, id=885, 1454.43375pt x 1063.975pt>
+File: Pictures/Chapter_1/PET_scheme.jpg Graphic file (type jpg)
+
+<use Pictures/Chapter_1/PET_scheme.jpg>
+Package pdftex.def Info: Pictures/Chapter_1/PET_scheme.jpg used on input line 1
+16.
+(pdftex.def)             Requested size: 227.62204pt x 166.50545pt.
+ [7 <./Pictures/Chapter_1/PET_scheme.jpg>] <Pictures/Chapter_1/proj_sin.jpg, id
+=892, 413.3844pt x 242.8272pt>
+File: Pictures/Chapter_1/proj_sin.jpg Graphic file (type jpg)
+
+<use Pictures/Chapter_1/proj_sin.jpg>
+Package pdftex.def Info: Pictures/Chapter_1/proj_sin.jpg used on input line 135
+.
+(pdftex.def)             Requested size: 227.62204pt x 133.70728pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
- [3]
-\openout2 = `./Abstract/abstract.aux'.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
+ [8 <./Pictures/Chapter_1/proj_sin.jpg>]
+<Pictures/Chapter_1/coinci_PET.jpg, id=899, 1806.75pt x 1262.7175pt>
+File: Pictures/Chapter_1/coinci_PET.jpg Graphic file (type jpg)
 
+<use Pictures/Chapter_1/coinci_PET.jpg>
+Package pdftex.def Info: Pictures/Chapter_1/coinci_PET.jpg used on input line 1
+62.
+(pdftex.def)             Requested size: 227.62204pt x 159.07242pt.
+ [9] [10 <./Pictures/Chapter_1/coinci_PET.jpg>] <Pictures/Chapter_1/TOF.png, id
+=910, 326.21875pt x 297.11pt>
+File: Pictures/Chapter_1/TOF.png Graphic file (type png)
 
-(./Abstract/abstract.tex) [4
+<use Pictures/Chapter_1/TOF.png>
+Package pdftex.def Info: Pictures/Chapter_1/TOF.png used on input line 179.
+(pdftex.def)             Requested size: 170.71652pt x 155.48639pt.
+ [11 <./Pictures/Chapter_1/TOF.png>]
+<Pictures/Chapter_1/tof_gain.pdf, id=923, 544.0325pt x 177.66376pt>
+File: Pictures/Chapter_1/tof_gain.pdf Graphic file (type pdf)
 
+<use Pictures/Chapter_1/tof_gain.pdf>
+Package pdftex.def Info: Pictures/Chapter_1/tof_gain.pdf used on input line 203
+.
+(pdftex.def)             Requested size: 398.33858pt x 130.09196pt.
+ [12 <./Pictures/Chapter_1/tof_gain.pdf>]
+[13]) [14]
+\openout2 = `./Chapter2/guide-notes.aux'.
 
-] [5
-
-] (./dissertation.toc [6
-
-] [7] [8])
-\tf@toc=\write4
-\openout4 = `dissertation.toc'.
-
- [9]
-(./dissertation.lot)
-\tf@lot=\write5
-\openout5 = `dissertation.lot'.
-
- [10
-
-] (./dissertation.lof)
-\tf@lof=\write6
-\openout6 = `dissertation.lof'.
-
- [11
-
-]
-\openout2 = `./Abbreviations/listofabbr.aux'.
-
-
-(./Abbreviations/listofabbr.tex
-LaTeX Font Info:    Try loading font information for U+euf on input line 18.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) [12
-
-
-]
-\openout2 = `./Acknowledgements/acknowledgements.aux'.
-
-
-(./Acknowledgements/acknowledgements.tex) [13
+ (./Chapter2/guide-notes.tex
+Chapter 2.
+[15
 
 
 
 ]
-\openout2 = `./Chapter1/introduction.aux'.
+Missing character: There is no Ë in font cmr8!
+Missing character: There is no † in font cmr8!
+Missing character: There is no Ë in font cmr10!
+Missing character: There is no † in font cmr10!
 
- (./Chapter1/introduction.tex
+<./Pictures/../Pictures/Chapter_2/photo_el_2.jpg, id=955, 154.176pt x 113.9457p
+t>
+File: ./Pictures/../Pictures/Chapter_2/photo_el_2.jpg Graphic file (type jpg)
+ <use ./Pictures/../Pictures/Chapter_2/photo_el_2.jpg>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/photo_el_2.jpg used o
+n input line 34.
+(pdftex.def)             Requested size: 199.16928pt x 147.20091pt.
+ [16 <./Pictures/../Pictures/Chapter_2/photo_el_2.jpg>]
+! Missing delimiter (. inserted).
+<to be read again> 
+                   {
+l.57 \sigma _{KN} = 2\pi r_{e}^{2} \left{
+                                          \frac{1+\epsilon}{\epsilon ^{2}} \...
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
 
-! LaTeX Error: Environment savequote undefined.
+! Missing } inserted.
+<inserted text> 
+                }
+l.57 ...frac{1+3\epsilon}{(1+2\epsilon)^{2}}\right
+                                                  ]
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{savequote}
-                     [75mm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+
+<./Pictures/../Pictures/Chapter_2/259px-Compton-scattering.pdf, id=964, 259.971
+25pt x 179.67125pt>
+File: ./Pictures/../Pictures/Chapter_2/259px-Compton-scattering.pdf Graphic fil
+e (type pdf)
+
+<use ./Pictures/../Pictures/Chapter_2/259px-Compton-scattering.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/259px-Compton-scatter
+ing.pdf used on input line 61.
+(pdftex.def)             Requested size: 199.16928pt x 137.64818pt.
+
+<./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf, id=965, 289.0561pt x 248.588
+26pt>
+File: ./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf Graphic file (type pdf)
+ <use ./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/sigma_gamma.pdf used 
+on input line 83.
+(pdftex.def)             Requested size: 256.0748pt x 220.24144pt.
+ [17] [18 <./Pictures/../Pictures/Chapter_2/259px-Compton-scattering.pdf> <./Pi
+ctures/../Pictures/Chapter_2/sigma_gamma.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/../Pictures/Chapter_2/sig
+ma_gamma.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>]
+<./Pictures/../Pictures/Chapter_2/drawing_2.pdf, id=1000, 533.35258pt x 531.907
+18pt>
+File: ./Pictures/../Pictures/Chapter_2/drawing_2.pdf Graphic file (type pdf)
+ <use ./Pictures/../Pictures/Chapter_2/drawing_2.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/drawing_2.pdf used on
+ input line 94.
+(pdftex.def)             Requested size: 341.43306pt x 340.5087pt.
+ [19 <./Pictures/../Pictures/Chapter_2/drawing_2.pdf>] [20]
+<./Pictures/../Pictures/Chapter_2/traps.pdf, id=1022, 412.54124pt x 196.735pt>
+File: ./Pictures/../Pictures/Chapter_2/traps.pdf Graphic file (type pdf)
+
+<use ./Pictures/../Pictures/Chapter_2/traps.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/traps.pdf used on inp
+ut line 140.
+(pdftex.def)             Requested size: 341.43306pt x 162.82768pt.
+ [21 <./Pictures/../Pictures/Chapter_2/traps.pdf>]
+<./Pictures/../Pictures/Chapter_2/core_to_valence.pdf, id=1037, 402.50375pt x 2
+68.00125pt>
+File: ./Pictures/../Pictures/Chapter_2/core_to_valence.pdf Graphic file (type p
+df)
+ <use ./Pictures/../Pictures/Chapter_2/core_to_valence.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/core_to_valence.pdf u
+sed on input line 165.
+(pdftex.def)             Requested size: 227.62204pt x 151.55592pt.
+ [22]
+[23 <./Pictures/../Pictures/Chapter_2/core_to_valence.pdf>] [24] [25]
+<./Pictures/../Pictures/Chapter_2/cerenkov.pdf, id=1076, 395.4775pt x 280.04625
+pt>
+File: ./Pictures/../Pictures/Chapter_2/cerenkov.pdf Graphic file (type pdf)
+ <use ./Pictures/../Pictures/Chapter_2/cerenkov.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/cerenkov.pdf used on 
+input line 254.
+(pdftex.def)             Requested size: 256.0748pt x 181.33563pt.
+
+<./Pictures/../Pictures/Chapter_2/cone.pdf, id=1078, 385.44pt x 260.975pt>
+File: ./Pictures/../Pictures/Chapter_2/cone.pdf Graphic file (type pdf)
+
+<use ./Pictures/../Pictures/Chapter_2/cone.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_2/cone.pdf used on inpu
+t line 267.
+(pdftex.def)             Requested size: 256.0748pt x 173.38292pt.
+ [26 <./Pictures/../Pictures/Chapter_2/cerenkov.pdf>] [27 <./Pictures/../Pictur
+es/Chapter_2/cone.pdf>]
+
+Package natbib Warning: Citation `Naud1996' on page 28 undefined on input line 
+295.
 
 ! Undefined control sequence.
-l.3 \qauthor
-            {Quoteauthor Lastname}
+<recently read> \sym 
+                     
+l.298 ....4 g/cm$^{3}$), very fast emission ($\sym
+                                                  $ 40 ns) and high light yi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -788,660 +1009,779 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{document} ended by \end{savequote}.
+Overfull \hbox (0.69937pt too wide) in paragraph at lines 295--299
+\OT1/cmr/m/n/10.95 crys-tal for PET de-tec-tion and high en-ergy phisics. The c
+rys-tal struc-ture of Lu$[]$Si0$[]$:Ce
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \end{savequote}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
-[14
+Package natbib Warning: Citation `Kris2013' on page 28 undefined on input line 
+299.
+
+! Undefined control sequence.
+<recently read> \sym 
+                     
+l.304 ...n mechanisms are very slow, usually $\sym
+                                                  $ 2 $\mu$s and for this re...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Drozdowski2008' on page 28 undefined on input
+ line 308.
+
+[28]
+
+LaTeX Warning: Command \^ invalid in math mode on input line 310.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.310 ...ause of its high density (7.13 g/cm$\^{3}
+                                                  $), high scntillation outp...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.310 ...ause of its high density (7.13 g/cm$\^{3}
+                                                  $), high scntillation outp...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no è in font cmex10!
+! Undefined control sequence.
+<recently read> \sym 
+                     
+l.310 ... emission (two components, main one $\sym
+                                                  $300 ns).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Weber1996' on page 29 undefined on input line
+ 311.
+
+) [29]
+\openout2 = `./Chapter3/chRegularLook.aux'.
+
+ (./Chapter3/chRegularLook.tex [30
+
 
 
 ]
-Chapter 1.
+Chapter 3.
+<./Pictures/../Pictures/Chapter_3/PMT.png, id=1133, 790.955pt x 359.3425pt>
+File: ./Pictures/../Pictures/Chapter_3/PMT.png Graphic file (type png)
 
-Package natbib Warning: Citation `Linz2011' on page 1 undefined on input line 1
-8.
+<use ./Pictures/../Pictures/Chapter_3/PMT.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/PMT.png used on input
+ line 16.
+(pdftex.def)             Requested size: 341.43306pt x 155.1174pt.
+ [31] [32 <./Pictures/../Pictures/Chapter_3/PMT.png>] [33]
+<./Pictures/../Pictures/Chapter_3/MCP_plate.png, id=1158, 824.07875pt x 372.391
+25pt>
+File: ./Pictures/../Pictures/Chapter_3/MCP_plate.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_3/MCP_plate.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/MCP_plate.png used on
+ input line 70.
+(pdftex.def)             Requested size: 341.43306pt x 154.28946pt.
+ [34 <./Pictures/../Pictures/Chapter_3/MCP_plate.png>]
+<./Pictures/../Pictures/Chapter_3/MCP_struct.png, id=1168, 694.595pt x 412.5412
+4pt>
+File: ./Pictures/../Pictures/Chapter_3/MCP_struct.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_3/MCP_struct.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/MCP_struct.png used o
+n input line 87.
+(pdftex.def)             Requested size: 341.43306pt x 202.79535pt.
+ [35 <./Pictures/../Pictures/Chapter_3/MCP_struct.png>]
+<./Pictures/../Pictures/Chapter_3/avalanche.pdf, id=1180, 487.8225pt x 301.125p
+t>
+File: ./Pictures/../Pictures/Chapter_3/avalanche.pdf Graphic file (type pdf)
+ <use ./Pictures/../Pictures/Chapter_3/avalanche.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/avalanche.pdf used on
+ input line 118.
+(pdftex.def)             Requested size: 341.43306pt x 210.76308pt.
+ [36]
+<Pictures/Chapter_3/mppc_photo.pdf, id=1192, 180.675pt x 150.5625pt>
+File: Pictures/Chapter_3/mppc_photo.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_3/mppc_photo.pdf>
+Package pdftex.def Info: Pictures/Chapter_3/mppc_photo.pdf used on input line 1
+32.
+(pdftex.def)             Requested size: 170.71652pt x 142.26392pt.
+
+<Pictures/Chapter_3/mppc_schema.pdf, id=1193, 371.3875pt x 339.2675pt>
+File: Pictures/Chapter_3/mppc_schema.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_3/mppc_schema.pdf>
+Package pdftex.def Info: Pictures/Chapter_3/mppc_schema.pdf used on input line 
+135.
+(pdftex.def)             Requested size: 170.71652pt x 155.95622pt.
+ [37 <./Pictures/../Pictures/Chapter_3/avalanche.pdf>]
+<Pictures/Chapter_3/IR_mppc.png, id=1214, 394.47375pt x 383.4325pt>
+File: Pictures/Chapter_3/IR_mppc.png Graphic file (type png)
+
+<use Pictures/Chapter_3/IR_mppc.png>
+Package pdftex.def Info: Pictures/Chapter_3/IR_mppc.png used on input line 153.
+
+(pdftex.def)             Requested size: 170.71652pt x 165.93759pt.
+
+<Pictures/Chapter_3/UV_mppc.png, id=1215, 395.4775pt x 372.39125pt>
+File: Pictures/Chapter_3/UV_mppc.png Graphic file (type png)
+
+<use Pictures/Chapter_3/UV_mppc.png>
+Package pdftex.def Info: Pictures/Chapter_3/UV_mppc.png used on input line 156.
+
+(pdftex.def)             Requested size: 170.71652pt x 160.75015pt.
+ [38 <./Pictures/Chapter_3/mppc_photo.pdf> <./Pictures/Chapter_3/mppc_schema.pd
+f
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/Chapter_3/mppc_schema.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+>] [39 <./Pictures/Chapter_3/IR_mppc.png> <./Pictures/Chapter_3/UV_mppc.png>]
+<Pictures/Chapter_3/NINO_scheme.pdf, id=1248, 578.16pt x 274.02374pt>
+File: Pictures/Chapter_3/NINO_scheme.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_3/NINO_scheme.pdf>
+Package pdftex.def Info: Pictures/Chapter_3/NINO_scheme.pdf used on input line 
+197.
+(pdftex.def)             Requested size: 170.71652pt x 80.91156pt.
+
+<Pictures/Chapter_3/NINO.pdf, id=1249, 584.1825pt x 299.1175pt>
+File: Pictures/Chapter_3/NINO.pdf Graphic file (type pdf)
+
+<use Pictures/Chapter_3/NINO.pdf>
+Package pdftex.def Info: Pictures/Chapter_3/NINO.pdf used on input line 200.
+(pdftex.def)             Requested size: 170.71652pt x 87.41278pt.
+ [40 <./Pictures/Chapter_3/NINO_scheme.pdf> <./Pictures/Chapter_3/NINO.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Pictures/Chapter_3/NINO.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
+<./Pictures/../Pictures/Chapter_3/TOT.pdf, id=1274, 403.5075pt x 295.1025pt>
+File: ./Pictures/../Pictures/Chapter_3/TOT.pdf Graphic file (type pdf)
+
+<use ./Pictures/../Pictures/Chapter_3/TOT.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/TOT.pdf used on input
+ line 212.
+(pdftex.def)             Requested size: 256.0748pt x 187.27992pt.
+) [41 <./Pictures/../Pictures/Chapter_3/TOT.pdf>]
+\openout2 = `./Chapter4/chapter6.aux'.
+
+ (./Chapter4/chapter6.tex [42
 
 
-Package natbib Warning: Citation `Amaldi2011' on page 1 undefined on input line
- 24.
-
-[1
 
 ]
-
-Package natbib Warning: Citation `Wilson1946' on page 2 undefined on input line
- 33.
-
-
-! LaTeX Error: File `figures/Chapter_1/conformal_x_rays' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...width]{figures/Chapter_1/conformal_x_rays}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-
-Package natbib Warning: Citation `Linz2011' on page 2 undefined on input line 3
-8.
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-
-Package natbib Warning: Citation `Linz2011' on page 2 undefined on input line 3
-8.
-
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.40 \end{figure}
-                 
+Chapter 4.
+[43]
+<./Pictures/../Pictures/Chapter_4/cerenkov_time.png, id=1306, 360.34625pt x 318
+.18875pt>
+File: ./Pictures/../Pictures/Chapter_4/cerenkov_time.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_4/cerenkov_time.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/cerenkov_time.png use
+d on input line 32.
+(pdftex.def)             Requested size: 227.62204pt x 200.98917pt.
+ [44]
+[45 <./Pictures/../Pictures/Chapter_4/cerenkov_time.png>]
+! Extra }, or forgotten \right.
+<template> }
+            $\hfil \endtemplate 
+l.58 &
+      & - erf \left( \frac{-t_{TT}\sigma _{cer}^{2} + \mu _{cer} \sigma _{SP...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[2]
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.58 &
+      & - erf \left( \frac{-t_{TT}\sigma _{cer}^{2} + \mu _{cer} \sigma _{SP...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Package natbib Warning: Citation `Linz2011' on page 3 undefined on input line 4
-6.
+! Missing } inserted.
+<inserted text> 
+                }
+l.58 &
+      & - erf \left( \frac{-t_{TT}\sigma _{cer}^{2} + \mu _{cer} \sigma _{SP...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-[3]
+! Extra }, or forgotten \right.
+<template> }
+            $\hfil \endtemplate 
+l.64 \end{eqnarray}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-Package natbib Warning: Citation `Enghardt2004' on page 4 undefined on input li
-ne 56.
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.64 \end{eqnarray}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.64 \end{eqnarray}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Package natbib Warning: Citation `Parodi2004' on page 4 undefined on input line
- 62.
+<./Pictures/../Pictures/Chapter_4/model.png, id=1321, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_4/model.png Graphic file (type png)
 
+<use ./Pictures/../Pictures/Chapter_4/model.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/model.png used on inp
+ut line 69.
+(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
 
-Package natbib Warning: Citation `Enghardt2004' on page 4 undefined on input li
-ne 67.
+<./Pictures/../Pictures/Chapter_4/models.png, id=1322, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_4/models.png Graphic file (type png)
 
+<use ./Pictures/../Pictures/Chapter_4/models.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/models.png used on in
+put line 70.
+(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+ [46] [47 <./Pictures/../Pictures/Chapter_4/model.png> <./Pictures/../Pictures/
+Chapter_4/models.png>]
+[48]
 
-Package natbib Warning: Citation `Crespo2007' on page 4 undefined on input line
- 69.
-
-[4]
-! Undefined control sequence.
-l.73 Positron Emission Tomography (\ac
-                                      {PET}) has been introduced as a nuclea...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.74 ...ng the dose delivery, the subject of a \ac
-                                                  {PET} study is placed with...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.74 ...dy is placed within the field of view (\ac
-                                                  {FOV}) of a number of dete...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:scheme' on page 5 undefined on input line 74.
-
-[5]
-! Undefined control sequence.
-l.88 In a \ac
-             {PET} scanner, each detector generates a timed pulse when it re...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.89 ...ent is assigned to a line of response (\ac
-                                                  {LOR}) joining the two rel...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.91 Coincidence events in \ac
-                              {PET} fall into four categories: true, scatter...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6]
-! Undefined control sequence.
-l.95 ...ence event will be assigned to a wrong \ac
-                                                  {LOR}. Scattered coinciden...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.95 ...ing imaged, and on the geometry of the \ac
-                                                  {PET} scanner.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.97 ...mber of random coincidences in a given \ac
-                                                  {LOR} is closely linked to...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.97 ...asured by the detectors joined by that \ac
-                                                  {LOR} and the rate of rand...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.97 ...with the square of the activity in the \ac
-                                                  {FOV}. As with scattered e...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.97 ...ncidences is fairly uniform across the \ac
-                                                  {FOV}, and will cause isot...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7]
-
-Package natbib Warning: Citation `Fiedler2006' on page 8 undefined on input lin
-e 103.
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no ˆ in font cmr12!
-Missing character: There is no ’ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no · in font cmr12!
-[8]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no • in font cmr12!
- [9] [10]
-
-LaTeX Warning: Reference `fig:myFullPageFigure' on page 11 undefined on input l
-ine 153.
-
-! Undefined control sequence.
-l.156 \afterpage
-                {\clearpage}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[11])
-\openout2 = `./Chapter2/guide-notes.aux'.
-
- (./Chapter2/guide-notes.tex
-
-! LaTeX Error: Environment savequote undefined.
+! LaTeX Error: File `../Pictures/Chapter_4/rise_CTRpng' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \begin{savequote}
-                     [75mm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.3 \qauthor
-            {Firstname lastname}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+l.127 ...h=6cm]{../Pictures/Chapter_4/rise_CTRpng}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-! LaTeX Error: \begin{document} ended by \end{savequote}.
+<./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png, id=1348, 872.25874pt x 
+613.29124pt>
+File: ./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png Graphic file (type 
+png)
+ <use ./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png 
+used on input line 142.
+(pdftex.def)             Requested size: 227.62204pt x 160.04152pt.
+
+<./Pictures/../Pictures/Chapter_4/crossing.pdf, id=1350, 569.12625pt x 385.44pt
+>
+File: ./Pictures/../Pictures/Chapter_4/crossing.pdf Graphic file (type pdf)
+ <use ./Pictures/../Pictures/Chapter_4/crossing.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/crossing.pdf used on 
+input line 155.
+(pdftex.def)             Requested size: 227.62204pt x 154.15562pt.
+
+<./Pictures/../Pictures/Chapter_4/photon_rank.png, id=1352, 1057.9525pt x 647.4
+1875pt>
+File: ./Pictures/../Pictures/Chapter_4/photon_rank.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_4/photon_rank.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/photon_rank.png used 
+on input line 163.
+(pdftex.def)             Requested size: 170.71652pt x 104.46832pt.
+
+<./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.png, id=1353, 698.61pt x
+ 473.77pt>
+File: ./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.png Graphic file (t
+ype png)
+ <use ./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/photon_rank_no_smear.
+png used on input line 164.
+(pdftex.def)             Requested size: 170.71652pt x 115.77466pt.
+
+
+LaTeX Warning: Reference `' on page 49 undefined on input line 169.
+
+
+<./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png, id=1354, 817.0525pt x 6
+00.2425pt>
+File: ./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png Graphic file (type 
+png)
+ <use ./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png 
+used on input line 174.
+(pdftex.def)             Requested size: 170.71652pt x 125.41351pt.
+
+<./Pictures/../Pictures/Chapter_4/tau_r_rank.png, id=1355, 610.28pt x 518.93875
+pt>
+File: ./Pictures/../Pictures/Chapter_4/tau_r_rank.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_4/tau_r_rank.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/tau_r_rank.png used o
+n input line 175.
+(pdftex.def)             Requested size: 170.71652pt x 145.16724pt.
+ [49] [50 <./Pictures/../Pictures/Chapter_4/CY_LY_cramer_rao.png> <./Pictures/.
+./Pictures/Chapter_4/crossing.pdf, page is rotated 90 degrees>] [51 <./Pictures
+/../Pictures/Chapter_4/photon_rank.png> <./Pictures/../Pictures/Chapter_4/photo
+n_rank_no_smear.png> <./Pictures/../Pictures/Chapter_4/taur_rank_nosptr.png> <.
+/Pictures/../Pictures/Chapter_4/tau_r_rank.png>]
+
+LaTeX Warning: Reference `fig:' on page 52 undefined on input line 182.
+
+
+<./Pictures/../Pictures/Chapter_4/CER_photon_rank.png, id=1412, 698.61pt x 473.
+77pt>
+File: ./Pictures/../Pictures/Chapter_4/CER_photon_rank.png Graphic file (type p
+ng)
+ <use ./Pictures/../Pictures/Chapter_4/CER_photon_rank.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_4/CER_photon_rank.png u
+sed on input line 187.
+(pdftex.def)             Requested size: 227.62204pt x 154.3638pt.
+) [52 <./Pictures/../Pictures/Chapter_4/CER_photon_rank.png>]
+\openout2 = `./Chapter5/chLorem.aux'.
+
+ (./Chapter5/chLorem.tex
+Chapter 5.
+[53
+
+
+
+] [54] [55] [56]
+
+Package natbib Warning: Citation `ROOT' on page 57 undefined on input line 72.
+
+[57] [58]
+<./Pictures/../Pictures/Chapter_5/energy_dep.png, id=1461, 569.0058pt x 385.44p
+t>
+File: ./Pictures/../Pictures/Chapter_5/energy_dep.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/energy_dep.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/energy_dep.png used o
+n input line 102.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+
+<./Pictures/../Pictures/Chapter_5/energy_dep_lat.png, id=1463, 569.0058pt x 385
+.44pt>
+File: ./Pictures/../Pictures/Chapter_5/energy_dep_lat.png Graphic file (type pn
+g)
+ <use ./Pictures/../Pictures/Chapter_5/energy_dep_lat.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/energy_dep_lat.png us
+ed on input line 103.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+ [59]
+<./Pictures/../Pictures/Chapter_5/white.png, id=1469, 478.78876pt x 372.39125pt
+>
+File: ./Pictures/../Pictures/Chapter_5/white.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/white.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/white.png used on inp
+ut line 116.
+(pdftex.def)             Requested size: 199.16928pt x 154.90883pt.
+
+<./Pictures/../Pictures/Chapter_5/range.png, id=1470, 864.22874pt x 350.30875pt
+>
+File: ./Pictures/../Pictures/Chapter_5/range.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/range.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/range.png used on inp
+ut line 117.
+(pdftex.def)             Requested size: 199.16928pt x 80.72968pt.
+ [60 <./Pictures/../Pictures/Chapter_5/energy_dep.png> <./Pictures/../Pictures/
+Chapter_5/energy_dep_lat.png>]
+<./Pictures/../Pictures/Chapter_5/spctrum_LSO.png, id=1478, 633.36626pt x 468.7
+5125pt>
+File: ./Pictures/../Pictures/Chapter_5/spctrum_LSO.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/spctrum_LSO.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/spctrum_LSO.png used 
+on input line 129.
+(pdftex.def)             Requested size: 199.16928pt x 147.39992pt.
+
+<./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png, id=1479, 633.36626pt x 468.
+75125pt>
+File: ./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png Graphic file (type png)
+
+ <use ./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cerenkov_LSO.png used
+ on input line 130.
+(pdftex.def)             Requested size: 199.16928pt x 147.39992pt.
+ [61 <./Pictures/../Pictures/Chapter_5/white.png> <./Pictures/../Pictures/Chapt
+er_5/range.png> <./Pictures/../Pictures/Chapter_5/spctrum_LSO.png> <./Pictures/
+../Pictures/Chapter_5/cerenkov_LSO.png>] [62]
+<./Pictures/../Pictures/Chapter_5/pp_LSO.png, id=1502, 633.36626pt x 468.75125p
+t>
+File: ./Pictures/../Pictures/Chapter_5/pp_LSO.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/pp_LSO.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/pp_LSO.png used on in
+put line 175.
+(pdftex.def)             Requested size: 199.16928pt x 147.39992pt.
+
+<./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png, id=1503, 633.36626pt x 468.
+75125pt>
+File: ./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png Graphic file (type png)
+
+ <use ./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cer_extr_LSO.png used
+ on input line 176.
+(pdftex.def)             Requested size: 199.16928pt x 147.39992pt.
+
+<./Pictures/../Pictures/Chapter_5/cer_second_balance.png, id=1505, 569.0058pt x
+ 385.44pt>
+File: ./Pictures/../Pictures/Chapter_5/cer_second_balance.png Graphic file (typ
+e png)
+ <use ./Pictures/../Pictures/Chapter_5/cer_second_balance.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cer_second_balance.pn
+g used on input line 185.
+(pdftex.def)             Requested size: 227.62204pt x 154.18503pt.
+
+[63 <./Pictures/../Pictures/Chapter_5/pp_LSO.png> <./Pictures/../Pictures/Chapt
+er_5/cer_extr_LSO.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ [64 <./Pictures/../Pictures/Chapter_5/cer_second_balance.png>]
+<./Pictures/../Pictures/Chapter_5/scint_time_ex.png, id=1520, 568.7649pt x 385.
+1991pt>
+File: ./Pictures/../Pictures/Chapter_5/scint_time_ex.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_5/scint_time_ex.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/scint_time_ex.png use
+d on input line 204.
+(pdftex.def)             Requested size: 199.16928pt x 134.88635pt.
+
+<./Pictures/../Pictures/Chapter_5/sum_time_ex.png, id=1521, 568.7649pt x 385.19
+91pt>
+File: ./Pictures/../Pictures/Chapter_5/sum_time_ex.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/sum_time_ex.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/sum_time_ex.png used 
+on input line 205.
+(pdftex.def)             Requested size: 199.16928pt x 134.88635pt.
+
+<./Pictures/../Pictures/Chapter_5/abs.png, id=1523, 569.0058pt x 385.44pt>
+File: ./Pictures/../Pictures/Chapter_5/abs.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/abs.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/abs.png used on input
+ line 219.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+
+<./Pictures/../Pictures/Chapter_5/fresnel.png, id=1524, 569.0058pt x 385.44pt>
+File: ./Pictures/../Pictures/Chapter_5/fresnel.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/fresnel.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/fresnel.png used on i
+nput line 220.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+
+<./Pictures/../Pictures/Chapter_5/specular.png, id=1526, 569.0058pt x 385.44pt>
+File: ./Pictures/../Pictures/Chapter_5/specular.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_5/specular.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/specular.png used on 
+input line 230.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+
+<./Pictures/../Pictures/Chapter_5/diffusive.png, id=1527, 569.0058pt x 385.44pt
+>
+File: ./Pictures/../Pictures/Chapter_5/diffusive.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/diffusive.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/diffusive.png used on
+ input line 231.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+ [65 <./Pictures/../Pictures/Chapter_5/scint_time_ex.png> <./Pictures/../Pictur
+es/Chapter_5/sum_time_ex.png>]
+<./Pictures/../Pictures/Chapter_5/size_LY_variation.png, id=1536, 569.0058pt x 
+385.44pt>
+File: ./Pictures/../Pictures/Chapter_5/size_LY_variation.png Graphic file (type
+ png)
+ <use ./Pictures/../Pictures/Chapter_5/size_LY_variation.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/size_LY_variation.png
+ used on input line 244.
+(pdftex.def)             Requested size: 227.62204pt x 154.18503pt.
+ [66 <./Pictures/../Pictures/Chapter_5/abs.png> <./Pictures/../Pictures/Chapter
+_5/fresnel.png> <./Pictures/../Pictures/Chapter_5/specular.png> <./Pictures/../
+Pictures/Chapter_5/diffusive.png>]
+<./Pictures/../Pictures/Chapter_5/gain_grease.png, id=1549, 569.0058pt x 385.44
+pt>
+File: ./Pictures/../Pictures/Chapter_5/gain_grease.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/gain_grease.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/gain_grease.png used 
+on input line 259.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+
+<./Pictures/../Pictures/Chapter_5/wrap_gain.png, id=1550, 569.0058pt x 385.44pt
+>
+File: ./Pictures/../Pictures/Chapter_5/wrap_gain.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/wrap_gain.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/wrap_gain.png used on
+ input line 260.
+(pdftex.def)             Requested size: 199.16928pt x 134.9119pt.
+ [67 <./Pictures/../Pictures/Chapter_5/size_LY_variation.png>] [68 <./Pictures/
+../Pictures/Chapter_5/gain_grease.png> <./Pictures/../Pictures/Chapter_5/wrap_g
+ain.png>]
+<./Pictures/../Pictures/Chapter_5/fluo.png, id=1564, 523.9575pt x 339.2675pt>
+File: ./Pictures/../Pictures/Chapter_5/fluo.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/fluo.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/fluo.png used on inpu
+t line 294.
+(pdftex.def)             Requested size: 227.62204pt x 147.38344pt.
+ [69]
+<./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png, id=1571, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LYSO_Sipat.png used o
+n input line 311.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/LuAG_ce.png, id=1572, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/LuAG_ce.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/LuAG_ce.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LuAG_ce.png used on i
+nput line 312.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/cef3.png, id=1574, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/cef3.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/cef3.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cef3.png used on inpu
+t line 323.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/LuAG_pr.png, id=1575, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/LuAG_pr.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/LuAG_pr.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LuAG_pr.png used on i
+nput line 324.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/BGO.png, id=1577, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/BGO.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/BGO.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/BGO.png used on input
+ line 334.
+(pdftex.def)             Requested size: 227.62204pt x 154.3638pt.
+
+<./Pictures/../Pictures/Chapter_5/trans.png, id=1578, 586.19pt x 254.9525pt>
+File: ./Pictures/../Pictures/Chapter_5/trans.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/trans.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/trans.png used on inp
+ut line 345.
+(pdftex.def)             Requested size: 227.62204pt x 98.99924pt.
+ [70 <./Pictures/../Pictures/Chapter_5/fluo.png> <./Pictures/../Pictures/Chapte
+r_5/LYSO_Sipat.png> <./Pictures/../Pictures/Chapter_5/LuAG_ce.png>] [71 <./Pict
+ures/../Pictures/Chapter_5/cef3.png> <./Pictures/../Pictures/Chapter_5/LuAG_pr.
+png> <./Pictures/../Pictures/Chapter_5/BGO.png>]
+<./Pictures/../Pictures/Chapter_5/trans_luag.png, id=1589, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/trans_luag.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_5/trans_luag.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/trans_luag.png used o
+n input line 372.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/lso_trans.png, id=1590, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/lso_trans.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/lso_trans.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/lso_trans.png used on
+ input line 373.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/cef3_trans.png, id=1591, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/cef3_trans.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_5/cef3_trans.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/cef3_trans.png used o
+n input line 381.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/luag_pr_trans.png, id=1592, 698.61pt x 473.77
+pt>
+File: ./Pictures/../Pictures/Chapter_5/luag_pr_trans.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_5/luag_pr_trans.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/luag_pr_trans.png use
+d on input line 382.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_5/LY_3.png, id=1594, 572.1375pt x 254.9525pt>
+File: ./Pictures/../Pictures/Chapter_5/LY_3.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/LY_3.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/LY_3.png used on inpu
+t line 393.
+(pdftex.def)             Requested size: 227.62204pt x 101.43065pt.
+ [72 <./Pictures/../Pictures/Chapter_5/trans.png>] [73 <./Pictures/../Pictures/
+Chapter_5/trans_luag.png> <./Pictures/../Pictures/Chapter_5/lso_trans.png> <./P
+ictures/../Pictures/Chapter_5/cef3_trans.png> <./Pictures/../Pictures/Chapter_5
+/luag_pr_trans.png> <./Pictures/../Pictures/Chapter_5/LY_3.png>] [74]
+<./Pictures/../Pictures/Chapter_5/single.png, id=1617, 679.53876pt x 486.81876p
+t>
+File: ./Pictures/../Pictures/Chapter_5/single.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/single.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/single.png used on in
+put line 426.
+(pdftex.def)             Requested size: 199.16928pt x 142.68175pt.
+
+<./Pictures/../Pictures/Chapter_5/spectrum_LY.png, id=1618, 679.53876pt x 486.8
+1876pt>
+File: ./Pictures/../Pictures/Chapter_5/spectrum_LY.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_5/spectrum_LY.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/spectrum_LY.png used 
+on input line 427.
+(pdftex.def)             Requested size: 199.16928pt x 142.68175pt.
+
+<./Pictures/../Pictures/Chapter_5/qe.png, id=1620, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_5/qe.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_5/qe.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_5/qe.png used on input 
+line 441.
+(pdftex.def)             Requested size: 227.62204pt x 154.3638pt.
+ [75 <./Pictures/../Pictures/Chapter_5/single.png> <./Pictures/../Pictures/Chap
+ter_5/spectrum_LY.png>]) [76 <./Pictures/../Pictures/Chapter_5/qe.png>]
+\openout2 = `./Chapter6/chLorem2.aux'.
+
+ (./Chapter6/chLorem2.tex
+Chapter 6.
+
+<./Pictures/../Pictures/Chapter_8/electronics.pdf, id=1634, 277.51682pt x 325.2
+15pt>
+File: ./Pictures/../Pictures/Chapter_8/electronics.pdf Graphic file (type pdf)
+ <use ./Pictures/../Pictures/Chapter_8/electronics.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/electronics.pdf used 
+on input line 16.
+(pdftex.def)             Requested size: 256.0748pt x 300.10458pt.
+ [77
+
+
+
+] [78 <./Pictures/../Pictures/Chapter_8/electronics.pdf>] [79]
+
+LaTeX Warning: Reference `fig:' on page 80 undefined on input line 66.
+
+[80]
+! Display math should end with $$.
+<to be read again> 
+                   B
+l.89 $B
+       /U \sim \epsilon / 2$
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.89 $B/U \sim
+               \epsilon / 2$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \end{savequote}
+l.90 \end{equation}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[12
+! You can't use `\eqno' in horizontal mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.90 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.90 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
-]
-Chapter 2.
-[13
+[81] [82] [83]) [84]
+\openout2 = `./Chapter7/chapter6.aux'.
 
-]
-Missing character: There is no Ë in font cmr8!
-Missing character: There is no † in font cmr8!
-
-! Undefined control sequence.
-l.37 \sigma _{pe} \prop
-                        \frac{ZË†{n}}{E_{\gamma}Ë†{3.5}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-[14]
-! Extra \right.
-l.57 ...dot \frac{E'_{\gamma}}{E_{\gamma}} \right(
-                                                   1 - \frac{E'_{\gamma}}{E_...
-I'm ignoring a \right that had no matching \left.
-
-! Extra \right.
-l.57 ...{\gamma}}{E_{\gamma}} ^{2} \right] \right)
-                                                  
-I'm ignoring a \right that had no matching \left.
-
-
-Package natbib Warning: Citation `Rodnyi1997' on page 15 undefined on input lin
-e 80.
-
-
-Package natbib Warning: Citation `Lecoq2006' on page 15 undefined on input line
- 80.
-
-[15]
-
-Package natbib Warning: Citation `Rodnyi1997' on page 16 undefined on input lin
-e 86.
-
-[16]
-! Undefined control sequence.
-<recently read> \prop 
-                      
-l.98 ... an intermediate energy gamma ray ( $\prop
-                                                   500 keV$) interacting wit...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+ (./Chapter7/chapter6.tex
+Chapter 7.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
 ! Undefined control sequence.
 <recently read> \sym 
                      
-l.114 ...s quasiparticles, with an energy of $\sym
-                                                   10 eV$ and can decay into...
+l.13 ...ce the photons interact in the first $\sym
+                                                  $ 100 nm of material.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17] [18]
+[85
 
-Package natbib Warning: Citation `Lecoq2006' on page 19 undefined on input line
- 134.
-
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ë in font cmr12!
-Missing character: There is no † in font cmr12!
-
-Package natbib Warning: Citation `Lecoq2006' on page 19 undefined on input line
- 145.
-
-[19]
-
-Package natbib Warning: Citation `Rodnyi1997' on page 20 undefined on input lin
-e 164.
-
-! Undefined control sequence.
-<argument> \beta \cdot \E 
-                          _{g}
-l.174 ...{eh}} = \frac{\alpha}{\beta \cdot \E_{g}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[20]
-
-Package natbib Warning: Citation `Rodnyi1997' on page 21 undefined on input lin
-e 185.
-
-[21] [22]
-! Undefined control sequence.
-l.224 cos(\teta
-                _{C}) = frac{t c/n}{t \beta c} = \frac{1}{n\beta}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [23]
-\openout2 = `./Chapter3/chRegularLook.aux'.
-
- (./Chapter3/chRegularLook.tex
-
-! LaTeX Error: Environment savequote undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{savequote}
-                     [75mm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.3 \qauthor
-            {Quoteauthor Lastname}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{savequote}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \end{savequote}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[24
 
 
 ]
-Chapter 3.
-<./Pictures/../Pictures/Chapter_3/PMT.png, id=649, 790.955pt x 359.3425pt>
-File: ./Pictures/../Pictures/Chapter_3/PMT.png Graphic file (type png)
+<./Pictures/../Pictures/Chapter_7/HHG.png, id=1705, 571.13374pt x 400.49625pt>
+File: ./Pictures/../Pictures/Chapter_7/HHG.png Graphic file (type png)
 
-<use ./Pictures/../Pictures/Chapter_3/PMT.png>
-Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/PMT.png used on input
+<use ./Pictures/../Pictures/Chapter_7/HHG.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/HHG.png used on input
  line 21.
-(pdftex.def)             Requested size: 361.34999pt x 164.16454pt.
- [25
-
-] [26 <./Pictures/../Pictures/Chapter_3/PMT.png>] [27]
-<./Pictures/../Pictures/Chapter_3/MCP_plate.png, id=667, 824.07875pt x 372.3912
-5pt>
-File: ./Pictures/../Pictures/Chapter_3/MCP_plate.png Graphic file (type png)
- <use ./Pictures/../Pictures/Chapter_3/MCP_plate.png>
-Package pdftex.def Info: ./Pictures/../Pictures/Chapter_3/MCP_plate.png used on
- input line 79.
-(pdftex.def)             Requested size: 216.81pt x 97.97293pt.
- [28]
-
-Package natbib Warning: Citation `Vavra2004' on page 29 undefined on input line
- 108.
-
-[29 <./Pictures/../Pictures/Chapter_3/MCP_plate.png>] [30] [31] [32]
-
-Package natbib Warning: Citation `Anghinolfi2004' on page 33 undefined on input
- line 170.
-
-[33]) [34]
-\openout2 = `./Chapter4/chLorem.aux'.
-
- (./Chapter4/chLorem.tex
-
-! LaTeX Error: Environment savequote undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{savequote}
-                     [75mm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.3 \qauthor
-            {Quoteauthor Lastname}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{savequote}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \end{savequote}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[35
-
-
-]
-Chapter 4.
-) [36
-
-]
-\openout2 = `./Chapter5/chLorem2.aux'.
-
- (./Chapter5/chLorem2.tex
-
-! LaTeX Error: Environment savequote undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{savequote}
-                     [75mm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.3 \qauthor
-            {Quoteauthor Lastname}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{savequote}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \end{savequote}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[37
-
-
-]
-Chapter 5.
-) [38
-
-]
-\openout2 = `./Chapter6/chapter6.aux'.
-
- (./Chapter6/chapter6.tex
-
-! LaTeX Error: Environment savequote undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{savequote}
-                     [75mm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.3 \qauthor
-            {Quoteauthor Lastname}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{savequote}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \end{savequote}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[39
-
-
-]
-Chapter 6.
-[40
-
-]) [41]
-\openout2 = `./Chapter7/chapter7.aux'.
-
- (./Chapter7/chapter7.tex
-
-! LaTeX Error: Environment savequote undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \begin{savequote}
-                     [75mm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.3 \qauthor
-            {Quoteauthor Lastname}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{savequote}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \end{savequote}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[42
-
-
-]
-Chapter 7.
-[43
-
-]
-
-Package natbib Warning: Citation `Martin2001' on page 44 undefined on input lin
-e 29.
-
+(pdftex.def)             Requested size: 341.43306pt x 239.42572pt.
+ [86 <./Pictures/../Pictures/Chapter_7/HHG.png>]
 ! Undefined control sequence.
 <recently read> \micro 
                        
-l.33 ...ings the energy of the beam to 700 $\micro
+l.44 ...ings the energy of the beam to 700 $\micro
                                                    J$ at 1 kHz.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1449,10 +1789,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[87]
+<./Pictures/../Pictures/Chapter_7/VUV_line.png, id=1719, 526.96875pt x 254.9525
+pt>
+File: ./Pictures/../Pictures/Chapter_7/VUV_line.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_7/VUV_line.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/VUV_line.png used on 
+input line 52.
+(pdftex.def)             Requested size: 341.43306pt x 165.19585pt.
+
 ! Undefined control sequence.
 <recently read> \mi 
                     
-l.41 ...d in the fiber containing the gas (200$\mi
+l.59 ...d in the fiber containing the gas (200$\mi
                                                    m$ in diameter and 4 cm l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1460,57 +1809,1527 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[44]
+[88 <./Pictures/../Pictures/Chapter_7/VUV_line.png>]
 ! Undefined control sequence.
 <recently read> \micro 
                        
-l.58 ...ital resolution in the range 0-325 $\micro
-                                                   s$ down to a binning of 1...
+l.76 ...ital resolution in the range 0-325 $\micro
+                                                  $s down to a binning of 1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[45]) [46]
-\openout2 = `./Appendix1/chLorem3.aux'.
 
- (./Appendix1/chLorem3.tex
-Appendix A.
-[47
+<./Pictures/../Pictures/Chapter_7/electronics.pdf, id=1727, 508.7808pt x 226.92
+78pt>
+File: ./Pictures/../Pictures/Chapter_7/electronics.pdf Graphic file (type pdf)
+ <use ./Pictures/../Pictures/Chapter_7/electronics.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/electronics.pdf used 
+on input line 79.
+(pdftex.def)             Requested size: 256.0748pt x 114.21846pt.
+ [89]
+<./Pictures/../Pictures/Chapter_7/VUV_spectrum.png, id=1733, 437.635pt x 589.20
+125pt>
+File: ./Pictures/../Pictures/Chapter_7/VUV_spectrum.png Graphic file (type png)
+
+ <use ./Pictures/../Pictures/Chapter_7/VUV_spectrum.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/VUV_spectrum.png used
+ on input line 106.
+(pdftex.def)             Requested size: 199.16928pt x 268.14992pt.
+
+<./Pictures/../Pictures/Chapter_7/IRF_simple.png, id=1737, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_7/IRF_simple.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_7/IRF_simple.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/IRF_simple.png used o
+n input line 122.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_7/long.png, id=1738, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_7/long.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_7/long.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/long.png used on inpu
+t line 123.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [90 <./Pictures/../Pictures/Chapter_7/electronics.pdf>] [91 <./Pictures/../Pic
+tures/Chapter_7/VUV_spectrum.png>] [92 <./Pictures/../Pictures/Chapter_7/IRF_si
+mple.png> <./Pictures/../Pictures/Chapter_7/long.png>]
+
+! LaTeX Error: File `../Pictures/Chapter_7/' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ...aphics[width=8cm]{../Pictures/Chapter_7/}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[93] [94]
+<./Pictures/../Pictures/Chapter_7/decay_range_2.png, id=1772, 698.61pt x 473.77
+pt>
+File: ./Pictures/../Pictures/Chapter_7/decay_range_2.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_7/decay_range_2.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/decay_range_2.png use
+d on input line 206.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_7/rise_range_2.png, id=1773, 698.61pt x 473.77p
+t>
+File: ./Pictures/../Pictures/Chapter_7/rise_range_2.png Graphic file (type png)
+
+ <use ./Pictures/../Pictures/Chapter_7/rise_range_2.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/rise_range_2.png used
+ on input line 207.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [95]
+<./Pictures/../Pictures/Chapter_7/error_rise.png, id=1779, 768.8725pt x 694.595
+pt>
+File: ./Pictures/../Pictures/Chapter_7/error_rise.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_7/error_rise.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/error_rise.png used o
+n input line 218.
+(pdftex.def)             Requested size: 227.62204pt x 205.63506pt.
+
+<./Pictures/../Pictures/Chapter_7/rise_sipat.png, id=1781, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_7/rise_sipat.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_7/rise_sipat.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/rise_sipat.png used o
+n input line 227.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_7/decay_like_2.png, id=1782, 698.61pt x 473.77p
+t>
+File: ./Pictures/../Pictures/Chapter_7/decay_like_2.png Graphic file (type png)
+
+ <use ./Pictures/../Pictures/Chapter_7/decay_like_2.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/decay_like_2.png used
+ on input line 228.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [96 <./Pictures/../Pictures/Chapter_7/decay_range_2.png> <./Pictures/../Pictur
+es/Chapter_7/rise_range_2.png>]
+
+Package natbib Warning: Citation `ref:Lecoq2006' on page 97 undefined on input 
+line 248.
+
+[97 <./Pictures/../Pictures/Chapter_7/error_rise.png> <./Pictures/../Pictures/C
+hapter_7/rise_sipat.png> <./Pictures/../Pictures/Chapter_7/decay_like_2.png>]
+
+! LaTeX Error: File `../Pictures/Chapter_7/' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 ...aphics[width=7cm]{../Pictures/Chapter_7/}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
+<./Pictures/../Pictures/Chapter_7/2737_proteus.png, id=1796, 560.0925pt x 420.5
+7124pt>
+File: ./Pictures/../Pictures/Chapter_7/2737_proteus.png Graphic file (type png)
 
-] [48] [49] [50]) [51] (./dissertation.bbl
+ <use ./Pictures/../Pictures/Chapter_7/2737_proteus.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/2737_proteus.png used
+ on input line 255.
+(pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 4.
+<./Pictures/../Pictures/Chapter_7/CTI.png, id=1797, 560.0925pt x 420.57124pt>
+File: ./Pictures/../Pictures/Chapter_7/CTI.png Graphic file (type png)
 
-) [52
+<use ./Pictures/../Pictures/Chapter_7/CTI.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/CTI.png used on input
+ line 263.
+(pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
+
+<./Pictures/../Pictures/Chapter_7/ca_ce.png, id=1798, 561.09625pt x 420.57124pt
+>
+File: ./Pictures/../Pictures/Chapter_7/ca_ce.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_7/ca_ce.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/ca_ce.png used on inp
+ut line 264.
+(pdftex.def)             Requested size: 199.16928pt x 149.2878pt.
+
+<./Pictures/../Pictures/Chapter_7/lgso.png, id=1799, 560.0925pt x 420.57124pt>
+File: ./Pictures/../Pictures/Chapter_7/lgso.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_7/lgso.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/lgso.png used on inpu
+t line 271.
+(pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
+
+<./Pictures/../Pictures/Chapter_7/cef3.png, id=1800, 560.0925pt x 420.57124pt>
+File: ./Pictures/../Pictures/Chapter_7/cef3.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_7/cef3.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/cef3.png used on inpu
+t line 272.
+(pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
+
+<./Pictures/../Pictures/Chapter_7/bgo.png, id=1801, 810.02625pt x 404.51125pt>
+File: ./Pictures/../Pictures/Chapter_7/bgo.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_7/bgo.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/bgo.png used on input
+ line 279.
+(pdftex.def)             Requested size: 227.62204pt x 113.66974pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.291 LYSO Sipat      & 36_
+                           {-27}^{+30} ps         & 40.5_{-0.7}^{+0.9} ns  & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.291 ... Sipat      & 36_{-27}^{+30} ps         &
+                                                   40.5_{-0.7}^{+0.9} ns  & \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.291 ... Sipat      & 36_{-27}^{+30} ps         &
+                                                   40.5_{-0.7}^{+0.9} ns  & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.291 ... Sipat      & 36_{-27}^{+30} ps         &
+                                                   40.5_{-0.7}^{+0.9} ns  & \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.291 ...      & 36_{-27}^{+30} ps         & 40.5_
+                                                  {-0.7}^{+0.9} ns  & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.291 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.291 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.291 ...30} ps         & 40.5_{-0.7}^{+0.9} ns  &
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.293 LYSO Proteus     & 26_
+                            {-26}^{+30} ps         & 39_{-0.7}^{+0.9} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.293 ...Proteus     & 26_{-26}^{+30} ps         &
+                                                   39_{-0.7}^{+0.9} ns & \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.293 ...Proteus     & 26_{-26}^{+30} ps         &
+                                                   39_{-0.7}^{+0.9} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.293 ...Proteus     & 26_{-26}^{+30} ps         &
+                                                   39_{-0.7}^{+0.9} ns & \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.293 ...eus     & 26_{-26}^{+30} ps         & 39_
+                                                  {-0.7}^{+0.9} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.293 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.293 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.293 ...^{+30} ps         & 39_{-0.7}^{+0.9} ns &
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.295 LSO CTI      & 23_
+                        {-18}^{+20} ps         & 37_{-0.8}^{+0.8} ns  & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.295 LSO CTI      & 23_{-18}^{+20} ps         &
+                                                 37_{-0.8}^{+0.8} ns  & \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.295 LSO CTI      & 23_{-18}^{+20} ps         &
+                                                 37_{-0.8}^{+0.8} ns  & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.295 LSO CTI      & 23_{-18}^{+20} ps         &
+                                                 37_{-0.8}^{+0.8} ns  & \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.295 ...TI      & 23_{-18}^{+20} ps         & 37_
+                                                  {-0.8}^{+0.8} ns  & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.295 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.295 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.295 ...{+20} ps         & 37_{-0.8}^{+0.8} ns  &
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.297 LSO:Ca      & 23_
+                       {-19}^{+22} ps         & 10_{-0.3}^{+0.4} ns  & 30_{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.297 LSO:Ca      & 23_{-19}^{+22} ps         &
+                                                10_{-0.3}^{+0.4} ns  & 30_{-...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.297 LSO:Ca      & 23_{-19}^{+22} ps         &
+                                                10_{-0.3}^{+0.4} ns  & 30_{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.297 LSO:Ca      & 23_{-19}^{+22} ps         &
+                                                10_{-0.3}^{+0.4} ns  & 30_{-...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.297 ...Ca      & 23_{-19}^{+22} ps         & 10_
+                                                  {-0.3}^{+0.4} ns  & 30_{-0...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.297 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
+                                                   30_{-0.8}^{1.0} ns \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.297 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
+                                                   30_{-0.8}^{1.0} ns \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.297 ...{+22} ps         & 10_{-0.3}^{+0.4} ns  &
+                                                   30_{-0.8}^{1.0} ns \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.297 ...} ps         & 10_{-0.3}^{+0.4} ns  & 30_
+                                                  {-0.8}^{1.0} ns \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.298 \hline
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.298 \hline
+            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.298 \hline
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.299 LGSO & 27_
+                {-15}^{27} ps         & 38_{-0.8}^{+0.8} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.299 LGSO & 27_{-15}^{27} ps         &
+                                        38_{-0.8}^{+0.8} ns & \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.299 LGSO & 27_{-15}^{27} ps         &
+                                        38_{-0.8}^{+0.8} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.299 LGSO & 27_{-15}^{27} ps         &
+                                        38_{-0.8}^{+0.8} ns & \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.299 LGSO & 27_{-15}^{27} ps         & 38_
+                                           {-0.8}^{+0.8} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.299 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.299 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.299 ...}^{27} ps         & 38_{-0.8}^{+0.8} ns &
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.301 CeF$_{3}$      & 22_
+                          {15}^{30} ps         & 5_{-0.2}^{+0.4} ns  & 18_{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.301 CeF$_{3}$      & 22_{15}^{30} ps         &
+                                                 5_{-0.2}^{+0.4} ns  & 18_{-...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.301 CeF$_{3}$      & 22_{15}^{30} ps         &
+                                                 5_{-0.2}^{+0.4} ns  & 18_{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.301 CeF$_{3}$      & 22_{15}^{30} ps         &
+                                                 5_{-0.2}^{+0.4} ns  & 18_{-...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.301 ..._{3}$      & 22_{15}^{30} ps         & 5_
+                                                  {-0.2}^{+0.4} ns  & 18_{-0...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.301 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
+                                                   18_{-0.5}^{+0.8} ns \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.301 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
+                                                   18_{-0.5}^{+0.8} ns \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.301 ...}^{30} ps         & 5_{-0.2}^{+0.4} ns  &
+                                                   18_{-0.5}^{+0.8} ns \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.301 ...0} ps         & 5_{-0.2}^{+0.4} ns  & 18_
+                                                  {-0.5}^{+0.8} ns \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.302 \hline
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.302 \hline
+            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.302 \hline
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.303 BGO      & 30_
+                    {25}^{35} ps         & 10_{-0.2}^{+0.4} ns  & long \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.303 BGO      & 30_{25}^{35} ps         &
+                                           10_{-0.2}^{+0.4} ns  & long \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.303 BGO      & 30_{25}^{35} ps         &
+                                           10_{-0.2}^{+0.4} ns  & long \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.303 BGO      & 30_{25}^{35} ps         &
+                                           10_{-0.2}^{+0.4} ns  & long \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.303 BGO      & 30_{25}^{35} ps         & 10_
+                                              {-0.2}^{+0.4} ns  & long \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.303 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
+                                                   long \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.303 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
+                                                   long \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.303 ...^{35} ps         & 10_{-0.2}^{+0.4} ns  &
+                                                   long \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+<./Pictures/../Pictures/Chapter_7/luag_0_0_8.png, id=1803, 953.5625pt x 382.428
+76pt>
+File: ./Pictures/../Pictures/Chapter_7/luag_0_0_8.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_7/luag_0_0_8.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/luag_0_0_8.png used o
+n input line 315.
+(pdftex.def)             Requested size: 227.62204pt x 91.28876pt.
+ [98 <./Pictures/../Pictures/Chapter_7/2737_proteus.png (PNG copy)>] [99 <./Pic
+tures/../Pictures/Chapter_7/CTI.png (PNG copy)> <./Pictures/../Pictures/Chapter
+_7/ca_ce.png (PNG copy)> <./Pictures/../Pictures/Chapter_7/lgso.png (PNG copy)>
+ <./Pictures/../Pictures/Chapter_7/cef3.png (PNG copy)> <./Pictures/../Pictures
+/Chapter_7/bgo.png>] <./Pictures/../Pictures/Chapter_7/2612.png, id=1812, 811.0
+3pt x 405.515pt>
+File: ./Pictures/../Pictures/Chapter_7/2612.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_7/2612.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/2612.png used on inpu
+t line 323.
+(pdftex.def)             Requested size: 199.16928pt x 99.58408pt.
+
+<./Pictures/../Pictures/Chapter_7/0_44.png, id=1813, 813.0375pt x 396.48125pt>
+File: ./Pictures/../Pictures/Chapter_7/0_44.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_7/0_44.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/0_44.png used on inpu
+t line 324.
+(pdftex.def)             Requested size: 199.16928pt x 97.12363pt.
+
+<./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png, id=1814, 560.0925pt x 420
+.57124pt>
+File: ./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png Graphic file (type pn
+g)
+ <use ./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png us
+ed on input line 332.
+(pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
+
+<./Pictures/../Pictures/Chapter_7/luagpr.png, id=1815, 560.0925pt x 420.57124pt
+>
+File: ./Pictures/../Pictures/Chapter_7/luagpr.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_7/luagpr.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_7/luagpr.png used on in
+put line 333.
+(pdftex.def)             Requested size: 199.16928pt x 149.55731pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.345 LuAG:Ce (0.08$\%$)    & 280_
+                                  {-51}^{+52} ps         & 65_{-2.1}^{+2.6} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.345 ...08$\%$)    & 280_{-51}^{+52} ps         &
+                                                   65_{-2.1}^{+2.6} ns  & lo...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.345 ...08$\%$)    & 280_{-51}^{+52} ps         &
+                                                   65_{-2.1}^{+2.6} ns  & lo...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.345 ...08$\%$)    & 280_{-51}^{+52} ps         &
+                                                   65_{-2.1}^{+2.6} ns  & lo...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.345 ...%$)    & 280_{-51}^{+52} ps         & 65_
+                                                  {-2.1}^{+2.6} ns  & longer\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.345 ...{+52} ps         & 65_{-2.1}^{+2.6} ns  &
+                                                   longer\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.345 ...{+52} ps         & 65_{-2.1}^{+2.6} ns  &
+                                                   longer\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.345 ...{+52} ps         & 65_{-2.1}^{+2.6} ns  &
+                                                   longer\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.347 LuAG:Ce (0.13$\%$)    & 270_
+                                  {-54}^{+54} ps         & 60_{-2}^{+2.5} ns...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.347 ...13$\%$)    & 270_{-54}^{+54} ps         &
+                                                   60_{-2}^{+2.5} ns & longer\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.347 ...13$\%$)    & 270_{-54}^{+54} ps         &
+                                                   60_{-2}^{+2.5} ns & longer\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.347 ...13$\%$)    & 270_{-54}^{+54} ps         &
+                                                   60_{-2}^{+2.5} ns & longer\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.347 ...%$)    & 270_{-54}^{+54} ps         & 60_
+                                                  {-2}^{+2.5} ns & longer\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.347 ...4}^{+54} ps         & 60_{-2}^{+2.5} ns &
+                                                   longer\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.347 ...4}^{+54} ps         & 60_{-2}^{+2.5} ns &
+                                                   longer\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.347 ...4}^{+54} ps         & 60_{-2}^{+2.5} ns &
+                                                   longer\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.349 LuAG:Ce (0.44$\%$)     & 190_
+                                   {-40}^{+45} ps         & 58_{-2}^{+2.3} n...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.349 ...4$\%$)     & 190_{-40}^{+45} ps         &
+                                                   58_{-2}^{+2.3} ns  & long...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.349 ...4$\%$)     & 190_{-40}^{+45} ps         &
+                                                   58_{-2}^{+2.3} ns  & long...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.349 ...4$\%$)     & 190_{-40}^{+45} ps         &
+                                                   58_{-2}^{+2.3} ns  & long...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.349 ...$)     & 190_{-40}^{+45} ps         & 58_
+                                                  {-2}^{+2.3} ns  & longer \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.349 ...}^{+45} ps         & 58_{-2}^{+2.3} ns  &
+                                                   longer \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.349 ...}^{+45} ps         & 58_{-2}^{+2.3} ns  &
+                                                   longer \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.349 ...}^{+45} ps         & 58_{-2}^{+2.3} ns  &
+                                                   longer \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.351 LuAG:Ce (0.5$\%$)      & 212_
+                                   {-45}^{+45} ps         & 56_{-1.8}^{+2.4}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.351 ...$\%$)      & 212_{-45}^{+45} ps         &
+                                                   56_{-1.8}^{+2.4} ns  & lo...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.351 ...$\%$)      & 212_{-45}^{+45} ps         &
+                                                   56_{-1.8}^{+2.4} ns  & lo...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.351 ...$\%$)      & 212_{-45}^{+45} ps         &
+                                                   56_{-1.8}^{+2.4} ns  & lo...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.351 ...)      & 212_{-45}^{+45} ps         & 56_
+                                                  {-1.8}^{+2.4} ns  & longer \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.351 ...{+45} ps         & 56_{-1.8}^{+2.4} ns  &
+                                                   longer \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.351 ...{+45} ps         & 56_{-1.8}^{+2.4} ns  &
+                                                   longer \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.351 ...{+45} ps         & 56_{-1.8}^{+2.4} ns  &
+                                                   longer \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.353 LuAG:Pr & 190_
+                    {-50}^{50} ps         & 28_{-2.1}^{+2.3} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.353 LuAG:Pr & 190_{-50}^{50} ps         &
+                                            28_{-2.1}^{+2.3} ns & \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.353 LuAG:Pr & 190_{-50}^{50} ps         &
+                                            28_{-2.1}^{+2.3} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.353 LuAG:Pr & 190_{-50}^{50} ps         &
+                                            28_{-2.1}^{+2.3} ns & \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.353 LuAG:Pr & 190_{-50}^{50} ps         & 28_
+                                               {-2.1}^{+2.3} ns & \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.353 ...}^{50} ps         & 28_{-2.1}^{+2.3} ns &
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.353 ...}^{50} ps         & 28_{-2.1}^{+2.3} ns &
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.353 ...}^{50} ps         & 28_{-2.1}^{+2.3} ns &
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[100 <./Pictures/../Pictures/Chapter_7/luag_0_0_8.png (PNG copy)> <./Pictures/.
+./Pictures/Chapter_7/2612.png> <./Pictures/../Pictures/Chapter_7/0_44.png>]
+[101 <./Pictures/../Pictures/Chapter_7/luag_2735_0_13.png (PNG copy)> <./Pictur
+es/../Pictures/Chapter_7/luagpr.png (PNG copy)>] [102] [103]
+
+Package natbib Warning: Citation `streak' on page 104 undefined on input line 4
+05.
+
+) [104]
+\openout2 = `./Chapter8/chapter7.aux'.
+
+ (./Chapter8/chapter7.tex
+Chapter 8.
+
+<./Pictures/../Pictures/Chapter_8/Na-22.png, id=1846, 476.78125pt x 238.8925pt>
+File: ./Pictures/../Pictures/Chapter_8/Na-22.png Graphic file (type png)
+<use ./Pictures/../Pictures/Chapter_8/Na-22.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/Na-22.png used on inp
+ut line 21.
+(pdftex.def)             Requested size: 227.62204pt x 114.05104pt.
+ [105
 
 
 
 ]
-\openout2 = `./Biography/biography.aux'.
+File: ./Pictures/../Pictures/Chapter_8/electronics.pdf Graphic file (type pdf)
 
- (./Biography/biography.tex) [53
+<use ./Pictures/../Pictures/Chapter_8/electronics.pdf>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/electronics.pdf used 
+on input line 32.
+(pdftex.def)             Requested size: 227.62204pt x 266.74254pt.
+
+<./Pictures/../Pictures/Chapter_8/NINO_signal.png, id=1853, 878.28125pt x 539.0
+1375pt>
+File: ./Pictures/../Pictures/Chapter_8/NINO_signal.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_8/NINO_signal.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/NINO_signal.png used 
+on input line 49.
+(pdftex.def)             Requested size: 227.62204pt x 139.69612pt.
+
+<./Pictures/../Pictures/Chapter_8/MCP_signal.png, id=1855, 360.34625pt x 318.18
+875pt>
+File: ./Pictures/../Pictures/Chapter_8/MCP_signal.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_8/MCP_signal.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/MCP_signal.png used o
+n input line 59.
+(pdftex.def)             Requested size: 227.62204pt x 200.98917pt.
+ [106 <./Pictures/../Pictures/Chapter_8/Na-22.png>] [107 <./Pictures/../Picture
+s/Chapter_8/NINO_signal.png>] [108 <./Pictures/../Pictures/Chapter_8/MCP_signal
+.png>]
+<./Pictures/../Pictures/Chapter_8/spectrum_NINO.png, id=1873, 698.61pt x 473.77
+pt>
+File: ./Pictures/../Pictures/Chapter_8/spectrum_NINO.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_8/spectrum_NINO.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/spectrum_NINO.png use
+d on input line 93.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_8/CTR.png, id=1874, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_8/CTR.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_8/CTR.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/CTR.png used on input
+ line 94.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [109]
+<./Pictures/../Pictures/Chapter_8/laser_trigger.png, id=1884, 360.34625pt x 318
+.18875pt>
+File: ./Pictures/../Pictures/Chapter_8/laser_trigger.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_8/laser_trigger.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/laser_trigger.png use
+d on input line 112.
+(pdftex.def)             Requested size: 227.62204pt x 200.98917pt.
+
+<./Pictures/../Pictures/Chapter_8/amp_MCP.png, id=1885, 878.28125pt x 458.71375
+pt>
+File: ./Pictures/../Pictures/Chapter_8/amp_MCP.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_8/amp_MCP.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/amp_MCP.png used on i
+nput line 120.
+(pdftex.def)             Requested size: 199.16928pt x 104.01807pt.
+
+<./Pictures/../Pictures/Chapter_8/time_walk_mcp.png, id=1886, 878.28125pt x 458
+.71375pt>
+File: ./Pictures/../Pictures/Chapter_8/time_walk_mcp.png Graphic file (type png
+)
+ <use ./Pictures/../Pictures/Chapter_8/time_walk_mcp.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/time_walk_mcp.png use
+d on input line 121.
+(pdftex.def)             Requested size: 199.16928pt x 104.01807pt.
+ [110 <./Pictures/../Pictures/Chapter_8/spectrum_NINO.png> <./Pictures/../Pictu
+res/Chapter_8/CTR.png>] [111 <./Pictures/../Pictures/Chapter_8/laser_trigger.pn
+g> <./Pictures/../Pictures/Chapter_8/amp_MCP.png> <./Pictures/../Pictures/Chapt
+er_8/time_walk_mcp.png>]
+<./Pictures/../Pictures/Chapter_8/time_walk_corr.png, id=1898, 878.28125pt x 45
+8.71375pt>
+File: ./Pictures/../Pictures/Chapter_8/time_walk_corr.png Graphic file (type pn
+g)
+ <use ./Pictures/../Pictures/Chapter_8/time_walk_corr.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/time_walk_corr.png us
+ed on input line 139.
+(pdftex.def)             Requested size: 199.16928pt x 104.01807pt.
+
+<./Pictures/../Pictures/Chapter_8/laser.png, id=1899, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_8/laser.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_8/laser.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/laser.png used on inp
+ut line 140.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+ [112 <./Pictures/../Pictures/Chapter_8/time_walk_corr.png> <./Pictures/../Pict
+ures/Chapter_8/laser.png>]
+<./Pictures/../Pictures/Chapter_8/response_cer_10.png, id=1908, 1077.02374pt x 
+557.08125pt>
+File: ./Pictures/../Pictures/Chapter_8/response_cer_10.png Graphic file (type p
+ng)
+ <use ./Pictures/../Pictures/Chapter_8/response_cer_10.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/response_cer_10.png u
+sed on input line 166.
+(pdftex.def)             Requested size: 227.62204pt x 117.73004pt.
+
+[113 <./Pictures/../Pictures/Chapter_8/response_cer_10.png>]
+<./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png, id=1915, 698.6
+1pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png Graphic fi
+le (type png)
+
+<use ./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/interaction_time_spec
+trum.png used on input line 183.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_8/electron_drift.png, id=1916, 791.95876pt x 70
+9.65125pt>
+File: ./Pictures/../Pictures/Chapter_8/electron_drift.png Graphic file (type pn
+g)
+ <use ./Pictures/../Pictures/Chapter_8/electron_drift.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/electron_drift.png us
+ed on input line 184.
+(pdftex.def)             Requested size: 199.16928pt x 178.46272pt.
+
+<./Pictures/../Pictures/Chapter_8/screen_irf_2.png, id=1918, 596.2275pt x 226.8
+475pt>
+File: ./Pictures/../Pictures/Chapter_8/screen_irf_2.png Graphic file (type png)
+
+ <use ./Pictures/../Pictures/Chapter_8/screen_irf_2.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/screen_irf_2.png used
+ on input line 195.
+(pdftex.def)             Requested size: 199.16928pt x 75.77718pt.
+
+<./Pictures/../Pictures/Chapter_8/turn_1.png, id=1919, 698.61pt x 473.77pt>
+File: ./Pictures/../Pictures/Chapter_8/turn_1.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_8/turn_1.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/turn_1.png used on in
+put line 196.
+(pdftex.def)             Requested size: 199.16928pt x 135.06923pt.
+
+<./Pictures/../Pictures/Chapter_8/screen_irf.png, id=1920, 588.1975pt x 224.84p
+t>
+File: ./Pictures/../Pictures/Chapter_8/screen_irf.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_8/screen_irf.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/screen_irf.png used o
+n input line 203.
+(pdftex.def)             Requested size: 199.16928pt x 76.13239pt.
+
+<./Pictures/../Pictures/Chapter_8/turn_2.png, id=1921, 970.62625pt x 706.64pt>
+File: ./Pictures/../Pictures/Chapter_8/turn_2.png Graphic file (type png)
+
+<use ./Pictures/../Pictures/Chapter_8/turn_2.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/turn_2.png used on in
+put line 204.
+(pdftex.def)             Requested size: 199.16928pt x 145.0023pt.
+ [114 <./Pictures/../Pictures/Chapter_8/interaction_time_spectrum.png> <./Pictu
+res/../Pictures/Chapter_8/electron_drift.png>] [115 <./Pictures/../Pictures/Cha
+pter_8/screen_irf_2.png> <./Pictures/../Pictures/Chapter_8/turn_1.png> <./Pictu
+res/../Pictures/Chapter_8/screen_irf.png> <./Pictures/../Pictures/Chapter_8/tur
+n_2.png>]
+
+LaTeX Warning: Reference `fig:' on page 116 undefined on input line 225.
 
 
-]
+<./Pictures/../Pictures/Chapter_8/multi_pois.png, id=1935, 679.53876pt x 494.84
+875pt>
+File: ./Pictures/../Pictures/Chapter_8/multi_pois.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_8/multi_pois.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/multi_pois.png used o
+n input line 228.
+(pdftex.def)             Requested size: 199.16928pt x 145.03526pt.
+ [116]
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 \caption
+              [Multi hits in $\gamma$ setup]{Example of multi hit event (lef...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.232 \end{figure}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.232 \end{figure}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.232 \end{figure}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.232 \end{figure}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+[117 <./Pictures/../Pictures/Chapter_8/multi_pois.png>]
+<./Pictures/../Pictures/Chapter_8/setup_direct.png, id=1948, 519.9425pt x 273.0
+2pt>
+File: ./Pictures/../Pictures/Chapter_8/setup_direct.png Graphic file (type png)
+
+ <use ./Pictures/../Pictures/Chapter_8/setup_direct.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/setup_direct.png used
+ on input line 260.
+(pdftex.def)             Requested size: 199.16928pt x 104.58186pt.
+
+<./Pictures/../Pictures/Chapter_8/setup_twist.png, id=1949, 377.41pt x 365.365p
+t>
+File: ./Pictures/../Pictures/Chapter_8/setup_twist.png Graphic file (type png)
+ <use ./Pictures/../Pictures/Chapter_8/setup_twist.png>
+Package pdftex.def Info: ./Pictures/../Pictures/Chapter_8/setup_twist.png used 
+on input line 269.
+(pdftex.def)             Requested size: 199.16928pt x 192.81184pt.
+ [118 <./Pictures/../Pictures/Chapter_8/setup_direct.png>] [119 <./Pictures/../
+Pictures/Chapter_8/setup_twist.png>]) [120]
+\openout2 = `./Chapter9/conclusions.aux'.
+
+ (./Chapter9/conclusions.tex
+Chapter 9.
+) [121
+
+
+
+] [122
+
+
+] (./dissertation.bbl
+! Misplaced alignment tab character &.
+<argument> Nuclear Instruments &
+                                 Methods in Physics Research A
+l.50 ...struments & Methods in Physics Research A}
+                                                  ,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[123
+
+] [124]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
-(./dissertation.aux (./Abstract/abstract.aux) (./Abbreviations/listofabbr.aux)
-(./Acknowledgements/acknowledgements.aux) (./Chapter1/introduction.aux)
-(./Chapter2/guide-notes.aux) (./Chapter3/chRegularLook.aux)
-(./Chapter4/chLorem.aux) (./Chapter5/chLorem2.aux) (./Chapter6/chapter6.aux)
-(./Chapter7/chapter7.aux) (./Appendix1/chLorem3.aux) (./Biography/biography.aux
-))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+[125]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+ (./dissertation.aux (./Abstract/abstract.aux)
+(./Chapter1/introduction.aux) (./Chapter2/guide-notes.aux)
+(./Chapter3/chRegularLook.aux) (./Chapter4/chapter6.aux)
+(./Chapter5/chLorem.aux) (./Chapter6/chLorem2.aux) (./Chapter7/chapter6.aux)
+(./Chapter8/chapter7.aux) (./Chapter9/conclusions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 3C7AD722ACFBF9435303248830D5392A;6175.
+(rerunfilecheck)             Checksum: E30C8B391C3B8A4193CA9BBB8C17A38F;7892.
 
 
 LaTeX Warning: There were undefined references.
@@ -1518,40 +3337,37 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 7661 strings out of 493315
- 108231 string characters out of 6137904
- 194520 words of memory out of 5000000
- 10667 multiletter control sequences out of 15000+600000
- 24318 words of font info for 85 fonts, out of 8000000 for 9000
+ 8652 strings out of 493315
+ 137553 string characters out of 6137904
+ 201383 words of memory out of 5000000
+ 11312 multiletter control sequences out of 15000+600000
+ 16047 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 34i,7n,30p,1200b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texli
+ 34i,11n,30p,873b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on dissertation.pdf (67 pages, 407603 bytes).
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
+Output written on dissertation.pdf (137 pages, 5140637 bytes).
 PDF statistics:
- 903 PDF objects out of 1000 (max. 8388607)
- 803 compressed objects within 9 object streams
- 200 named destinations out of 1000 (max. 500000)
- 699 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2143 PDF objects out of 2487 (max. 8388607)
+ 1747 compressed objects within 18 object streams
+ 455 named destinations out of 1000 (max. 500000)
+ 1432 words of extra memory for PDF output out of 10000 (max. 10000000)
 

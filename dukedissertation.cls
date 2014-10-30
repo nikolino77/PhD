@@ -97,8 +97,8 @@
 }
 \DeclareOption{gradschool}{\@Gradschooltrue}
 \DeclareOption{nogradschool}{\@Gradschoolfalse}
-\DeclareOption{MS}{\@MStrue}
-\DeclareOption{PhD}{\@MSfalse}
+\DeclareOption{MS}{\@MSfalse}
+\DeclareOption{PhD}{\@MStrue}
 \DeclareOption{oldstyle}{\setboolean{oldstyle}{true}}
 \DeclareOption{newstyle}{\setboolean{oldstyle}{false}}
 \DeclareOption{nobind}{\setboolean{centerpage}{true}}
@@ -114,7 +114,7 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ExecuteOptions{gradschool,PhD,doublespace,newstyle,bind}
 \ProcessOptions\relax
-\LoadClass[12pt,letterpaper]{report}
+\LoadClass[11pt,letterpaper]{book}
 
 % Float parameters.  Allow more float per page, open up spacing
 \renewcommand{\topfraction}{.75}
