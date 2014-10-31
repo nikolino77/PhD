@@ -2,7 +2,7 @@
 
 Cancer is considered to be the second biggest killer after cardiovascular diseases: there were an estimated 14.1 million cancer cases around the world in 2012, of these 7.4 million cases were in men and 6.7 million in women. This number is expected to increase to 24 million by 2035 \cite{Ferlay2012}.
 
-Although surgery remains the most diffuse and successful treatment, radiotherapy is an important and effective option used for curative and palliative management of malignant tumors.
+Although surgery remains the most diffuse and successful treatment, radiotherapy is an important and effective option used for curative and palliative management of malignant tumours.
 In approximately the $50\%$ of clinical cases, radiation therapy is a part of the initial treatment and it is usually conducted by means of high-energy X-rays \cite{Durante2010}.
 
 Results of radiotherapy are improved when a high dose of radiation with high biological effectiveness is delivered to the tumour with the least possible dose to the surrounding tissues, especially in the case of critical organs \cite{Linz2011}.
@@ -38,7 +38,7 @@ Making use of the so called Bragg peak, that is using the fact that protons and 
 \begin{subfigure}
   {\includegraphics[width=6cm]{Pictures/Chapter_1/SOBP.pdf}}
 \end{subfigure}
-\caption[Depth dose comparison]{Comparison of the depth–dose relationships for X-rays and high-energy charged particles. In treatment of large tumors, the Bragg peak must be broadened by use of overlapping beams with different energies \cite{Durante2010}.}
+\caption[Depth dose comparison]{Comparison of the depth–dose relationships for X-rays and high-energy charged particles. In treatment of large tumours, the Bragg peak must be broadened by use of overlapping beams with different energies \cite{Durante2010}.}
 \label{fig:test}
 \end{figure}
 
@@ -64,7 +64,7 @@ As a consequence they prove to be more effective for targeting radio resistant o
 Ion beams are delivered by either cyclotrons or synchrotrons. In the first case the beam has a fixed energy which is tuned by means of degraders in order to deliver the correct dose profile. In the case of synchrotron the beam is delivered in spills and the energy is varied between spills. In the case of Carbon only synchrotrons can be used.
 To deliver the dose to the planned target volume (PTV) different energies are superimposed in order to obtain the so-called spread-out Bragg peak (SOBP). The beam is usually delivered in a passive beam shaping setup or a scanning system. 
 
-Different sources of error can worsen the dose delivery profile, such as patient mis positioning and evolution of the tumour/morphology of the patient. In addition the complex physics of ion interaction leads to  imprecisions in the treatment plannings, due to fragmentation of the incident beam and range uncertainties.
+Different sources of error can worsen the dose delivery profile, such as patient mispositioning and evolution of the tumour/morphology of the patient. In addition the complex physics of ion interaction leads to imprecision in the treatment plannings, due to fragmentation of the incident beam and range uncertainties.
 
 Usually treatment planning systems cope with these problems by irradiating a volume larger than the tumour itself, called planning target volume (PTV) which contains the clinical target volume (CTV). Complex compensating systems, including x-ray imaging techniques and patient positioning systems, allow to reduce errors in the dose profiles delivered. 
 Treatment plannings of ion therapy rely for example on accurate values of particle range in tissue obtained from Hounsfield unit of computed tomograms, leading to uncertainties of $1-3\%$ in range calculations \cite{Enghardt2004}.
@@ -128,7 +128,7 @@ When the positrons reach thermal energies, they start to interact with electrons
 \subsection{Image reconstruction}
 
 After all corrections have been applied to the data acquired, the number of counts assigned to a LOR joining a pair of crystals is proportional to a line integral of the activity along that LOR. Parallel sets of such line integrals are known as projections.
-These projections are usually graphically represented as a sinogram, which collects the intensity valuesof the voxels in the coordinate system of variables $\phi$ and s, as shown in figure \ref{fig:reco}.
+These projections are usually graphically represented as a sinogram, which collects the intensity values of the voxels in the coordinate system of variables $\phi$ and s, as shown in figure \ref{fig:reco}.
 
 For image reconstruction, the most commonly used algorithms are the analytical method called filtered back projection and iterative reconstruction schemes.
 % sinogram reco
@@ -172,7 +172,7 @@ Random coincidences occur when two photons not arising from the same annihilatio
 \newpage
 \subsection{Time-Of-Flight PET}
 
-It has been shown that in-beam PET could not provide definitive information to the oncologist when medium to large tumors are involved \cite{Fiedler2006}. This is due to the operative parameters of scanners available on the market, with relatively slow scintillators and tomographs covering small solid angles. A decisive improvement could be given by time-of-flight PET (TOF-PET).
+It has been shown that in-beam PET could not provide definitive information to the oncologist when medium to large tumours are involved \cite{Fiedler2006}. This is due to the operative parameters of scanners available on the market, with relatively slow scintillators and tomographs covering small solid angles. A decisive improvement could be given by time-of-flight PET (TOF-PET).
 
 Recent developments in scintillator technology and read out electronics allow to build detectors able to detect the time difference between the moment of detection of the opposed $\gamma$ rays in coincidence. 
 %tof pet
@@ -195,13 +195,13 @@ The signal to noise ration (SNR) is thus dramatically improved, as we can write 
 \begin{equation}
 SNR \propto \frac{1}{\sqrt{n}}\left[ \frac{T^{2}}{T^{2} + S + R} \right]^{1/2}
 \end{equation}
-where where T representes the total trues, R thee random coincidences, S the scattered coincidence and n is the number of image elements contributing to a projection of the sinogram.
-In the case of in-beam PET this is relevant, since it has been shown \cite{Fiedler2006} that during particle irradiation a considerable amount of activity is transported outside the FOV by metabolic processes. Moreover a high backround signal is typical of carbon ion beams \cite{Enghardt2004}. 
+where where T represents the total trues, R thee random coincidences, S the scattered coincidence and n is the number of image elements contributing to a projection of the sinogram.
+In the case of in-beam PET this is relevant, since it has been shown \cite{Fiedler2006} that during particle irradiation a considerable amount of activity is transported outside the FOV by metabolic processes. Moreover a high background signal is typical of carbon ion beams \cite{Enghardt2004}. 
 A useful and pratical estimation of the gain in signal to noise can be formalized as follows
 \begin{displaymath}
 G = \frac{SNR_{TOF}}{SNR_{non_{TOF}}} = \sqrt{\frac{2\cdot D}{c \cdot CTR}}
 \end{displaymath}
-where D is the diameter of the volume under examination, c is the speed of light and CTR is the coincidence time resolution. Thus a CTR of 100 ps FWHM translates into a 1.5 cm resolution on the position and a SNR gain of 5 (corresponing to a sensitivity gain of about a factor 25) compared to non TOF systems.
+where D is the diameter of the volume under examination, c is the speed of light and CTR is the coincidence time resolution. Thus a CTR of 100 ps FWHM translates into a 1.5 cm resolution on the position and a SNR gain of 5 (corresponding to a sensitivity gain of about a factor 25) compared to non TOF systems.
 
 % quanto guadagni con tofpet
 \begin{figure}  
@@ -215,11 +215,11 @@ where D is the diameter of the volume under examination, c is the speed of light
 
 \subsection{From high energy physics to medical applications}
 The work outlined in these pages have been sponsored by \textit{The European training network in digital medical imaging for radiotherapy} (ENTERVISION) at the \textit{European Center of Nuclear Research} (CERN). ENTERVISION was established in February 2011 in response to the critical need for reinforcing research in online 3D digital imaging in order to deliver some of the key elements and building blocks for realizing the vision for early detection and more precise treatment of tumours.
-The present work was hosted by CERN, the European Organisation of Nuclear Research, based in Geneva, Switzerland. 
-CERN was established by a formal act in Paris, on 1st of July 1954, as an organisation that \textit{shall provide for collaboration among European States in nuclear research of a pure scientific and fundamental character, and in research essentially related thereto}.
-Thourought its history, CERN provided experimental and theoretical tools to study and understand the fundamental forces governing our universe, in a continous effort to improve our understanding of elementary  physics. 
+The present work was hosted by CERN, the European Organization of Nuclear Research, based in Geneva, Switzerland. 
+CERN was established by a formal act in Paris, on 1st of July 1954, as an organization that \textit{shall provide for collaboration among European States in nuclear research of a pure scientific and fundamental character, and in research essentially related thereto}.
+Throughout its history, CERN provided experimental and theoretical tools to study and understand the fundamental forces governing our universe, in a continuous effort to improve our understanding of elementary  physics. 
 
-The ECAL detector at the CMS exeriment at the LHC was build with the fundamental contribution of the collaboration hosting this thesis: the Crystal Clear Collaboration. It was founded in 1990 as an international academic network of laboratories and industrial partners for the development of scintillating crystal detectors as well as their applications. It comprises experts in crystallography and solid state physics as well as in radiation detection and instrumentation. 
+The ECAL detector at the CMS experiment at the LHC was build with the fundamental contribution of the collaboration hosting this thesis: the Crystal Clear Collaboration. It was founded in 1990 as an international academic network of laboratories and industrial partners for the development of scintillating crystal detectors as well as their applications. It comprises experts in crystallography and solid state physics as well as in radiation detection and instrumentation. 
 Its first goal was the development of a radiation-hard crystal for the ECAL detector, leading to the development of PbWO4 (PWO) as the material selected for CMS calorimeter. More recently the group has been focusing on the study of new materials for hadronic and electromagnetic calorimeters for future particle accelerators.
 In parallel, the collaboration engaged in a effort of technology transfer to other domains exploiting the expertise developed in scintillating detectors. It is quite natural to focus the attention to medical physics, with particular respect to nuclear medicine since the requirements for detectors used in medical physics and detectors for high energy experiments are similar.
 
@@ -233,14 +233,14 @@ In parallel, the collaboration engaged in a effort of technology transfer to oth
 
 \subsection{Study of time profiles}
 
-This thesis is devoted to the full characterization of the parameters that influence time resolution in a scintillator/photodetector setup, with particular attention focused on the impact of time profiles of heavy scintillators on the performance.
+This thesis is devoted to the full characterization of the parameters that influence time resolution in a scintillator/photo detector setup, with particular attention focused on the impact of time profiles of heavy scintillators on the performance.
 
 The first part of the presented work has the objective of describing the fundamental model that governs light production and collection in a PET-like setup.
-In chapter 2 and 3 a brief introduction regarding heavy scntillator crystals and photodetectors is given.
+In chapter 2 and 3 a brief introduction regarding heavy scintillator crystals and photo detectors is given.
 
 With the objective of defining the operational parameters of our equipment, in chapter 3 a model based on multi-exponential time profiles has been implemented on an existing framework, widening the scope of usage by evaluating the role of Cerenkov photons produced by low energy radiation.
 
-Moreover in order to properly characterized the operational parameters of a scintillator setup, a comparative analysis of ray tracing softwares has been conducted in chapter 5, namely the two packages SLitrani and Geant4. The latter has been chosen to build the simulation framework that allowed to disentangle the various source of resolution degradation.
+Moreover in order to properly characterized the operational parameters of a scintillator setup, a comparative analysis of ray tracing software has been conducted in chapter 5, namely the two packages SLitrani and Geant4. The latter has been chosen to build the simulation framework that allowed to disentangle the various source of resolution degradation.
 
 Finally the work focused on the measurements and evaluation of rise time. Non zero rise time in scintillating systems is given by the different processes characterizing energy deposition inside a crystalline lattice, with utmost relevance of the latest stage of electron hole thermalization. The time scale of this phenomenon is $\sim$ 100 ps and until now has proven to be difficult to estimate due to the intrinsic limitations of detection setups.
 Thus a time resolved study of different species of crystals is proposed in the final part of this work.

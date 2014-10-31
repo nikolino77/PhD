@@ -8,9 +8,9 @@
 
 \section{Time Correlated Single Photon couting}
 
-The time correlated single photon couting (TCSPC) technique, makes use of low-level signals at high repetition rate, with the probability of detecting on photon in one repetition period being very low \cite{Becker2005}.
+The time correlated single photon counting (TCSPC) technique, makes use of low-level signals at high repetition rate, with the probability of detecting on photon in one repetition period being very low \cite{Becker2005}.
 It is then sufficient, to determine the time profile of the sample, to measure the time of arrival of single photons and build up a histogram of the photon times.
-The most common method to perform this measurement is a start-stop setup: some sort of trigger, correlated with the beginning of the exctitation process in the sample (start), is measured in coincidence with a stop signal given by the arrival of the optical photon emitted by the sample.
+The most common method to perform this measurement is a start-stop setup: some sort of trigger, correlated with the beginning of the excitation process in the sample (start), is measured in coincidence with a stop signal given by the arrival of the optical photon emitted by the sample.
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=9cm]{../Pictures/Chapter_8/electronics.pdf}
@@ -24,7 +24,7 @@ Thus the main components of a TCPSC system are
 \item a fluorescent sample with a characteristics periodic light emission
 \item a detection system able to extract the time stamps of the arriving single photons.
 \end{itemize}
-The effective resolution of a TCSPC experiment is characterised by its instrument response function (IRF). The IRF contains the pulse shape of the light source used, the temporal dispersion in the optical system, the transit time spread in the detector, and the timing jitter in the recording electronics.
+The effective resolution of a TCSPC experiment is characterized by its instrument response function (IRF). The IRF contains the pulse shape of the light source used, the temporal dispersion in the optical system, the transit time spread in the detector, and the timing jitter in the recording electronics.
 The main sources of error and incertitude on the measured curve are presented in this chapter and can be roughly cathegorized as:
 \begin{itemize}
 \item the time structure of the excitation
@@ -38,16 +38,16 @@ In an ideal TCSPC experiment, the excitation system has a very narrow distributi
 A variety of high time resolution sources are available for TCSPC. In classical fluorescence studies laser sources (or laser-driven) sources are used and allow for the study of sub-ps dynamics: mode-locked Argon or Nd:YAG lasers, synchronously pumped dye lasers, or Ti:sapphire laser.
 For the time scales that characterize electron hole thermalization, thus signal formation, thus rise time in scintillating crystals, it is necessary to make use of a ps resolved system.
 
-The main limitation though, comes from the excitation energy of the system, since the level of excitation is crucial in determining the physical processes that concurr to give a non zero rise time. 
+The main limitation though, comes from the excitation energy of the system, since the level of excitation is crucial in determining the physical processes that concur to give a non zero rise time. 
 As was shown in previous chapter, the multi scattering processes that lead electrons and holes below the ionization threshold, and thus to the accuracy limit of Monte-Carlo simulations, happen on time scales which are an order of magnitude inferior to the thermalization stage. 
 This means that in terms of physical processes not much is added to the study by raising the excitation energy above 10 time % check!!
 the band gap of the sample.
 Two different phenomena though introduce a non negligible contribution to the time spread of the rise if the signal collected.
 
-The first one is the appareance of Cerenkov photons, above the threshold for the specific materials. Thresholds for Cerenkov effect in heavy scintillating crystals have been briefly summarized in chapter %specificare tabella.
+The first one is the appearance of Cerenkov photons, above the threshold for the specific materials. Thresholds for Cerenkov effect in heavy scintillating crystals have been briefly summarized in chapter %specificare tabella.
 As will be diffusely discussed in %dove lo discuti
 this photons, though in a limited number, are concentrated in the very first portion of the time profile. This results in a modification of the rise time towards longer values.
-In order to disentagle this variety of effect, the sample were measured in different conditions of excitation: at a high harmonics generation facility with a 36 eV VUV radiation and in a experimental bench with a 511 KeV radiation.
+In order to disentangle this variety of effect, the sample were measured in different conditions of excitation: at a high harmonics generation facility with a 36 eV VUV radiation and in a experimental bench with a 511 KeV radiation.
 
 A second prominent source of smearing in time profiles is the travel of photon inside crystalline samples \cite{Derenzo2000}. Indeed, depending on the type of coupling to the photo detector, photo extraction can be favoured or disfavoured at different angles. Opening this extraction cone accounts for different time profiles: a Teflon diffusive wrapping or coating for example, gives longer rise times. From the point of view of the excitation energy, though, an important difference can be found at 36 eV or 511 KeV. In the first case the excitation is only on the surface, since the range of VUV photons in a heavy scintillator is
 % metti il range 
@@ -55,9 +55,9 @@ In the case of excitation at higher energy, on the other hand, photons may trave
 
 \subsection{Detection}
 
-Once the sample has been excited, photons are couple out to the stop detector. Tipically PMTs, MCP-PMTs or single cell APD in Geiger mode are the preferred detectors for their timing characteristics. The crucial parameter in this case is Single Photon Time Resolution (SPTR) for Silicon detectors or Transit Time Spread (TTS) for vacuum detectors.
+Once the sample has been excited, photons are couple out to the stop detector. Typically PMTs, MCP-PMTs or single cell APD in Geiger mode are the preferred detectors for their timing characteristics. The crucial parameter in this case is Single Photon Time Resolution (SPTR) for Silicon detectors or Transit Time Spread (TTS) for vacuum detectors.
 % sptr TTS
-When a photocathode is fully illuminated, the transit time of each photoelectron pulse has a fluctuation. This fluctuation is called TTS (transit time spread).
+When a photo cathode is fully illuminated, the transit time of each photo electron pulse has a fluctuation. This fluctuation is called TTS (transit time spread).
 It is clear that in order to extract the most accurate value for the time constants of the samples measured, one should keep the incertitude component due to the detector as low as possible. In this case though, it is customary to make use of detectors optimized for single photon detection, that is with low or no energy resolution and very rapid response.
 For the study presented MCP-PMTs have been mainly used, since in principle they guarantee the best performance when considering acquisition rates and time resolution.
 As will be clear in the next chapters, this prerogative of MCPs becomes less and less attractive as the energy of the excitation grows, since it is necessary to cope with non negligible backgrounds due to the high active area.
@@ -70,7 +70,7 @@ Time walk arises when synchronous signals have different amplitudes. Time pick u
 When considering the geometry of the experiment, another parameter becomes crucial, the stop rate at the detector.
 As explained before two opposite effects tend to counteract; ideally we should keep the count rate as high as possible to have reasonable accumulation times, but the increasing of the bias fraction of counts modify the profile measured.
 Two techniques will be used in this study, employing a conventional TDC and a multi-hit TDC.
-A conventional TDC can only digitize the arrival time of the first stop signal. Therefore events that have more than one stop pulse will bias the dataset, since the later pulses will not be measured with the same probability. This will be the case of the acquistion setup presented in chapter 7.
+A conventional TDC can only digitize the arrival time of the first stop signal. Therefore events that have more than one stop pulse will bias the data set, since the later pulses will not be measured with the same probability. This will be the case of the acquisition setup presented in chapter 7.
 If we define the probability P that m photons are detected after a single excitation, the Poisson distribution gives
 \begin{equation}
 P(m;\epsilon) = \epsilon ^{m} e ^{-\epsilon} / m!
@@ -88,7 +88,7 @@ The ratio of biased to unbiased event is given by
 \begin{equation}
 $B/U \sim \epsilon / 2$
 \end{equation}
-The factor $\epsilon$ depends on the combined effect of the geometry of the system, the light yield of the crystal, the quantum efficiency of the detector. In order to improve the ratio, it is thus necessary to lower the rate at the detector by modyfing the position accoridngly, at the expense of reduced data collection rates.
+The factor $\epsilon$ depends on the combined effect of the geometry of the system, the light yield of the crystal, the quantum efficiency of the detector. In order to improve the ratio, it is thus necessary to lower the rate at the detector by modifying the position accordingly, at the expense of reduced data collection rates.
 
 On the other hand, in chapter 8 a multi hit approach will be proposed, that is capable of measuring the arrival if n stop pulses per start pulse. In this configuration the data acquisition rate can be increased, as the probability is:
 \begin{equation}
@@ -101,21 +101,34 @@ In particular dead casad
 
 % immagine con troppo bias?
 
-% e poi le due il decay fatto per diversi delta
-
 % e poi spiegare che il rise e' meno drammatico, calcolato quindi per un solo valore, che poi e' il nostro grafico
 
-%\subsection{Statistics and accumulation times}
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/bias_function.png}
+\end{center}
+\caption[]{}
+\label{fig:bias_decay}
+\end{figure}
 
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/bias_rise.png}
+\end{center}
+\caption[]{}
+\label{fig:bias_rise}
+\end{figure}
+
+%\subsection{Statistics and accumulation times}
 % questo lo voglio fare? cé da capire la vicenda della varianza!
 
 \section{Data analysis techniques}
-In order to analize the start stop data collected, a classical fitting approach was used, based on maximum likelihhod principles.
-With respect to this statistical and sistematic contibution to the error were estimated, based on the previous discussion.
-In particular the iterative reconvolution approach has been used, being the most powerful and widespread in the field of fluorescence lifetime measurements.
+In order to analyze the start stop data collected, a classical fitting approach was used, based on maximum likelihood principles.
+With respect to this statistical and systematic contribution to the error were estimated, based on the previous discussion.
+In particular the iterative re convolution approach has been used, being the most powerful and widespread in the field of fluorescence lifetime measurements.
 
-\subsection{Iterative reconvolution}
-In time correlated single photon counting experiments the problem at hand is statistically speaking to estimate or more parameters (the lifetimes) from a dataset.
+\subsection{Iterative re convolution}
+In time correlated single photon counting experiments the problem at hand is statistically speaking to estimate or more parameters (the lifetimes) from a data set.
 
 The maximum likelihood method is considered to be the most powerful method of parameter estimation.
 Consider $n$ independents observation (counts in this case) c$_{1}$, ... , c$_{n}$ and a vector of parameters \textbf{$\theta$} = $(\theta _{1},...\theta _{m})$. If the probability of having the observation i is $p(c_{i}|\theta)$, the likelihood function is
@@ -164,64 +177,116 @@ When the number of counts is large they are numerically very close, since the Po
 
 \subsection{Sources of error}
 
-%% qui il bias
-%
-
-%\begin{equation}
-%P(m;\epsilon)P(any < DT) = \frac{\epsilon ^{m} e^{-\epsilon}}{m!}(1-exp(-(\frac{m!\delta}{2(m-2)!})))
-%\end{equation}
-%
-%\begin{equation}
-%P(m;\epsilon)P(none < DT) = \frac{\epsilon ^{m} e^{-\epsilon}}{m!}exp(-(\frac{m!\delta}{2(m-2)!}))
-%\end{equation}
-%
-%\begin{equation}
-%B/U = \frac{\sum _{2} ^{\infty} mP(m;\epsilon)P(any < DT)}{\sum _{1} ^{\infty} mP(m;\epsilon)P(none < DT)}
-%\end{equation}
-
-
-%\begin{equation}
-%F_{hj} = \sum _{i}\frac{1}{y_{i}}\frac{\delta y_{i}}{\delta \alpha _{h}}\frac{\delta y_{i}}{\delta \alpha _{j}}
-%\end{equation}
-%
-%\begin{equation}
-%P(n, \alpha _{1}, \alpha _{2},...) = \frac{N!}{n_{1}!...n_{k}!} p_{1}^{n_{1}}\cdot ... \cdot p_{k}^{n_{k}}
-%\end{equation}
-%
-%\begin{equation}
-%(F^{multi})_{hj} = \sum _{i} \frac{1}{Np_{i}}\frac{\delta Np_{i}}{\delta \alpha _{h}}\frac{\delta Np_{i}}{\delta \alpha _{j}} = N\sum _{i}\frac{1}{p_{i}}\frac{\delta p_{i}}{\delta \alpha _{h}}\frac{\delta p_{i}}{\delta \alpha _{j}}
-%\end{equation}
-%
-%\begin{equation}
-%var_{N}(\tau) = (F^{m})^{-1}=\frac{1}{N}[F^{m}(N=1)]^{-1}
-%\end{equation}
-%
-%\begin{equation}
-%N > \frac{var_{1}(\tau)}{required variance (\tau)}
-%\end{equation}
-%
-%%appendice sulla Poisson
-%
-%\begin{equation}
-%p_{i} = \int _{\Delta T_{i}} f(t)dt
-%\end{equation}
-%
-%\begin{equation}
-%f(t, \tau , T) = \frac{1}{\tau} exp(-t/tau)\frac{1}{1-exp(-T/tau)} 
-%\end{equation}
-%
-%\begin{equation}
-%p_{i}(t, \tau, T) = \int _{(i-1)T/k} ^{iT/k} f(t, \tau, T)dt = frac{exp(\frac{T}{\tau k}) - 1}{1-exp(- t/\tau)} \cdot exp(-\frac{iT}{\tau k})
-%\end{equation}
-%
-%\begin{equation}
-%f(t, \tau _{R}, \tau _{D}, T) = [exp(-t/tau _{D}) - exp (-t/tau _{R})] \frac{1}{\tau _{R}[exp(-T\tau _{R})-1] - \tau _{D}[exp(-T\tau _{D})-1]}  
-%\end{equation}
-%
-%
-
+% ma qua voglio mettere la parte sull errore??
 
 \section{Simulations}
 
+As already stated, Geant4 allows for a partial characterization of the signal formation in heavy scintillating crystals.
+In particular we can formalize the processes leading to the collection of optical photons at the detector in four steps:
+\begin{itemize}
+\item energy deposition
+\item electron hole recombination
+\item emission of scintillation photons
+\item transport of optical photons
+\end{itemize}
+A fourth process to be considered is the production of Cerenkov photons, which leads at this energies to negligible energy depositions, but has a non negligible impact on timing.
+
+\subsection{Energy deposition and recombination}
+The energy deposition phase has a small impact on the signal formation above the ionization threshold in the case of scintillation. Indeed, as seen in \cite{Lecoq2006}, processes leading to the production of electron hole pairs at the ionization level occur at a time scale of about 1 pico second. This entails that oscillations in the energy deposition time lead to negligible influences on the formation of the signal. As an example we can consider the interaction of a 511 KeV $\gamma$ in a LSO crystal. In figure \ref{fig:energy_dep} the energy deposition profile for electrons at the cut value is shown. In this case the cut value is 250 eV, that is the lowest value for G4Penelope low energy libraries. At this cut value, the tracking of the particle is interrupted, and the electrons are not able to produce any further ionization or other interaction.  
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/energy_und_thr.png}
+\end{center}
+\caption[]{}
+\label{fig:energy_dep}
+\end{figure}
+
+If we analyze at the tracking step the time at the energy deposition, and thus at the cut value, we find substantial confirmation for the marginal impact of this stage for the rise time. Indeed in figure \ref{fig:energy_dep_time} the RMS on this deposition time is $\sym$ 2 ps.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/time_und_thr.png}
+\end{center}
+\caption[]{}
+\label{fig:energy_dep_time}
+\end{figure}
+
+At this point the electron tracks still retains a 250 eV energy, that is more than 10 times typical band gap energies of heavy crystals. 
+% qui devo richimare la parte su Onsager etc, che ho gia citato nel capitolo 4. Muoversi con intelligenza.
+
 \subsection{Study of optical transport}
-\subsection{Cerenkov photons}
+Once photons are produced they need to be coupled out to the photo detector. The experimental condition influence both the number, the oscillations in this number (the so called energy resolution) and the collection times of the photons. 
+The first parameter to consider is the aspect ratio of the sample considered. This modifies the angles at which photons arrive at boundaries, and thus the Fresnel coefficients for extraction. This has been already shown in chapter 5, in comparison with the simulation tool SLitrani.
+A second element that can drastically influence the modalities of photon collection is the surface treatment. Indeed in a UNIFIED approach we can consider a surface as made of a large number of micro facets, tilted at defined angles with respect to incident light ray. In this case the surface conditions as well as specific surface treatments, such as mechanical depolishment modify the geometrical profile of the surface.
+In addition coupling media and wrappings can play a role, pretty much in the same sense: they can re couple photons which would be extracted based on a simple Fresnel approach and extract photons otherwise lost.
+The combined effect of these variables is hard to be quantified, and it is usually impossible to be assessed analytically. Even in the case of Monte Carlo simulations, the uncertainties associated to the optical parameters for the materials used often prevent a precise assessment. In this situation we thus mainly rely on the measurements method presented in chapter 5 and we present result for LSO samples. Similar quantities have been extracted for the different samples measured in time resolved studies of this work.
+
+The light output is the most delicate parameter to be considered for timing studies. As shown in chapter 4, the Fisher information, that is the statistical contain of the data set in terms of time resolution, depends on the number of photons collected. For this reason the light output value plugged in the simulation was tuned on the value measured on the experimental bench. Since in this study we are not concerned with the absolute value of light yield, it has been tuned so to match the extraction efficiency shown at the end of chapter 5, with and without Teflon.
+
+Before continuing with the discussion regarding the photons production modalities, it is interesting to quantify the influence of a simplified set of experimental conditions on the extraction times of optical photons. With this respect we chose size ratio and wrapping condition as a benchmark.
+In order to understand the influence of photon transportation we consider the production of a bunch of optical photons in different position of LSO crystals with 2x2 mm$^{2}$ exit face and different lengths. In figure \ref{fig:example} the collection time of photons is shown for a 2x2x3 mm$^{3}$ and a 2x2x20 mm$^{3}$ crystal with the optical photon source at the center of the volume. We can limit the analysis to the first two reflections, since higher order reflections are very unlikely to be coupled out and happen at longer times. 
+For the 2x2x3 mm$^{3}$ crystal the two bunches happen at very close time, since the length of the crystal is reduced. In this case this peaks are very likely to be washed out by the time resolution of the system. This does not happen in the case of a longer crystal, where a significant delay shifts the reflection towards longer times.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/reflections.png}
+\end{center}
+\caption[]{}
+\label{fig:refl_example}
+\end{figure}
+Adapting this setup to a moving source it is shown in figure \ref{fig:rms_moving} the RMS in time of the collected photons for different crystal lengths. Geometric arguments lead to consider that the RMS increases when the interaction point is closer to face opposite to the extraction one, due to the overlapping of reflection modes. The RMS is not negligible when considering the formation of the signal, since the time scale is relevant with respect to typical rise times ($\sym$ 70 ps). In the case of typical PET crystal size, 2x2x20 mm$^{3}$, the RMS for photons produced far from the detector can be as large as 10 ps.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/rms_moving.png}
+\end{center}
+\caption[]{}
+\label{fig:rms_moving}
+\end{figure}
+
+This situation is more pronounced in the case of wrapping material coupled to the crystal. In figure \ref{fig:rms_moving_wrap} the same simulation setup is adapted for Teflon wrapping. Teflon is modelled as a diffusive reflector, with absorption coefficient extracted from \cite{Kawamura1996}. The situation is qualitatively similar, but the RMS values can be as high as 20 ps. This introduces a relevant time spread in the photons collected.
+The situation presented are ideal, in the sense that we consider photons interacting always in the same position of the crystal. This is not the case for PET setups, where photons may interact in different position of the crystal volume. This is not even the case for the setup presented in the time resolve study of the two last chapters. In order to interpret these results in a realistic setup, we simulated the setup of our experimental bench.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/rms_moving_wrap.png}
+\end{center}
+\caption[]{}
+\label{fig:rms_moving_wrap}
+\end{figure}
+
+\subsection{Photon production}
+A good way to see this in a realisti situation is the cerenkov...
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/tot_3_20.png}
+\end{center}
+\caption[]{}
+\label{fig:scint_3_20}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/cerenkov_collected.png}
+\end{center}
+\caption[]{}
+\label{fig:cer_coll}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/cerenkov_teflon_nt.png}
+\end{center}
+\caption[]{}
+\label{fig:cer_tefl}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{../Pictures/Chapter_6/smear_profile.png}
+\end{center}
+\caption[]{}
+\label{fig:smear_tot}
+\end{figure}
+
+\subsection{Extraction of time constants}

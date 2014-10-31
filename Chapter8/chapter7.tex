@@ -7,7 +7,7 @@ Three elements should be considered, when comparing time profiles to the one mea
 \item volume excitation (and so transit time spread in the bulk)
 \item de excitation down to the thermalization region
 \end{itemize}
-The relative strengths of these phenomena have already been compared in chapter 6, and the possibility of measuring at high energy allows to phisically quantify these effects.
+The relative strengths of these phenomena have already been compared in chapter 6, and the possibility of measuring at high energy allows to physically quantify these effects.
 In particular a TCSPC system based on a $^{22}$Na source has been implemented, using a tagging crystal and a SiPM as a start signal and a MCP-PMT as a stop signal. 
 
 \section{Phenomenology}
@@ -62,7 +62,7 @@ Indeed the two signal lines from the oscilloscope were saved for offline analysi
 \label{fig:MCP_sign}
 \end{figure}
 The components of the apparatus were placed in a cooled light-tight box, and the temperature held at 20 $^{\circ}$C with a degree tolerance.
-Cooling is necessary to mantain the performance of SiPM. Indeed the number of thermal electrons that give rise to dark counts in the detector is strongly dependant on the temperature.
+Cooling is necessary to maintain the performance of SiPM. Indeed the number of thermal electrons that give rise to dark counts in the detector is strongly dependant on the temperature.
 In the setup presented, as already pointed out, the accumulation times can be quite slow. It is necessary to keep the number of detected photon low, so that no significant bias is introduced in the measurement. The number of starts is thus much bigger than the number of stop at the acquisition. In order to gather data for a reasonable accumulation time, it is essential to reduce to the minimum the time the acquisition system (i.e. the oscilloscope) is busy.
 The MCP benefits from temperature stability as well, and for the same reasons, but the noise level is negligible if compared to the SiPM.
 Moreover the threshold set for the SiPM plays an important role on the DCR level of the device: in this case the DCR at 200 mV threshold is 0.88 Mcps (for complete discussion see \cite{Gundacker2014}). 
@@ -72,22 +72,22 @@ Moreover the threshold set for the SiPM plays an important role on the DCR level
 
 \section{Preliminaries}
 
-In order to extract the parameters leading to the determination of rise time values and to critically analyze the impulse response funciton measured, the properties of the start and stop detectors were separately measured. 
-In a second phase, the impulse response function was measured, without the sample, as it is a crucial part for the iterative reconvolution routine.
+In order to extract the parameters leading to the determination of rise time values and to critically analyze the impulse response function measured, the properties of the start and stop detectors were separately measured. 
+In a second phase, the impulse response function was measured, without the sample, as it is a crucial part for the iterative re convolution routine.
 Finally the bias fraction for an optimal count rate for the sample measured was assessed.
 
 \subsection{Characteristics of the start signal}
 
 As already outlined, the start signal originates in a tagging crystal.
-The crystal is a 2x2x5 mm$^{3}$ LSO:Ce, Ca pixel, glued to the SiPM. Between 4500 and 5000 photons are collected at the photodetector, already corrected for the quantum efficiency. 
+The crystal is a 2x2x5 mm$^{3}$ LSO:Ce, Ca pixel, glued to the SiPM. Between 4500 and 5000 photons are collected at the photo detector, already corrected for the quantum efficiency. 
 %e'vero?
 The working point for the NINO chip, biased at 2.5 Volts, was set via a potentiometer on the board, at 200 mV.
 % no le threshold non sono capite!
-The signal is selected at the photopeak, so that the contribution from time walk is limited.
+The signal is selected at the photo peak, so that the contribution from time walk is limited.
 In order to estimate the contribution of the start signal to the total IRF the board was measured in CTR along with a reference board.
 The setup for CTR measurement is a simple start-stop configuration with two similar boards and a $^{22}$Na source.
-The reference board was measured separately and details will not be given here, for a complete discussion see \cite{Gundacker2014}. The CTR on the reference arm is $\sim$ 105 ps FWHM, measured after selection at the photopeak on both arms, as shown in figure \ref{fig:start}.
-In the same figure the $^{22}$Na spectrum in LSO is shown, with the single photon signal at the beginning of the range. Non linearity due to the time over threshold technique are present, although not taken into account separately. Since the best time resolution is delivered in the photopeak region, the influence of non linearity in the energy spectrum is negligible. 
+The reference board was measured separately and details will not be given here, for a complete discussion see \cite{Gundacker2014}. The CTR on the reference arm is $\sim$ 105 ps FWHM, measured after selection at the photo peak on both arms, as shown in figure \ref{fig:start}.
+In the same figure the $^{22}$Na spectrum in LSO is shown, with the single photon signal at the beginning of the range. Non linearity due to the time over threshold technique are present, although not taken into account separately. Since the best time resolution is delivered in the photo peak region, the influence of non linearity in the energy spectrum is negligible. 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=7cm]{../Pictures/Chapter_8/spectrum_NINO.png}
@@ -97,7 +97,7 @@ In the same figure the $^{22}$Na spectrum in LSO is shown, with the single photo
 \label{fig:start}
 \end{figure}
 
-The electronics contribution depends on the data aquistion electronics and its noise level. This contribution can be estimated as
+The electronics contribution depends on the data acquisition electronics and its noise level. This contribution can be estimated as
 \begin{equation}
 \sigma _{noise} = \frac{RMS _{noise}}{dV/dt}
 \end{equation}
@@ -105,7 +105,7 @@ where the RMS of the noise is determined from the pedestal of the signal and $dV
 
 \subsection{Characteristics of the stop signal}
 The stop signal is a is a Hamamatsu R3809U-50 MCP-PMT. In order to estimate the contribution of the stop signal to the total IRF the MCP time response was measured with the aid of a high resolution laser.
-The setup is composed by a Picosecond Diode Laser-Pilas head and a series of optical filters to reduce the light intensity hitting the photodetector down to less than one photon per excitation. The two signal are than routed to a LeCroy Oscilloscope LeCroy DDA 735Zi (10 GS/s) and data analysis is performed offline.
+The setup is composed by a Picosecond Diode Laser-Pilas head and a series of optical filters to reduce the light intensity hitting the photo detector down to less than one photon per excitation. The two signal are than routed to a LeCroy Oscilloscope LeCroy DDA 735Zi (10 GS/s) and data analysis is performed offline.
 In order to measure the MCP SPTR a high resolution laser is needed, matching the wavelength of emission of the scintillator measured in TCSPC, if possible. The Pilas laser delivers a 28.9 ps pulse (FWHM) at a frequency of 100 kHz and a wavelength of 419 nm. The rising edge of the laser trigger is shown in figure \ref{fig:trigger}.
 \begin{figure}[htbp]
 \begin{center}
@@ -153,14 +153,14 @@ It is natural to consider this processes uncorrelated so to concur to the smeari
 \begin{equation}
 \sigma _{TOT}^{2} = \sigma _{SPTR}^{2} + \sigma _{laser}^{2} + \sigma _{trigger}^{2} + \sigma _{noise}^{2} 
 \end{equation}
-The laser width was taken from the datasheet, and amounts to 30 ps FWHM. The laser trigger can be substantially neglected as it amounts for $\sim$ 4 ps FWHM. Given the slew rate of the signal the $\sigma _{noise}$ amounts to $\sim$ 10 ps.
+The laser width was taken from the data sheet, and amounts to 30 ps FWHM. The laser trigger can be substantially neglected as it amounts for $\sim$ 4 ps FWHM. Given the slew rate of the signal the $\sigma _{noise}$ amounts to $\sim$ 10 ps.
 
-The spectrum measured can be grossly modeled as a Gaussian with a tail towards high delays. 
+The spectrum measured can be grossly modelled as a Gaussian with a tail towards high delays. 
 We notice from figure \ref{fig:mcp_laser} that ion feedback modifies the signal at higher times but it is almost two order of magnitude lower than the peak, as it is expected from a Chevron configuration. Considering the Gaussian peak we find $\sigma _{TOT} =$ 25 ps, so that we can infer    $\sigma _{SPTR} = $ 18 ps, given that $\sigma _{noise}^{2}$ amounts to 10 ps and $\sigma _{laser}^{2}$ to 13 ps.
 
 \subsection{IRF measurements}
 The last step is the measurement of the impulse response function (IRF), that is global variance on the estimate of the time stamps given by the combined effect of the start and stop uncertainties. This time spectrum needs to be deconvolved from the time spectrum of the sample measured in order to extract the parameters of the fluorescence.
-In order to estimate the impulse response function, the set up presented in the previuos section was used without the scintillation sample. The start signal retains the same characteristics, but the stop signal is given by a direct interaction in the MCP-PMT. This allows to disentagle the measured curve from the effect of the crystal, time constants and travel spread of the photons.
+In order to estimate the impulse response function, the set up presented in the previous section was used without the scintillation sample. The start signal retains the same characteristics, but the stop signal is given by a direct interaction in the MCP-PMT. This allows to disentangle the measured curve from the effect of the crystal, time constants and travel spread of the photons.
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=8cm]{../Pictures/Chapter_8/response_cer_10}
@@ -177,16 +177,16 @@ In this configuration, The processes that concur to the time spectrum are:
 \end{itemize}
 The delay of the two processes is contained in a time window of $\sim$ 300 ps.
 Given the large variation in the output signal of the MCP it is not possible to select event by event with a pulse shape rejection method.
-Using a simple Geant4 simulation it is possible to show that Cerenkov photons produced in the window need to interact in the photocathode and then allow time for the produced photo electron to travel in the electric field to the MCP stack. On the left side of figure \ref{fig:drift} the times of Cerenkov production in the entry window and the time of a $\gamma$ photon interaction in a MCP stack is shown.
+Using a simple Geant4 simulation it is possible to show that Cerenkov photons produced in the window need to interact in the photo cathode and then allow time for the produced photo electron to travel in the electric field to the MCP stack. On the left side of figure \ref{fig:drift} the times of Cerenkov production in the entry window and the time of a $\gamma$ photon interaction in a MCP stack is shown.
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=7cm]{../Pictures/Chapter_8/interaction_time_spectrum.png}
 \includegraphics[width=7cm]{../Pictures/Chapter_8/electron_drift.png}
 \end{center}
-\caption[Stack and Cerenkov simulation]{Time of interaction simulate for MCP stack and entry window Cerenkov photons (left) and drift time of electrons after the photocathode (right). }
+\caption[Stack and Cerenkov simulation]{Time of interaction simulate for MCP stack and entry window Cerenkov photons (left) and drift time of electrons after the photo cathode (right). }
 \label{fig:drift}
 \end{figure}
-It is then necessary to add the drifting time of the electrons between the photocathode and the first MCP stack, based on the geometry of the detector. The drifting electric field by design is given by the voltage divider of the detector, and amounts to 310 kV/m.
+It is then necessary to add the drifting time of the electrons between the photo cathode and the first MCP stack, based on the geometry of the detector. The drifting electric field by design is given by the voltage divider of the detector, and amounts to 310 kV/m.
 As shown on the right side of figure \ref{fig:drift} the drifting time of the electrons matches the time difference in the two components present in the measured IRF, and small deviations can be ascribed to partial knowledge of the detector materials and geometry of the electric field in the drifting region.
 
 This phenomenon can be experimentally shown by selectively suppress one of the two processes. The setup was then slightly changed by tilting the MCP-PMT with respect to the start-source system.
@@ -203,7 +203,7 @@ This phenomenon can be experimentally shown by selectively suppress one of the t
 \includegraphics[width=7cm]{../Pictures/Chapter_8/screen_irf.png}
 \includegraphics[width=7cm]{../Pictures/Chapter_8/turn_2.png}
 \end{center}
-\caption[Setup for Cerenkov production in the window]{Setup for Cerenkvo production in window (left) and spectrum recorded (right)}
+\caption[Setup for Cerenkov production in the window]{Setup for Cerenkov production in window (left) and spectrum recorded (right)}
 \label{fig:twist1}
 \end{figure}
 Then a lead screen was placed in between and two set of measurements was performed, as shown in figure \ref{fig:twist1}:
@@ -221,7 +221,7 @@ The main advantage of using the available oscilloscope as a digitizer of the pul
 Thanks to the fact that signals from MCP-PMT are very fast, i.e. completely contained in 1 ns, the dead time is very low and so it is the biased fraction of events. 
 Starting from the considerations previously stated in chapter 6, it is possible to control this fraction by counting the number of pulses per event.
 Usually the biased fraction is qualitatively controlled by calculating the geometric factor of the setup and by keeping the number of counts well below one per start signal. This was also the approach used in the case of VUV measurement, where  no multi hit TDC was available.
-In the case of the $\gamma$ setup, also given the low number of counts and the difficulties in collecting a high statistics, it is necessary to keep the rate as high as possible, while still being sure not to introduce significative bias in the measurement.
+In the case of the $\gamma$ setup, also given the low number of counts and the difficulties in collecting a high statistics, it is necessary to keep the rate as high as possible, while still being sure not to introduce significant bias in the measurement.
 In this setup it is possible to control in real time the number of pulses per event that should follow a Poisson distribution, as shown in figure \ref{fig:} for a LSO:Ce, Ca crystal. The extraction of the average allows to completely control the bias fraction, and this was done for all the samples measured.
 \begin{center}
 %\includegraphics[width=7cm]{../Pictures/Chapter_8/.png}
@@ -236,7 +236,7 @@ In the measurement campaign conducted two separate background processes interven
 \item random coincidences
 \item direct interaction of a $\gamma$ in the detector
 \end{itemize}
-For what concerns random coincidencies they should be kept at a low level, in order not to worsen the uncertainty on the parameter extraction at the fit level. Indeed the important parameter is the signal to noise ratio and this aspect depends strongly on the light yield of the crystal measured, and on the geometry of the system. Nevertheless this kind of event is taken into account in the fit procedure, and in principle the only disadvantage is the necessity for higher statistics to be collected.
+For what concerns random coincidences they should be kept at a low level, in order not to worsen the uncertainty on the parameter extraction at the fit level. Indeed the important parameter is the signal to noise ratio and this aspect depends strongly on the light yield of the crystal measured, and on the geometry of the system. Nevertheless this kind of event is taken into account in the fit procedure, and in principle the only disadvantage is the necessity for higher statistics to be collected.
 
 The direct interaction of a $\gamma$ in the detector, on the other hand, could severely bias the measurement, in the time window where the rising edge of the crystal lies. 
 The active area of the MCP is quite large, given the size of the entry window, with a diameter of 11 mm. This makes direct interaction in the detector quite likely.
@@ -284,16 +284,16 @@ The samples measured in the $\gamma$ setup were
 \item LuAG %?
 \end{itemize}
 The data extracted were analyzed offline for cuts and time walk correction. 
-The rise time parameter was extracted with the iterative reconvolution algorithm presented in chapter 6, and the error was evaluated as confidence interval on the $\Delta$Likelihood.
+The rise time parameter was extracted with the iterative re convolution algorithm presented in chapter 6, and the error was evaluated as confidence interval on the $\Delta$Likelihood.
 
 \subsection{Cuts and background estimation}
 The IRF measurement was performed at the beginning of the campaign and repeated at regular intervals to correct for eventual drifts, but no significant drift was observed.
-On the data collected for offline analysis the first cut performed is the photopeak selection on the start signal, that for the NINO signal happens between 200 and 220 ns, at the 511 KeV peak of the $^{22}$Na.
+On the data collected for offline analysis the first cut performed is the photo peak selection on the start signal, that for the NINO signal happens between 200 and 220 ns, at the 511 KeV peak of the $^{22}$Na.
 
-For the MCP data two set of manipulations were perfomed: on the amplitude of the MCP to avoid saturation effect and for time walk correction. 
+For the MCP data two set of manipulations were performed: on the amplitude of the MCP to avoid saturation effect and for time walk correction. 
 The MCP signal was cut between 10 and 40 mV, which is the interval that contains the 70$\%$ of the pulses collected. At this point the signal was corrected for time walk.
 
-As previously explained, the background can play an important role in the measurement, especialli in the case of crystals with low or very low light yield, which is the case of CeF$_{3}$ for example. 
+As previously explained, the background can play an important role in the measurement, especially in the case of crystals with low or very low light yield, which is the case of CeF$_{3}$ for example. 
 In order to control this a lead screen was positioned between the source and the MCP to suppress the count rate from direct interaction in the stack. Additionally a quick background measurement was performed, to ensure that the background count rate could be neglected.
 
 \subsection{Fit procedure}
