@@ -1,1 +1,33 @@
 \chapter{Conclusions}
+
+This work focuses on the full characterization of the parameters that influence time resolution in a scintillator/photodetector setup, with particular attention on the impact of time profiles of heavy scintillators on the performance.
+
+In the first part of this work a description of the fundamental model that governs light production and collection in a crystal was presented.
+As shown in chapter 4, extending a multi-exponential model based on order statistics, the scope of usage was widened by evaluating the role of Cerenkov photons produced by low energy radiation.
+Cerenkov photons are not negligible when it comes to timing properties. Even at low energies, the few photons collected are concentrated in the first hundreds of ps at the detector. This does not change importantly the information contained in the statistical samples, at least not for the most common crystals, since it depends on the ratio between scintillation photons and Cerenkov photons. Cerenkov photons are even detrimental in low number and in case of crystals with very low light yield, since the RMS does not benefit from the sum of the two statistics. 
+On the other hand when considering time pickup methods based on threshold crossing, such as the case of amplified SiPM, the photon rank with the lowest RMS changes when considering Cerenkov photons, and requires a careful tuning of the trigger.
+A second parameter was analysed in this study, rise time. Coincidence time resolution is mainly influenced by four parameters: rise time, decay time, light yield and single photon time resolution of the photo detector. In the simulation framework presented, it has been proven that coincidence time resolution is less sensitive to rise time variation than the other parameters.
+ 
+The second part of the thesis connects the statistical framework presented to the measurement of rise time in different excitation energies performed in the last two chapters. 
+In order to properly characterize the operational parameters of a scintillator setup, a comparative analysis of ray tracing software has been conducted in chapter 5, namely the two packages SLitrani and Geant4. The latter has been chosen to build the simulation framework that allowed to disentangle the various source of resolution degradation. Geant4 has proven to be more powerful in terms of timing characterization due essentially to its capability of implementing more complex energy deposition models. This allows for the production and tracking of secondary particles, leading to a more accurate energy deposition map as well as the production of Cerenkov photons for low energy excitations.
+
+The statistical methods used to analyse the simulation and the measurement data were presented in chapter 6.
+A simulation analysis was then performed, limiting the observations to the size ratio of the crystals, the presence of Cerenkov photons and two surface configurations (polish and naked or Teflon wrapped).
+The simulations show an increasing extracted rise time as the length of the crystal increases, due to the higher RMS of the collected photons. The same behaviour characterizes wrapped crystals, provided that the wrapping is modelled as a diffusive medium (i.e. Teflon).
+
+This considerations are necessary to interpret the measurements performed in the time resolved study of chapter 7 and chapter 8.
+This study is focused on the measurements and evaluation of rise time. Non zero rise time in scintillating systems is given by the different processes characterizing energy deposition inside a crystalline lattice, with utmost relevance of the latest stage of electron hole thermalization. The time scale of this phenomenon is $\sim$ 100 ps and until now has proven to be difficult to estimate due to the intrinsic experimental limitations.
+Samples of LSO, LYSO, CeF$_{3}$, LuAG and BGO with different doping concentration are the subject of a time resolved analysis, performed in two different conditions: excitation at low energy (36 eV) and a PET-like setup (511 KeV).
+
+The first set of measurements has been performed at the VUV beam line at Celia, Bordeaux, with an excitation energy of 36 eV. 
+The data show results broadly separable in to two main groups: crystals in the LuAG group, with rise times $>$100 ps, and crystals belonging to the LSO group with rise times $<$50 ps. This is due to the different energy transfer mechanism.
+
+The samples were then measured with a positron source ($^{22}$Na) on a experimental bench composed by a MCP-PMT stop detector and a tagging crystal readout by an amplified SiPM.
+The typical time scales of rise times proved to be accessible, though maintaining large uncertainties due to the limited resolution and the long accumulation times.
+Nonetheless we showed that Cerenkov photons and deep volume excitations introduce a non negligible contribution to the measured rise time. In particular the samples, excited above the Cerenkov threshold and in the deep volume of the crystal due to the energy of the excitation, showed longer rise times, above 80 ps.
+Moreover the influence of Teflon diffusive wrapping have been investigated, showing that opening the extraction cone of the crystals leads to slower rise times due to coupling of multiple reflection modes.
+
+The experiments showed that time resolved studies with the objective of assessing rise times of heavy scintillator crystals are feasible in VUV and $\gamma$ excitation. Limits were found essentially with respect to time resolution and accumulation times. 
+In the case of VUV excitation, the time scales of the processes under study require a pico second time resolution at the detector, in order to depend less on the nature of the model chosen for data analysis. Moreover in order to narrow the confidence level on the parameters extracted, it is necessary to accumulate several million counts for most of the samples measured (this depends on binning and time constants of the crystal under study). A solution to both issues would be the implementation of a streak camera module.
+For what concerns $\gamma$ excitation intrinsic limitations can not be easily overcome by the approach used in this study. Long accumulation times depend on the geometric efficiency of the system as well as the constraints posed by direct excitation of the detector. 
+The resolution of the system, on the other hand, depends mainly on the resolution of the start signal, which relies on detector technology at the limits of $\gamma$  detection technology. A possible solution is the implementation of an X-ray pulsed setup, readout by a streak camera module.

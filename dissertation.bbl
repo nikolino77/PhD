@@ -1,185 +1,303 @@
-\begin{thebibliography}{}
-\newcommand{\enquote}[1]{``#1''}
+\begin{thebibliography}{10}
 
-\bibitem[Amaldi(2011)Amaldi]{Amaldi2011}
-Amaldi, B. (2011), \enquote{Present challenges in hadrontherapy techniques,}
-  \emph{The European Physical Journal Plus}, pp. 70--85.
+\bibitem{CCC}
+The crystal clear collaboration.
+\newblock \url{http://crystalclear.web.cern.ch/crystalclear/}.
+\newblock Accessed: 2014-10-11.
 
-\bibitem[Anghinolfi(2004)Anghinolfi]{Anghinolfi2004}
-Anghinolfi, J. e.~a. (2004), \enquote{NINO: An Ultrafast Low-Power Front-End
-  Amplifier Discriminator for the Time-of-Flight Detector in the ALICE
-  Experiment,} \emph{IEEE Transactions on Nuclear Science}, 51, 1974--1978.
+\bibitem{LaserLab}
+Laserlab europe.
+\newblock \url{http://www.laserlab-europe.net}.
+\newblock Accessed: 2014-10-11.
 
-\bibitem[Bajzer(1991)Bajzer]{Bajzer1991}
-Bajzer, T. e.~a. (1991), \enquote{Maximum likelihood method for the analysis of
-  time-resolved fluorescence decay curves,} \emph{European Biophysics Journal},
-  20, 247--262.
+\bibitem{ROOT}
+Root, a data analysis framework.
+\newblock \url{http://root.cern.ch/drupal/}.
+\newblock Accessed: 2014-10-11.
 
-\bibitem[Becker(2005)Becker]{Becker2005}
-Becker (2005), \emph{Advanced Time-Correlated Single Photon Counting
-  Techniques}, Springer.
+\bibitem{Becker2005}
+Becker.
+\newblock {\em Advanced Time-Correlated Single Photon Counting Techniques}.
+\newblock Springer, 2005.
 
-\bibitem[Berger(2005)Berger]{nist2005}
-Berger, C. e.~a. (2005), \enquote{Stopping-Power and Range Tables for
-  Electrons, Protons, and Helium Ions,} .
+\bibitem{Cuccia2013}
+Cucciati.
+\newblock {\em Optimization and Characterization of PET Scanners for Medical
+  Imaging}.
+\newblock PhD thesis, University of Milano-Bicocca, February 2013.
 
-\bibitem[Crespo(2007)Crespo]{Crespo2007}
-Crespo, S. e.~a. (2007), \enquote{Direct time-of-flight for quantitative,
-  real-time in-beam PET: a concept and feasibility study,} \emph{Physics in
-  Medicine and Biology}, pp. 6795--6811.
+\bibitem{Agostinelli2003}
+Agostinelli et~al.
+\newblock Geant4 - a simulation toolkit.
+\newblock {\em Nuclear Instruments and Methods in Physics Research A},
+  506:250--303, 2003.
 
-\bibitem[Cucciati(2013)Cucciati]{Cuccia2013}
-Cucciati (2013), \enquote{Optimization and Characterization of PET Scanners for
-  Medical Imaging,} Ph.D. thesis, University of Milano-Bicocca.
+\bibitem{Amaldi2011}
+Amaldi et~al.
+\newblock Present challenges in hadrontherapy techniques.
+\newblock {\em The European Physical Journal Plus}, (126):70--85, 2011.
 
-\bibitem[Derenzo(2000)Derenzo]{Derenzo2000}
-Derenzo, W. e.~a. (2000), \enquote{Measurements of the Intrinsic Rise Times of
-  Common Inorganic Scintillators,} \emph{IEEE Transactions on Nuclear Science}.
+\bibitem{Anghinolfi2004}
+Anghinolfi et~al.
+\newblock Nino: An ultrafast low-power front-end amplifier discriminator for
+  the time-of-flight detector in the alice experiment.
+\newblock {\em IEEE Transactions on Nuclear Science}, 51(5):1974--1978, 2004.
 
-\bibitem[Dolgoshein(2003)Dolgoshein]{Dolgoshein2003}
-Dolgoshein, F. e.~a. (2003), \enquote{Silicon photomultiplier and its possible
-  applications,} \emph{Nuclear Instruments and Methods in Physics Research A},
-  504, 48--52.
+\bibitem{Auffray2009}
+Auffray et~al.
+\newblock Luag material for dual readout calorimetry at future high energy
+  physics accelerators.
+\newblock {\em 2009 IEEE Nuclear Science Symposium Conference Record}, pages
+  2245--2247, 2009.
 
-\bibitem[Durante(2010)Durante]{Durante2010}
-Durante, L. (2010), \enquote{Charged particles in radiation oncology,}
-  \emph{Nature Reviews Clinical Oncology}, pp. 37--43.
+\bibitem{Bajzer1991}
+Bajzer et~al.
+\newblock Maximum likelihood method for the analysis of time-resolved
+  fluorescence decay curves.
+\newblock {\em European Biophysics Journal}, 20(5):247--262, 1991.
 
-\bibitem[Enghardt(2004)Enghardt]{Enghardt2004}
-Enghardt, C. e.~a. (2004), \enquote{Charged hadron tumour therapy monitoring by
-  means of PET,} \emph{Nuclear Instruments & Methods in Physics Research A},
-  pp. 284--288.
+\bibitem{Belsky2013}
+Belsky et~al.
+\newblock Estimation of the electron thermalization length in ionic materials.
+\newblock {\em The Journal of Physical Chemistry Letters}, 4:3534--3538, 2013.
 
-\bibitem[et~al.(2003)et~al.]{Agostinelli2003}
-et~al., A. (2003), \enquote{Geant4 - a Simulation Toolkit,} \emph{Nuclear
-  Instruments and Methods in Physics Research A}, 506, 250--303.
+\bibitem{nist2005}
+Berger et~al.
+\newblock Stopping-power and range tables for electrons, protons, and helium
+  ions.
+\newblock 2005.
 
-\bibitem[et~al.(2009)et~al.]{Auffray2009}
-et~al., A. (2009), \enquote{LuAG Material for Dual Readout Calorimetry at
-  Future High Energy Physics Accelerators,} \emph{2009 IEEE Nuclear Science
-  Symposium Conference Record}, pp. 2245--2247.
+\bibitem{Brunner2014}
+Brunner et~al.
+\newblock Studies on the cerenkov effect for improved time resolution of
+  tof-pet.
+\newblock {\em IEEE Transactions on Nuclear Science}, 61:443--447, 2014.
 
-\bibitem[et~al.(2013)et~al.]{Belsky2013}
-et~al., B. (2013), \enquote{Estimation of the Electron Thermalization Length in
-  Ionic Materials,} \emph{The Journal of Physical Chemistry Letters}, 4,
-  3534--3538.
+\bibitem{Crespo2007}
+Crespo et~al.
+\newblock Direct time-of-flight for quantitative, real-time in-beam pet: a
+  concept and feasibility study.
+\newblock {\em Physics in Medicine and Biology}, (52):6795--6811, 2007.
 
-\bibitem[et~al.(2014)et~al.]{Brunner2014}
-et~al., B. (2014), \enquote{Studies on the Cerenkov Effect for Improved Time
-  Resolution of TOF-PET,} \emph{IEEE Transactions on Nuclear Science}, 61,
-  443--447.
+\bibitem{streak}
+Davis et~al.
+\newblock Use of streak camera for time-resolved photon counting fluorimetry.
+\newblock {\em Measurement Science and Technology}, 3(1), 1992.
 
-\bibitem[et~al.(2004a)et~al.]{Kuwano2004}
-et~al., K. (2004a), \enquote{Crystal growth and properties of LuAG,}
-  \emph{Journal of Crystal Growth}, 260, 159--165.
+\bibitem{Derenzo2000}
+Derenzo et~al.
+\newblock Measurements of the intrinsic rise times of common inorganic
+  scintillators.
+\newblock {\em IEEE Transactions on Nuclear Science}, 2000.
 
-\bibitem[et~al.(2004b)et~al.]{Moses2004}
-et~al., M. (2004b), \enquote{Effects of Ce concentration on scintillation
-  properties of LaBr3:Ce,} \emph{Nuclear Science Symposium Conference Record},
-  pp. 998--1001.
+\bibitem{Dolgoshein2003}
+Dolgoshein et~al.
+\newblock Silicon photomultiplier and its possible applications.
+\newblock {\em Nuclear Instruments and Methods in Physics Research A},
+  504:48--52, 2003.
 
-\bibitem[et~al.(2012)et~al.]{Kris2012}
-et~al., P. (2012), \enquote{Effect of Aspect Ratio on the Light Output of
-  Scintillators,} \emph{IEEE Transactions on Nuclear Science}, 59, 2340--2345.
+\bibitem{Drozdowski2008}
+Drozdowski et~al.
+\newblock Scintillation properties of praseodymium activated
+  lu$_{3}$al$_{5}$o$_{12}$ single crystals.
+\newblock {\em IEEE Transactions on Nuclear Science}, 55(4):2420--2425, 2008.
 
-\bibitem[et~al.(2002)et~al.]{Sempau2002}
-et~al., S. (2002), \enquote{Experimental Benchmarks of the Monte Carlo Code
-  Penelope,} \emph{Nuclear Instruments and Methods in Physics Research B}, 207,
-  107--123.
+\bibitem{Durante2010}
+Durante et~al.
+\newblock Charged particles in radiation oncology.
+\newblock {\em Nature Reviews Clinical Oncology}, (7):37--43, 2010.
 
-\bibitem[Ferlay(2012)Ferlay]{Ferlay2012}
-Ferlay, S. e.~a. (2012), \emph{Cancer Incidence and Mortality Worldwide: IARC
-  CancerBase No. 11}, International Agency for Research on Cancer.
+\bibitem{Enghardt2004}
+Enghardt et~al.
+\newblock Charged hadron tumour therapy monitoring by means of pet.
+\newblock {\em Nuclear Instruments & Methods in Physics Research A},
+  (525):284--288, 2004.
 
-\bibitem[Fiedler(2006)Fiedler]{Fiedler2006}
-Fiedler, C. e.~a. (2006), \enquote{The Feasibility of In-Beam PET for
-  Therapeutic Beams of He,} \emph{IEEE Transactions in Nuclear Science}, 53,
-  2252--2260.
+\bibitem{Ferlay2012}
+Ferlay et~al.
+\newblock {\em Cancer Incidence and Mortality Worldwide: IARC CancerBase No.
+  11}.
+\newblock International Agency for Research on Cancer, 2012.
 
-\bibitem[Gentit(2002)Gentit]{Gentit2002}
-Gentit (2002), \enquote{Litrani: a General Purpose Monte-Carlo Program
-  Simulating Light Propagation in Isotropic or Anisotropic Media,}
-  \emph{Nuclear Instruments and Methods in Physics Research A}, 486, 35--39.
+\bibitem{Fiedler2006}
+Fiedler et~al.
+\newblock The feasibility of in-beam pet for therapeutic beams of he.
+\newblock {\em IEEE Transactions in Nuclear Science}, 53(4):2252--2260, 2006.
 
-\bibitem[Gundacker(2014)Gundacker]{Gundacker2014}
-Gundacker (2014), \enquote{Time resolution in scintillator based detectors for
-  positron emission tomography,} Ph.D. thesis, Technischen Universitat Wien.
+\bibitem{Gundi}
+Gundacker et~al.
+\newblock Measurement of the scintillation rise time for different lso type
+  crystals and its influence on the ctr.
+\newblock Presented as the 2014 IEEE Conferene, Seattle, USA, 2014.
 
-\bibitem[Hamamatsu(2006)Hamamatsu]{Hama2006}
-Hamamatsu (2006), \emph{Photomultiplier Tubes - Basic and Applications},
-  Hamamatsu.
+\bibitem{Hyman1963}
+Hyman et~al.
+\newblock Study of high speed photomultiplier systems.
+\newblock {\em The Review of Physical Instruments}, 35(3):393--406, 1963.
 
-\bibitem[Hyman(1963)Hyman]{Hyman1963}
-Hyman, Schwarcz, S. (1963), \enquote{Study of High Speed Photomultiplier
-  Systems,} \emph{The Review of Physical Instruments}, 35, 393--406.
+\bibitem{jellison2012}
+Jellison et~al.
+\newblock Spectroscopic refractive indices of monoclinic single crystal and
+  ceramic lutetium oxyorthosilicate from 200 to 850 nm.
+\newblock {\em Journal of Applied Physics}, 112, 2012.
 
-\bibitem[Jellison(2012)Jellison]{jellison2012}
-Jellison, S. e.~a. (2012), \enquote{Spectroscopic Refractive Indices of
-  Monoclinic Single Crystal and Ceramic Lutetium Oxyorthosilicate from 200 to
-  850 nm,} \emph{Journal of Applied Physics}, 112.
+\bibitem{Karp2008}
+Karp et~al.
+\newblock The benefit of time-of-flight in pet imaging: Experimental and
+  clinical results.
+\newblock {\em Journal of Nuclear Medicine}, 49:462--470, 2008.
 
-\bibitem[Karp(2008)Karp]{Karp2008}
-Karp, S. e.~a. (2008), \enquote{The benefit of time-of-flight in PET imaging:
-  Experimental and clinical results,} \emph{Journal of Nuclear Medicine}, 49,
-  462--470.
+\bibitem{Kawamura1996}
+Kawamura et~al.
+\newblock Spectroscopic measurements of optical elements for submillimeter
+  receivers.
+\newblock {\em Seventh International Symposium on Space Terahertz Technology
+  1996 Proceeding}, pages 349--356, 1996.
 
-\bibitem[Knoll(2000)Knoll]{Knoll2000}
-Knoll (2000), \emph{Radiation Detection and Measurement}, Wiley.
+\bibitem{Kuwano2004}
+Kuwano et~al.
+\newblock Crystal growth and properties of luag.
+\newblock {\em Journal of Crystal Growth}, 260:159--165, 2004.
 
-\bibitem[Lecoq(2006)Lecoq]{Lecoq2006}
-Lecoq, A. e.~a. (2006), \emph{Inorganic Scintillators for Detector Systems},
-  Springer.
+\bibitem{Lecoq2006}
+Lecoq et~al.
+\newblock {\em Inorganic Scintillators for Detector Systems}.
+\newblock Springer, 2006.
 
-\bibitem[Linz(2012)Linz]{Linz2011}
-Linz (2012), \emph{Ion Beam Therapy}, Springer.
+\bibitem{Lecoq2014}
+Lecoq et~al.
+\newblock Can transient phenomena help improving time resolution in
+  scintillators?
+\newblock {\em IEEE Transaction on Nuclear Science}, (61), 2014.
 
-\bibitem[Martin(2001)Martin]{Martin2001}
-Martin, B. e.~a. (2001), \enquote{Time-Resolved Studies of Scintillation
-  Materials with VUV Harmonic Ultrashort Pulses Laser Source,} \emph{IEEE
-  Transactions on Nuclear Science}, 48, 1137--1143.
+\bibitem{Martin2001}
+Martin et~al.
+\newblock Time-resolved studies of scintillation materials with vuv harmonic
+  ultrashort pulses laser source.
+\newblock {\em IEEE Transactions on Nuclear Science}, 48(4):1137--1143, 2001.
 
-\bibitem[Parodi(2004)Parodi]{Parodi2004}
-Parodi (2004), \enquote{On the feasibility of dose quantification with in-beam
-  PET data in radiotherapy with C and proton beams,} Ph.D. thesis, Technischen
-  Universitat Dresden.
+\bibitem{Moses2004}
+Moses et~al.
+\newblock Effects of ce concentration on scintillation properties of labr3:ce.
+\newblock {\em Nuclear Science Symposium Conference Record}, pages 998--1001,
+  2004.
 
-\bibitem[Pizzichemi(2012)Pizzichemi]{Pizzi2012}
-Pizzichemi, D. V. e.~a. (2012), \enquote{Ray Tracing Simulations in
-  Scintillators: a Comparison between SLitrani and Geant4,} \emph{2012 IEEE
-  Nuclear Science Symposiwn and Medical Imaging Conference Record (NSS/MIC)}.
+\bibitem{Naud1996}
+Naud et~al.
+\newblock The role of cerium sites in the scintillation mechanism of lso.
+\newblock {\em IEEE Transactions on Nuclear Science}, 43(3):1324--1328, 1996.
 
-\bibitem[Rodnyi(1997)Rodnyi]{Rodnyi1997}
-Rodnyi (1997), \emph{Physical Processes in Inorganic Scintillators}, CRC Press.
+\bibitem{Kris2012}
+Pauwels et~al.
+\newblock Effect of aspect ratio on the light output of scintillators.
+\newblock {\em IEEE Transactions on Nuclear Science}, 59:2340--2345, 2012.
 
-\bibitem[Schardt(2007)Schardt]{Schardt2007}
-Schardt, S. e.~a. (2007), \enquote{Precision Bragg-Curve Measurements for
-  Light-Ion Beams in Water,} \emph{GSI Scientific Report}.
+\bibitem{Kris2013}
+Pauwels et~al.
+\newblock Single crystalline luag fibers for homogeneous dual-readout
+  calorimeters.
+\newblock {\em Journal of Instrumentation}, 2013.
 
-\bibitem[Seifert(2012)Seifert]{Seifert2012}
-Seifert, Schaart, v.~D. (2012), \enquote{The Lower Bound on the Timing
-  Resolution of Scintillation Detectors,} \emph{Physics in Medicine and
-  Biology}, pp. 1797--1814.
+\bibitem{Pizzi2012}
+Pizzichemi et~al.
+\newblock Ray tracing simulations in scintillators: a comparison between
+  slitrani and geant4.
+\newblock {\em 2012 IEEE Nuclear Science Symposiwn and Medical Imaging
+  Conference Record (NSS/MIC)}, 2012.
 
-\bibitem[Shao(2006)Shao]{Shao2006}
-Shao (2006), \enquote{A new timing model for calculating the intrinsic timing
-  resolution of a scintillator detector,} \emph{Physics in Medicine and
-  Biology}, pp. 1103--1117.
+\bibitem{Schardt2007}
+Schardt et~al.
+\newblock Precision bragg-curve measurements for light-ion beams in water.
+\newblock {\em GSI Scientific Report}, 2007.
 
-\bibitem[Thompson(2009)Thompson]{xdata2009}
-Thompson, A. e.~a. (2009), \emph{X-Ray Data Booklet}, Lawrence Berkeley
-  National Laboratory, University of California.
+\bibitem{Seifert2012}
+Seifert et~al.
+\newblock The lower bound on the timing resolution of scintillation detectors.
+\newblock {\em Physics in Medicine and Biology}, (57):1797--1814, 2012.
 
-\bibitem[Vasilév(????)Vasilév]{Vasiliev2013}
-Vasilév, G. (????), \enquote{Multiscale Approach to Estimation of
-  Scintillation Characteristics,} \emph{IEE Transaction on Nuclear Science}.
+\bibitem{Sempau2002}
+Sempau et~al.
+\newblock Experimental benchmarks of the monte carlo code penelope.
+\newblock {\em Nuclear Instruments and Methods in Physics Research B},
+  207:107--123, 2002.
 
-\bibitem[Va'vra(2004)Va'vra]{Vavra2004}
-Va'vra (2004), \enquote{Ion feedback suppression using inclined MCP holes in a
-  Single-MCP + Micromegas + Pads detector,} \emph{Proceeding of Nuclear Science
-  Symposium Conference Record}, 2, 1142--1146.
+\bibitem{xdata2009}
+Thompson et~al.
+\newblock {\em X-Ray Data Booklet}.
+\newblock Lawrence Berkeley National Laboratory, University of California,
+  2009.
 
-\bibitem[Wilson(1946)Wilson]{Wilson1946}
-Wilson (1946), \enquote{Radiological use of fast protons,} \emph{Radiology},
-  pp. 487--491.
+\bibitem{Vasiliev2013}
+Vasiliev et~al.
+\newblock Multiscale approach to estimation of scintillation characteristics.
+\newblock {\em IEE Transaction on Nuclear Science}, (Accepted), 2014.
+
+\bibitem{Weber1996}
+Weber et~al.
+\newblock Luminescence of bgo: Spectral and decay properties.
+\newblock {\em Journal of Applied Physics}, 44:5495--5499, 1973.
+
+\bibitem{Ferrere1993}
+Ferrere.
+\newblock {\em Etude de Nouveaux Cristaux Scintillants pour la Calorimetrie aux
+  Futurs Collisionneurs de Hautes Energies}.
+\newblock PhD thesis, University of Annecy, June 1993.
+
+\bibitem{Gentit2002}
+Gentit.
+\newblock Litrani: a general purpose monte-carlo program simulating light
+  propagation in isotropic or anisotropic media.
+\newblock {\em Nuclear Instruments and Methods in Physics Research A},
+  486:35--39, 2002.
+
+\bibitem{Gundacker2014}
+Gundacker.
+\newblock {\em Time resolution in scintillator based detectors for positron
+  emission tomography}.
+\newblock PhD thesis, Technischen Universitat Wien, March 2014.
+
+\bibitem{Hama2006}
+Hamamatsu.
+\newblock {\em Photomultiplier Tubes - Basic and Applications}.
+\newblock Hamamatsu, 2006.
+
+\bibitem{Knoll2000}
+Knoll.
+\newblock {\em Radiation Detection and Measurement}.
+\newblock Wiley, 2000.
+
+\bibitem{Linz2011}
+Linz.
+\newblock {\em Ion Beam Therapy}.
+\newblock Springer, 2012.
+
+\bibitem{Parodi2004}
+Parodi.
+\newblock {\em On the feasibility of dose quantification with in-beam PET data
+  in radiotherapy with C and proton beams}.
+\newblock PhD thesis, Technischen Universitat Dresden, November 2004.
+
+\bibitem{Rodnyi1997}
+Rodnyi.
+\newblock {\em Physical Processes in Inorganic Scintillators}.
+\newblock CRC Press, 1997.
+
+\bibitem{Shao2006}
+Shao.
+\newblock A new timing model for calculating the intrinsic timing resolution of
+  a scintillator detector.
+\newblock {\em Physics in Medicine and Biology}, (52):1103--1117, 2006.
+
+\bibitem{Vavra2004}
+Va'vra.
+\newblock Ion feedback suppression using inclined mcp holes in a single-mcp +
+  micromegas + pads detector.
+\newblock {\em Proceeding of Nuclear Science Symposium Conference Record},
+  2:1142--1146, 2004.
+
+\bibitem{Wilson1946}
+Wilson.
+\newblock Radiological use of fast protons.
+\newblock {\em Radiology}, (47):487--491, 1946.
 
 \end{thebibliography}

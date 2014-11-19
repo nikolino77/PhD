@@ -14,6 +14,7 @@
 \usepackage{amsmath, amssymb, amsfonts, amsthm}
 \usepackage{graphicx}
 \usepackage{natbib}
+\usepackage[absolute]{textpos}
 \usepackage{color}
 \usepackage{bm}
 \usepackage{subfigure}
@@ -82,45 +83,17 @@
 %-----------------------------------------------------------------------------%
 % TITLE PAGE -- provides UMI abstract title page & copyright if appropriate
 %-----------------------------------------------------------------------------%
-%\maketitle
+\maketitle
 
-%-----------------------------------------------------------------------------%
-% ABSTRACT -- included file should start with '\abstract'.
-%-----------------------------------------------------------------------------%
+
+%\dedication{To AGG}
+%\include{{./Front/frontespizio}}
+\include{{./Dedication/abstract}}
 \include{{./Abstract/abstract}}
+\include{{./Acknowledgements/acknowledgements}}
 
-%-----------------------------------------------------------------------------%
-% DEDICATION -- OPTIONAL.  Put the text inside the braces.
-%               (Long 'dedications' probably belong in the acknowledgements)
-%-----------------------------------------------------------------------------%
+\tableofcontents 
 
-% qui si mette la citazione di ezra?
-%\dedication{If you want to dedicate your thesis to anyone do so here}
-
-%-----------------------------------------------------------------------------%
-% FRONTMATTER -- ToC is required, LoT and LoF are required if you have any
-% tables or figures, respectively. List of Abbreviations and Symbols is 
-% optional.
-%-----------------------------------------------------------------------------%
-\tableofcontents % Automatically generated
-%\listoftables	% If you have any tables, automatically generated
-\listoffigures	% If you have any figures, automatically generated
-%\include{{./Abbreviations/listofabbr}} % List of Abbreviations. Start file with '\abbreviations'
-
-%-----------------------------------------------------------------------------%
-% ACKNOWLEDGEMENTS -- included file should start with '\acknowledgements'
-%-----------------------------------------------------------------------------
-
-% qui ci stanno i ringraziamenti! 
-%\include{{./Acknowledgements/acknowledgements}}
-
-%==============================================================================
-%-----------------------------------------------------------------------------%
-%
-% MAIN BODY OF PAPER
-%
-%
-%-----------------------------------------------------------------------------%
 \include{{./Chapter1/introduction}}
 \include{{./Chapter2/guide-notes}}
 \include{{./Chapter3/chRegularLook}}
@@ -131,24 +104,16 @@
 \include{{./Chapter8/chapter7}}
 \include{{./Chapter9/conclusions}}
 
-%==============================================================================
 
-%-----------------------------------------------------------------------------%
-% APPENDICES -- OPTIONAL. These are just chapters enumerated by Appendix A,
-%                Appendix B, Appendix C...
-%-----------------------------------------------------------------------------%
-\appendix
+%\include{{./Abbreviations/listofabbr}}
+
+\listoftables	
+\listoffigures	
+%\appendix
 %\include{{./Appendix1/chLorem3}} % Start with '\chapter{Title}'
-%You can always add more appendices here if you want
 
-%-----------------------------------------------------------------------------%
-% BIBLIOGRAPHY -- uncomment \nocite{*} to include items in 'mybib.bib' file
-% that aren't cited in the text.  Change the style to match your
-% discipline's standards.  Of course, if your bibliography file isn't called
-% 'mybib.bib' you might want to change that here too :)
-%-----------------------------------------------------------------------------%
-%\nocite{*} - if you use this it will put EVERYTHING in your .bib file into the references even if you don't cite it in the text
-\bibliographystyle{./Bibliography/jasa} %Formats bibliography
+\bibliographystyle{./Bibliography/plain} 
+
 \cleardoublepage
 \normalbaselines %Fixes spacing of bibliography
 \addcontentsline{toc}{chapter}{Bibliography} %adds Bibliography to your table of contents

@@ -1,7 +1,9 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
+A level-1 auxiliary file: ./Dedication/abstract.aux
 A level-1 auxiliary file: ./Abstract/abstract.aux
+A level-1 auxiliary file: ./Acknowledgements/acknowledgements.aux
 A level-1 auxiliary file: ./Chapter1/introduction.aux
 A level-1 auxiliary file: ./Chapter2/guide-notes.aux
 A level-1 auxiliary file: ./Chapter3/chRegularLook.aux
@@ -11,92 +13,65 @@ A level-1 auxiliary file: ./Chapter6/chLorem2.aux
 A level-1 auxiliary file: ./Chapter7/chapter6.aux
 A level-1 auxiliary file: ./Chapter8/chapter7.aux
 A level-1 auxiliary file: ./Chapter9/conclusions.aux
-The style file: ./Bibliography/jasa.bst
+The style file: ./Bibliography/plain.bst
 Database file #1: ./Bibliography/References.bib
-Warning--I didn't find a database entry for "ref:Lecoq2006"
-Bibliography style `jasa.bst' by Russ Lenth, April 1996 (rev. Mar. 1999)
-[Amaldi2011]
-[Anghinolfi2004]
-[Bajzer1991]
-[Becker2005]
-[nist2005]
+Repeated entry---line 335 of file ./Bibliography/References.bib
+ : %@website{ROOT
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in CCC
+Warning--to sort, need author or key in ROOT
+Warning--to sort, need author or key in LaserLab
+Warning--there's a number but no volume in Amaldi2011
 Warning--empty journal in nist2005
-[Crespo2007]
-[Cuccia2013]
-[Derenzo2000]
-[Dolgoshein2003]
-[Durante2010]
-[Enghardt2004]
-[Agostinelli2003]
-[Auffray2009]
-[Belsky2013]
-[Brunner2014]
-[Kuwano2004]
-[Moses2004]
-[Kris2012]
-[Sempau2002]
-[Ferlay2012]
-[Fiedler2006]
-[Gentit2002]
-[Gundacker2014]
-[Hama2006]
-[Hyman1963]
-[jellison2012]
-[Karp2008]
-[Knoll2000]
-[Lecoq2006]
-[Linz2011]
-[Martin2001]
-[Parodi2004]
-[Pizzi2012]
-[Rodnyi1997]
-[Schardt2007]
-[Seifert2012]
-[Shao2006]
-[xdata2009]
-[Vasiliev2013]
-Warning--empty year in Vasiliev2013; set to ????
-[Vavra2004]
-[Wilson1946]
-You've used 41 entries,
-            2332 wiz_defined-function locations,
-            808 strings with 10104 characters,
-and the built_in function-call counts, 15846 in all, are:
-= -- 1612
-> -- 451
-< -- 50
-+ -- 132
-- -- 123
-* -- 1278
-:= -- 2704
-add.period$ -- 74
-call.type$ -- 41
-change.case$ -- 205
-chr.to.int$ -- 40
-cite$ -- 84
-duplicate$ -- 759
-empty$ -- 1173
-format.name$ -- 164
-if$ -- 3168
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 127
-num.names$ -- 164
-pop$ -- 240
+Warning--there's a number but no volume in Crespo2007
+Warning--there's a number but no volume in Durante2010
+Warning--there's a number but no volume in Enghardt2004
+Warning--empty booktitle in Gundi
+Warning--there's a number but no volume in Lecoq2014
+Warning--there's a number but no volume in Seifert2012
+Warning--there's a number but no volume in Vasiliev2013
+Warning--there's a number but no volume in Shao2006
+Warning--there's a number but no volume in Wilson1946
+You've used 53 entries,
+            2118 wiz_defined-function locations,
+            839 strings with 11391 characters,
+and the built_in function-call counts, 13807 in all, are:
+= -- 1418
+> -- 353
+< -- 3
++ -- 159
+- -- 100
+* -- 812
+:= -- 2326
+add.period$ -- 159
+call.type$ -- 53
+change.case$ -- 197
+chr.to.int$ -- 0
+cite$ -- 67
+duplicate$ -- 593
+empty$ -- 1264
+format.name$ -- 100
+if$ -- 2901
+int.to.chr$ -- 0
+int.to.str$ -- 53
+missing$ -- 54
+newline$ -- 268
+num.names$ -- 100
+pop$ -- 215
 preamble$ -- 1
-purify$ -- 245
+purify$ -- 156
 quote$ -- 0
-skip$ -- 556
-stack$ -- 42
-substring$ -- 1202
-swap$ -- 196
-text.length$ -- 9
+skip$ -- 377
+stack$ -- 0
+substring$ -- 1015
+swap$ -- 81
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 345
-warning$ -- 2
-while$ -- 171
-width$ -- 0
-write$ -- 440
-(There were 3 warnings)
+type$ -- 196
+warning$ -- 14
+while$ -- 150
+width$ -- 55
+write$ -- 564
+(There was 1 error message)

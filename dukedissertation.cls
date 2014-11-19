@@ -154,7 +154,10 @@
 % Names of environments
 %-----------------------------------------------------------------------
 \newcommand\biographyname{Biography}
+\newcommand\dedicationname{Dedication}
+\newcommand\frontname{Front}
 \newcommand\ackname{Acknowledgements}
+\newcommand\abstractname{Abstract}
 \newcommand\loaname{List of Abbreviations and Symbols}
 
 %-----------------------------------------------------------------------
@@ -256,60 +259,81 @@
 \def\@maketitle{%
   \newpage
   \thispagestyle{empty}
-  \null
-  \normalbaselines
-  \begin{center}%
-    {\openup 2pc \LARGE \@title \par}%
-    \vskip 1em%
-	 \normalsize by \par%
-	 \vskip 1em%
-    {\large \@author \par }%
-    \vskip 1em%
-	 \normalsize Department of \@department \par
-	 Duke University \par
- \if@Gradschool
-	\vskip 4ex%
-	Date: \makebox[2in]{\hrulefill}\par\noindent
-	%\vfill
-  % \vskip 1em%
-   {\small Approved:\par}%
-	\@printsiglines
- \fi
-	\vfill 
-	\par
-	\vspace{1em plus 2em minus 1em}
-   \par \normalbaselines \noindent
- \if@Gradschool
-	\if@MS
-     {\normalsize
-      Thesis submitted in partial fulfillment of the requirements for the
-      degree of 
-		\par Master~of~Science in the Department~of~\@department
-      \par in the Graduate~School of Duke~University\par}
-	\else
-     {\normalsize
-      Dissertation submitted in partial fulfillment of the requirements for the
-      degree of 
-		\par Doctor~of~Philosophy in the Department~of~\@department
-      \par in the Graduate~School of Duke~University\par}
-  \fi
- \else
-	\if@MS
-      {\small M.S. Thesis } \par
-	\else
-      {\small Ph.D. Dissertation } \par
-	\fi
- \fi
-  \number\year
-  \end{center}% 
+ \linespread{1.5}                        %comando per impostare l'interlinea
 
-  % UMI Abstract page too?
-  \if@Gradschool \if@MS \else
-  \@UMIabstract
-  \fi \fi
+\centering
+\par
+\vspace{6pt}
+%\begin{tabular}{p{5cm}p{5cm}}
+\includegraphics[width=.16\textwidth]{logo.png} \hspace{0.5\textwidth}
+\includegraphics[width=.16\textwidth]{cern_logo.jpg}\\
+%\end{tabular}
+\par
+\vspace{10pt}
+\hrule 
+\par
+\vspace{18pt}
+\par
+\begin{large}\textbf{Ph.D. thesis}\\
+\par
+\vspace{2pt}
+\par
+December 2014 \\ 
+\par
+\vspace{8pt}
+\par
+\end{large} 
+\begin{Large}
+{\bf Corso di Dottorato in Fisica e Astronomia - Ciclo XXVI}\\
+\vspace{-5pt}
+Dipartimento di Fisica G.Occhialini\\
+\vspace{-10pt}
+Universit\`a degli Studi di Milano-Bicocca\\
+\vspace{-10pt}
+%y\\
+%\vspace{-10pt}
+%Institut de F\'isica d'Altes Energies\\
+\end{Large}
+\vspace{80pt}
+{\huge \bfseries Study of time profiles} \\
+\vspace{6pt}
+{\huge \bfseries of heavy scintillating crystals} \\ 
+\vspace{6pt}
+%{\huge \bfseries at High Luminosity LHC}\\
+%\vspace{6pt}
+%{\huge \bfseries }
+\vspace{80pt} 
+\centering
+\begin{tabular}{p{10cm}p{9cm}}
+\large Doctoral Student &  \\
+\Large \bfseries Nicolas Di Vara & \\
+ & \\
+ & \\
+ & \large Tutor \\
+ &\Large \bfseries Prof. Marco Paganoni\\
+ &\large Universit\`a degli Studi di Milano-Bicocca\\
+ &\large Dipartimento di Fisica G.Occhialini\\
+ %& \\
+ %& \\
+ %& \large External Supervisor \\
+ %&\Large \bfseries Dr. Etiennette Auffray\\
+ %&\large CERN -- PH-CMX\\
+ %& \\
+ %& \\
+\end{tabular}
+\vspace{98pt} \\
+\hrule \vspace{6pt}
+\large 
 
-  % Everyone gets a copyright! Yay!
-  \@copyrightpage
+\begin{textblock}{1}(11.5,13.5)
+\includegraphics[scale=0.7]{Logo_Marie-Curie}
+\end{textblock}
+\begin{textblock}{1}(1.5,13.5)
+\includegraphics[scale=0.3]{Entervision}
+\end{textblock}
+
+
+
 }
 
 \newcommand\@UMIabstract{%
@@ -690,19 +714,15 @@
 		\nmchapter{Introduction}
 }
 
+\newcommand\front{%
+%\nmchapter{\loaname}
+}
+
 %-----------------------------------------------------------------------
 % Dedication
 %-----------------------------------------------------------------------
-\newcommand\dedication[1]{%
-	\if@MS
-	  \ClassWarning{dukedissertation}{No allowed dedication for MS thesis.}
-	\fi
-	\newpage
-	\null
-	\thispagestyle{plain}
-	\vspace*{2in}
-	#1
-	\newpage
+\newcommand\dedication{%
+%\nmchapter{\loaname}
 }
 
 

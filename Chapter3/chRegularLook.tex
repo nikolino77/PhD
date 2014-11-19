@@ -10,7 +10,7 @@ In the case of solid state photo detectors, photons interact directly in the bul
 
 \section{Photo multiplier tubes}
 
-Photo multiplier tubes are largely used vacuum photo detection devices and have been diffusively discussed in literature \cite{Knoll2000}. 
+Photo multiplier tubes are largely used vacuum photo detection devices and have been thoroughly discussed in literature \cite{Knoll2000}. 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=12cm]{../Pictures/Chapter_3/PMT.png}
@@ -18,6 +18,7 @@ Photo multiplier tubes are largely used vacuum photo detection devices and have 
 \caption[PMT schematics]{Schematics of a Photo-Multiplier Tube \cite{Hama2006}.}
 \label{fig:PMT_schematics}
 \end{figure}
+
 In figure \ref{fig:PMT_schematics} the main elements of a photo multiplier tube are sketched:
 \begin{itemize}
 \item a photocathode, which converts visible photons into an electron flux
@@ -64,7 +65,6 @@ where $t_{tts}$ is the mean transit time.
 \end{itemize}
 
 \section{Micro Channel Plate-PMT}
-A micro channel plate is a two-dimensional array of glass capillaries mounted in parallel as shown in figure \ref{fig:MCP_schematics}.
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=12cm]{../Pictures/Chapter_3/MCP_plate.png}
@@ -72,9 +72,10 @@ A micro channel plate is a two-dimensional array of glass capillaries mounted in
 \caption[MCP principle]{Work principle of a Micro Channel Plate \cite{Hama2006}.}
 \label{fig:MCP_schematics}
 \end{figure}
+A micro channel plate is a two-dimensional array of glass capillaries mounted in parallel as shown in figure \ref{fig:MCP_schematics}.
 The diameter of the channels lies in a range of 5 to 20 microns and their internal walls are treated so to have a defined electrical resistance and secondary emissive properties.
 At both ends of the plate high voltage is applied, so that a primary electron impinging on the wall of a channel produces a multiplication chain.
-Since they resemble in function a structure of dynodes, microchannel plates are usually used in combination with vacuum detector technology in an assembly known as MCP-PMT.
+Since they resemble in function a structure of dynodes, microchannel plates are usually used in combination with vacuum detector technology in an assembly known as MCP-PMT, as shown in figure \ref{fig:MCP_struct}.
 
 A MCP-PMT consists of an entry window, a photo cathode, one or more micro channel plates and a collecting anode.
 To operate a MCP-PMT it is necessary to provide a certain voltage to the system. To this purpose standard voltage divider circuits are usually adopted, in order to guarantee drifting spaces for electrons before and after the photo cathode, and multiplication in the MCP stack \cite{Hama2006}.
@@ -105,14 +106,14 @@ Connected to this is also the issue of ageing, since ion bombardment damages the
 Partial solution to this problem has been found by depositing an Aluminium protection layer on the plate and by modifying the inclination of the micro tubes in the so called Chevron geometry \cite{Vavra2004}.
 %immagine su ion feedback
 
-\item \textbf{time characteristics}: the rise and fall time of a MCP-PMT are ultra-short, due to the multiplication characteristics of the device. This translated into typical signals contained in a few nanoseconds, or even less. For timing application the most important parameter to consider is the transit time spread (TTS). The TTS is the spread in the arrival time of a bunch of photon produced by a converted electron in the photo cathode. The time response of MCP-PMTs will be analyzed further in the next chapters.
+\item \textbf{time characteristics}: the rise and fall time of a MCP-PMT are ultra-short, due to the multiplication characteristics of the device. This translated into typical signals contained in a few ns, or even less. For timing application the most important parameter to consider is the transit time spread (TTS). The TTS is the spread in the arrival time of a bunch of photon produced by a converted electron in the photo cathode. The time response of MCP-PMTs will be analysed further in the next chapters.
 
 %typical IRF
 \end{itemize}
 
 \section{Silicon photo multipliers}
 Recently solid state photo detectors have become competitive with vacuum devices, and for some applications they represent the ideal solution. Their advantage lies in the high photon detection efficiency, their low sensitivity to high magnetic fields, their compactness and cost efficiency \cite{Dolgoshein2003}.
-In particular the insensitivity to high magnetic fields, given by the feature that no electrons are travelling in the vacuum between dynode and dynode, makes the solid photo detector the first choice for PET-MRI scanners or high energy experiments. With respect to the MCP-PMT, also characterized by high operability in magnetic fields, silicon devices still maintain a high photon detection efficiency, that is the conversion efficiency of incoming photons in to electron hole pairs determining in principle a better energy and time resolution.
+In particular the insensitivity to high magnetic fields, given by the feature that no electrons are travelling in the vacuum between dynode and dynode, makes the solid photo detector the first choice for PET-MRI scanners or high energy experiments. With respect to the MCP-PMT, also characterized by high operability in magnetic fields, silicon devices still maintain a high photon detection efficiency, that is the conversion efficiency of incoming photons into electron hole pairs determining in principle a better energy and time resolution.
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=12cm]{../Pictures/Chapter_3/avalanche.pdf}
@@ -126,7 +127,7 @@ As seen in figure \ref{fig:avalanche} the voltage can applied can be low, as in 
 Finally a third region, characterized by non-proportionality is the operating segment of Geiger mode APD (G-APD). In the Geiger mode region both electrons and holes are able to further ionize the bulk, and the device is sensible to single photo electrons. The created avalanche must be quenched either externally by a series of quenching resistors or actively.
 Many G-APD cells connected in parallel are the basic structure of silicon photo-multipliers (SiPM) or multi pixel photon counters (MPPC).
 
-\begin{figure}
+\begin{figure}[htbp]
 \centering
 \begin{subfigure}
   {\includegraphics[width=6cm]{Pictures/Chapter_3/mppc_photo.pdf}}
@@ -145,9 +146,9 @@ The structure of a G-APD optimized for detection of blue light is shown in figur
 On top of the low resistivity bulk layer an epitaxial layer with a high dopant concentration region is located.
 The implantation of opposite charge constitutes the p-n junction with a very thin layer extremely doped to assure electric field uniformity.
 The cell and the quenching resistor are connected on the top surface.
-Finally a passivation layer (SiO2) protects the device. Due to its low index of refraction (n $=1.55$ in the blue) with respect to the one of Silicon (n$=3.5$) Fresnel losses can occur, usually compensated by the presence of anti-reflection coatings.
-
-\begin{figure}
+Finally a passivation layer (SiO$_{2}$) protects the device. Due to its low index of refraction (n $=1.55$ in the blue) with respect to the one of Silicon (n$=3.5$) Fresnel losses can occur, usually compensated by the presence of anti-reflection coatings.
+\newpage
+\begin{figure}[htbp]
 \centering
 \begin{subfigure}
   {\includegraphics[width=6cm]{Pictures/Chapter_3/IR_mppc}}
@@ -180,33 +181,34 @@ This value is typically between $10^{5}$ and $10^{7}$.
 
 \item \textbf{spurious events} a dark count is the random production of charge carriers in the depleted region which leads to a regular signal. This type of unwanted event is typically uncorrelated, provided the the dark count rate (DCR) is low enough. It strongly depends of temperature, and typical values range between $100$ kHz to few MHz at $25^{\circ}$C.
 
-Optical crosstalk on the other hand is determined by the trigger of an avalanche by an optical photon produced in a neighbouring cell. Indeed optical photons produced in avalanches can travel to other cells, causing correlated spurious pulses. These pulses can occur even after a delay of several microseconds, due to the secondary photons generating electron hole pairs.
+Optical crosstalk on the other hand is determined by the trigger of an avalanche by an optical photon produced in a neighbouring cell. Indeed optical photons produced in avalanches can travel to other cells, causing correlated spurious pulses. These pulses can occur even after a delay of several $\mu$s, due to the secondary photons generating electron hole pairs.
 
-Moreover charge carriers can be trapped in the bulk and released tens to hundreds of nanoseconds later determining after pulsing.
+Moreover charge carriers can be trapped in the bulk and released tens to hundreds of ns later determining after pulsing.
 
 \item \textbf{saturation}: if SiPMs are exposed to high photon fluxes, saturation effects may occur. The detector is intrinsically limited by the number of cells: if the number of photons is small compared to the number of cells provided PDE correction, the SiPM signal is proportional to the light signal. In the opposite case, the signal is saturated.
 \end{itemize}
 
 \subsection{The NINO chip}
-Signal generated by SiPMs are in the range of milli Volts, thus we make use of low noise electronics to read out the detector. In the study presented the ultra fast front-end preamplifier-discriminator chip called NINO, developed at CERN \cite{Anghinolfi2004}, has been chosen. Originally designed for the time-of-flight sub detector of the ALICE experiment, it matches the main requirements of a SiPM readout, that is speed, low noise, minimum slew rate, low input impedance.
-The chip has eight channels, designed for differential readout. Each channel is characterized by an amplifier with 1-ns peaking time, a discriminator with a minimum detection threshold of 10 fC and an output stage.
+Signal generated by SiPMs are in the range of mV, thus we make use of low noise electronics to read out the detector. In the study presented the ultra fast front-end preamplifier-discriminator chip called NINO, developed at CERN \cite{Anghinolfi2004}, has been chosen. Originally designed for the time-of-flight sub detector of the ALICE experiment, it matches the main requirements of a SiPM readout, that is speed, low noise, minimum slew rate, low input impedance.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{Pictures/Chapter_3/NINO.pdf}
+\end{center}
+\caption[Scheme of the NINO chip]{Scheme of the NINO chip.}
+\label{fig:nino_foto}
+\end{figure}
 
-\begin{figure}
-\centering
-\begin{subfigure}
-  {\includegraphics[width=6cm]{Pictures/Chapter_3/NINO_scheme.pdf}}
-\end{subfigure}
-\begin{subfigure}
-  {\includegraphics[width=6cm]{Pictures/Chapter_3/NINO.pdf}}
-\end{subfigure}
-\caption[NINO chip]{Structure of the cascade amplifier (left) and scheme (right) of the NINO chip \cite{Anghinolfi2004}.}
-\label{fig:nino}
+The chip has eight channels, designed for differential readout. Each channel is characterized by an amplifier with 1-ns peaking time, a discriminator with a minimum detection threshold of 10 fC and an output stage. The scheme of the chip is shown in figure \ref{fig:nino_foto}.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=9cm]{Pictures/Chapter_3/NINO_scheme.pdf}\end{center}
+\caption[Cascade amplifier of the NINO chip]{Structure of the cascade amplifier of the NINO chip.}
+\label{fig:nino_scheme}
 \end{figure}
 
 The input stage is a current-to-voltage converter and the subsequent signal amplification is performed with four identical cascade amplifiers that operate as a discriminator as well.
-The threshold is set by a voltage difference applied on two symmetrical inputs.
-The NINO chip makes use of the time-over-threshold technique: a squared output pulse is produced when the leading edge is above the set threshold, encoding the timing information. The width of this signal, on the other hand, is a function of the charge collected, thus encoding the energy information. 
-
+The threshold is set by a voltage difference applied on two symmetrical inputs, as shown in figure \ref{fig:nino_scheme}.
+The NINO chip makes use of the time-over-threshold technique: a squared output pulse is produced when the leading edge is above the set threshold, encoding the timing information. The width of this signal, on the other hand, is a function of the charge collected, thus encoding the energy information (see figure \ref{fig:tot}). 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=9cm]{../Pictures/Chapter_3/TOT.pdf}

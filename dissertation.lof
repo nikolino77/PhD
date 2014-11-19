@@ -4,90 +4,106 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces RBE comparison}}{4}{figure.1.3}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Peak spread for Carbon}}{5}{figure.1.4}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces PET scanner}}{7}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Image reconstruction in PET}}{8}{figure.1.6}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Image reconstruction in PET}}{9}{figure.1.6}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Coincidencies in PET exam}}{10}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces TOF-PET schematics}}{11}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Improvement of TOF-PET}}{12}{figure.1.9}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces TOF-PET schematics}}{12}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Improvement of TOF-PET}}{13}{figure.1.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Photo electric effect}}{16}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Compton scattering}}{18}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces $\gamma $ cross section}}{18}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Energy deposition in scintillator}}{19}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Electron hole recombination}}{21}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Core to valence luminescence}}{23}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Cerenkov effect}}{26}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Cerenkov emission cone}}{27}{figure.2.8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Principles of scintillating detectors}}{17}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Photo electric effect}}{19}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Compton scattering}}{20}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces $\gamma $ cross section}}{20}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Energy deposition in scintillator}}{21}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Electron hole recombination}}{23}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Core to valence luminescence}}{25}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Transport of optical photons}}{27}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Cerenkov effect}}{30}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Cerenkov emission cone}}{31}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Cerium based scintillators}}{32}{figure.2.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces PMT schematics}}{32}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces MCP principle}}{34}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces MCP schematics}}{35}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces I-V plot Silicon detectors}}{37}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of SiPM}}{38}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces SiPM layer structure}}{39}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces NINO chip}}{40}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Time-over-threshold}}{41}{figure.3.8}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces PMT schematics}}{36}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces MCP principle}}{38}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces MCP schematics}}{39}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces I-V plot Silicon detectors}}{41}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of SiPM}}{42}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SiPM layer structure}}{43}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of the NINO chip}}{45}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Cascade amplifier of the NINO chip}}{45}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Time-over-threshold}}{46}{figure.3.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Cerenkov production}}{45}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Model functions}}{47}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Cramer Rao evolution - rise time}}{49}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cramer Rao evolution - Cerenkov}}{50}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Threshold crossing example}}{50}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Photon rank RMS}}{51}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Rank variance - rise time}}{51}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Rank variance - Cerenkov}}{52}{figure.4.8}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Relaxation of electron and holes}}{48}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cerenkov production}}{50}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Model functions}}{53}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cramer Rao evolution - rise time}}{56}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Cramer Rao evolution - Cerenkov}}{57}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Threshold crossing example}}{57}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Photon rank RMS}}{58}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Rank variance - rise time}}{59}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Rank variance - Cerenkov}}{60}{figure.4.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces RMS comparison}}{60}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Electron path in lattice}}{61}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces LSO photoelectric and Cerenkov production}}{61}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Photopeak selection for Cerenkov simulation}}{63}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Scintillation/Cerenkov ratio in the first 100 ps}}{64}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulated time profiles for LSO}}{65}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Geant4 SLitrani absorption and reflection}}{66}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Geant4 SLitrani specular and diffusive reflection}}{66}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Geant4 SLitrani size ratio variation}}{67}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Geant4 SLitrani gain profiles}}{68}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Spectro fluorimeter}}{70}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Sipat - LuAG excitation/emission}}{70}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces CeF$_{3}$ - LuAG excitation/emission}}{71}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces BGO excitation/emission}}{71}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Spectro photometer}}{72}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Transmission curve for LuAG and LSO}}{73}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Transmission curve for LuAG CeF$_{3}$}}{73}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Light Yield setup}}{73}{figure.5.18}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Single electron and LSO $^{137}$ Cs spectrum}}{75}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces QE of R2059 PMT}}{76}{figure.5.20}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces RMS comparison}}{68}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Electron path in lattice}}{69}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces LSO photoelectric and Cerenkov production}}{70}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Photopeak selection for Cerenkov simulation}}{72}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Scintillation/Cerenkov ratio in the first 100 ps}}{73}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulated time profiles for LSO}}{75}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Geant4 SLitrani absorption and reflection}}{76}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Geant4 SLitrani specular and diffusive reflection}}{77}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Geant4 SLitrani size ratio variation}}{78}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Geant4 SLitrani gain profiles}}{79}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Spectro fluorimeter}}{81}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Sipat - LuAG excitation/emission}}{81}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces CeF$_{3}$ - LuAG excitation/emission}}{82}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces BGO excitation/emission}}{82}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Spectro photometer}}{83}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Transmission curve for LuAG and LSO}}{84}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Transmission curve for LuAG CeF$_{3}$}}{84}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Light Yield setup}}{85}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Single electron and LSO $^{137}$ Cs spectrum}}{87}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces QE of R2059 PMT}}{88}{figure.5.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces TCSPC technique}}{78}{figure.6.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces TCSPC technique}}{90}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Bias fraction in multi hit TCSPC}}{95}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Rise time bias in multi hit TCSPC}}{96}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Influence of statistics on likelihhod}}{99}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Energy deposition at 250 eV}}{101}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Time of deposition at 250 eV}}{101}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Collection time for optical source}}{104}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces RMS photons for naked LSO}}{104}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces RMS photons for Teflon wrapped LSO}}{105}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Collection Cerenkov times for LSO naked}}{106}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Collection Cerenkov times for LSO Teflon wrapped}}{107}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Collection scintillation times for LSO naked}}{108}{figure.6.12}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Collection scintillation times for LSO naked with SPTR smearing}}{108}{figure.6.13}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Extracted rise time for 0 and 100 ps intrinsic rise time}}{110}{figure.6.14}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Extracted rise time for scintillation and Cerenkov production}}{111}{figure.6.15}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Likelihood fit for LSO naked}}{111}{figure.6.16}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Likelihood fit for LSO Teflon wrapped}}{112}{figure.6.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces HHG phenomenology}}{86}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces VUV line}}{88}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces VUV DAQ}}{90}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces VUV spectrum}}{91}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces VUV setup IRF}}{92}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces }}{93}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Range influence on toy model parameters}}{96}{figure.7.7}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Influence of statistics on likelihhod}}{97}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Likelihood for Sipat LYSO}}{97}{figure.7.9}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces LYSO Sipat and Proteus profile}}{98}{figure.7.10}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces LSO CTI and LSO:Ce,Ca profile}}{99}{figure.7.11}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces LGSO and CeF$_{3}$ profile}}{99}{figure.7.12}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces BGO profile}}{99}{figure.7.13}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces LuAG:Ce (0.08$\%$) profile}}{100}{figure.7.14}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces LuAG:Ce (0.5$\%$) and LuAG:Ce (0.44$\%$) profile}}{100}{figure.7.15}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces LuAG:Ce (0.13$\%$) and LuAG:Pr profile}}{101}{figure.7.16}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces HHG phenomenology}}{114}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces VUV line}}{116}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces VUV DAQ}}{118}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces VUV spectrum}}{119}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces VUV setup IRF}}{120}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Geometry VUV setup}}{122}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Range influence on toy model parameters}}{125}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Likelihood for Sipat LYSO}}{126}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces LYSO Sipat and Proteus profile}}{127}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces LuAG:Ce (0.13$\%$) and LuAG:Pr profile}}{129}{figure.7.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Na$^{22}$ decay scheme}}{106}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Setup for $\gamma $ measurement}}{107}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces NINO signal sample}}{107}{figure.8.3}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces MCP signal sample}}{108}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Start characteristics}}{110}{figure.8.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Laser trigger}}{111}{figure.8.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Time walk of the MCP-PMT}}{111}{figure.8.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces MCP corrected response (laser trigger)}}{112}{figure.8.8}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Corrected IRF}}{113}{figure.8.9}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Stack and Cerenkov simulation}}{114}{figure.8.10}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Setup for $\gamma $ interaction in stack}}{115}{figure.8.11}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Setup for Cerenkov production in the window}}{115}{figure.8.12}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Background biased measurement}}{118}{figure.8.13}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Background suppressed measurement}}{119}{figure.8.14}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Na$^{22}$ decay scheme}}{134}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Setup for $\gamma $ measurement}}{135}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces NINO signal sample}}{135}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces MCP signal sample}}{136}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Start characteristics}}{138}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Laser trigger}}{139}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Time walk of the MCP-PMT}}{140}{figure.8.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces MCP corrected response (laser trigger)}}{141}{figure.8.8}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Corrected IRF}}{142}{figure.8.9}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Stack and Cerenkov simulation}}{144}{figure.8.10}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Setup for $\gamma $ interaction in stack}}{145}{figure.8.11}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Setup for Cerenkov production in the window}}{146}{figure.8.12}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Multi hits in $\gamma $ setup}}{147}{figure.8.13}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Background suppressed setup}}{149}{figure.8.14}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces LYSO Sipat and Proteus profile}}{152}{figure.8.15}
 \addvspace {10\p@ }
